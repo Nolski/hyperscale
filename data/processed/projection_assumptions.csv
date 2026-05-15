@@ -1,0 +1,17 @@
+parameter,scenario,year,value,note,retrieved
+yoy_growth_pct,low,2026,20,Sharp deceleration; financing/revenue limits bite early (cf. Bain funding gap),2026-05-15
+yoy_growth_pct,low,2027,10,Continued slowdown,2026-05-15
+yoy_growth_pct,low,2028,5,Approaching plateau,2026-05-15
+yoy_growth_pct,low,2029,0,Plateau,2026-05-15
+yoy_growth_pct,low,2030,-5,Mild digestion / contraction,2026-05-15
+yoy_growth_pct,mid,2026,45,Strong but well below the +71% 2024-25 pace,2026-05-15
+yoy_growth_pct,mid,2027,30,Decelerating,2026-05-15
+yoy_growth_pct,mid,2028,20,Decelerating,2026-05-15
+yoy_growth_pct,mid,2029,12,Maturing,2026-05-15
+yoy_growth_pct,mid,2030,8,Maturing,2026-05-15
+yoy_growth_pct,high,2026,60,Sustained boom near the recent trend,2026-05-15
+yoy_growth_pct,high,2027,45,Still elevated,2026-05-15
+yoy_growth_pct,high,2028,35,Still elevated,2026-05-15
+yoy_growth_pct,high,2029,28,Gradual moderation,2026-05-15
+yoy_growth_pct,high,2030,22,Gradual moderation,2026-05-15
+capex_intensity_usd_per_mw,all,2026,15,USD millions per MW; Goldman Tracking Trillions baseline (cross-check only),2026-05-15

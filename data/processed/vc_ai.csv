@@ -1,0 +1,11 @@
+year,geography,series,value_usd_billion,share_of_total_vc_pct,note,source,retrieved
+2025,World,ai_vc,258.7,61,Global VC into AI firms; 61% of all VC,"OECD (2026), VC investments in AI through 2025; data from Preqin",2026-05-15
+2025,World,total_vc,427.1,100,All global VC investment 2025,"OECD (2026), VC investments in AI through 2025; data from Preqin",2026-05-15
+2025,World,generative_ai_vc,35.3,14,GenAI subset; 14% of AI VC,"OECD (2026), VC investments in AI through 2025; data from Preqin",2026-05-15
+2025,United States,ai_vc,194.0,75,US firms' share of global AI VC deal value,"OECD (2026), VC investments in AI through 2025; data from Preqin",2026-05-15
+2025,EU27,ai_vc,15.8,6,EU27 share of global AI VC deal value,"OECD (2026), VC investments in AI through 2025; data from Preqin",2026-05-15
+2025,China,ai_vc,13.9,5,China share of global AI VC deal value,"OECD (2026), VC investments in AI through 2025; data from Preqin",2026-05-15
+2025,United Kingdom,ai_vc,13.8,5,UK share of global AI VC deal value,"OECD (2026), VC investments in AI through 2025; data from Preqin",2026-05-15
+2023,World,generative_ai_vc,15.3,12,GenAI subset 2023; 12% of AI VC,"OECD (2026), VC investments in AI through 2025; data from Preqin",2026-05-15
+2022,World,generative_ai_vc,2.8,2,GenAI subset 2022; 2% of AI VC,"OECD (2026), VC investments in AI through 2025; data from Preqin",2026-05-15
+2022,World,ai_vc,,30,AI share of total VC in 2022 (dollar value not given in report),"OECD (2026), VC investments in AI through 2025; data from Preqin",2026-05-15

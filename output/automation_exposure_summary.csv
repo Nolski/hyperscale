@@ -1,0 +1,8 @@
+indicator,value,retrieved
+Occupations matched (OEWS x both methods),756.0,2026-05-15
+US employment covered (%),90.6,2026-05-15
+Eloundou-Anthropic rank correlation,0.596,2026-05-15
+Empl.-weighted exposure -- Eloundou (predicted),0.313,2026-05-15
+"Empl. in high-exposure occ. (>=0.5) %, Eloundou (predicted)",23.0,2026-05-15
+Empl.-weighted exposure -- Anthropic (observed),0.132,2026-05-15
+"Empl. in high-exposure occ. (>=0.5) %, Anthropic (observed)",4.3,2026-05-15

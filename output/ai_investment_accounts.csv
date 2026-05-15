@@ -1,0 +1,8 @@
+layer,item,value_usd_billion,note,reference,retrieved
+Real investment,"Hyperscaler cash capex (7 firms, latest FY)",395.1,Spine of the real-investment layer.,latest fiscal year (2025; NVDA FY2026),2026-05-15
+Real investment,Hyperscaler finance-lease additions (7 firms),28.9,Non-cash; lease-funded capacity.,latest fiscal year (2025; NVDA FY2026),2026-05-15
+Real investment,= Hyperscaler total capital investment,424.0,Cash capex + finance leases.,latest fiscal year (2025; NVDA FY2026),2026-05-15
+Real investment,"US data-center construction (all builders, 2025)",28.6,Building shells only; SUBSET of capex above + non-hyperscaler/colo builders. Not additive.,latest fiscal year (2025; NVDA FY2026),2026-05-15
+Financing,Global VC into AI firms (2025),258.7,"Equity into AI-native firms; separate flow, not additive to capex.",latest fiscal year (2025; NVDA FY2026),2026-05-15
+Financing,  of which United States (2025),194.0,US share of global AI VC.,latest fiscal year (2025; NVDA FY2026),2026-05-15
+Supply mirror,"AI-chip supplier revenue (5 US firms, latest FY)",404.7,Hardware sold into the buildout; already INSIDE hyperscaler capex. Cross-check only.,latest fiscal year (2025; NVDA FY2026),2026-05-15

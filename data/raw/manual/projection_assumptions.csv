@@ -1,0 +1,27 @@
+# Assumptions for the independent bottom-up AI-capex projection (Method B).
+# These are the RESEARCHER'S MODELLING CHOICES, documented for transparency --
+# not third-party data. Year-on-year growth rates are applied to the 2025 actual
+# seven-hyperscaler capital investment base (computed at run time from
+# data/processed/hyperscaler_capex_annual.csv; ~$424B). Scope: 7 US hyperscalers,
+# capex + finance leases. For context, actual growth was +56% (2023->24) and
+# +71% (2024->25); all scenarios assume deceleration from that pace.
+#
+# capex_intensity_usd_per_mw: used for the capacity cross-check against McKinsey's
+# GW scenarios; 15 (USD millions/MW) is Goldman's "Tracking Trillions" baseline.
+parameter,scenario,year,value,note
+yoy_growth_pct,low,2026,20,Sharp deceleration; financing/revenue limits bite early (cf. Bain funding gap)
+yoy_growth_pct,low,2027,10,Continued slowdown
+yoy_growth_pct,low,2028,5,Approaching plateau
+yoy_growth_pct,low,2029,0,Plateau
+yoy_growth_pct,low,2030,-5,Mild digestion / contraction
+yoy_growth_pct,mid,2026,45,Strong but well below the +71% 2024-25 pace
+yoy_growth_pct,mid,2027,30,Decelerating
+yoy_growth_pct,mid,2028,20,Decelerating
+yoy_growth_pct,mid,2029,12,Maturing
+yoy_growth_pct,mid,2030,8,Maturing
+yoy_growth_pct,high,2026,60,Sustained boom near the recent trend
+yoy_growth_pct,high,2027,45,Still elevated
+yoy_growth_pct,high,2028,35,Still elevated
+yoy_growth_pct,high,2029,28,Gradual moderation
+yoy_growth_pct,high,2030,22,Gradual moderation
+capex_intensity_usd_per_mw,all,2026,15,USD millions per MW; Goldman Tracking Trillions baseline (cross-check only)

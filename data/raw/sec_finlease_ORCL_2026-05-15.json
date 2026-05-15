@@ -1,0 +1,43 @@
+{
+  "cik": 1341439,
+  "taxonomy": "us-gaap",
+  "tag": "RightOfUseAssetObtainedInExchangeForFinanceLeaseLiability",
+  "label": "Right-of-Use Asset Obtained in Exchange for Finance Lease Liability",
+  "description": "Amount of increase in right-of-use asset obtained in exchange for finance lease liability.",
+  "entityName": "Oracle Corporation",
+  "units": {
+    "USD": [
+      {
+        "start": "2024-06-01",
+        "end": "2025-02-28",
+        "val": 902000000,
+        "accn": "0001193125-26-101045",
+        "fy": 2026,
+        "fp": "Q3",
+        "form": "10-Q",
+        "filed": "2026-03-11"
+      },
+      {
+        "start": "2024-06-01",
+        "end": "2025-05-31",
+        "val": 2900000000,
+        "accn": "0000950170-25-087926",
+        "fy": 2025,
+        "fp": "FY",
+        "form": "10-K",
+        "filed": "2025-06-18",
+        "frame": "CY2024"
+      },
+      {
+        "start": "2025-06-01",
+        "end": "2026-02-28",
+        "val": 3419000000,
+        "accn": "0001193125-26-101045",
+        "fy": 2026,
+        "fp": "Q3",
+        "form": "10-Q",
+        "filed": "2026-03-11"
+      }
+    ]
+  }
+}

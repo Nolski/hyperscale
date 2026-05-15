@@ -1,0 +1,65 @@
+{
+  "cik": 1769628,
+  "taxonomy": "us-gaap",
+  "tag": "RightOfUseAssetObtainedInExchangeForFinanceLeaseLiability",
+  "label": "Right-of-Use Asset Obtained in Exchange for Finance Lease Liability",
+  "description": "Amount of increase in right-of-use asset obtained in exchange for finance lease liability.",
+  "entityName": "CoreWeave, Inc.",
+  "units": {
+    "USD": [
+      {
+        "start": "2023-01-01",
+        "end": "2023-12-31",
+        "val": 0,
+        "accn": "0001769628-26-000104",
+        "fy": 2025,
+        "fp": "FY",
+        "form": "10-K",
+        "filed": "2026-03-02",
+        "frame": "CY2023"
+      },
+      {
+        "start": "2024-01-01",
+        "end": "2024-12-31",
+        "val": 142000000,
+        "accn": "0001769628-26-000104",
+        "fy": 2025,
+        "fp": "FY",
+        "form": "10-K",
+        "filed": "2026-03-02",
+        "frame": "CY2024"
+      },
+      {
+        "start": "2025-01-01",
+        "end": "2025-06-30",
+        "val": 123000000,
+        "accn": "0001769628-25-000041",
+        "fy": 2025,
+        "fp": "Q2",
+        "form": "10-Q",
+        "filed": "2025-08-13"
+      },
+      {
+        "start": "2025-01-01",
+        "end": "2025-09-30",
+        "val": 123000000,
+        "accn": "0001769628-25-000062",
+        "fy": 2025,
+        "fp": "Q3",
+        "form": "10-Q",
+        "filed": "2025-11-13"
+      },
+      {
+        "start": "2025-01-01",
+        "end": "2025-12-31",
+        "val": 343000000,
+        "accn": "0001769628-26-000104",
+        "fy": 2025,
+        "fp": "FY",
+        "form": "10-K",
+        "filed": "2026-03-02",
+        "frame": "CY2025"
+      }
+    ]
+  }
+}

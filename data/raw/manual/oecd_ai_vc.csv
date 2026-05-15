@@ -1,0 +1,16 @@
+# Hand-keyed from: OECD (2026), "Venture capital investments in artificial
+# intelligence through 2025", 17 February 2026 (Key messages, p.1; data from
+# Preqin via OECD.AI, last updated 2026-01-01). Figures are point estimates from
+# the report text -- the full 2012-25 annual series exists only as a chart
+# (report Figure 2) and is not transcribed here. Retrieved 2026-05-15.
+year,geography,series,value_usd_billion,share_of_total_vc_pct,note
+2025,World,ai_vc,258.7,61,Global VC into AI firms; 61% of all VC
+2025,World,total_vc,427.1,100,All global VC investment 2025
+2025,World,generative_ai_vc,35.3,14,GenAI subset; 14% of AI VC
+2025,United States,ai_vc,194,75,US firms' share of global AI VC deal value
+2025,EU27,ai_vc,15.8,6,EU27 share of global AI VC deal value
+2025,China,ai_vc,13.9,5,China share of global AI VC deal value
+2025,United Kingdom,ai_vc,13.8,5,UK share of global AI VC deal value
+2023,World,generative_ai_vc,15.3,12,GenAI subset 2023; 12% of AI VC
+2022,World,generative_ai_vc,2.8,2,GenAI subset 2022; 2% of AI VC
+2022,World,ai_vc,,30,AI share of total VC in 2022 (dollar value not given in report)

@@ -1,0 +1,7 @@
+indicator,year,value,unit,retrieved
+"US electricity demand, all sectors",2001,3394.458104,TWh,2026-05-15
+"US electricity demand, all sectors",2025,4058.00715659,TWh,2026-05-15
+Data-center electricity (LBNL),2023,176.0,TWh,2026-05-15
+Data-center share of US load (LBNL),2023,4.4,%,2026-05-15
+Residential retail price,2001,8.58,c/kWh,2026-05-15
+Residential retail price,2025,17.3,c/kWh,2026-05-15

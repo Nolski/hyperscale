@@ -1,0 +1,20 @@
+{
+  "mcpServers": {
+    "fred": {
+      "command": "podman",
+      "args": [
+        "run", "--rm", "-i",
+        "-e", "FRED_API_KEY",
+        "docker.io/stefanoamorelli/fred-mcp-server@sha256:35d1900d20d3baeae0c88181c4ede816dfb8291a548d298e41966c07fa94f335"
+      ]
+    },
+    "sec-edgar": {
+      "command": "podman",
+      "args": [
+        "run", "--rm", "-i",
+        "-e", "SEC_EDGAR_USER_AGENT",
+        "docker.io/stefanoamorelli/sec-edgar-mcp:1.0.8"
+      ]
+    }
+  }
+}

@@ -1,0 +1,17 @@
+thread,indicator,value,unit,retrieved
+Q1 Scale,"Hyperscaler capital investment, 2025",424,USD bn,2026-05-15
+Q1 Scale,  as share of US GDP,1.4,%,2026-05-15
+Q1 Scale,  as share of US private nonres. fixed investment,10.0,%,2026-05-15
+Q1 Scale,  as share of US IT-equipment + software investment,30.7,%,2026-05-15
+Q1 Scale,"Global VC into AI, 2025",259,USD bn,2026-05-15
+Q1 Scale,AI-chip supplier revenue (5 US firms),405,USD bn,2026-05-15
+Q2 Forward bet,"Independent estimate, cumulative 2026-2030 (mid)",4607,USD bn,2026-05-15
+Q2 Forward bet,"Independent estimate, range (low-high)",2802-6763,USD bn,2026-05-15
+Q2 Forward bet,McKinsey global data-center capex 2025-30 (base),6700,USD bn,2026-05-15
+Q2 Forward bet,Goldman global AI capex 2026-31,7600,USD bn,2026-05-15
+Q3 Energy churn,"Data-center share of US electricity, 2023",4.4,%,2026-05-15
+Q3 Energy churn,"Data-center share of US electricity, 2030 (proj.)",9-17,%,2026-05-15
+Q3 Energy churn,"Residential electricity price multiple, 2001-2025",2.02,x,2026-05-15
+Q3 Labour churn,Employment-weighted mean LLM exposure,0.315,beta,2026-05-15
+Q3 Labour churn,US employment in high-exposure occupations,23.4,%,2026-05-15
+Q3 Construction,"Data-center construction, 2025",28.6,USD bn,2026-05-15

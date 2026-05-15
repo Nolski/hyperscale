@@ -1,0 +1,20 @@
+# Third-party AI / data-center investment forecasts (Method A catalog).
+# Hand-keyed from publicly reported figures. Headline numbers cross-checked
+# against the primary McKinsey/Goldman pages and independent reporting
+# (DataCenterDynamics, Data Centre Magazine, Fortune), May 2026 -- the primary
+# McKinsey/Goldman pages rate-limited during compilation, so figures are
+# corroborated across multiple secondary reports. Retrieved 2026-05-15.
+#
+# Scope/metric/horizon differ by source -- they are NOT directly comparable
+# without the annotations; analyze_investment_projection.py harmonises them.
+source,report,pub_date,geography,scope,scenario,metric,horizon,value_usd_billion,assumptions
+McKinsey,The Cost of Compute,2025-04,Global,Data-center capex (AI + non-AI),Continued momentum (base),cumulative,2025-2030,6700,156 GW added; AI $5.2T + non-AI $1.5T
+McKinsey,The Cost of Compute,2025-04,Global,AI data-center capex,Continued momentum (base),cumulative,2025-2030,5200,AI portion of the base case
+McKinsey,The Cost of Compute,2025-04,Global,Data-center capex (AI + non-AI),Accelerated,cumulative,2025-2030,7900,205 GW added
+McKinsey,The Cost of Compute,2025-04,Global,Data-center capex (AI + non-AI),Constrained,cumulative,2025-2030,3700,78 GW added
+Goldman Sachs,Tracking Trillions,2026,Global,AI capex (chips + data centers + power),Baseline,annual,2026,765,Baseline estimate; highly assumption-sensitive
+Goldman Sachs,Tracking Trillions,2026,Global,AI capex (chips + data centers + power),Baseline,annual,2031,1600,Baseline estimate
+Goldman Sachs,Tracking Trillions,2026,Global,AI capex (chips + data centers + power),Baseline,cumulative,2026-2031,7600,~$15M per MW data-center cost; chip-obsolescence-sensitive
+Morgan Stanley,AI Market Trends,2026,United States,Hyperscaler capex,Single estimate,annual,2026,800,US hyperscalers $800B+ in 2026
+Morgan Stanley,AI Market Trends,2026,Global,AI infrastructure,Single estimate,annual,2029,3000,$3T global AI infrastructure by 2029
+Bain & Company,6th Global Technology Report,2025,Global,AI capex,Single estimate,annual,2030,500,$2T new annual revenue needed to fund it; ~$800B funding gap

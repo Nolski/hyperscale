@@ -1,0 +1,15 @@
+# US data-center electricity demand -- hand-keyed point estimates from the
+# canonical reports (no machine-readable release; figures in report PDFs/text).
+# Cross-checked across LBNL, the Congressional Research Service (R48646, Aug
+# 2025), and EPRI. Transcribed 2026-05-15; verify against the primary PDFs
+# before publication. The 2023 actual (176 TWh, 4.4% of US load) is the
+# well-established anchor; later years are scenario projections.
+year,metric,value,unit,scenario,source,note
+2023,datacenter_electricity,176,TWh,actual,LBNL 2024 US Data Center Energy Usage Report,Anchor; CRS R48646 concurs
+2023,datacenter_share_of_us,4.4,percent,actual,LBNL 2024 US Data Center Energy Usage Report,176 TWh / US total
+2028,datacenter_electricity,325,TWh,low,LBNL 2024 US Data Center Energy Usage Report,Lower projection scenario
+2028,datacenter_electricity,580,TWh,high,LBNL 2024 US Data Center Energy Usage Report,Upper projection scenario
+2028,datacenter_share_of_us,6.7,percent,low,LBNL 2024 US Data Center Energy Usage Report,Lower projection scenario
+2028,datacenter_share_of_us,12.0,percent,high,LBNL 2024 US Data Center Energy Usage Report,Upper projection scenario
+2030,datacenter_share_of_us,9.0,percent,low,EPRI Powering Intelligence 2026,Lower scenario
+2030,datacenter_share_of_us,17.0,percent,high,EPRI Powering Intelligence 2026,Upper scenario
