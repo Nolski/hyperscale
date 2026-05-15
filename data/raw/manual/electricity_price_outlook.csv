@@ -1,0 +1,23 @@
+# Electricity-price modelling and projections -- hand-keyed point figures.
+# Sources: Federal Reserve Bank of Dallas Working Paper 2606, "Processing Power:
+# The Effect of Data Centers on Wholesale Electricity Markets" (Mar 2026), and the
+# accompanying Dallas Fed economics note on data centers and PCE inflation; EIA
+# Annual Energy Outlook 2026; PJM capacity-auction results; and the Institute for
+# Energy Research counter-analysis. Transcribed 2026-05-15.
+#
+# IMPORTANT -- the data-center -> electricity-price causal link is CONTESTED.
+# The Dallas Fed dispatch model attributes price rises to data-center load; the
+# Institute for Energy Research finds no statistically significant relationship.
+# Both are recorded here; the report presents the disagreement honestly.
+metric,value,unit,horizon,scenario,source,note
+wholesale_price_impact,4,percent,2026,current,Dallas Fed WP2606,Data centers have already raised US wholesale prices ~3-5%
+wholesale_price_impact,20,percent,2028,moderate buildout,Dallas Fed WP2606,Dispatch-model scenario
+wholesale_price_impact,50,percent,2028,high utilization,Dallas Fed WP2606,Dispatch-model scenario
+pce_inflation_impact,0.05,percentage points,2026,baseline,Dallas Fed (Kay et al. 2026),Data-center contribution to headline PCE inflation
+pce_inflation_impact,0.13,percentage points,2030,baseline,Dallas Fed (Kay et al. 2026),
+pce_inflation_impact,0.26,percentage points,2030,slow-renewables,Dallas Fed (Kay et al. 2026),Doubles if renewable build-out lags
+residential_price,18.2,cents per kWh,2026,EIA AEO 2026,Projected US average; ~5% rise from 2025
+pjm_capacity_price,28.92,USD per MW-day,2024-25,actual,PJM capacity auction,Pre-surge clearing price
+pjm_capacity_price,329.17,USD per MW-day,2025-26,actual,PJM capacity auction,~11x jump; data centers ~63% of the increase
+state_price_change_high_dc,20,percent,2015-2025,contested,Institute for Energy Research,IER: price rise in high-data-center-growth states
+state_price_change_low_dc,39.4,percent,2015-2025,contested,Institute for Energy Research,IER: low-growth states rose MORE -- finds no significant DC-price link

@@ -1,0 +1,13 @@
+# Data-center electricity demand BY STATE -- hand-keyed approximate point
+# estimates. No clean machine-readable state breakdown of data-center load
+# exists; these are transcribed from the LBNL 2024 report, EPRI, EPRINC, and
+# secondary reporting (Belfer Center, Electric Choice). National data-center
+# electricity was 176 TWh in 2023 (LBNL); ~15 states account for ~80% of it
+# (EPRI). State values are approximate -- treat the *concentration* as the
+# finding, not the second digit. Transcribed 2026-05-15.
+state,datacenter_twh,share_of_state_electricity_pct,ref_year,source,note
+Virginia,32,25,2023,EPRINC / Belfer Center,Largest US hub (Loudoun "Data Center Alley"); ~25-30% of state load
+Texas,17,9,2023,Belfer Center / ERCOT,ERCOT region; crypto + AI
+Illinois,12,6,2023,secondary reporting,Chicago metro
+California,11,4,2023,secondary reporting,321 data centers; high retail rates
+Oregon,7,,2023,secondary reporting,Portland region; share not reliably available

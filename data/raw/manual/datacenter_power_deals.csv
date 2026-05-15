@@ -1,0 +1,15 @@
+# Hyperscaler power procurement and grid participation -- hand-keyed from company
+# announcements and reporting, 2025-2026. Transcribed 2026-05-15.
+#
+# Context for the "can data centers resell power?" question: as of 2026 data
+# centers are NOT documented as net power sellers. They are large flexible loads
+# that increasingly (a) lock up dedicated supply via long-term PPAs, (b) build
+# their own behind-the-meter / off-grid generation, and (c) offer demand response.
+company,counterparty,deal_type,capacity_mw,year_or_start,source,note
+Meta,Constellation Energy,nuclear PPA,1121,2027,Constellation,20-year deal; Clinton nuclear plant (Illinois)
+Amazon,Talen Energy,nuclear PPA,1920,2025,Talen Energy,"17-year deal, ~$18B; Susquehanna nuclear (Pennsylvania)"
+Amazon,X-energy,SMR build,960,2032,company reporting,Up to 960 MW of small modular reactors; $500M investment (Washington)
+Google,NextEra Energy,nuclear PPA,615,2029,company reporting,25-year deal; restart of Duane Arnold nuclear (Iowa)
+Google,Kairos Power,SMR PPA,50,2030,company reporting,First small modular reactor; more to follow
+Google,wholesale market,demand response,1000,2025,company reporting,~1 GW of committed load flexibility
+xAI,self-supplied (Colossus),off-grid generation,1200,2025,company reporting,Gas turbines + Tesla Megapacks; Memphis -- bypasses the grid

@@ -1,0 +1,2601 @@
+year,stateid,state_name,sector,sales_twh,price_cents_per_kwh,retrieved
+2001,AK,Alaska,all sectors,5.45408,10.54,2026-05-15
+2002,AK,Alaska,all sectors,5.465489,10.46,2026-05-15
+2003,AK,Alaska,all sectors,5.563682,10.5,2026-05-15
+2004,AK,Alaska,all sectors,5.788484,10.99,2026-05-15
+2005,AK,Alaska,all sectors,5.912571,11.72,2026-05-15
+2006,AK,Alaska,all sectors,6.182291,12.84,2026-05-15
+2007,AK,Alaska,all sectors,6.32661,13.28,2026-05-15
+2008,AK,Alaska,all sectors,6.32594399,14.74,2026-05-15
+2009,AK,Alaska,all sectors,6.27017098,15.09,2026-05-15
+2010,AK,Alaska,all sectors,6.24703802,14.76,2026-05-15
+2011,AK,Alaska,all sectors,6.31953995,16.08,2026-05-15
+2012,AK,Alaska,all sectors,6.416410979999999,16.33,2026-05-15
+2013,AK,Alaska,all sectors,6.268212,16.49,2026-05-15
+2014,AK,Alaska,all sectors,6.1648119999999995,17.46,2026-05-15
+2015,AK,Alaska,all sectors,6.159204,17.59,2026-05-15
+2016,AK,Alaska,all sectors,6.12320202,17.93,2026-05-15
+2017,AK,Alaska,all sectors,6.185799,19.1,2026-05-15
+2018,AK,Alaska,all sectors,5.97246698,19.36,2026-05-15
+2019,AK,Alaska,all sectors,5.81880503,20.22,2026-05-15
+2020,AK,Alaska,all sectors,5.91757699,19.82,2026-05-15
+2021,AK,Alaska,all sectors,5.969339,20.02,2026-05-15
+2022,AK,Alaska,all sectors,6.00208,20.73,2026-05-15
+2023,AK,Alaska,all sectors,6.02459801,21.41,2026-05-15
+2024,AK,Alaska,all sectors,6.0465029800000005,22.17,2026-05-15
+2025,AK,Alaska,all sectors,6.118426400000001,23.05,2026-05-15
+2001,AK,Alaska,residential,1.8914680000000001,12.12,2026-05-15
+2002,AK,Alaska,residential,1.932217,12.05,2026-05-15
+2003,AK,Alaska,residential,1.987009,11.98,2026-05-15
+2004,AK,Alaska,residential,2.0619050000000003,12.44,2026-05-15
+2005,AK,Alaska,residential,2.061652,13.3,2026-05-15
+2006,AK,Alaska,residential,2.120254,14.83,2026-05-15
+2007,AK,Alaska,residential,2.114456,15.18,2026-05-15
+2008,AK,Alaska,residential,2.1298109899999997,16.56,2026-05-15
+2009,AK,Alaska,residential,2.11739299,17.14,2026-05-15
+2010,AK,Alaska,residential,2.09321701,16.26,2026-05-15
+2011,AK,Alaska,residential,2.13442196,17.62,2026-05-15
+2012,AK,Alaska,residential,2.16019598,17.88,2026-05-15
+2013,AK,Alaska,residential,2.10396601,18.12,2026-05-15
+2014,AK,Alaska,residential,2.04361399,19.14,2026-05-15
+2015,AK,Alaska,residential,2.04418401,19.83,2026-05-15
+2016,AK,Alaska,residential,2.00639202,20.3,2026-05-15
+2017,AK,Alaska,residential,2.06034901,21.27,2026-05-15
+2018,AK,Alaska,residential,1.97490599,21.94,2026-05-15
+2019,AK,Alaska,residential,1.92820802,22.92,2026-05-15
+2020,AK,Alaska,residential,2.08904601,22.57,2026-05-15
+2021,AK,Alaska,residential,2.08391101,22.55,2026-05-15
+2022,AK,Alaska,residential,2.050472,23.1,2026-05-15
+2023,AK,Alaska,residential,2.050667,23.9,2026-05-15
+2024,AK,Alaska,residential,2.07059399,24.82,2026-05-15
+2025,AK,Alaska,residential,2.0490030900000002,26.09,2026-05-15
+2001,AL,Alabama,all sectors,79.358258,5.6,2026-05-15
+2002,AL,Alabama,all sectors,83.067078,5.71,2026-05-15
+2003,AL,Alabama,all sectors,83.84422,5.88,2026-05-15
+2004,AL,Alabama,all sectors,86.870519,6.08,2026-05-15
+2005,AL,Alabama,all sectors,89.20161999999999,6.46,2026-05-15
+2006,AL,Alabama,all sectors,90.677695,7.07,2026-05-15
+2007,AL,Alabama,all sectors,91.82846400000001,7.57,2026-05-15
+2008,AL,Alabama,all sectors,89.70727901,8.59,2026-05-15
+2009,AL,Alabama,all sectors,82.84460198000001,8.83,2026-05-15
+2010,AL,Alabama,all sectors,90.862645,8.89,2026-05-15
+2011,AL,Alabama,all sectors,88.99536899,9.1,2026-05-15
+2012,AL,Alabama,all sectors,86.18254801,9.18,2026-05-15
+2013,AL,Alabama,all sectors,87.85210701999999,9.02,2026-05-15
+2014,AL,Alabama,all sectors,90.49372702000001,9.27,2026-05-15
+2015,AL,Alabama,all sectors,88.845543,9.33,2026-05-15
+2016,AL,Alabama,all sectors,88.22514100000001,9.56,2026-05-15
+2017,AL,Alabama,all sectors,86.24173001,9.83,2026-05-15
+2018,AL,Alabama,all sectors,90.280456,9.63,2026-05-15
+2019,AL,Alabama,all sectors,88.09511201,9.83,2026-05-15
+2020,AL,Alabama,all sectors,83.39560502,9.84,2026-05-15
+2021,AL,Alabama,all sectors,85.585166,10.18,2026-05-15
+2022,AL,Alabama,all sectors,87.02754499,11.59,2026-05-15
+2023,AL,Alabama,all sectors,84.88035898999999,11.47,2026-05-15
+2024,AL,Alabama,all sectors,87.52293201,11.9,2026-05-15
+2025,AL,Alabama,all sectors,89.22126994,12.62,2026-05-15
+2001,AL,Alabama,residential,27.802207,7.01,2026-05-15
+2002,AL,Alabama,residential,30.021763,7.12,2026-05-15
+2003,AL,Alabama,residential,29.416418,7.39,2026-05-15
+2004,AL,Alabama,residential,30.109115000000003,7.62,2026-05-15
+2005,AL,Alabama,residential,31.315099999999997,8.0,2026-05-15
+2006,AL,Alabama,residential,32.277083,8.75,2026-05-15
+2007,AL,Alabama,residential,32.783444,9.32,2026-05-15
+2008,AL,Alabama,residential,32.18454,10.4,2026-05-15
+2009,AL,Alabama,residential,31.489411,10.66,2026-05-15
+2010,AL,Alabama,residential,35.529292,10.67,2026-05-15
+2011,AL,Alabama,residential,33.00281499,11.09,2026-05-15
+2012,AL,Alabama,residential,30.63226102,11.4,2026-05-15
+2013,AL,Alabama,residential,31.37865902,11.26,2026-05-15
+2014,AL,Alabama,residential,32.929598,11.48,2026-05-15
+2015,AL,Alabama,residential,31.90853,11.7,2026-05-15
+2016,AL,Alabama,residential,32.05554599,11.99,2026-05-15
+2017,AL,Alabama,residential,30.181045020000003,12.55,2026-05-15
+2018,AL,Alabama,residential,33.08038001,12.18,2026-05-15
+2019,AL,Alabama,residential,32.415646,12.53,2026-05-15
+2020,AL,Alabama,residential,31.33104101,12.57,2026-05-15
+2021,AL,Alabama,residential,31.585153,12.96,2026-05-15
+2022,AL,Alabama,residential,32.923572990000004,14.25,2026-05-15
+2023,AL,Alabama,residential,31.409651999999998,14.63,2026-05-15
+2024,AL,Alabama,residential,32.89907101,15.18,2026-05-15
+2025,AL,Alabama,residential,33.478534010000004,16.1,2026-05-15
+2001,AR,Arkansas,all sectors,41.732449,6.05,2026-05-15
+2002,AR,Arkansas,all sectors,42.449557999999996,5.61,2026-05-15
+2003,AR,Arkansas,all sectors,43.108259,5.57,2026-05-15
+2004,AR,Arkansas,all sectors,43.67236,5.67,2026-05-15
+2005,AR,Arkansas,all sectors,46.164923,6.3,2026-05-15
+2006,AR,Arkansas,all sectors,46.635624,6.99,2026-05-15
+2007,AR,Arkansas,all sectors,47.054891000000005,6.96,2026-05-15
+2008,AR,Arkansas,all sectors,46.13468101,7.6,2026-05-15
+2009,AR,Arkansas,all sectors,43.17310399,7.57,2026-05-15
+2010,AR,Arkansas,all sectors,48.194285,7.28,2026-05-15
+2011,AR,Arkansas,all sectors,47.927828999999996,7.43,2026-05-15
+2012,AR,Arkansas,all sectors,46.859566980000004,7.62,2026-05-15
+2013,AR,Arkansas,all sectors,46.683034,7.93,2026-05-15
+2014,AR,Arkansas,all sectors,47.08030101,7.9,2026-05-15
+2015,AR,Arkansas,all sectors,46.46515402,8.19,2026-05-15
+2016,AR,Arkansas,all sectors,46.188438000000005,8.13,2026-05-15
+2017,AR,Arkansas,all sectors,46.085951009999995,8.26,2026-05-15
+2018,AR,Arkansas,all sectors,49.60270798,7.78,2026-05-15
+2019,AR,Arkansas,all sectors,48.09303199,8.22,2026-05-15
+2020,AR,Arkansas,all sectors,45.85100301,8.32,2026-05-15
+2021,AR,Arkansas,all sectors,48.66314201,9.1,2026-05-15
+2022,AR,Arkansas,all sectors,48.997662989999995,9.91,2026-05-15
+2023,AR,Arkansas,all sectors,48.64929999,9.73,2026-05-15
+2024,AR,Arkansas,all sectors,49.89581201,9.59,2026-05-15
+2025,AR,Arkansas,all sectors,52.962927369999996,9.84,2026-05-15
+2001,AR,Arkansas,residential,15.103946,7.72,2026-05-15
+2002,AR,Arkansas,residential,15.527374,7.25,2026-05-15
+2003,AR,Arkansas,residential,15.598301,7.24,2026-05-15
+2004,AR,Arkansas,residential,15.619397000000001,7.36,2026-05-15
+2005,AR,Arkansas,residential,17.133693,8.0,2026-05-15
+2006,AR,Arkansas,residential,17.065081,8.85,2026-05-15
+2007,AR,Arkansas,residential,17.414562,8.73,2026-05-15
+2008,AR,Arkansas,residential,17.392467,9.27,2026-05-15
+2009,AR,Arkansas,residential,16.985526,9.14,2026-05-15
+2010,AR,Arkansas,residential,19.230961,8.86,2026-05-15
+2011,AR,Arkansas,residential,18.787349,9.02,2026-05-15
+2012,AR,Arkansas,residential,17.90930099,9.3,2026-05-15
+2013,AR,Arkansas,residential,18.219287,9.59,2026-05-15
+2014,AR,Arkansas,residential,18.441119009999998,9.51,2026-05-15
+2015,AR,Arkansas,residential,18.273388999999998,9.82,2026-05-15
+2016,AR,Arkansas,residential,17.78423301,9.92,2026-05-15
+2017,AR,Arkansas,residential,17.026778999999998,10.28,2026-05-15
+2018,AR,Arkansas,residential,19.259203990000003,9.81,2026-05-15
+2019,AR,Arkansas,residential,18.73231599,9.8,2026-05-15
+2020,AR,Arkansas,residential,17.980206010000003,10.41,2026-05-15
+2021,AR,Arkansas,residential,18.918015,11.27,2026-05-15
+2022,AR,Arkansas,residential,19.250661009999998,12.05,2026-05-15
+2023,AR,Arkansas,residential,18.37397099,12.25,2026-05-15
+2024,AR,Arkansas,residential,18.580638009999998,12.32,2026-05-15
+2025,AR,Arkansas,residential,19.22798477,12.84,2026-05-15
+2001,AZ,Arizona,all sectors,62.274303999999994,7.27,2026-05-15
+2002,AZ,Arizona,all sectors,62.600737,7.21,2026-05-15
+2003,AZ,Arizona,all sectors,64.07956,7.34,2026-05-15
+2004,AZ,Arizona,all sectors,66.933251,7.45,2026-05-15
+2005,AZ,Arizona,all sectors,69.390686,7.79,2026-05-15
+2006,AZ,Arizona,all sectors,73.252776,8.24,2026-05-15
+2007,AZ,Arizona,all sectors,77.193206,8.54,2026-05-15
+2008,AZ,Arizona,all sectors,76.26791602,9.11,2026-05-15
+2009,AZ,Arizona,all sectors,73.43292901000001,9.56,2026-05-15
+2010,AZ,Arizona,all sectors,72.83303,9.69,2026-05-15
+2011,AZ,Arizona,all sectors,74.943645,9.71,2026-05-15
+2012,AZ,Arizona,all sectors,75.06334299999999,9.81,2026-05-15
+2013,AZ,Arizona,all sectors,75.66203702,10.14,2026-05-15
+2014,AZ,Arizona,all sectors,76.29768499,10.18,2026-05-15
+2015,AZ,Arizona,all sectors,77.34941596,10.34,2026-05-15
+2016,AZ,Arizona,all sectors,78.23782802,10.33,2026-05-15
+2017,AZ,Arizona,all sectors,77.64626201,10.64,2026-05-15
+2018,AZ,Arizona,all sectors,78.34630199,10.85,2026-05-15
+2019,AZ,Arizona,all sectors,77.92917002,10.52,2026-05-15
+2020,AZ,Arizona,all sectors,81.96007401,10.44,2026-05-15
+2021,AZ,Arizona,all sectors,81.21999000000001,10.73,2026-05-15
+2022,AZ,Arizona,all sectors,84.19651702,11.31,2026-05-15
+2023,AZ,Arizona,all sectors,85.91879798000001,12.19,2026-05-15
+2024,AZ,Arizona,all sectors,90.84328799,12.74,2026-05-15
+2025,AZ,Arizona,all sectors,91.55233195000001,12.97,2026-05-15
+2001,AZ,Arizona,residential,26.200172,8.3,2026-05-15
+2002,AZ,Arizona,residential,26.412614,8.27,2026-05-15
+2003,AZ,Arizona,residential,27.74152,8.35,2026-05-15
+2004,AZ,Arizona,residential,28.920651000000003,8.46,2026-05-15
+2005,AZ,Arizona,residential,30.543645,8.86,2026-05-15
+2006,AZ,Arizona,residential,32.367475,9.4,2026-05-15
+2007,AZ,Arizona,residential,34.436657,9.66,2026-05-15
+2008,AZ,Arizona,residential,33.23637,10.27,2026-05-15
+2009,AZ,Arizona,residential,32.846843,10.73,2026-05-15
+2010,AZ,Arizona,residential,32.44813799,10.97,2026-05-15
+2011,AZ,Arizona,residential,33.079074,11.08,2026-05-15
+2012,AZ,Arizona,residential,32.92297001,11.29,2026-05-15
+2013,AZ,Arizona,residential,33.10360201,11.71,2026-05-15
+2014,AZ,Arizona,residential,32.34607899,11.9,2026-05-15
+2015,AZ,Arizona,residential,33.167205,12.13,2026-05-15
+2016,AZ,Arizona,residential,33.69078301,12.15,2026-05-15
+2017,AZ,Arizona,residential,34.25122,12.44,2026-05-15
+2018,AZ,Arizona,residential,34.660297,12.77,2026-05-15
+2019,AZ,Arizona,residential,34.72005001,12.43,2026-05-15
+2020,AZ,Arizona,residential,38.70741601,12.27,2026-05-15
+2021,AZ,Arizona,residential,37.130339,12.54,2026-05-15
+2022,AZ,Arizona,residential,38.367633000000005,13.02,2026-05-15
+2023,AZ,Arizona,residential,38.992365,14.02,2026-05-15
+2024,AZ,Arizona,residential,40.43493099,14.91,2026-05-15
+2025,AZ,Arizona,residential,39.06158498,15.32,2026-05-15
+2001,CA,California,all sectors,247.75877799999998,11.22,2026-05-15
+2002,CA,California,all sectors,235.213332,12.19,2026-05-15
+2003,CA,California,all sectors,243.221316,11.78,2026-05-15
+2004,CA,California,all sectors,252.025973,11.35,2026-05-15
+2005,CA,California,all sectors,254.24950700000002,11.63,2026-05-15
+2006,CA,California,all sectors,262.958528,12.82,2026-05-15
+2007,CA,California,all sectors,264.234911,12.8,2026-05-15
+2008,CA,California,all sectors,268.15521898000003,12.49,2026-05-15
+2009,CA,California,all sectors,259.58367598,13.24,2026-05-15
+2010,CA,California,all sectors,258.530892,13.01,2026-05-15
+2011,CA,California,all sectors,261.94170001,13.05,2026-05-15
+2012,CA,California,all sectors,259.53803802,13.53,2026-05-15
+2013,CA,California,all sectors,261.33245899,14.3,2026-05-15
+2014,CA,California,all sectors,262.58478602,15.15,2026-05-15
+2015,CA,California,all sectors,261.17043699,15.42,2026-05-15
+2016,CA,California,all sectors,256.84663497,15.23,2026-05-15
+2017,CA,California,all sectors,257.26793700999997,16.06,2026-05-15
+2018,CA,California,all sectors,255.22427197,16.58,2026-05-15
+2019,CA,California,all sectors,250.37870999999998,16.89,2026-05-15
+2020,CA,California,all sectors,250.17467202999998,18.0,2026-05-15
+2021,CA,California,all sectors,247.249865,19.65,2026-05-15
+2022,CA,California,all sectors,251.869136,22.33,2026-05-15
+2023,CA,California,all sectors,239.48045202,24.87,2026-05-15
+2024,CA,California,all sectors,245.71714497,27.04,2026-05-15
+2025,CA,California,all sectors,237.95747888,27.63,2026-05-15
+2001,CA,California,residential,76.667632,12.09,2026-05-15
+2002,CA,California,residential,77.20230000000001,12.64,2026-05-15
+2003,CA,California,residential,82.925899,12.23,2026-05-15
+2004,CA,California,residential,83.36125100000001,12.2,2026-05-15
+2005,CA,California,residential,85.61041,12.51,2026-05-15
+2006,CA,California,residential,89.83574899999999,14.33,2026-05-15
+2007,CA,California,residential,89.158461,14.42,2026-05-15
+2008,CA,California,residential,91.23081798999999,13.81,2026-05-15
+2009,CA,California,residential,89.798789,14.74,2026-05-15
+2010,CA,California,residential,87.256946,14.75,2026-05-15
+2011,CA,California,residential,88.398416,14.78,2026-05-15
+2012,CA,California,residential,90.10999501,15.34,2026-05-15
+2013,CA,California,residential,89.24193399,16.23,2026-05-15
+2014,CA,California,residential,89.36067999999999,16.25,2026-05-15
+2015,CA,California,residential,89.386373,16.99,2026-05-15
+2016,CA,California,residential,88.31106899,17.39,2026-05-15
+2017,CA,California,residential,90.12350500000001,18.31,2026-05-15
+2018,CA,California,residential,89.09998497999999,18.84,2026-05-15
+2019,CA,California,residential,87.52398701,19.15,2026-05-15
+2020,CA,California,residential,94.93456301,20.45,2026-05-15
+2021,CA,California,residential,90.284143,22.82,2026-05-15
+2022,CA,California,residential,89.54220798,25.84,2026-05-15
+2023,CA,California,residential,82.82089801000001,29.51,2026-05-15
+2024,CA,California,residential,85.850538,31.97,2026-05-15
+2025,CA,California,residential,81.94810579,32.54,2026-05-15
+2001,CO,Colorado,all sectors,44.236038,6.02,2026-05-15
+2002,CO,Colorado,all sectors,45.936696000000005,6.0,2026-05-15
+2003,CO,Colorado,all sectors,46.494645,6.77,2026-05-15
+2004,CO,Colorado,all sectors,46.723841,6.95,2026-05-15
+2005,CO,Colorado,all sectors,48.353235999999995,7.64,2026-05-15
+2006,CO,Colorado,all sectors,49.733698,7.61,2026-05-15
+2007,CO,Colorado,all sectors,51.299156,7.76,2026-05-15
+2008,CO,Colorado,all sectors,52.14247301,8.59,2026-05-15
+2009,CO,Colorado,all sectors,51.035906000000004,8.31,2026-05-15
+2010,CO,Colorado,all sectors,52.917786,9.15,2026-05-15
+2011,CO,Colorado,all sectors,53.458285020000005,9.39,2026-05-15
+2012,CO,Colorado,all sectors,53.68529703,9.39,2026-05-15
+2013,CO,Colorado,all sectors,53.44164901,9.88,2026-05-15
+2014,CO,Colorado,all sectors,53.396521009999994,10.06,2026-05-15
+2015,CO,Colorado,all sectors,54.116045989999996,9.94,2026-05-15
+2016,CO,Colorado,all sectors,54.80203698,9.83,2026-05-15
+2017,CO,Colorado,all sectors,54.830186000000005,9.99,2026-05-15
+2018,CO,Colorado,all sectors,56.45048002,10.02,2026-05-15
+2019,CO,Colorado,all sectors,56.52082299,10.17,2026-05-15
+2020,CO,Colorado,all sectors,56.05026399,10.27,2026-05-15
+2021,CO,Colorado,all sectors,56.351209000000004,10.9,2026-05-15
+2022,CO,Colorado,all sectors,56.76304099,11.75,2026-05-15
+2023,CO,Colorado,all sectors,55.56581899,11.76,2026-05-15
+2024,CO,Colorado,all sectors,56.84290401,12.07,2026-05-15
+2025,CO,Colorado,all sectors,56.651959739999995,12.77,2026-05-15
+2001,CO,Colorado,residential,14.470251000000001,7.47,2026-05-15
+2002,CO,Colorado,residential,15.424845999999999,7.37,2026-05-15
+2003,CO,Colorado,residential,15.724839,8.14,2026-05-15
+2004,CO,Colorado,residential,15.532168,8.42,2026-05-15
+2005,CO,Colorado,residential,16.436381,9.06,2026-05-15
+2006,CO,Colorado,residential,16.951534,9.02,2026-05-15
+2007,CO,Colorado,residential,17.634182,9.25,2026-05-15
+2008,CO,Colorado,residential,17.720491000000003,10.13,2026-05-15
+2009,CO,Colorado,residential,17.41263,10.0,2026-05-15
+2010,CO,Colorado,residential,18.102386,11.04,2026-05-15
+2011,CO,Colorado,residential,18.27679899,11.27,2026-05-15
+2012,CO,Colorado,residential,18.220365010000002,11.46,2026-05-15
+2013,CO,Colorado,residential,18.528907999999998,11.93,2026-05-15
+2014,CO,Colorado,residential,18.092932010000002,12.18,2026-05-15
+2015,CO,Colorado,residential,18.38493601,12.12,2026-05-15
+2016,CO,Colorado,residential,18.833722,12.07,2026-05-15
+2017,CO,Colorado,residential,18.61499999,12.17,2026-05-15
+2018,CO,Colorado,residential,19.28695201,12.15,2026-05-15
+2019,CO,Colorado,residential,19.404743,12.18,2026-05-15
+2020,CO,Colorado,residential,20.48250199,12.36,2026-05-15
+2021,CO,Colorado,residential,20.625005010000002,13.07,2026-05-15
+2022,CO,Colorado,residential,20.59394201,14.19,2026-05-15
+2023,CO,Colorado,residential,19.99933299,14.3,2026-05-15
+2024,CO,Colorado,residential,20.69369,14.92,2026-05-15
+2025,CO,Colorado,residential,20.44670002,15.85,2026-05-15
+2001,CT,Connecticut,all sectors,30.540758,9.62,2026-05-15
+2002,CT,Connecticut,all sectors,31.005489,9.71,2026-05-15
+2003,CT,Connecticut,all sectors,31.830218000000002,10.16,2026-05-15
+2004,CT,Connecticut,all sectors,32.21461,10.26,2026-05-15
+2005,CT,Connecticut,all sectors,33.095029000000004,12.06,2026-05-15
+2006,CT,Connecticut,all sectors,31.677453,14.83,2026-05-15
+2007,CT,Connecticut,all sectors,34.129107000000005,16.45,2026-05-15
+2008,CT,Connecticut,all sectors,30.956544,17.8,2026-05-15
+2009,CT,Connecticut,all sectors,29.715764,18.07,2026-05-15
+2010,CT,Connecticut,all sectors,30.391766,17.38,2026-05-15
+2011,CT,Connecticut,all sectors,29.858992999999998,16.35,2026-05-15
+2012,CT,Connecticut,all sectors,29.49233801,15.54,2026-05-15
+2013,CT,Connecticut,all sectors,29.824516,15.66,2026-05-15
+2014,CT,Connecticut,all sectors,29.35446,17.05,2026-05-15
+2015,CT,Connecticut,all sectors,29.47615501,17.77,2026-05-15
+2016,CT,Connecticut,all sectors,28.931086999999998,17.24,2026-05-15
+2017,CT,Connecticut,all sectors,28.13552999,17.55,2026-05-15
+2018,CT,Connecticut,all sectors,28.833925,18.41,2026-05-15
+2019,CT,Connecticut,all sectors,27.899995999999998,18.66,2026-05-15
+2020,CT,Connecticut,all sectors,27.113673,19.13,2026-05-15
+2021,CT,Connecticut,all sectors,27.737606,18.32,2026-05-15
+2022,CT,Connecticut,all sectors,27.767146,21.08,2026-05-15
+2023,CT,Connecticut,all sectors,26.685176,24.24,2026-05-15
+2024,CT,Connecticut,all sectors,27.35135502,24.37,2026-05-15
+2025,CT,Connecticut,all sectors,27.57016657,25.68,2026-05-15
+2001,CT,Connecticut,residential,11.974617,10.9,2026-05-15
+2002,CT,Connecticut,residential,12.472813,10.96,2026-05-15
+2003,CT,Connecticut,residential,13.178336,11.31,2026-05-15
+2004,CT,Connecticut,residential,13.21139,11.63,2026-05-15
+2005,CT,Connecticut,residential,13.802961999999999,13.64,2026-05-15
+2006,CT,Connecticut,residential,12.963468,16.86,2026-05-15
+2007,CT,Connecticut,residential,13.37209,19.11,2026-05-15
+2008,CT,Connecticut,residential,12.729694,19.54,2026-05-15
+2009,CT,Connecticut,residential,12.578225,20.33,2026-05-15
+2010,CT,Connecticut,residential,13.065275,19.25,2026-05-15
+2011,CT,Connecticut,residential,12.918796,18.11,2026-05-15
+2012,CT,Connecticut,residential,12.757633,17.34,2026-05-15
+2013,CT,Connecticut,residential,13.135451,17.55,2026-05-15
+2014,CT,Connecticut,residential,12.777579,19.75,2026-05-15
+2015,CT,Connecticut,residential,12.892862,20.94,2026-05-15
+2016,CT,Connecticut,residential,12.676983,20.01,2026-05-15
+2017,CT,Connecticut,residential,12.379520000000001,20.29,2026-05-15
+2018,CT,Connecticut,residential,13.061371999999999,21.2,2026-05-15
+2019,CT,Connecticut,residential,12.493549999999999,21.87,2026-05-15
+2020,CT,Connecticut,residential,12.981839,22.71,2026-05-15
+2021,CT,Connecticut,residential,13.092128,21.91,2026-05-15
+2022,CT,Connecticut,residential,13.190687,24.61,2026-05-15
+2023,CT,Connecticut,residential,12.55329899,29.88,2026-05-15
+2024,CT,Connecticut,residential,12.94190301,28.75,2026-05-15
+2025,CT,Connecticut,residential,13.3567562,29.38,2026-05-15
+2001,DC,District of Columbia,all sectors,10.880472,7.4,2026-05-15
+2002,DC,District of Columbia,all sectors,11.128743,7.34,2026-05-15
+2003,DC,District of Columbia,all sectors,10.946382999999999,7.4,2026-05-15
+2004,DC,District of Columbia,all sectors,11.414847,7.47,2026-05-15
+2005,DC,District of Columbia,all sectors,11.816207,9.18,2026-05-15
+2006,DC,District of Columbia,all sectors,11.396424000000001,11.08,2026-05-15
+2007,DC,District of Columbia,all sectors,12.110185,11.79,2026-05-15
+2008,DC,District of Columbia,all sectors,11.616234,13.18,2026-05-15
+2009,DC,District of Columbia,all sectors,11.434375,13.23,2026-05-15
+2010,DC,District of Columbia,all sectors,11.876995,13.35,2026-05-15
+2011,DC,District of Columbia,all sectors,11.562055,12.81,2026-05-15
+2012,DC,District of Columbia,all sectors,11.258844999999999,11.85,2026-05-15
+2013,DC,District of Columbia,all sectors,11.085519,11.85,2026-05-15
+2014,DC,District of Columbia,all sectors,11.193589,12.11,2026-05-15
+2015,DC,District of Columbia,all sectors,11.29123301,12.07,2026-05-15
+2016,DC,District of Columbia,all sectors,11.394003000000001,11.73,2026-05-15
+2017,DC,District of Columbia,all sectors,10.916446,11.8,2026-05-15
+2018,DC,District of Columbia,all sectors,11.35791,12.03,2026-05-15
+2019,DC,District of Columbia,all sectors,11.028403,12.27,2026-05-15
+2020,DC,District of Columbia,all sectors,9.785775,11.9,2026-05-15
+2021,DC,District of Columbia,all sectors,10.083371999999999,12.81,2026-05-15
+2022,DC,District of Columbia,all sectors,10.241534,14.94,2026-05-15
+2023,DC,District of Columbia,all sectors,9.879714,16.5,2026-05-15
+2024,DC,District of Columbia,all sectors,10.14291499,16.88,2026-05-15
+2025,DC,District of Columbia,all sectors,10.24127764,20.34,2026-05-15
+2001,DC,District of Columbia,residential,1.698868,7.79,2026-05-15
+2002,DC,District of Columbia,residential,1.790103,7.98,2026-05-15
+2003,DC,District of Columbia,residential,1.754304,7.84,2026-05-15
+2004,DC,District of Columbia,residential,1.834434,8.0,2026-05-15
+2005,DC,District of Columbia,residential,1.93827,9.1,2026-05-15
+2006,DC,District of Columbia,residential,1.82211,9.88,2026-05-15
+2007,DC,District of Columbia,residential,1.9695630000000002,11.18,2026-05-15
+2008,DC,District of Columbia,residential,1.91564,12.78,2026-05-15
+2009,DC,District of Columbia,residential,1.8996549999999999,13.73,2026-05-15
+2010,DC,District of Columbia,residential,2.123312,14.01,2026-05-15
+2011,DC,District of Columbia,residential,2.0613919999999997,13.4,2026-05-15
+2012,DC,District of Columbia,residential,2.002527,12.28,2026-05-15
+2013,DC,District of Columbia,residential,2.033618,12.57,2026-05-15
+2014,DC,District of Columbia,residential,2.072205,12.74,2026-05-15
+2015,DC,District of Columbia,residential,2.4975590000000003,12.99,2026-05-15
+2016,DC,District of Columbia,residential,2.501892,12.29,2026-05-15
+2017,DC,District of Columbia,residential,2.3946520000000002,12.94,2026-05-15
+2018,DC,District of Columbia,residential,2.592242,12.84,2026-05-15
+2019,DC,District of Columbia,residential,2.54692,12.98,2026-05-15
+2020,DC,District of Columbia,residential,2.452589,12.63,2026-05-15
+2021,DC,District of Columbia,residential,2.5280489999999998,13.09,2026-05-15
+2022,DC,District of Columbia,residential,2.519079,14.18,2026-05-15
+2023,DC,District of Columbia,residential,2.371637,16.45,2026-05-15
+2024,DC,District of Columbia,residential,2.445805,17.71,2026-05-15
+2025,DC,District of Columbia,residential,2.48988876,21.94,2026-05-15
+2001,DE,Delaware,all sectors,11.378626,6.8,2026-05-15
+2002,DE,Delaware,all sectors,12.018734,6.91,2026-05-15
+2003,DE,Delaware,all sectors,12.599590000000001,6.96,2026-05-15
+2004,DE,Delaware,all sectors,11.761153,7.53,2026-05-15
+2005,DE,Delaware,all sectors,12.136788000000001,7.76,2026-05-15
+2006,DE,Delaware,all sectors,11.554672,10.13,2026-05-15
+2007,DE,Delaware,all sectors,11.86881,11.35,2026-05-15
+2008,DE,Delaware,all sectors,11.748783,12.38,2026-05-15
+2009,DE,Delaware,all sectors,11.257778,12.2,2026-05-15
+2010,DE,Delaware,all sectors,11.605932000000001,11.97,2026-05-15
+2011,DE,Delaware,all sectors,11.48329599,11.48,2026-05-15
+2012,DE,Delaware,all sectors,11.51933101,11.06,2026-05-15
+2013,DE,Delaware,all sectors,11.347856,10.9,2026-05-15
+2014,DE,Delaware,all sectors,11.338476989999998,11.22,2026-05-15
+2015,DE,Delaware,all sectors,11.498205,11.17,2026-05-15
+2016,DE,Delaware,all sectors,11.258438,11.09,2026-05-15
+2017,DE,Delaware,all sectors,11.12860301,10.9,2026-05-15
+2018,DE,Delaware,all sectors,11.773100000000001,10.55,2026-05-15
+2019,DE,Delaware,all sectors,11.46942199,10.52,2026-05-15
+2020,DE,Delaware,all sectors,11.12905101,10.24,2026-05-15
+2021,DE,Delaware,all sectors,11.47965499,10.5,2026-05-15
+2022,DE,Delaware,all sectors,11.53927099,11.83,2026-05-15
+2023,DE,Delaware,all sectors,11.081670990000001,12.85,2026-05-15
+2024,DE,Delaware,all sectors,11.373916,13.56,2026-05-15
+2025,DE,Delaware,all sectors,11.57845934,14.19,2026-05-15
+2001,DE,Delaware,residential,3.733993,8.61,2026-05-15
+2002,DE,Delaware,residential,4.020308,8.7,2026-05-15
+2003,DE,Delaware,residential,4.190390000000001,8.59,2026-05-15
+2004,DE,Delaware,residential,4.304533,8.78,2026-05-15
+2005,DE,Delaware,residential,4.594009,9.01,2026-05-15
+2006,DE,Delaware,residential,4.2586379999999995,11.85,2026-05-15
+2007,DE,Delaware,residential,4.469619,13.16,2026-05-15
+2008,DE,Delaware,residential,4.428194,13.93,2026-05-15
+2009,DE,Delaware,residential,4.334912,14.07,2026-05-15
+2010,DE,Delaware,residential,4.759973,13.8,2026-05-15
+2011,DE,Delaware,residential,4.632094,13.7,2026-05-15
+2012,DE,Delaware,residential,4.521682,13.58,2026-05-15
+2013,DE,Delaware,residential,4.570013,12.95,2026-05-15
+2014,DE,Delaware,residential,4.644841,13.29,2026-05-15
+2015,DE,Delaware,residential,4.848998,13.42,2026-05-15
+2016,DE,Delaware,residential,4.763106,13.42,2026-05-15
+2017,DE,Delaware,residential,4.662598,13.35,2026-05-15
+2018,DE,Delaware,residential,5.070175,12.53,2026-05-15
+2019,DE,Delaware,residential,5.004131,12.55,2026-05-15
+2020,DE,Delaware,residential,4.991134,12.56,2026-05-15
+2021,DE,Delaware,residential,5.17038,12.52,2026-05-15
+2022,DE,Delaware,residential,5.210069000000001,13.71,2026-05-15
+2023,DE,Delaware,residential,4.931846999999999,15.73,2026-05-15
+2024,DE,Delaware,residential,5.174514,16.57,2026-05-15
+2025,DE,Delaware,residential,5.32721292,17.13,2026-05-15
+2001,FL,Florida,all sectors,200.75213300000001,7.67,2026-05-15
+2002,FL,Florida,all sectors,210.47353,7.31,2026-05-15
+2003,FL,Florida,all sectors,217.378622,7.72,2026-05-15
+2004,FL,Florida,all sectors,218.584494,8.16,2026-05-15
+2005,FL,Florida,all sectors,224.977011,8.76,2026-05-15
+2006,FL,Florida,all sectors,228.21954399999998,10.45,2026-05-15
+2007,FL,Florida,all sectors,231.0846,10.33,2026-05-15
+2008,FL,Florida,all sectors,226.172795,10.74,2026-05-15
+2009,FL,Florida,all sectors,224.75032199999998,11.49,2026-05-15
+2010,FL,Florida,all sectors,231.20961399,10.58,2026-05-15
+2011,FL,Florida,all sectors,225.09042199,10.61,2026-05-15
+2012,FL,Florida,all sectors,220.67433301999998,10.44,2026-05-15
+2013,FL,Florida,all sectors,221.91951397999998,10.22,2026-05-15
+2014,FL,Florida,all sectors,226.078111,10.77,2026-05-15
+2015,FL,Florida,all sectors,235.59939798000002,10.49,2026-05-15
+2016,FL,Florida,all sectors,235.72182199999997,9.91,2026-05-15
+2017,FL,Florida,all sectors,233.154549,10.42,2026-05-15
+2018,FL,Florida,all sectors,238.565391,10.32,2026-05-15
+2019,FL,Florida,all sectors,240.34795505,10.44,2026-05-15
+2020,FL,Florida,all sectors,242.44017099,10.06,2026-05-15
+2021,FL,Florida,all sectors,241.56208201,10.67,2026-05-15
+2022,FL,Florida,all sectors,248.82080301,12.51,2026-05-15
+2023,FL,Florida,all sectors,250.940214,13.53,2026-05-15
+2024,FL,Florida,all sectors,255.09545803,12.53,2026-05-15
+2025,FL,Florida,all sectors,257.88883995,13.34,2026-05-15
+2001,FL,Florida,residential,101.377095,8.59,2026-05-15
+2002,FL,Florida,residential,108.163825,8.16,2026-05-15
+2003,FL,Florida,residential,112.649865,8.55,2026-05-15
+2004,FL,Florida,residential,112.203012,8.99,2026-05-15
+2005,FL,Florida,residential,115.791459,9.62,2026-05-15
+2006,FL,Florida,residential,117.053005,11.33,2026-05-15
+2007,FL,Florida,residential,117.816205,11.22,2026-05-15
+2008,FL,Florida,residential,113.93697801,11.65,2026-05-15
+2009,FL,Florida,residential,115.473511,12.39,2026-05-15
+2010,FL,Florida,residential,122.24464998,11.44,2026-05-15
+2011,FL,Florida,residential,116.341105,11.51,2026-05-15
+2012,FL,Florida,residential,112.12705601,11.42,2026-05-15
+2013,FL,Florida,residential,113.29391297999999,11.27,2026-05-15
+2014,FL,Florida,residential,116.535263,11.89,2026-05-15
+2015,FL,Florida,residential,122.75947199000001,11.58,2026-05-15
+2016,FL,Florida,residential,123.320547,10.98,2026-05-15
+2017,FL,Florida,residential,121.46262201,11.61,2026-05-15
+2018,FL,Florida,residential,125.528047,11.54,2026-05-15
+2019,FL,Florida,residential,127.18155100999999,11.7,2026-05-15
+2020,FL,Florida,residential,133.29886899,11.27,2026-05-15
+2021,FL,Florida,residential,130.412464,11.9,2026-05-15
+2022,FL,Florida,residential,134.24597501,13.9,2026-05-15
+2023,FL,Florida,residential,135.80502199,15.21,2026-05-15
+2024,FL,Florida,residential,138.37072002000002,14.14,2026-05-15
+2025,FL,Florida,residential,139.92981494,15.24,2026-05-15
+2001,GA,Georgia,all sectors,117.79047299999999,6.39,2026-05-15
+2002,GA,Georgia,all sectors,123.78907799999999,6.24,2026-05-15
+2003,GA,Georgia,all sectors,123.676657,6.32,2026-05-15
+2004,GA,Georgia,all sectors,129.465784,6.58,2026-05-15
+2005,GA,Georgia,all sectors,132.26545199999998,7.43,2026-05-15
+2006,GA,Georgia,all sectors,134.834168,7.63,2026-05-15
+2007,GA,Georgia,all sectors,137.453878,7.86,2026-05-15
+2008,GA,Georgia,all sectors,135.17351399999998,8.84,2026-05-15
+2009,GA,Georgia,all sectors,130.76550499,8.81,2026-05-15
+2010,GA,Georgia,all sectors,140.67157999,8.87,2026-05-15
+2011,GA,Georgia,all sectors,136.371149,9.61,2026-05-15
+2012,GA,Georgia,all sectors,130.97887201999998,9.37,2026-05-15
+2013,GA,Georgia,all sectors,130.49747001,9.69,2026-05-15
+2014,GA,Georgia,all sectors,135.789932,10.03,2026-05-15
+2015,GA,Georgia,all sectors,135.87821499999998,9.62,2026-05-15
+2016,GA,Georgia,all sectors,138.112239,9.59,2026-05-15
+2017,GA,Georgia,all sectors,133.45662,9.83,2026-05-15
+2018,GA,Georgia,all sectors,139.86607397999998,9.62,2026-05-15
+2019,GA,Georgia,all sectors,139.30098999,9.86,2026-05-15
+2020,GA,Georgia,all sectors,133.47014198,9.93,2026-05-15
+2021,GA,Georgia,all sectors,137.36395204000002,10.43,2026-05-15
+2022,GA,Georgia,all sectors,145.03520397,12.0,2026-05-15
+2023,GA,Georgia,all sectors,142.02883101,11.06,2026-05-15
+2024,GA,Georgia,all sectors,150.00396499000001,11.4,2026-05-15
+2025,GA,Georgia,all sectors,153.56599735,12.03,2026-05-15
+2001,GA,Georgia,residential,44.380213000000005,7.72,2026-05-15
+2002,GA,Georgia,residential,48.599732,7.63,2026-05-15
+2003,GA,Georgia,residential,48.17423,7.7,2026-05-15
+2004,GA,Georgia,residential,51.123502,7.86,2026-05-15
+2005,GA,Georgia,residential,52.826512,8.64,2026-05-15
+2006,GA,Georgia,residential,54.520612,8.91,2026-05-15
+2007,GA,Georgia,residential,56.223366999999996,9.1,2026-05-15
+2008,GA,Georgia,residential,55.58662401,9.93,2026-05-15
+2009,GA,Georgia,residential,55.157559,10.13,2026-05-15
+2010,GA,Georgia,residential,61.55449799,10.07,2026-05-15
+2011,GA,Georgia,residential,57.749519,11.05,2026-05-15
+2012,GA,Georgia,residential,53.660167,11.17,2026-05-15
+2013,GA,Georgia,residential,53.544411,11.46,2026-05-15
+2014,GA,Georgia,residential,57.167387000000005,11.65,2026-05-15
+2015,GA,Georgia,residential,56.42165,11.54,2026-05-15
+2016,GA,Georgia,residential,57.88937899,11.5,2026-05-15
+2017,GA,Georgia,residential,54.77144901,11.9,2026-05-15
+2018,GA,Georgia,residential,59.68910598,11.47,2026-05-15
+2019,GA,Georgia,residential,59.33149099,11.76,2026-05-15
+2020,GA,Georgia,residential,58.220279999999995,12.02,2026-05-15
+2021,GA,Georgia,residential,58.68496201,12.51,2026-05-15
+2022,GA,Georgia,residential,61.140241,13.8,2026-05-15
+2023,GA,Georgia,residential,58.412499000000004,13.69,2026-05-15
+2024,GA,Georgia,residential,62.06295299,14.08,2026-05-15
+2025,GA,Georgia,residential,63.358550470000004,14.73,2026-05-15
+2001,HI,Hawaii,all sectors,9.784563,14.05,2026-05-15
+2002,HI,Hawaii,all sectors,9.891638,13.39,2026-05-15
+2003,HI,Hawaii,all sectors,10.390836,14.47,2026-05-15
+2004,HI,Hawaii,all sectors,10.73152,15.7,2026-05-15
+2005,HI,Hawaii,all sectors,10.53891,18.33,2026-05-15
+2006,HI,Hawaii,all sectors,10.567912,20.72,2026-05-15
+2007,HI,Hawaii,all sectors,10.585299000000001,21.29,2026-05-15
+2008,HI,Hawaii,all sectors,10.390279,29.2,2026-05-15
+2009,HI,Hawaii,all sectors,10.126185,21.21,2026-05-15
+2010,HI,Hawaii,all sectors,10.016509,25.12,2026-05-15
+2011,HI,Hawaii,all sectors,9.961653,31.59,2026-05-15
+2012,HI,Hawaii,all sectors,9.639156999999999,34.04,2026-05-15
+2013,HI,Hawaii,all sectors,9.503164,33.26,2026-05-15
+2014,HI,Hawaii,all sectors,9.475451999999999,33.43,2026-05-15
+2015,HI,Hawaii,all sectors,9.511352,26.17,2026-05-15
+2016,HI,Hawaii,all sectors,9.445388999999999,23.87,2026-05-15
+2017,HI,Hawaii,all sectors,9.324201010000001,26.05,2026-05-15
+2018,HI,Hawaii,all sectors,9.337161,29.18,2026-05-15
+2019,HI,Hawaii,all sectors,9.45288701,28.72,2026-05-15
+2020,HI,Hawaii,all sectors,8.796760990000001,27.55,2026-05-15
+2021,HI,Hawaii,all sectors,8.936482,30.31,2026-05-15
+2022,HI,Hawaii,all sectors,9.03911501,39.72,2026-05-15
+2023,HI,Hawaii,all sectors,8.92725201,38.6,2026-05-15
+2024,HI,Hawaii,all sectors,8.95213401,38.0,2026-05-15
+2025,HI,Hawaii,all sectors,9.13694866,35.72,2026-05-15
+2001,HI,Hawaii,residential,2.80247,16.34,2026-05-15
+2002,HI,Hawaii,residential,2.89838,15.63,2026-05-15
+2003,HI,Hawaii,residential,3.027624,16.73,2026-05-15
+2004,HI,Hawaii,residential,3.162192,18.06,2026-05-15
+2005,HI,Hawaii,residential,3.164065,20.7,2026-05-15
+2006,HI,Hawaii,residential,3.182432,23.35,2026-05-15
+2007,HI,Hawaii,residential,3.200725,24.12,2026-05-15
+2008,HI,Hawaii,residential,3.0852370000000002,32.5,2026-05-15
+2009,HI,Hawaii,residential,3.055273,24.2,2026-05-15
+2010,HI,Hawaii,residential,2.989499,28.1,2026-05-15
+2011,HI,Hawaii,residential,2.928743,34.68,2026-05-15
+2012,HI,Hawaii,residential,2.739298,37.34,2026-05-15
+2013,HI,Hawaii,residential,2.608853,36.98,2026-05-15
+2014,HI,Hawaii,residential,2.58377,37.04,2026-05-15
+2015,HI,Hawaii,residential,2.641336,29.6,2026-05-15
+2016,HI,Hawaii,residential,2.6117269999999997,27.47,2026-05-15
+2017,HI,Hawaii,residential,2.62967901,29.5,2026-05-15
+2018,HI,Hawaii,residential,2.710698,32.47,2026-05-15
+2019,HI,Hawaii,residential,2.75977401,32.06,2026-05-15
+2020,HI,Hawaii,residential,2.849114,30.28,2026-05-15
+2021,HI,Hawaii,residential,2.82508201,33.49,2026-05-15
+2022,HI,Hawaii,residential,2.74847901,43.03,2026-05-15
+2023,HI,Hawaii,residential,2.693161,42.39,2026-05-15
+2024,HI,Hawaii,residential,2.6515940099999997,42.86,2026-05-15
+2025,HI,Hawaii,residential,2.74971681,40.59,2026-05-15
+2001,IA,Iowa,all sectors,39.443754999999996,6.14,2026-05-15
+2002,IA,Iowa,all sectors,40.897543,6.01,2026-05-15
+2003,IA,Iowa,all sectors,41.207284,6.11,2026-05-15
+2004,IA,Iowa,all sectors,40.902773,6.4,2026-05-15
+2005,IA,Iowa,all sectors,42.756808,6.69,2026-05-15
+2006,IA,Iowa,all sectors,43.336835,7.01,2026-05-15
+2007,IA,Iowa,all sectors,45.269523,6.83,2026-05-15
+2008,IA,Iowa,all sectors,45.48806998,6.89,2026-05-15
+2009,IA,Iowa,all sectors,43.64119499,7.37,2026-05-15
+2010,IA,Iowa,all sectors,45.445269010000004,7.66,2026-05-15
+2011,IA,Iowa,all sectors,45.65487701,7.56,2026-05-15
+2012,IA,Iowa,all sectors,45.709099959999996,7.71,2026-05-15
+2013,IA,Iowa,all sectors,46.70521594,8.07,2026-05-15
+2014,IA,Iowa,all sectors,47.201852980000005,8.15,2026-05-15
+2015,IA,Iowa,all sectors,47.14729285,8.35,2026-05-15
+2016,IA,Iowa,all sectors,48.43119301,8.55,2026-05-15
+2017,IA,Iowa,all sectors,48.92199695,8.73,2026-05-15
+2018,IA,Iowa,all sectors,51.210654999999996,8.92,2026-05-15
+2019,IA,Iowa,all sectors,51.043148020000004,9.08,2026-05-15
+2020,IA,Iowa,all sectors,50.639862050000005,8.97,2026-05-15
+2021,IA,Iowa,all sectors,52.89326902,9.13,2026-05-15
+2022,IA,Iowa,all sectors,54.20395499,9.57,2026-05-15
+2023,IA,Iowa,all sectors,54.40025902,9.42,2026-05-15
+2024,IA,Iowa,all sectors,54.93042198,9.34,2026-05-15
+2025,IA,Iowa,all sectors,58.56815959,9.76,2026-05-15
+2001,IA,Iowa,residential,12.429672,8.41,2026-05-15
+2002,IA,Iowa,residential,12.920571,8.35,2026-05-15
+2003,IA,Iowa,residential,12.767551,8.57,2026-05-15
+2004,IA,Iowa,residential,12.625127,8.96,2026-05-15
+2005,IA,Iowa,residential,13.570604,9.27,2026-05-15
+2006,IA,Iowa,residential,13.344308000000002,9.63,2026-05-15
+2007,IA,Iowa,residential,14.060336,9.45,2026-05-15
+2008,IA,Iowa,residential,14.07315999,9.49,2026-05-15
+2009,IA,Iowa,residential,13.723413,9.99,2026-05-15
+2010,IA,Iowa,residential,14.55488798,10.42,2026-05-15
+2011,IA,Iowa,residential,14.326770990000002,10.46,2026-05-15
+2012,IA,Iowa,residential,13.987612989999999,10.82,2026-05-15
+2013,IA,Iowa,residential,14.62586599,11.04,2026-05-15
+2014,IA,Iowa,residential,14.426581969999999,11.16,2026-05-15
+2015,IA,Iowa,residential,13.78632791,11.63,2026-05-15
+2016,IA,Iowa,residential,14.09367801,11.94,2026-05-15
+2017,IA,Iowa,residential,13.72186899,12.34,2026-05-15
+2018,IA,Iowa,residential,14.84034901,12.24,2026-05-15
+2019,IA,Iowa,residential,14.494821009999999,12.46,2026-05-15
+2020,IA,Iowa,residential,14.567482980000001,12.46,2026-05-15
+2021,IA,Iowa,residential,14.651755,12.73,2026-05-15
+2022,IA,Iowa,residential,15.192859,13.15,2026-05-15
+2023,IA,Iowa,residential,14.58184499,13.31,2026-05-15
+2024,IA,Iowa,residential,14.46884999,13.4,2026-05-15
+2025,IA,Iowa,residential,15.132531740000001,13.72,2026-05-15
+2001,ID,Idaho,all sectors,21.096017,4.92,2026-05-15
+2002,ID,Idaho,all sectors,20.699666,5.58,2026-05-15
+2003,ID,Idaho,all sectors,21.218685,5.22,2026-05-15
+2004,ID,Idaho,all sectors,21.808674,4.97,2026-05-15
+2005,ID,Idaho,all sectors,21.852681,5.12,2026-05-15
+2006,ID,Idaho,all sectors,22.761749,4.92,2026-05-15
+2007,ID,Idaho,all sectors,23.755186000000002,5.07,2026-05-15
+2008,ID,Idaho,all sectors,23.90149001,5.69,2026-05-15
+2009,ID,Idaho,all sectors,22.753778999999998,6.51,2026-05-15
+2010,ID,Idaho,all sectors,22.79766803,6.54,2026-05-15
+2011,ID,Idaho,all sectors,23.271724,6.44,2026-05-15
+2012,ID,Idaho,all sectors,23.711859,6.92,2026-05-15
+2013,ID,Idaho,all sectors,24.208056,7.57,2026-05-15
+2014,ID,Idaho,all sectors,23.23328401,7.93,2026-05-15
+2015,ID,Idaho,all sectors,23.058813989999997,8.09,2026-05-15
+2016,ID,Idaho,all sectors,23.06296099,8.08,2026-05-15
+2017,ID,Idaho,all sectors,23.79378999,8.26,2026-05-15
+2018,ID,Idaho,all sectors,23.75350799,8.17,2026-05-15
+2019,ID,Idaho,all sectors,23.985275,7.89,2026-05-15
+2020,ID,Idaho,all sectors,24.46135199,7.99,2026-05-15
+2021,ID,Idaho,all sectors,25.285616,8.17,2026-05-15
+2022,ID,Idaho,all sectors,26.201131,8.51,2026-05-15
+2023,ID,Idaho,all sectors,25.673977,9.08,2026-05-15
+2024,ID,Idaho,all sectors,26.369555000000002,9.51,2026-05-15
+2025,ID,Idaho,all sectors,26.800231779999997,9.74,2026-05-15
+2001,ID,Idaho,residential,6.905546,6.01,2026-05-15
+2002,ID,Idaho,residential,7.055912,6.59,2026-05-15
+2003,ID,Idaho,residential,7.089744,6.24,2026-05-15
+2004,ID,Idaho,residential,7.313929,6.1,2026-05-15
+2005,ID,Idaho,residential,7.600765999999999,6.29,2026-05-15
+2006,ID,Idaho,residential,8.057475,6.21,2026-05-15
+2007,ID,Idaho,residential,8.339433000000001,6.36,2026-05-15
+2008,ID,Idaho,residential,8.53974301,6.99,2026-05-15
+2009,ID,Idaho,residential,8.55361,7.8,2026-05-15
+2010,ID,Idaho,residential,8.136735999999999,7.99,2026-05-15
+2011,ID,Idaho,residential,8.389866,7.87,2026-05-15
+2012,ID,Idaho,residential,8.159349,8.67,2026-05-15
+2013,ID,Idaho,residential,8.619262,9.32,2026-05-15
+2014,ID,Idaho,residential,8.13491301,9.72,2026-05-15
+2015,ID,Idaho,residential,8.054693,9.93,2026-05-15
+2016,ID,Idaho,residential,8.172021990000001,9.95,2026-05-15
+2017,ID,Idaho,residential,8.727901,10.04,2026-05-15
+2018,ID,Idaho,residential,8.42757799,10.15,2026-05-15
+2019,ID,Idaho,residential,8.696843000000001,9.89,2026-05-15
+2020,ID,Idaho,residential,8.97075099,9.95,2026-05-15
+2021,ID,Idaho,residential,9.300843,10.16,2026-05-15
+2022,ID,Idaho,residential,9.96365301,10.37,2026-05-15
+2023,ID,Idaho,residential,9.793265,11.05,2026-05-15
+2024,ID,Idaho,residential,9.83226901,11.52,2026-05-15
+2025,ID,Idaho,residential,9.935599889999999,11.82,2026-05-15
+2001,IL,Illinois,all sectors,136.033549,6.9,2026-05-15
+2002,IL,Illinois,all sectors,138.447313,6.94,2026-05-15
+2003,IL,Illinois,all sectors,136.247891,6.86,2026-05-15
+2004,IL,Illinois,all sectors,139.25395600000002,6.8,2026-05-15
+2005,IL,Illinois,all sectors,144.986215,6.95,2026-05-15
+2006,IL,Illinois,all sectors,142.44781099999997,7.07,2026-05-15
+2007,IL,Illinois,all sectors,146.05515100000002,8.46,2026-05-15
+2008,IL,Illinois,all sectors,144.619914,9.23,2026-05-15
+2009,IL,Illinois,all sectors,136.68846599999998,9.15,2026-05-15
+2010,IL,Illinois,all sectors,144.760674,9.13,2026-05-15
+2011,IL,Illinois,all sectors,142.88556702,8.97,2026-05-15
+2012,IL,Illinois,all sectors,143.54000399999998,8.4,2026-05-15
+2013,IL,Illinois,all sectors,141.80488800999998,8.26,2026-05-15
+2014,IL,Illinois,all sectors,141.54028703,9.36,2026-05-15
+2015,IL,Illinois,all sectors,138.61997,9.4,2026-05-15
+2016,IL,Illinois,all sectors,141.05040899,9.38,2026-05-15
+2017,IL,Illinois,all sectors,137.19631001,9.49,2026-05-15
+2018,IL,Illinois,all sectors,142.65480801,9.6,2026-05-15
+2019,IL,Illinois,all sectors,138.31948099000002,9.56,2026-05-15
+2020,IL,Illinois,all sectors,132.469277,9.75,2026-05-15
+2021,IL,Illinois,all sectors,135.68883300000002,10.14,2026-05-15
+2022,IL,Illinois,all sectors,135.87158,11.94,2026-05-15
+2023,IL,Illinois,all sectors,130.57821703,11.75,2026-05-15
+2024,IL,Illinois,all sectors,133.22690667,12.21,2026-05-15
+2025,IL,Illinois,all sectors,135.39478655,13.74,2026-05-15
+2001,IL,Illinois,residential,41.820004999999995,8.71,2026-05-15
+2002,IL,Illinois,residential,45.030069000000005,8.39,2026-05-15
+2003,IL,Illinois,residential,43.161332,8.38,2026-05-15
+2004,IL,Illinois,residential,43.442533000000005,8.37,2026-05-15
+2005,IL,Illinois,residential,48.592601,8.34,2026-05-15
+2006,IL,Illinois,residential,46.381485999999995,8.42,2026-05-15
+2007,IL,Illinois,residential,48.036260999999996,10.12,2026-05-15
+2008,IL,Illinois,residential,46.78034599,11.07,2026-05-15
+2009,IL,Illinois,residential,44.324492,11.27,2026-05-15
+2010,IL,Illinois,residential,48.582983999999996,11.52,2026-05-15
+2011,IL,Illinois,residential,47.05700202,11.78,2026-05-15
+2012,IL,Illinois,residential,46.90186999,11.37,2026-05-15
+2013,IL,Illinois,residential,46.372234,10.63,2026-05-15
+2014,IL,Illinois,residential,46.00945799,11.91,2026-05-15
+2015,IL,Illinois,residential,44.645638,12.5,2026-05-15
+2016,IL,Illinois,residential,45.990052000000006,12.54,2026-05-15
+2017,IL,Illinois,residential,43.71739101,12.95,2026-05-15
+2018,IL,Illinois,residential,47.225915,12.77,2026-05-15
+2019,IL,Illinois,residential,45.22025799,13.03,2026-05-15
+2020,IL,Illinois,residential,46.170538,13.04,2026-05-15
+2021,IL,Illinois,residential,46.81306799,13.18,2026-05-15
+2022,IL,Illinois,residential,46.479195,15.65,2026-05-15
+2023,IL,Illinois,residential,43.31974702,15.71,2026-05-15
+2024,IL,Illinois,residential,44.850718990000004,15.87,2026-05-15
+2025,IL,Illinois,residential,46.61811217,17.69,2026-05-15
+2001,IN,Indiana,all sectors,97.73396799999999,5.3,2026-05-15
+2002,IN,Indiana,all sectors,101.42855,5.34,2026-05-15
+2003,IN,Indiana,all sectors,100.467779,5.37,2026-05-15
+2004,IN,Indiana,all sectors,103.09426300000001,5.58,2026-05-15
+2005,IN,Indiana,all sectors,106.54891,5.88,2026-05-15
+2006,IN,Indiana,all sectors,105.664484,6.46,2026-05-15
+2007,IN,Indiana,all sectors,109.42014999999999,6.5,2026-05-15
+2008,IN,Indiana,all sectors,106.980704,7.09,2026-05-15
+2009,IN,Indiana,all sectors,99.31181302,7.62,2026-05-15
+2010,IN,Indiana,all sectors,105.99437597,7.67,2026-05-15
+2011,IN,Indiana,all sectors,105.81813897,8.01,2026-05-15
+2012,IN,Indiana,all sectors,105.17342503,8.29,2026-05-15
+2013,IN,Indiana,all sectors,105.48738895,8.73,2026-05-15
+2014,IN,Indiana,all sectors,106.94250403,9.06,2026-05-15
+2015,IN,Indiana,all sectors,104.51451798000001,8.99,2026-05-15
+2016,IN,Indiana,all sectors,103.70482098999999,9.22,2026-05-15
+2017,IN,Indiana,all sectors,98.96596799999999,9.77,2026-05-15
+2018,IN,Indiana,all sectors,104.194376,9.75,2026-05-15
+2019,IN,Indiana,all sectors,102.10420303000001,9.91,2026-05-15
+2020,IN,Indiana,all sectors,97.15574400999999,9.92,2026-05-15
+2021,IN,Indiana,all sectors,99.74004599,10.36,2026-05-15
+2022,IN,Indiana,all sectors,100.04436496000001,11.66,2026-05-15
+2023,IN,Indiana,all sectors,95.99535001,11.49,2026-05-15
+2024,IN,Indiana,all sectors,99.21960701,11.38,2026-05-15
+2025,IN,Indiana,all sectors,103.48747704,12.57,2026-05-15
+2001,IN,Indiana,residential,29.419674999999998,6.92,2026-05-15
+2002,IN,Indiana,residential,31.5679,6.91,2026-05-15
+2003,IN,Indiana,residential,30.726178,7.04,2026-05-15
+2004,IN,Indiana,residential,31.192229,7.3,2026-05-15
+2005,IN,Indiana,residential,33.62867,7.5,2026-05-15
+2006,IN,Indiana,residential,32.286467,8.22,2026-05-15
+2007,IN,Indiana,residential,34.646057,8.26,2026-05-15
+2008,IN,Indiana,residential,33.980410989999996,8.87,2026-05-15
+2009,IN,Indiana,residential,32.54811302,9.5,2026-05-15
+2010,IN,Indiana,residential,35.05837199,9.56,2026-05-15
+2011,IN,Indiana,residential,33.91209799,10.06,2026-05-15
+2012,IN,Indiana,residential,32.96352203,10.53,2026-05-15
+2013,IN,Indiana,residential,33.40662999,10.99,2026-05-15
+2014,IN,Indiana,residential,33.703965,11.46,2026-05-15
+2015,IN,Indiana,residential,32.44169301,11.57,2026-05-15
+2016,IN,Indiana,residential,33.025954989999995,11.79,2026-05-15
+2017,IN,Indiana,residential,31.55155801,12.29,2026-05-15
+2018,IN,Indiana,residential,34.57466399,12.26,2026-05-15
+2019,IN,Indiana,residential,33.24923401,12.58,2026-05-15
+2020,IN,Indiana,residential,32.87835501,12.83,2026-05-15
+2021,IN,Indiana,residential,33.47197,13.37,2026-05-15
+2022,IN,Indiana,residential,34.05849798,14.59,2026-05-15
+2023,IN,Indiana,residential,31.73924301,14.94,2026-05-15
+2024,IN,Indiana,residential,33.048641,14.77,2026-05-15
+2025,IN,Indiana,residential,34.49153089,16.23,2026-05-15
+2001,KS,Kansas,all sectors,35.846951000000004,6.24,2026-05-15
+2002,KS,Kansas,all sectors,36.71354,6.31,2026-05-15
+2003,KS,Kansas,all sectors,36.73539,6.35,2026-05-15
+2004,KS,Kansas,all sectors,37.12654,6.37,2026-05-15
+2005,KS,Kansas,all sectors,39.024283000000004,6.55,2026-05-15
+2006,KS,Kansas,all sectors,39.751302,6.89,2026-05-15
+2007,KS,Kansas,all sectors,40.165977,6.84,2026-05-15
+2008,KS,Kansas,all sectors,39.965061070000004,7.45,2026-05-15
+2009,KS,Kansas,all sectors,38.24334399,7.98,2026-05-15
+2010,KS,Kansas,all sectors,40.420675,8.35,2026-05-15
+2011,KS,Kansas,all sectors,40.760398970000004,8.89,2026-05-15
+2012,KS,Kansas,all sectors,40.29347599,9.33,2026-05-15
+2013,KS,Kansas,all sectors,39.84739707,9.72,2026-05-15
+2014,KS,Kansas,all sectors,40.561606,10.16,2026-05-15
+2015,KS,Kansas,all sectors,39.849127,10.14,2026-05-15
+2016,KS,Kansas,all sectors,40.81017399,10.49,2026-05-15
+2017,KS,Kansas,all sectors,40.28778698,10.6,2026-05-15
+2018,KS,Kansas,all sectors,42.03697904,10.72,2026-05-15
+2019,KS,Kansas,all sectors,41.159627979999996,10.26,2026-05-15
+2020,KS,Kansas,all sectors,39.48394599,10.38,2026-05-15
+2021,KS,Kansas,all sectors,40.49178604,10.47,2026-05-15
+2022,KS,Kansas,all sectors,41.96106503,11.47,2026-05-15
+2023,KS,Kansas,all sectors,41.052008,10.8,2026-05-15
+2024,KS,Kansas,all sectors,41.25821004,11.21,2026-05-15
+2025,KS,Kansas,all sectors,41.97054625,11.52,2026-05-15
+2001,KS,Kansas,residential,12.062329,7.66,2026-05-15
+2002,KS,Kansas,residential,12.745301,7.67,2026-05-15
+2003,KS,Kansas,residential,12.602296,7.71,2026-05-15
+2004,KS,Kansas,residential,12.416599,7.74,2026-05-15
+2005,KS,Kansas,residential,13.406146000000001,7.9,2026-05-15
+2006,KS,Kansas,residential,13.502671,8.25,2026-05-15
+2007,KS,Kansas,residential,13.806496,8.19,2026-05-15
+2008,KS,Kansas,residential,13.50192401,8.89,2026-05-15
+2009,KS,Kansas,residential,13.1491,9.53,2026-05-15
+2010,KS,Kansas,residential,14.33408599,10.03,2026-05-15
+2011,KS,Kansas,residential,14.34374798,10.65,2026-05-15
+2012,KS,Kansas,residential,13.796678980000001,11.24,2026-05-15
+2013,KS,Kansas,residential,13.59300302,11.64,2026-05-15
+2014,KS,Kansas,residential,13.68495203,12.17,2026-05-15
+2015,KS,Kansas,residential,13.24168201,12.34,2026-05-15
+2016,KS,Kansas,residential,13.509235,13.06,2026-05-15
+2017,KS,Kansas,residential,13.013421990000001,13.31,2026-05-15
+2018,KS,Kansas,residential,14.18719201,13.35,2026-05-15
+2019,KS,Kansas,residential,13.63066099,12.71,2026-05-15
+2020,KS,Kansas,residential,13.592443999999999,12.85,2026-05-15
+2021,KS,Kansas,residential,13.76941001,12.98,2026-05-15
+2022,KS,Kansas,residential,14.44352202,13.99,2026-05-15
+2023,KS,Kansas,residential,13.81543398,13.38,2026-05-15
+2024,KS,Kansas,residential,13.83998898,14.15,2026-05-15
+2025,KS,Kansas,residential,14.197697309999999,14.56,2026-05-15
+2001,KY,Kentucky,all sectors,79.975499,4.24,2026-05-15
+2002,KY,Kentucky,all sectors,87.266835,4.26,2026-05-15
+2003,KY,Kentucky,all sectors,85.21963099999999,4.42,2026-05-15
+2004,KY,Kentucky,all sectors,86.521156,4.63,2026-05-15
+2005,KY,Kentucky,all sectors,89.351466,5.01,2026-05-15
+2006,KY,Kentucky,all sectors,88.74343499999999,5.43,2026-05-15
+2007,KY,Kentucky,all sectors,92.4041,5.84,2026-05-15
+2008,KY,Kentucky,all sectors,93.42841398,6.26,2026-05-15
+2009,KY,Kentucky,all sectors,88.89675699,6.52,2026-05-15
+2010,KY,Kentucky,all sectors,93.56942598,6.73,2026-05-15
+2011,KY,Kentucky,all sectors,89.538341,7.17,2026-05-15
+2012,KY,Kentucky,all sectors,89.04848998,7.26,2026-05-15
+2013,KY,Kentucky,all sectors,84.76384199,7.69,2026-05-15
+2014,KY,Kentucky,all sectors,78.83892398,8.15,2026-05-15
+2015,KY,Kentucky,all sectors,76.03862998,8.14,2026-05-15
+2016,KY,Kentucky,all sectors,74.553575,8.42,2026-05-15
+2017,KY,Kentucky,all sectors,72.63438698,8.57,2026-05-15
+2018,KY,Kentucky,all sectors,76.61063597,8.52,2026-05-15
+2019,KY,Kentucky,all sectors,75.345382,8.61,2026-05-15
+2020,KY,Kentucky,all sectors,71.80039900999999,8.58,2026-05-15
+2021,KY,Kentucky,all sectors,74.51698601999999,9.12,2026-05-15
+2022,KY,Kentucky,all sectors,75.33874198999999,10.51,2026-05-15
+2023,KY,Kentucky,all sectors,71.22302101,9.96,2026-05-15
+2024,KY,Kentucky,all sectors,74.40587098,10.07,2026-05-15
+2025,KY,Kentucky,all sectors,75.91901347000001,10.55,2026-05-15
+2001,KY,Kentucky,residential,23.698316,5.58,2026-05-15
+2002,KY,Kentucky,residential,25.347157,5.65,2026-05-15
+2003,KY,Kentucky,residential,24.703645,5.81,2026-05-15
+2004,KY,Kentucky,residential,25.186567999999998,6.11,2026-05-15
+2005,KY,Kentucky,residential,26.947109,6.57,2026-05-15
+2006,KY,Kentucky,residential,25.948878,7.02,2026-05-15
+2007,KY,Kentucky,residential,28.003953000000003,7.34,2026-05-15
+2008,KY,Kentucky,residential,27.56164101,7.94,2026-05-15
+2009,KY,Kentucky,residential,26.56066899,8.37,2026-05-15
+2010,KY,Kentucky,residential,29.13651799,8.57,2026-05-15
+2011,KY,Kentucky,residential,27.197836,9.2,2026-05-15
+2012,KY,Kentucky,residential,26.096706989999998,9.43,2026-05-15
+2013,KY,Kentucky,residential,26.788097989999997,9.79,2026-05-15
+2014,KY,Kentucky,residential,27.39976799,10.16,2026-05-15
+2015,KY,Kentucky,residential,26.16809299,10.24,2026-05-15
+2016,KY,Kentucky,residential,26.338436989999998,10.49,2026-05-15
+2017,KY,Kentucky,residential,24.882581979999998,10.85,2026-05-15
+2018,KY,Kentucky,residential,27.712721979999998,10.6,2026-05-15
+2019,KY,Kentucky,residential,26.573076,10.8,2026-05-15
+2020,KY,Kentucky,residential,25.935096010000002,10.87,2026-05-15
+2021,KY,Kentucky,residential,26.434371,11.5,2026-05-15
+2022,KY,Kentucky,residential,26.840185990000002,12.91,2026-05-15
+2023,KY,Kentucky,residential,24.552708,12.65,2026-05-15
+2024,KY,Kentucky,residential,26.08570899,12.79,2026-05-15
+2025,KY,Kentucky,residential,27.23464721,13.24,2026-05-15
+2001,LA,Louisiana,all sectors,74.692751,6.96,2026-05-15
+2002,LA,Louisiana,all sectors,79.260989,5.99,2026-05-15
+2003,LA,Louisiana,all sectors,77.769322,6.93,2026-05-15
+2004,LA,Louisiana,all sectors,79.737112,7.13,2026-05-15
+2005,LA,Louisiana,all sectors,77.38917,8.03,2026-05-15
+2006,LA,Louisiana,all sectors,77.467748,8.3,2026-05-15
+2007,LA,Louisiana,all sectors,79.56693700000001,8.39,2026-05-15
+2008,LA,Louisiana,all sectors,78.72577399000001,9.44,2026-05-15
+2009,LA,Louisiana,all sectors,78.66958199999999,7.06,2026-05-15
+2010,LA,Louisiana,all sectors,85.07969198,7.8,2026-05-15
+2011,LA,Louisiana,all sectors,86.36908100999999,7.68,2026-05-15
+2012,LA,Louisiana,all sectors,84.730743,6.9,2026-05-15
+2013,LA,Louisiana,all sectors,85.807932,8.04,2026-05-15
+2014,LA,Louisiana,all sectors,90.62831600999999,8.09,2026-05-15
+2015,LA,Louisiana,all sectors,91.67648901000001,7.65,2026-05-15
+2016,LA,Louisiana,all sectors,91.452659,7.46,2026-05-15
+2017,LA,Louisiana,all sectors,91.205935,7.79,2026-05-15
+2018,LA,Louisiana,all sectors,94.18607201,7.71,2026-05-15
+2019,LA,Louisiana,all sectors,93.12852501,7.71,2026-05-15
+2020,LA,Louisiana,all sectors,89.12668501,7.51,2026-05-15
+2021,LA,Louisiana,all sectors,90.81934600999999,8.82,2026-05-15
+2022,LA,Louisiana,all sectors,95.13899799000001,10.41,2026-05-15
+2023,LA,Louisiana,all sectors,95.37445701,8.91,2026-05-15
+2024,LA,Louisiana,all sectors,95.35682898,8.8,2026-05-15
+2025,LA,Louisiana,all sectors,98.07544534,9.5,2026-05-15
+2001,LA,Louisiana,residential,25.800335,7.92,2026-05-15
+2002,LA,Louisiana,residential,28.157092000000002,7.1,2026-05-15
+2003,LA,Louisiana,residential,28.572305,7.84,2026-05-15
+2004,LA,Louisiana,residential,28.862996,8.05,2026-05-15
+2005,LA,Louisiana,residential,28.654170999999998,8.87,2026-05-15
+2006,LA,Louisiana,residential,28.112801,9.14,2026-05-15
+2007,LA,Louisiana,residential,28.877812000000002,9.37,2026-05-15
+2008,LA,Louisiana,residential,28.848401999999997,10.28,2026-05-15
+2009,LA,Louisiana,residential,29.746797989999997,8.1,2026-05-15
+2010,LA,Louisiana,residential,32.678931,8.98,2026-05-15
+2011,LA,Louisiana,residential,32.019040000000004,8.96,2026-05-15
+2012,LA,Louisiana,residential,30.02658801,8.37,2026-05-15
+2013,LA,Louisiana,residential,30.709206,9.43,2026-05-15
+2014,LA,Louisiana,residential,31.40068301,9.57,2026-05-15
+2015,LA,Louisiana,residential,31.545312999999997,9.33,2026-05-15
+2016,LA,Louisiana,residential,30.650067,9.34,2026-05-15
+2017,LA,Louisiana,residential,29.531959999999998,9.74,2026-05-15
+2018,LA,Louisiana,residential,32.065538000000004,9.59,2026-05-15
+2019,LA,Louisiana,residential,30.98602401,9.8,2026-05-15
+2020,LA,Louisiana,residential,30.440746009999998,9.67,2026-05-15
+2021,LA,Louisiana,residential,30.40822401,11.02,2026-05-15
+2022,LA,Louisiana,residential,31.444707989999998,12.93,2026-05-15
+2023,LA,Louisiana,residential,31.74656999,11.55,2026-05-15
+2024,LA,Louisiana,residential,30.97483999,11.73,2026-05-15
+2025,LA,Louisiana,residential,31.83583094,12.57,2026-05-15
+2001,MA,Massachusetts,all sectors,52.496075,11.55,2026-05-15
+2002,MA,Massachusetts,all sectors,53.707536999999995,10.06,2026-05-15
+2003,MA,Massachusetts,all sectors,55.514357000000004,10.56,2026-05-15
+2004,MA,Massachusetts,all sectors,56.142019,10.77,2026-05-15
+2005,MA,Massachusetts,all sectors,57.227588000000004,12.18,2026-05-15
+2006,MA,Massachusetts,all sectors,55.850089999999994,15.45,2026-05-15
+2007,MA,Massachusetts,all sectors,57.138822,15.16,2026-05-15
+2008,MA,Massachusetts,all sectors,55.88410499,16.23,2026-05-15
+2009,MA,Massachusetts,all sectors,54.359198,15.45,2026-05-15
+2010,MA,Massachusetts,all sectors,57.123422,14.26,2026-05-15
+2011,MA,Massachusetts,all sectors,55.569911999999995,14.11,2026-05-15
+2012,MA,Massachusetts,all sectors,55.313324009999995,13.79,2026-05-15
+2013,MA,Massachusetts,all sectors,55.26507402,14.51,2026-05-15
+2014,MA,Massachusetts,all sectors,54.469292,15.35,2026-05-15
+2015,MA,Massachusetts,all sectors,54.62108801,16.9,2026-05-15
+2016,MA,Massachusetts,all sectors,53.475888,16.48,2026-05-15
+2017,MA,Massachusetts,all sectors,52.51332101,17.12,2026-05-15
+2018,MA,Massachusetts,all sectors,53.28502903,18.5,2026-05-15
+2019,MA,Massachusetts,all sectors,51.33659799,18.4,2026-05-15
+2020,MA,Massachusetts,all sectors,50.00934104,18.19,2026-05-15
+2021,MA,Massachusetts,all sectors,50.79838799,19.06,2026-05-15
+2022,MA,Massachusetts,all sectors,50.983440009999995,21.27,2026-05-15
+2023,MA,Massachusetts,all sectors,50.01196399,23.21,2026-05-15
+2024,MA,Massachusetts,all sectors,49.418574979999995,23.94,2026-05-15
+2025,MA,Massachusetts,all sectors,51.74051545,25.56,2026-05-15
+2001,MA,Massachusetts,residential,17.983531,12.47,2026-05-15
+2002,MA,Massachusetts,residential,18.694666,10.93,2026-05-15
+2003,MA,Massachusetts,residential,19.590791,11.6,2026-05-15
+2004,MA,Massachusetts,residential,19.768528999999997,11.75,2026-05-15
+2005,MA,Massachusetts,residential,20.539324,13.44,2026-05-15
+2006,MA,Massachusetts,residential,19.62443,16.6,2026-05-15
+2007,MA,Massachusetts,residential,20.137532999999998,16.23,2026-05-15
+2008,MA,Massachusetts,residential,19.638491000000002,17.56,2026-05-15
+2009,MA,Massachusetts,residential,19.47464701,16.87,2026-05-15
+2010,MA,Massachusetts,residential,21.40900499,14.59,2026-05-15
+2011,MA,Massachusetts,residential,20.472512,14.67,2026-05-15
+2012,MA,Massachusetts,residential,20.313469,14.91,2026-05-15
+2013,MA,Massachusetts,residential,20.727624,15.83,2026-05-15
+2014,MA,Massachusetts,residential,20.07115999,17.39,2026-05-15
+2015,MA,Massachusetts,residential,20.175317,19.83,2026-05-15
+2016,MA,Massachusetts,residential,19.69289599,19.0,2026-05-15
+2017,MA,Massachusetts,residential,19.337799,20.06,2026-05-15
+2018,MA,Massachusetts,residential,20.28467401,21.61,2026-05-15
+2019,MA,Massachusetts,residential,19.314571,21.92,2026-05-15
+2020,MA,Massachusetts,residential,20.345178,21.97,2026-05-15
+2021,MA,Massachusetts,residential,20.305269,22.89,2026-05-15
+2022,MA,Massachusetts,residential,20.006891,25.97,2026-05-15
+2023,MA,Massachusetts,residential,19.36582499,29.61,2026-05-15
+2024,MA,Massachusetts,residential,19.99263499,29.35,2026-05-15
+2025,MA,Massachusetts,residential,20.87153803,30.48,2026-05-15
+2001,MD,Maryland,all sectors,61.64002,6.6,2026-05-15
+2002,MD,Maryland,all sectors,68.379906,6.18,2026-05-15
+2003,MD,Maryland,all sectors,71.258583,6.45,2026-05-15
+2004,MD,Maryland,all sectors,66.8917,7.15,2026-05-15
+2005,MD,Maryland,all sectors,68.36538499999999,8.13,2026-05-15
+2006,MD,Maryland,all sectors,63.173142999999996,9.95,2026-05-15
+2007,MD,Maryland,all sectors,65.39066,11.5,2026-05-15
+2008,MD,Maryland,all sectors,63.32577699,13.01,2026-05-15
+2009,MD,Maryland,all sectors,62.58914299999999,13.09,2026-05-15
+2010,MD,Maryland,all sectors,65.335498,12.71,2026-05-15
+2011,MD,Maryland,all sectors,63.599711000000006,11.93,2026-05-15
+2012,MD,Maryland,all sectors,61.81355201,11.28,2026-05-15
+2013,MD,Maryland,all sectors,61.899478,11.66,2026-05-15
+2014,MD,Maryland,all sectors,61.68386901,12.1,2026-05-15
+2015,MD,Maryland,all sectors,61.78171901,12.07,2026-05-15
+2016,MD,Maryland,all sectors,61.353911010000004,12.21,2026-05-15
+2017,MD,Maryland,all sectors,59.303885,11.98,2026-05-15
+2018,MD,Maryland,all sectors,62.08645499,11.57,2026-05-15
+2019,MD,Maryland,all sectors,60.720658,11.24,2026-05-15
+2020,MD,Maryland,all sectors,57.62904001,11.15,2026-05-15
+2021,MD,Maryland,all sectors,59.303974000000004,11.48,2026-05-15
+2022,MD,Maryland,all sectors,59.68271901999999,13.32,2026-05-15
+2023,MD,Maryland,all sectors,57.03308501,14.34,2026-05-15
+2024,MD,Maryland,all sectors,59.018688000000004,15.04,2026-05-15
+2025,MD,Maryland,all sectors,59.50267415,16.83,2026-05-15
+2001,MD,Maryland,residential,24.294096,7.67,2026-05-15
+2002,MD,Maryland,residential,25.489053,7.74,2026-05-15
+2003,MD,Maryland,residential,26.671274,7.73,2026-05-15
+2004,MD,Maryland,residential,27.951978,7.8,2026-05-15
+2005,MD,Maryland,residential,28.439645,8.46,2026-05-15
+2006,MD,Maryland,residential,26.905386,9.71,2026-05-15
+2007,MD,Maryland,residential,28.194802,11.89,2026-05-15
+2008,MD,Maryland,residential,27.144255,13.84,2026-05-15
+2009,MD,Maryland,residential,26.944566,14.98,2026-05-15
+2010,MD,Maryland,residential,28.934074,14.32,2026-05-15
+2011,MD,Maryland,residential,27.295675,13.31,2026-05-15
+2012,MD,Maryland,residential,26.67815801,12.84,2026-05-15
+2013,MD,Maryland,residential,27.448366999999998,13.25,2026-05-15
+2014,MD,Maryland,residential,27.48763301,13.63,2026-05-15
+2015,MD,Maryland,residential,27.40333601,13.82,2026-05-15
+2016,MD,Maryland,residential,27.316871019999997,14.23,2026-05-15
+2017,MD,Maryland,residential,26.084176,13.96,2026-05-15
+2018,MD,Maryland,residential,28.138474,13.3,2026-05-15
+2019,MD,Maryland,residential,27.53369299,13.12,2026-05-15
+2020,MD,Maryland,residential,27.306375,13.01,2026-05-15
+2021,MD,Maryland,residential,27.964545010000002,13.12,2026-05-15
+2022,MD,Maryland,residential,28.06537901,14.46,2026-05-15
+2023,MD,Maryland,residential,26.107722000000003,16.6,2026-05-15
+2024,MD,Maryland,residential,27.327355999999998,17.86,2026-05-15
+2025,MD,Maryland,residential,28.03201372,19.48,2026-05-15
+2001,ME,Maine,all sectors,12.151997,10.55,2026-05-15
+2002,ME,Maine,all sectors,11.441358000000001,10.35,2026-05-15
+2003,ME,Maine,all sectors,11.971836999999999,9.79,2026-05-15
+2004,ME,Maine,all sectors,12.367668,9.69,2026-05-15
+2005,ME,Maine,all sectors,12.362879000000001,10.57,2026-05-15
+2006,ME,Maine,all sectors,12.284768,11.8,2026-05-15
+2007,ME,Maine,all sectors,11.860202,14.59,2026-05-15
+2008,ME,Maine,all sectors,11.673673,13.8,2026-05-15
+2009,ME,Maine,all sectors,11.282967000000001,13.12,2026-05-15
+2010,ME,Maine,all sectors,11.531568,12.84,2026-05-15
+2011,ME,Maine,all sectors,11.415344999999999,12.58,2026-05-15
+2012,ME,Maine,all sectors,11.561058999999998,11.81,2026-05-15
+2013,ME,Maine,all sectors,11.855047,11.86,2026-05-15
+2014,ME,Maine,all sectors,12.00266101,12.65,2026-05-15
+2015,ME,Maine,all sectors,11.888168,12.78,2026-05-15
+2016,ME,Maine,all sectors,11.448951,12.8,2026-05-15
+2017,ME,Maine,all sectors,11.213674000000001,13.02,2026-05-15
+2018,ME,Maine,all sectors,12.354818999999999,13.44,2026-05-15
+2019,ME,Maine,all sectors,11.732040000000001,14.04,2026-05-15
+2020,ME,Maine,all sectors,11.34674,13.54,2026-05-15
+2021,ME,Maine,all sectors,11.584674000000001,13.96,2026-05-15
+2022,ME,Maine,all sectors,11.875708000000001,17.44,2026-05-15
+2023,ME,Maine,all sectors,11.33602999,20.84,2026-05-15
+2024,ME,Maine,all sectors,11.341591000000001,19.66,2026-05-15
+2025,ME,Maine,all sectors,11.03729262,22.81,2026-05-15
+2001,ME,Maine,residential,3.90294,13.13,2026-05-15
+2002,ME,Maine,residential,4.0431,12.74,2026-05-15
+2003,ME,Maine,residential,4.218952,12.37,2026-05-15
+2004,ME,Maine,residential,4.3311090000000005,12.16,2026-05-15
+2005,ME,Maine,residential,4.503454,13.23,2026-05-15
+2006,ME,Maine,residential,4.351049,13.8,2026-05-15
+2007,ME,Maine,residential,4.413151,16.52,2026-05-15
+2008,ME,Maine,residential,4.3513090000000005,16.24,2026-05-15
+2009,ME,Maine,residential,4.360002000000001,15.64,2026-05-15
+2010,ME,Maine,residential,4.371835,15.72,2026-05-15
+2011,ME,Maine,residential,4.381536,15.38,2026-05-15
+2012,ME,Maine,residential,4.480736,14.66,2026-05-15
+2013,ME,Maine,residential,4.662303,14.35,2026-05-15
+2014,ME,Maine,residential,4.660604999999999,15.27,2026-05-15
+2015,ME,Maine,residential,4.662301,15.61,2026-05-15
+2016,ME,Maine,residential,4.58582499,15.83,2026-05-15
+2017,ME,Maine,residential,4.638535,15.97,2026-05-15
+2018,ME,Maine,residential,4.872001,16.84,2026-05-15
+2019,ME,Maine,residential,4.79380901,17.89,2026-05-15
+2020,ME,Maine,residential,4.905263,16.81,2026-05-15
+2021,ME,Maine,residential,5.062265999999999,17.02,2026-05-15
+2022,ME,Maine,residential,5.09087401,22.44,2026-05-15
+2023,ME,Maine,residential,4.918678,27.42,2026-05-15
+2024,ME,Maine,residential,4.901492,24.29,2026-05-15
+2025,ME,Maine,residential,4.7806612699999995,27.78,2026-05-15
+2001,MI,Michigan,all sectors,102.409347,6.97,2026-05-15
+2002,MI,Michigan,all sectors,104.71352,7.09,2026-05-15
+2003,MI,Michigan,all sectors,108.877193,6.85,2026-05-15
+2004,MI,Michigan,all sectors,106.60604,6.94,2026-05-15
+2005,MI,Michigan,all sectors,110.44456299999999,7.23,2026-05-15
+2006,MI,Michigan,all sectors,108.017697,8.14,2026-05-15
+2007,MI,Michigan,all sectors,109.29674899999999,8.53,2026-05-15
+2008,MI,Michigan,all sectors,105.78127101,8.93,2026-05-15
+2009,MI,Michigan,all sectors,98.121014,9.4,2026-05-15
+2010,MI,Michigan,all sectors,103.64921903999999,9.88,2026-05-15
+2011,MI,Michigan,all sectors,105.05355800000001,10.4,2026-05-15
+2012,MI,Michigan,all sectors,104.81819095,10.98,2026-05-15
+2013,MI,Michigan,all sectors,103.03830501,11.21,2026-05-15
+2014,MI,Michigan,all sectors,103.31409801,11.03,2026-05-15
+2015,MI,Michigan,all sectors,102.47992097000001,10.76,2026-05-15
+2016,MI,Michigan,all sectors,104.46781301,11.05,2026-05-15
+2017,MI,Michigan,all sectors,101.89909299,11.28,2026-05-15
+2018,MI,Michigan,all sectors,104.86949602,11.4,2026-05-15
+2019,MI,Michigan,all sectors,101.24929297999999,11.56,2026-05-15
+2020,MI,Michigan,all sectors,97.0119058,12.21,2026-05-15
+2021,MI,Michigan,all sectors,99.81328097000001,12.93,2026-05-15
+2022,MI,Michigan,all sectors,100.63926201999999,13.2,2026-05-15
+2023,MI,Michigan,all sectors,97.58869001000001,13.68,2026-05-15
+2024,MI,Michigan,all sectors,98.99101399999999,14.16,2026-05-15
+2025,MI,Michigan,all sectors,100.11838207999999,14.73,2026-05-15
+2001,MI,Michigan,residential,32.304798,8.26,2026-05-15
+2002,MI,Michigan,residential,34.336161,8.28,2026-05-15
+2003,MI,Michigan,residential,33.669474,8.35,2026-05-15
+2004,MI,Michigan,residential,33.103586,8.33,2026-05-15
+2005,MI,Michigan,residential,36.094954,8.4,2026-05-15
+2006,MI,Michigan,residential,34.622099,9.77,2026-05-15
+2007,MI,Michigan,residential,35.366081,10.21,2026-05-15
+2008,MI,Michigan,residential,34.297438,10.75,2026-05-15
+2009,MI,Michigan,residential,32.854122000000004,11.6,2026-05-15
+2010,MI,Michigan,residential,34.680715,12.46,2026-05-15
+2011,MI,Michigan,residential,34.811337,13.27,2026-05-15
+2012,MI,Michigan,residential,34.46113999000001,14.13,2026-05-15
+2013,MI,Michigan,residential,34.013168,14.59,2026-05-15
+2014,MI,Michigan,residential,33.514991,14.46,2026-05-15
+2015,MI,Michigan,residential,33.35787601,14.42,2026-05-15
+2016,MI,Michigan,residential,34.543262000000006,15.22,2026-05-15
+2017,MI,Michigan,residential,32.977374000000005,15.4,2026-05-15
+2018,MI,Michigan,residential,35.13142201,15.45,2026-05-15
+2019,MI,Michigan,residential,33.495725,15.74,2026-05-15
+2020,MI,Michigan,residential,35.86291179,16.26,2026-05-15
+2021,MI,Michigan,residential,35.868099990000005,17.54,2026-05-15
+2022,MI,Michigan,residential,35.03497101,17.86,2026-05-15
+2023,MI,Michigan,residential,32.53371699,18.84,2026-05-15
+2024,MI,Michigan,residential,33.50493201,19.3,2026-05-15
+2025,MI,Michigan,residential,34.54861394,20.01,2026-05-15
+2001,MN,Minnesota,all sectors,60.686852,5.97,2026-05-15
+2002,MN,Minnesota,all sectors,62.162361,5.8,2026-05-15
+2003,MN,Minnesota,all sectors,63.087339,6.01,2026-05-15
+2004,MN,Minnesota,all sectors,63.340315000000004,6.24,2026-05-15
+2005,MN,Minnesota,all sectors,66.019053,6.61,2026-05-15
+2006,MN,Minnesota,all sectors,66.769931,6.98,2026-05-15
+2007,MN,Minnesota,all sectors,68.231182,7.44,2026-05-15
+2008,MN,Minnesota,all sectors,68.79413798,7.79,2026-05-15
+2009,MN,Minnesota,all sectors,64.004463,8.14,2026-05-15
+2010,MN,Minnesota,all sectors,67.79970605999999,8.41,2026-05-15
+2011,MN,Minnesota,all sectors,68.532708,8.65,2026-05-15
+2012,MN,Minnesota,all sectors,67.98853489,8.86,2026-05-15
+2013,MN,Minnesota,all sectors,68.64410298,9.41,2026-05-15
+2014,MN,Minnesota,all sectors,68.71936702,9.52,2026-05-15
+2015,MN,Minnesota,all sectors,66.57923387,9.53,2026-05-15
+2016,MN,Minnesota,all sectors,66.54649198000001,9.99,2026-05-15
+2017,MN,Minnesota,all sectors,67.15257997,10.27,2026-05-15
+2018,MN,Minnesota,all sectors,68.70838198999999,10.37,2026-05-15
+2019,MN,Minnesota,all sectors,66.965594,10.33,2026-05-15
+2020,MN,Minnesota,all sectors,64.05460602,10.57,2026-05-15
+2021,MN,Minnesota,all sectors,66.58916796999999,11.08,2026-05-15
+2022,MN,Minnesota,all sectors,66.63543002,12.04,2026-05-15
+2023,MN,Minnesota,all sectors,66.21580005,12.21,2026-05-15
+2024,MN,Minnesota,all sectors,64.56210798000001,12.35,2026-05-15
+2025,MN,Minnesota,all sectors,65.73750133,12.67,2026-05-15
+2001,MN,Minnesota,residential,19.399686000000003,7.61,2026-05-15
+2002,MN,Minnesota,residential,20.450927,7.49,2026-05-15
+2003,MN,Minnesota,residential,20.637751,7.65,2026-05-15
+2004,MN,Minnesota,residential,20.507412,7.92,2026-05-15
+2005,MN,Minnesota,residential,21.743001,8.28,2026-05-15
+2006,MN,Minnesota,residential,21.909406,8.7,2026-05-15
+2007,MN,Minnesota,residential,22.645636999999997,9.18,2026-05-15
+2008,MN,Minnesota,residential,22.357408,9.74,2026-05-15
+2009,MN,Minnesota,residential,22.03395899,10.04,2026-05-15
+2010,MN,Minnesota,residential,22.464797009999998,10.59,2026-05-15
+2011,MN,Minnesota,residential,22.52372703,10.96,2026-05-15
+2012,MN,Minnesota,residential,22.059630990000002,11.35,2026-05-15
+2013,MN,Minnesota,residential,22.849542,11.81,2026-05-15
+2014,MN,Minnesota,residential,22.791466,12.01,2026-05-15
+2015,MN,Minnesota,residential,21.71396995,12.12,2026-05-15
+2016,MN,Minnesota,residential,21.803790990000003,12.67,2026-05-15
+2017,MN,Minnesota,residential,21.57380001,13.04,2026-05-15
+2018,MN,Minnesota,residential,22.83714002,13.14,2026-05-15
+2019,MN,Minnesota,residential,22.288151999999997,13.04,2026-05-15
+2020,MN,Minnesota,residential,22.935672030000003,13.17,2026-05-15
+2021,MN,Minnesota,residential,23.24605498,13.5,2026-05-15
+2022,MN,Minnesota,residential,23.418313020000003,14.25,2026-05-15
+2023,MN,Minnesota,residential,23.023275010000003,14.73,2026-05-15
+2024,MN,Minnesota,residential,22.06275797,15.45,2026-05-15
+2025,MN,Minnesota,residential,23.311964510000003,15.82,2026-05-15
+2001,MO,Missouri,all sectors,73.21315700000001,6.03,2026-05-15
+2002,MO,Missouri,all sectors,75.000629,6.09,2026-05-15
+2003,MO,Missouri,all sectors,74.23988800000001,6.02,2026-05-15
+2004,MO,Missouri,all sectors,74.05429600000001,6.07,2026-05-15
+2005,MO,Missouri,all sectors,80.940494,6.13,2026-05-15
+2006,MO,Missouri,all sectors,82.01523,6.3,2026-05-15
+2007,MO,Missouri,all sectors,85.53285000000001,6.56,2026-05-15
+2008,MO,Missouri,all sectors,84.38167599,6.84,2026-05-15
+2009,MO,Missouri,all sectors,79.89730001999999,7.35,2026-05-15
+2010,MO,Missouri,all sectors,86.08511697,7.78,2026-05-15
+2011,MO,Missouri,all sectors,84.25484101,8.32,2026-05-15
+2012,MO,Missouri,all sectors,82.43535898,8.53,2026-05-15
+2013,MO,Missouri,all sectors,83.40695701,9.04,2026-05-15
+2014,MO,Missouri,all sectors,83.87839692,9.11,2026-05-15
+2015,MO,Missouri,all sectors,81.504081,9.44,2026-05-15
+2016,MO,Missouri,all sectors,78.61805597,9.74,2026-05-15
+2017,MO,Missouri,all sectors,76.46141902000001,10.03,2026-05-15
+2018,MO,Missouri,all sectors,82.055835,9.93,2026-05-15
+2019,MO,Missouri,all sectors,78.85777499000001,9.68,2026-05-15
+2020,MO,Missouri,all sectors,75.72571197,9.64,2026-05-15
+2021,MO,Missouri,all sectors,77.76304101,9.85,2026-05-15
+2022,MO,Missouri,all sectors,80.30626002,10.26,2026-05-15
+2023,MO,Missouri,all sectors,76.97579901,10.87,2026-05-15
+2024,MO,Missouri,all sectors,77.776034,11.06,2026-05-15
+2025,MO,Missouri,all sectors,80.11437473,11.57,2026-05-15
+2001,MO,Missouri,residential,30.168329,7.0,2026-05-15
+2002,MO,Missouri,residential,31.684209,7.06,2026-05-15
+2003,MO,Missouri,residential,31.421927,6.96,2026-05-15
+2004,MO,Missouri,residential,31.350643,6.97,2026-05-15
+2005,MO,Missouri,residential,34.411988,7.08,2026-05-15
+2006,MO,Missouri,residential,33.880156,7.44,2026-05-15
+2007,MO,Missouri,residential,35.872485999999995,7.69,2026-05-15
+2008,MO,Missouri,residential,35.38994098,8.0,2026-05-15
+2009,MO,Missouri,residential,34.22069401,8.54,2026-05-15
+2010,MO,Missouri,residential,37.30227899,9.08,2026-05-15
+2011,MO,Missouri,residential,35.94124301,9.75,2026-05-15
+2012,MO,Missouri,residential,34.33661498,10.17,2026-05-15
+2013,MO,Missouri,residential,35.31820399,10.6,2026-05-15
+2014,MO,Missouri,residential,35.79264397,10.64,2026-05-15
+2015,MO,Missouri,residential,33.91175999,11.21,2026-05-15
+2016,MO,Missouri,residential,34.354932,11.21,2026-05-15
+2017,MO,Missouri,residential,33.05107999,11.63,2026-05-15
+2018,MO,Missouri,residential,37.463390010000005,11.34,2026-05-15
+2019,MO,Missouri,residential,35.69142598,11.14,2026-05-15
+2020,MO,Missouri,residential,34.95036999,11.22,2026-05-15
+2021,MO,Missouri,residential,35.668409010000005,11.41,2026-05-15
+2022,MO,Missouri,residential,37.24497003,11.74,2026-05-15
+2023,MO,Missouri,residential,34.964572999999994,12.58,2026-05-15
+2024,MO,Missouri,residential,35.22689499,12.91,2026-05-15
+2025,MO,Missouri,residential,36.633474719999995,13.49,2026-05-15
+2001,MS,Mississippi,all sectors,44.286865,6.26,2026-05-15
+2002,MS,Mississippi,all sectors,45.45185,6.24,2026-05-15
+2003,MS,Mississippi,all sectors,45.543881,6.46,2026-05-15
+2004,MS,Mississippi,all sectors,46.032538,7.0,2026-05-15
+2005,MS,Mississippi,all sectors,45.901064,7.54,2026-05-15
+2006,MS,Mississippi,all sectors,46.936437,8.33,2026-05-15
+2007,MS,Mississippi,all sectors,48.153181,8.03,2026-05-15
+2008,MS,Mississippi,all sectors,47.721235009999994,8.99,2026-05-15
+2009,MS,Mississippi,all sectors,46.049154,8.85,2026-05-15
+2010,MS,Mississippi,all sectors,49.687166,8.59,2026-05-15
+2011,MS,Mississippi,all sectors,49.337557000000004,8.78,2026-05-15
+2012,MS,Mississippi,all sectors,48.387675,8.6,2026-05-15
+2013,MS,Mississippi,all sectors,48.78199,9.11,2026-05-15
+2014,MS,Mississippi,all sectors,49.408630980000005,9.6,2026-05-15
+2015,MS,Mississippi,all sectors,48.691529020000004,9.53,2026-05-15
+2016,MS,Mississippi,all sectors,49.05016399,8.67,2026-05-15
+2017,MS,Mississippi,all sectors,47.828787,9.09,2026-05-15
+2018,MS,Mississippi,all sectors,50.39006798,9.24,2026-05-15
+2019,MS,Mississippi,all sectors,48.951026,9.28,2026-05-15
+2020,MS,Mississippi,all sectors,46.48203998,9.13,2026-05-15
+2021,MS,Mississippi,all sectors,48.01536399,9.5,2026-05-15
+2022,MS,Mississippi,all sectors,48.979533,10.36,2026-05-15
+2023,MS,Mississippi,all sectors,48.42176201,10.95,2026-05-15
+2024,MS,Mississippi,all sectors,48.684612009999995,10.93,2026-05-15
+2025,MS,Mississippi,all sectors,49.610850039999995,11.57,2026-05-15
+2001,MS,Mississippi,residential,16.855661,7.37,2026-05-15
+2002,MS,Mississippi,residential,17.843742,7.28,2026-05-15
+2003,MS,Mississippi,residential,17.669708999999997,7.6,2026-05-15
+2004,MS,Mississippi,residential,17.580026,8.21,2026-05-15
+2005,MS,Mississippi,residential,17.953344,8.71,2026-05-15
+2006,MS,Mississippi,residential,18.276131,9.66,2026-05-15
+2007,MS,Mississippi,residential,18.565875,9.36,2026-05-15
+2008,MS,Mississippi,residential,18.293688,10.39,2026-05-15
+2009,MS,Mississippi,residential,18.09519401,10.22,2026-05-15
+2010,MS,Mississippi,residential,20.174826,9.87,2026-05-15
+2011,MS,Mississippi,residential,19.33643,10.17,2026-05-15
+2012,MS,Mississippi,residential,17.99270799,10.26,2026-05-15
+2013,MS,Mississippi,residential,18.462414990000003,10.78,2026-05-15
+2014,MS,Mississippi,residential,18.922096989999996,11.32,2026-05-15
+2015,MS,Mississippi,residential,18.561100999999997,11.27,2026-05-15
+2016,MS,Mississippi,residential,18.458928,10.47,2026-05-15
+2017,MS,Mississippi,residential,17.44401601,11.08,2026-05-15
+2018,MS,Mississippi,residential,19.31052699,11.12,2026-05-15
+2019,MS,Mississippi,residential,18.71785801,11.27,2026-05-15
+2020,MS,Mississippi,residential,17.99483299,11.17,2026-05-15
+2021,MS,Mississippi,residential,18.569936000000002,11.56,2026-05-15
+2022,MS,Mississippi,residential,18.917877,12.41,2026-05-15
+2023,MS,Mississippi,residential,18.54419,13.23,2026-05-15
+2024,MS,Mississippi,residential,18.59320099,13.39,2026-05-15
+2025,MS,Mississippi,residential,19.095231199999997,14.03,2026-05-15
+2001,MT,Montana,all sectors,11.446658,6.48,2026-05-15
+2002,MT,Montana,all sectors,12.831388,5.7,2026-05-15
+2003,MT,Montana,all sectors,12.82466,6.14,2026-05-15
+2004,MT,Montana,all sectors,12.956781999999999,6.4,2026-05-15
+2005,MT,Montana,all sectors,13.478838,6.72,2026-05-15
+2006,MT,Montana,all sectors,13.81498,6.91,2026-05-15
+2007,MT,Montana,all sectors,15.531985,7.13,2026-05-15
+2008,MT,Montana,all sectors,15.32639999,7.72,2026-05-15
+2009,MT,Montana,all sectors,14.353774999999999,7.58,2026-05-15
+2010,MT,Montana,all sectors,13.77145301,7.84,2026-05-15
+2011,MT,Montana,all sectors,13.788081,8.23,2026-05-15
+2012,MT,Montana,all sectors,13.86338298,8.25,2026-05-15
+2013,MT,Montana,all sectors,14.04517398,8.58,2026-05-15
+2014,MT,Montana,all sectors,14.10239199,8.59,2026-05-15
+2015,MT,Montana,all sectors,14.206911,8.9,2026-05-15
+2016,MT,Montana,all sectors,14.100601020000001,8.84,2026-05-15
+2017,MT,Montana,all sectors,14.70965602,8.92,2026-05-15
+2018,MT,Montana,all sectors,14.83884499,8.84,2026-05-15
+2019,MT,Montana,all sectors,15.32127098,9.02,2026-05-15
+2020,MT,Montana,all sectors,14.584179,9.13,2026-05-15
+2021,MT,Montana,all sectors,14.961561,9.5,2026-05-15
+2022,MT,Montana,all sectors,15.58378301,9.97,2026-05-15
+2023,MT,Montana,all sectors,15.50469901,10.97,2026-05-15
+2024,MT,Montana,all sectors,15.56701298,10.83,2026-05-15
+2025,MT,Montana,all sectors,15.37139074,10.9,2026-05-15
+2001,MT,Montana,residential,3.8862240000000003,6.88,2026-05-15
+2002,MT,Montana,residential,4.030664,7.23,2026-05-15
+2003,MT,Montana,residential,4.12015,7.56,2026-05-15
+2004,MT,Montana,residential,4.052761,7.86,2026-05-15
+2005,MT,Montana,residential,4.2214480000000005,8.1,2026-05-15
+2006,MT,Montana,residential,4.393973,8.28,2026-05-15
+2007,MT,Montana,residential,4.541544,8.77,2026-05-15
+2008,MT,Montana,residential,4.66946699,9.13,2026-05-15
+2009,MT,Montana,residential,4.790401,8.94,2026-05-15
+2010,MT,Montana,residential,4.742794,9.16,2026-05-15
+2011,MT,Montana,residential,4.91311,9.75,2026-05-15
+2012,MT,Montana,residential,4.778365010000001,10.08,2026-05-15
+2013,MT,Montana,residential,4.926470999999999,10.33,2026-05-15
+2014,MT,Montana,residential,4.9692430000000005,10.18,2026-05-15
+2015,MT,Montana,residential,4.8252130200000005,10.88,2026-05-15
+2016,MT,Montana,residential,4.8525469999999995,10.94,2026-05-15
+2017,MT,Montana,residential,5.2245880200000006,10.95,2026-05-15
+2018,MT,Montana,residential,5.19768599,10.96,2026-05-15
+2019,MT,Montana,residential,5.308103,11.13,2026-05-15
+2020,MT,Montana,residential,5.37996501,11.24,2026-05-15
+2021,MT,Montana,residential,5.559446009999999,11.22,2026-05-15
+2022,MT,Montana,residential,5.8944990100000005,11.33,2026-05-15
+2023,MT,Montana,residential,5.75552201,12.54,2026-05-15
+2024,MT,Montana,residential,5.70024099,12.66,2026-05-15
+2025,MT,Montana,residential,5.8004092,12.98,2026-05-15
+2001,NC,North Carolina,all sectors,119.026943,6.58,2026-05-15
+2002,NC,North Carolina,all sectors,122.68646799999999,6.74,2026-05-15
+2003,NC,North Carolina,all sectors,121.335121,6.86,2026-05-15
+2004,NC,North Carolina,all sectors,125.656807,6.97,2026-05-15
+2005,NC,North Carolina,all sectors,128.335377,7.19,2026-05-15
+2006,NC,North Carolina,all sectors,126.69897900000001,7.53,2026-05-15
+2007,NC,North Carolina,all sectors,131.880754,7.83,2026-05-15
+2008,NC,North Carolina,all sectors,130.06925701,7.96,2026-05-15
+2009,NC,North Carolina,all sectors,127.65797902,8.48,2026-05-15
+2010,NC,North Carolina,all sectors,136.41494702,8.67,2026-05-15
+2011,NC,North Carolina,all sectors,131.08493302,8.64,2026-05-15
+2012,NC,North Carolina,all sectors,128.084893,9.15,2026-05-15
+2013,NC,North Carolina,all sectors,129.77990502999998,9.24,2026-05-15
+2014,NC,North Carolina,all sectors,133.13277596,9.33,2026-05-15
+2015,NC,North Carolina,all sectors,133.84752299,9.37,2026-05-15
+2016,NC,North Carolina,all sectors,134.40431899,9.2,2026-05-15
+2017,NC,North Carolina,all sectors,131.42131898000002,9.04,2026-05-15
+2018,NC,North Carolina,all sectors,138.287404,9.25,2026-05-15
+2019,NC,North Carolina,all sectors,136.43553101,9.45,2026-05-15
+2020,NC,North Carolina,all sectors,130.39097999,9.43,2026-05-15
+2021,NC,North Carolina,all sectors,135.69307701,9.29,2026-05-15
+2022,NC,North Carolina,all sectors,139.20676104,9.6,2026-05-15
+2023,NC,North Carolina,all sectors,133.09110797000002,10.61,2026-05-15
+2024,NC,North Carolina,all sectors,136.90452596999998,11.65,2026-05-15
+2025,NC,North Carolina,all sectors,140.58434759,11.53,2026-05-15
+2001,NC,North Carolina,residential,46.200716,8.12,2026-05-15
+2002,NC,North Carolina,residential,49.854417,8.19,2026-05-15
+2003,NC,North Carolina,residential,49.348767,8.32,2026-05-15
+2004,NC,North Carolina,residential,51.71738,8.45,2026-05-15
+2005,NC,North Carolina,residential,54.072734,8.65,2026-05-15
+2006,NC,North Carolina,residential,52.851296000000005,9.12,2026-05-15
+2007,NC,North Carolina,residential,56.095470999999996,9.4,2026-05-15
+2008,NC,North Carolina,residential,55.751201009999996,9.52,2026-05-15
+2009,NC,North Carolina,residential,56.311125999999994,9.99,2026-05-15
+2010,NC,North Carolina,residential,62.16010701,10.12,2026-05-15
+2011,NC,North Carolina,residential,58.055878019999994,10.26,2026-05-15
+2012,NC,North Carolina,residential,54.671520980000004,10.91,2026-05-15
+2013,NC,North Carolina,residential,56.251297,10.97,2026-05-15
+2014,NC,North Carolina,residential,58.649993990000006,11.1,2026-05-15
+2015,NC,North Carolina,residential,57.901556989999996,11.28,2026-05-15
+2016,NC,North Carolina,residential,58.456809,11.03,2026-05-15
+2017,NC,North Carolina,residential,56.13396001,10.94,2026-05-15
+2018,NC,North Carolina,residential,61.62245401,11.09,2026-05-15
+2019,NC,North Carolina,residential,59.852793,11.42,2026-05-15
+2020,NC,North Carolina,residential,58.641572000000004,11.38,2026-05-15
+2021,NC,North Carolina,residential,60.91468399,11.32,2026-05-15
+2022,NC,North Carolina,residential,62.443953029999996,11.62,2026-05-15
+2023,NC,North Carolina,residential,58.73751997,12.93,2026-05-15
+2024,NC,North Carolina,residential,61.74494199,14.13,2026-05-15
+2025,NC,North Carolina,residential,64.5638286,14.02,2026-05-15
+2001,ND,North Dakota,all sectors,9.809757,5.48,2026-05-15
+2002,ND,North Dakota,all sectors,10.219353,5.45,2026-05-15
+2003,ND,North Dakota,all sectors,10.461108,5.47,2026-05-15
+2004,ND,North Dakota,all sectors,10.516399999999999,5.69,2026-05-15
+2005,ND,North Dakota,all sectors,10.83999,5.92,2026-05-15
+2006,ND,North Dakota,all sectors,11.245237999999999,6.21,2026-05-15
+2007,ND,North Dakota,all sectors,11.905695,6.42,2026-05-15
+2008,ND,North Dakota,all sectors,12.41607401,6.69,2026-05-15
+2009,ND,North Dakota,all sectors,12.64857999,6.63,2026-05-15
+2010,ND,North Dakota,all sectors,12.95626301,7.11,2026-05-15
+2011,ND,North Dakota,all sectors,13.73701599,7.5,2026-05-15
+2012,ND,North Dakota,all sectors,14.71695598,7.83,2026-05-15
+2013,ND,North Dakota,all sectors,16.032966990000002,8.2,2026-05-15
+2014,ND,North Dakota,all sectors,18.23973201,8.41,2026-05-15
+2015,ND,North Dakota,all sectors,18.12894799,8.75,2026-05-15
+2016,ND,North Dakota,all sectors,18.52018799,8.94,2026-05-15
+2017,ND,North Dakota,all sectors,20.14042599,8.78,2026-05-15
+2018,ND,North Dakota,all sectors,20.66950599,8.91,2026-05-15
+2019,ND,North Dakota,all sectors,21.55925501,8.85,2026-05-15
+2020,ND,North Dakota,all sectors,21.81945199,8.53,2026-05-15
+2021,ND,North Dakota,all sectors,22.86310699,8.65,2026-05-15
+2022,ND,North Dakota,all sectors,25.392877000000002,8.42,2026-05-15
+2023,ND,North Dakota,all sectors,28.202179,8.03,2026-05-15
+2024,ND,North Dakota,all sectors,29.769698,7.93,2026-05-15
+2025,ND,North Dakota,all sectors,30.33875476,8.2,2026-05-15
+2001,ND,North Dakota,residential,3.4798090000000004,6.47,2026-05-15
+2002,ND,North Dakota,residential,3.663885,6.39,2026-05-15
+2003,ND,North Dakota,residential,3.707436,6.49,2026-05-15
+2004,ND,North Dakota,residential,3.662781,6.79,2026-05-15
+2005,ND,North Dakota,residential,3.796009,6.99,2026-05-15
+2006,ND,North Dakota,residential,3.85304,7.14,2026-05-15
+2007,ND,North Dakota,residential,4.067284,7.3,2026-05-15
+2008,ND,North Dakota,residential,4.259072,7.51,2026-05-15
+2009,ND,North Dakota,residential,4.44922,7.58,2026-05-15
+2010,ND,North Dakota,residential,4.392595999999999,8.13,2026-05-15
+2011,ND,North Dakota,residential,4.552228,8.58,2026-05-15
+2012,ND,North Dakota,residential,4.484758,9.06,2026-05-15
+2013,ND,North Dakota,residential,5.0388459999999995,9.12,2026-05-15
+2014,ND,North Dakota,residential,5.35751401,9.15,2026-05-15
+2015,ND,North Dakota,residential,4.862542,9.62,2026-05-15
+2016,ND,North Dakota,residential,4.741298,10.16,2026-05-15
+2017,ND,North Dakota,residential,4.848305,10.29,2026-05-15
+2018,ND,North Dakota,residential,5.133171,10.25,2026-05-15
+2019,ND,North Dakota,residential,5.125431,10.3,2026-05-15
+2020,ND,North Dakota,residential,5.04655099,10.44,2026-05-15
+2021,ND,North Dakota,residential,4.888401,10.85,2026-05-15
+2022,ND,North Dakota,residential,5.271904,10.92,2026-05-15
+2023,ND,North Dakota,residential,5.067156,11.01,2026-05-15
+2024,ND,North Dakota,residential,4.91075499,11.51,2026-05-15
+2025,ND,North Dakota,residential,5.14827904,11.81,2026-05-15
+2001,NE,Nebraska,all sectors,24.72264,5.39,2026-05-15
+2002,NE,Nebraska,all sectors,25.661061,5.55,2026-05-15
+2003,NE,Nebraska,all sectors,25.856565999999997,5.64,2026-05-15
+2004,NE,Nebraska,all sectors,25.87593,5.7,2026-05-15
+2005,NE,Nebraska,all sectors,26.975944,5.87,2026-05-15
+2006,NE,Nebraska,all sectors,27.276292,6.07,2026-05-15
+2007,NE,Nebraska,all sectors,28.2484,6.28,2026-05-15
+2008,NE,Nebraska,all sectors,28.82102103,6.58,2026-05-15
+2009,NE,Nebraska,all sectors,28.452194,7.21,2026-05-15
+2010,NE,Nebraska,all sectors,29.84946004,7.52,2026-05-15
+2011,NE,Nebraska,all sectors,29.676084019999998,7.88,2026-05-15
+2012,NE,Nebraska,all sectors,30.82793898,8.37,2026-05-15
+2013,NE,Nebraska,all sectors,30.700605,8.74,2026-05-15
+2014,NE,Nebraska,all sectors,30.22216801,8.84,2026-05-15
+2015,NE,Nebraska,all sectors,29.49507292,8.91,2026-05-15
+2016,NE,Nebraska,all sectors,30.19935404,9.05,2026-05-15
+2017,NE,Nebraska,all sectors,30.35900702,9.08,2026-05-15
+2018,NE,Nebraska,all sectors,30.939492010000002,9.02,2026-05-15
+2019,NE,Nebraska,all sectors,30.38319001,9.08,2026-05-15
+2020,NE,Nebraska,all sectors,31.171536019999998,8.97,2026-05-15
+2021,NE,Nebraska,all sectors,32.34117002,8.84,2026-05-15
+2022,NE,Nebraska,all sectors,33.84410502,8.83,2026-05-15
+2023,NE,Nebraska,all sectors,33.571199009999994,9.14,2026-05-15
+2024,NE,Nebraska,all sectors,35.19104503,9.07,2026-05-15
+2025,NE,Nebraska,all sectors,37.6236576,9.55,2026-05-15
+2001,NE,Nebraska,residential,8.638208,6.5,2026-05-15
+2002,NE,Nebraska,residential,8.956037,6.73,2026-05-15
+2003,NE,Nebraska,residential,8.852219,6.87,2026-05-15
+2004,NE,Nebraska,residential,8.756735,6.96,2026-05-15
+2005,NE,Nebraska,residential,9.309209000000001,7.14,2026-05-15
+2006,NE,Nebraska,residential,9.293507,7.41,2026-05-15
+2007,NE,Nebraska,residential,9.747547,7.59,2026-05-15
+2008,NE,Nebraska,residential,9.75562602,7.87,2026-05-15
+2009,NE,Nebraska,residential,9.626938990000001,8.52,2026-05-15
+2010,NE,Nebraska,residential,10.106673,8.94,2026-05-15
+2011,NE,Nebraska,residential,9.946973009999999,9.32,2026-05-15
+2012,NE,Nebraska,residential,9.68014301,10.04,2026-05-15
+2013,NE,Nebraska,residential,10.062159,10.31,2026-05-15
+2014,NE,Nebraska,residential,10.028238,10.4,2026-05-15
+2015,NE,Nebraska,residential,9.53213195,10.6,2026-05-15
+2016,NE,Nebraska,residential,9.73835101,10.84,2026-05-15
+2017,NE,Nebraska,residential,9.66799,10.97,2026-05-15
+2018,NE,Nebraska,residential,10.412008,10.7,2026-05-15
+2019,NE,Nebraska,residential,10.30790498,10.77,2026-05-15
+2020,NE,Nebraska,residential,10.514944,10.8,2026-05-15
+2021,NE,Nebraska,residential,10.492369,10.75,2026-05-15
+2022,NE,Nebraska,residential,10.983649009999999,10.79,2026-05-15
+2023,NE,Nebraska,residential,10.67054998,11.2,2026-05-15
+2024,NE,Nebraska,residential,10.39101402,11.53,2026-05-15
+2025,NE,Nebraska,residential,10.74566719,12.34,2026-05-15
+2001,NH,New Hampshire,all sectors,10.315551,10.95,2026-05-15
+2002,NH,New Hampshire,all sectors,10.383387,10.6,2026-05-15
+2003,NH,New Hampshire,all sectors,10.972541999999999,10.83,2026-05-15
+2004,NH,New Hampshire,all sectors,10.973308999999999,11.37,2026-05-15
+2005,NH,New Hampshire,all sectors,11.244628,12.53,2026-05-15
+2006,NH,New Hampshire,all sectors,11.094343,13.84,2026-05-15
+2007,NH,New Hampshire,all sectors,11.235856,13.98,2026-05-15
+2008,NH,New Hampshire,all sectors,10.977289,14.63,2026-05-15
+2009,NH,New Hampshire,all sectors,10.698493000000001,15.09,2026-05-15
+2010,NH,New Hampshire,all sectors,10.890074,14.84,2026-05-15
+2011,NH,New Hampshire,all sectors,10.86860699,14.74,2026-05-15
+2012,NH,New Hampshire,all sectors,10.870261000000001,14.19,2026-05-15
+2013,NH,New Hampshire,all sectors,11.04327599,14.3,2026-05-15
+2014,NH,New Hampshire,all sectors,10.944081,15.22,2026-05-15
+2015,NH,New Hampshire,all sectors,10.999149,16.02,2026-05-15
+2016,NH,New Hampshire,all sectors,10.904955990000001,15.66,2026-05-15
+2017,NH,New Hampshire,all sectors,10.78726099,16.17,2026-05-15
+2018,NH,New Hampshire,all sectors,11.04628399,17.01,2026-05-15
+2019,NH,New Hampshire,all sectors,10.711657010000001,17.15,2026-05-15
+2020,NH,New Hampshire,all sectors,10.69352901,16.63,2026-05-15
+2021,NH,New Hampshire,all sectors,10.86726799,17.37,2026-05-15
+2022,NH,New Hampshire,all sectors,10.81813,21.07,2026-05-15
+2023,NH,New Hampshire,all sectors,10.63131298,22.96,2026-05-15
+2024,NH,New Hampshire,all sectors,10.913960999999999,20.6,2026-05-15
+2025,NH,New Hampshire,all sectors,11.1044225,21.59,2026-05-15
+2001,NH,New Hampshire,residential,3.78929,12.49,2026-05-15
+2002,NH,New Hampshire,residential,4.00252,11.89,2026-05-15
+2003,NH,New Hampshire,residential,4.251834,11.98,2026-05-15
+2004,NH,New Hampshire,residential,4.281738000000001,12.49,2026-05-15
+2005,NH,New Hampshire,residential,4.495376,13.51,2026-05-15
+2006,NH,New Hampshire,residential,4.400596999999999,14.68,2026-05-15
+2007,NH,New Hampshire,residential,4.49287,14.88,2026-05-15
+2008,NH,New Hampshire,residential,4.393951,15.68,2026-05-15
+2009,NH,New Hampshire,residential,4.4215219999999995,16.39,2026-05-15
+2010,NH,New Hampshire,residential,4.485469,16.32,2026-05-15
+2011,NH,New Hampshire,residential,4.454088,16.52,2026-05-15
+2012,NH,New Hampshire,residential,4.439208,16.07,2026-05-15
+2013,NH,New Hampshire,residential,4.553871,16.33,2026-05-15
+2014,NH,New Hampshire,residential,4.510487,17.53,2026-05-15
+2015,NH,New Hampshire,residential,4.526948,18.5,2026-05-15
+2016,NH,New Hampshire,residential,4.438407,18.38,2026-05-15
+2017,NH,New Hampshire,residential,4.441497,19.2,2026-05-15
+2018,NH,New Hampshire,residential,4.64101299,19.69,2026-05-15
+2019,NH,New Hampshire,residential,4.50683,20.05,2026-05-15
+2020,NH,New Hampshire,residential,4.790374,19.04,2026-05-15
+2021,NH,New Hampshire,residential,4.831911,19.85,2026-05-15
+2022,NH,New Hampshire,residential,4.8083220099999995,25.46,2026-05-15
+2023,NH,New Hampshire,residential,4.65497799,28.15,2026-05-15
+2024,NH,New Hampshire,residential,4.847443,23.4,2026-05-15
+2025,NH,New Hampshire,residential,5.04629516,24.56,2026-05-15
+2001,NJ,New Jersey,all sectors,73.17739,9.36,2026-05-15
+2002,NJ,New Jersey,all sectors,74.60262,9.3,2026-05-15
+2003,NJ,New Jersey,all sectors,76.382512,9.48,2026-05-15
+2004,NJ,New Jersey,all sectors,77.59316700000001,10.29,2026-05-15
+2005,NJ,New Jersey,all sectors,81.896813,10.89,2026-05-15
+2006,NJ,New Jersey,all sectors,79.680947,11.88,2026-05-15
+2007,NJ,New Jersey,all sectors,81.934334,13.01,2026-05-15
+2008,NJ,New Jersey,all sectors,80.519543,14.43,2026-05-15
+2009,NJ,New Jersey,all sectors,75.779853,14.53,2026-05-15
+2010,NJ,New Jersey,all sectors,79.17942701,14.68,2026-05-15
+2011,NJ,New Jersey,all sectors,76.85976201000001,14.3,2026-05-15
+2012,NJ,New Jersey,all sectors,75.05291399000001,13.68,2026-05-15
+2013,NJ,New Jersey,all sectors,74.64239900000001,13.69,2026-05-15
+2014,NJ,New Jersey,all sectors,73.86607801,13.95,2026-05-15
+2015,NJ,New Jersey,all sectors,75.48962301,13.74,2026-05-15
+2016,NJ,New Jersey,all sectors,75.35937099,13.38,2026-05-15
+2017,NJ,New Jersey,all sectors,73.38294,13.32,2026-05-15
+2018,NJ,New Jersey,all sectors,76.016762,13.23,2026-05-15
+2019,NJ,New Jersey,all sectors,73.91670397,13.42,2026-05-15
+2020,NJ,New Jersey,all sectors,71.99822099000001,13.63,2026-05-15
+2021,NJ,New Jersey,all sectors,73.07046599,14.01,2026-05-15
+2022,NJ,New Jersey,all sectors,74.442735,14.8,2026-05-15
+2023,NJ,New Jersey,all sectors,71.09693901,15.27,2026-05-15
+2024,NJ,New Jersey,all sectors,73.531424,16.29,2026-05-15
+2025,NJ,New Jersey,all sectors,73.06416254999999,18.84,2026-05-15
+2001,NJ,New Jersey,residential,25.491422999999998,10.21,2026-05-15
+2002,NJ,New Jersey,residential,27.171374,10.38,2026-05-15
+2003,NJ,New Jersey,residential,27.367126,10.67,2026-05-15
+2004,NJ,New Jersey,residential,28.020125,11.23,2026-05-15
+2005,NJ,New Jersey,residential,29.973443,11.74,2026-05-15
+2006,NJ,New Jersey,residential,28.621556,12.84,2026-05-15
+2007,NJ,New Jersey,residential,29.751647000000002,14.14,2026-05-15
+2008,NJ,New Jersey,residential,29.111023,15.66,2026-05-15
+2009,NJ,New Jersey,residential,27.832944,16.31,2026-05-15
+2010,NJ,New Jersey,residential,30.307268,16.57,2026-05-15
+2011,NJ,New Jersey,residential,29.39887001,16.23,2026-05-15
+2012,NJ,New Jersey,residential,28.662958,15.78,2026-05-15
+2013,NJ,New Jersey,residential,28.544638,15.73,2026-05-15
+2014,NJ,New Jersey,residential,27.892582009999998,15.78,2026-05-15
+2015,NJ,New Jersey,residential,29.142283,15.81,2026-05-15
+2016,NJ,New Jersey,residential,29.090726,15.72,2026-05-15
+2017,NJ,New Jersey,residential,27.76187899,15.65,2026-05-15
+2018,NJ,New Jersey,residential,29.530689,15.41,2026-05-15
+2019,NJ,New Jersey,residential,28.612555,15.85,2026-05-15
+2020,NJ,New Jersey,residential,29.676857,16.03,2026-05-15
+2021,NJ,New Jersey,residential,30.090370999999998,16.35,2026-05-15
+2022,NJ,New Jersey,residential,30.062192,16.74,2026-05-15
+2023,NJ,New Jersey,residential,28.41487101,17.7,2026-05-15
+2024,NJ,New Jersey,residential,29.69296201,19.34,2026-05-15
+2025,NJ,New Jersey,residential,30.05568329,22.63,2026-05-15
+2001,NM,New Mexico,all sectors,18.726594000000002,7.16,2026-05-15
+2002,NM,New Mexico,all sectors,19.206917,6.73,2026-05-15
+2003,NM,New Mexico,all sectors,19.330491000000002,7.0,2026-05-15
+2004,NM,New Mexico,all sectors,19.845735,7.1,2026-05-15
+2005,NM,New Mexico,all sectors,20.638951000000002,7.51,2026-05-15
+2006,NM,New Mexico,all sectors,21.434956999999997,7.37,2026-05-15
+2007,NM,New Mexico,all sectors,22.267394,7.44,2026-05-15
+2008,NM,New Mexico,all sectors,22.038108,8.35,2026-05-15
+2009,NM,New Mexico,all sectors,21.647136009999997,8.09,2026-05-15
+2010,NM,New Mexico,all sectors,22.42834401,8.4,2026-05-15
+2011,NM,New Mexico,all sectors,23.04166501,8.74,2026-05-15
+2012,NM,New Mexico,all sectors,23.178568,8.83,2026-05-15
+2013,NM,New Mexico,all sectors,23.065026000000003,9.25,2026-05-15
+2014,NM,New Mexico,all sectors,23.115222000000003,9.65,2026-05-15
+2015,NM,New Mexico,all sectors,23.09355301,9.62,2026-05-15
+2016,NM,New Mexico,all sectors,23.03954701,9.12,2026-05-15
+2017,NM,New Mexico,all sectors,23.00958399,9.59,2026-05-15
+2018,NM,New Mexico,all sectors,24.04861099,9.35,2026-05-15
+2019,NM,New Mexico,all sectors,24.880133999999998,8.99,2026-05-15
+2020,NM,New Mexico,all sectors,24.777155009999998,9.33,2026-05-15
+2021,NM,New Mexico,all sectors,25.39374299,9.79,2026-05-15
+2022,NM,New Mexico,all sectors,27.15617798,10.02,2026-05-15
+2023,NM,New Mexico,all sectors,28.34749003,9.47,2026-05-15
+2024,NM,New Mexico,all sectors,30.296354009999998,9.18,2026-05-15
+2025,NM,New Mexico,all sectors,31.57750302,9.56,2026-05-15
+2001,NM,New Mexico,residential,4.999477,8.74,2026-05-15
+2002,NM,New Mexico,residential,5.238134,8.5,2026-05-15
+2003,NM,New Mexico,residential,5.418037999999999,8.69,2026-05-15
+2004,NM,New Mexico,residential,5.634821,8.67,2026-05-15
+2005,NM,New Mexico,residential,5.864834,9.13,2026-05-15
+2006,NM,New Mexico,residential,6.009427,9.06,2026-05-15
+2007,NM,New Mexico,residential,6.387363000000001,9.12,2026-05-15
+2008,NM,New Mexico,residential,6.378856,10.01,2026-05-15
+2009,NM,New Mexico,residential,6.50377201,10.02,2026-05-15
+2010,NM,New Mexico,residential,6.752473,10.52,2026-05-15
+2011,NM,New Mexico,residential,6.873748,11.0,2026-05-15
+2012,NM,New Mexico,residential,6.76382,11.37,2026-05-15
+2013,NM,New Mexico,residential,6.803987,11.68,2026-05-15
+2014,NM,New Mexico,residential,6.61197001,12.28,2026-05-15
+2015,NM,New Mexico,residential,6.64172401,12.47,2026-05-15
+2016,NM,New Mexico,residential,6.64251101,12.03,2026-05-15
+2017,NM,New Mexico,residential,6.49720699,12.88,2026-05-15
+2018,NM,New Mexico,residential,6.826442,12.68,2026-05-15
+2019,NM,New Mexico,residential,6.871561,12.51,2026-05-15
+2020,NM,New Mexico,residential,7.28207899,12.94,2026-05-15
+2021,NM,New Mexico,residential,7.088358,13.52,2026-05-15
+2022,NM,New Mexico,residential,7.282636,13.84,2026-05-15
+2023,NM,New Mexico,residential,7.336277020000001,13.85,2026-05-15
+2024,NM,New Mexico,residential,7.34762001,14.2,2026-05-15
+2025,NM,New Mexico,residential,7.22661244,15.08,2026-05-15
+2001,NV,Nevada,all sectors,28.167293,7.86,2026-05-15
+2002,NV,Nevada,all sectors,29.204272,8.42,2026-05-15
+2003,NV,Nevada,all sectors,30.13166,8.29,2026-05-15
+2004,NV,Nevada,all sectors,31.312306,8.56,2026-05-15
+2005,NV,Nevada,all sectors,32.50063,9.02,2026-05-15
+2006,NV,Nevada,all sectors,34.58626,9.63,2026-05-15
+2007,NV,Nevada,all sectors,35.643402,9.99,2026-05-15
+2008,NV,Nevada,all sectors,35.192496,9.89,2026-05-15
+2009,NV,Nevada,all sectors,34.28365399,10.36,2026-05-15
+2010,NV,Nevada,all sectors,33.772595,9.73,2026-05-15
+2011,NV,Nevada,all sectors,33.916479,8.97,2026-05-15
+2012,NV,Nevada,all sectors,35.17991801,8.95,2026-05-15
+2013,NV,Nevada,all sectors,35.21121501,9.03,2026-05-15
+2014,NV,Nevada,all sectors,35.07560601,9.73,2026-05-15
+2015,NV,Nevada,all sectors,36.019690000000004,9.48,2026-05-15
+2016,NV,Nevada,all sectors,36.14463,8.38,2026-05-15
+2017,NV,Nevada,all sectors,36.657786,8.76,2026-05-15
+2018,NV,Nevada,all sectors,37.780263010000006,8.67,2026-05-15
+2019,NV,Nevada,all sectors,36.98238601,8.78,2026-05-15
+2020,NV,Nevada,all sectors,38.23389901,8.33,2026-05-15
+2021,NV,Nevada,all sectors,39.032042000000004,8.58,2026-05-15
+2022,NV,Nevada,all sectors,39.320007,10.94,2026-05-15
+2023,NV,Nevada,all sectors,38.24935501,13.09,2026-05-15
+2024,NV,Nevada,all sectors,40.66463901,11.47,2026-05-15
+2025,NV,Nevada,all sectors,39.845774850000005,10.31,2026-05-15
+2001,NV,Nevada,residential,9.606869000000001,9.08,2026-05-15
+2002,NV,Nevada,residential,9.702083,9.43,2026-05-15
+2003,NV,Nevada,residential,10.339934999999999,9.02,2026-05-15
+2004,NV,Nevada,residential,10.67259,9.69,2026-05-15
+2005,NV,Nevada,residential,11.079816000000001,10.2,2026-05-15
+2006,NV,Nevada,residential,11.97812,11.08,2026-05-15
+2007,NV,Nevada,residential,12.39018,11.82,2026-05-15
+2008,NV,Nevada,residential,12.060514999999999,11.93,2026-05-15
+2009,NV,Nevada,residential,11.88015,12.86,2026-05-15
+2010,NV,Nevada,residential,11.614669,12.36,2026-05-15
+2011,NV,Nevada,residential,11.493279000000001,11.61,2026-05-15
+2012,NV,Nevada,residential,12.122718,11.83,2026-05-15
+2013,NV,Nevada,residential,12.142431010000001,11.89,2026-05-15
+2014,NV,Nevada,residential,11.916521000000001,12.93,2026-05-15
+2015,NV,Nevada,residential,12.338538,12.76,2026-05-15
+2016,NV,Nevada,residential,12.69194201,11.41,2026-05-15
+2017,NV,Nevada,residential,12.936791,11.99,2026-05-15
+2018,NV,Nevada,residential,13.449743,11.85,2026-05-15
+2019,NV,Nevada,residential,12.867637,12.0,2026-05-15
+2020,NV,Nevada,residential,14.32160701,11.34,2026-05-15
+2021,NV,Nevada,residential,14.373357,11.49,2026-05-15
+2022,NV,Nevada,residential,14.306529000000001,13.78,2026-05-15
+2023,NV,Nevada,residential,13.50882,16.67,2026-05-15
+2024,NV,Nevada,residential,14.631493,15.0,2026-05-15
+2025,NV,Nevada,residential,13.90907434,13.15,2026-05-15
+2001,NY,New York,all sectors,144.18076000000002,11.55,2026-05-15
+2002,NY,New York,all sectors,147.44011600000002,11.16,2026-05-15
+2003,NY,New York,all sectors,144.044703,12.44,2026-05-15
+2004,NY,New York,all sectors,145.081709,12.55,2026-05-15
+2005,NY,New York,all sectors,150.147571,13.95,2026-05-15
+2006,NY,New York,all sectors,142.238019,15.27,2026-05-15
+2007,NY,New York,all sectors,148.17752299999998,15.22,2026-05-15
+2008,NY,New York,all sectors,144.052936,16.47,2026-05-15
+2009,NY,New York,all sectors,140.03439699999998,15.44,2026-05-15
+2010,NY,New York,all sectors,144.62357302,16.41,2026-05-15
+2011,NY,New York,all sectors,144.04660902,15.89,2026-05-15
+2012,NY,New York,all sectors,143.16266801,15.15,2026-05-15
+2013,NY,New York,all sectors,147.895127,15.44,2026-05-15
+2014,NY,New York,all sectors,147.37191299,16.25,2026-05-15
+2015,NY,New York,all sectors,148.91365506,15.28,2026-05-15
+2016,NY,New York,all sectors,147.80303801,14.47,2026-05-15
+2017,NY,New York,all sectors,144.99243302,14.74,2026-05-15
+2018,NY,New York,all sectors,149.92985099999999,14.83,2026-05-15
+2019,NY,New York,all sectors,145.60034500999998,14.34,2026-05-15
+2020,NY,New York,all sectors,140.40663199,14.87,2026-05-15
+2021,NY,New York,all sectors,141.42377815999998,16.11,2026-05-15
+2022,NY,New York,all sectors,143.21051698,18.33,2026-05-15
+2023,NY,New York,all sectors,139.42193598,18.28,2026-05-15
+2024,NY,New York,all sectors,140.49750099,19.66,2026-05-15
+2025,NY,New York,all sectors,143.4903239,21.62,2026-05-15
+2001,NY,New York,residential,44.235593,14.04,2026-05-15
+2002,NY,New York,residential,46.457029999999996,13.55,2026-05-15
+2003,NY,New York,residential,47.115887,14.31,2026-05-15
+2004,NY,New York,residential,47.378876,14.54,2026-05-15
+2005,NY,New York,residential,50.532849999999996,15.72,2026-05-15
+2006,NY,New York,residential,48.426749,16.89,2026-05-15
+2007,NY,New York,residential,50.241444,17.1,2026-05-15
+2008,NY,New York,residential,49.03394999,18.31,2026-05-15
+2009,NY,New York,residential,48.245841,17.5,2026-05-15
+2010,NY,New York,residential,50.945648,18.74,2026-05-15
+2011,NY,New York,residential,51.23959901,18.26,2026-05-15
+2012,NY,New York,residential,50.691506000000004,17.62,2026-05-15
+2013,NY,New York,residential,50.777369,18.79,2026-05-15
+2014,NY,New York,residential,49.974914,20.07,2026-05-15
+2015,NY,New York,residential,51.012745009999996,18.54,2026-05-15
+2016,NY,New York,residential,50.83128701,17.58,2026-05-15
+2017,NY,New York,residential,49.08075702,18.03,2026-05-15
+2018,NY,New York,residential,52.15324599,18.52,2026-05-15
+2019,NY,New York,residential,50.14100301,17.94,2026-05-15
+2020,NY,New York,residential,52.257143989999996,18.36,2026-05-15
+2021,NY,New York,residential,52.15688199,19.48,2026-05-15
+2022,NY,New York,residential,52.22741299,22.08,2026-05-15
+2023,NY,New York,residential,50.113258009999996,22.24,2026-05-15
+2024,NY,New York,residential,50.857373,24.43,2026-05-15
+2025,NY,New York,residential,52.4061866,26.39,2026-05-15
+2001,OH,Ohio,all sectors,155.797714,6.62,2026-05-15
+2002,OH,Ohio,all sectors,153.407098,6.77,2026-05-15
+2003,OH,Ohio,all sectors,152.18923800000002,6.73,2026-05-15
+2004,OH,Ohio,all sectors,154.221114,6.89,2026-05-15
+2005,OH,Ohio,all sectors,160.17630300000002,7.08,2026-05-15
+2006,OH,Ohio,all sectors,153.428844,7.71,2026-05-15
+2007,OH,Ohio,all sectors,161.770827,7.91,2026-05-15
+2008,OH,Ohio,all sectors,159.38880701,8.39,2026-05-15
+2009,OH,Ohio,all sectors,146.29979301,9.02,2026-05-15
+2010,OH,Ohio,all sectors,154.14541794000002,9.14,2026-05-15
+2011,OH,Ohio,all sectors,154.74631002,9.03,2026-05-15
+2012,OH,Ohio,all sectors,152.45686402,9.12,2026-05-15
+2013,OH,Ohio,all sectors,150.30701803,9.2,2026-05-15
+2014,OH,Ohio,all sectors,150.67971301,9.73,2026-05-15
+2015,OH,Ohio,all sectors,149.21322396,9.98,2026-05-15
+2016,OH,Ohio,all sectors,150.59779604,9.84,2026-05-15
+2017,OH,Ohio,all sectors,146.64383102000002,9.84,2026-05-15
+2018,OH,Ohio,all sectors,152.91516698,9.94,2026-05-15
+2019,OH,Ohio,all sectors,148.52192004999998,9.58,2026-05-15
+2020,OH,Ohio,all sectors,142.61519902,9.44,2026-05-15
+2021,OH,Ohio,all sectors,147.71786494999998,9.76,2026-05-15
+2022,OH,Ohio,all sectors,149.49978299,10.64,2026-05-15
+2023,OH,Ohio,all sectors,146.64098305000002,11.04,2026-05-15
+2024,OH,Ohio,all sectors,153.70737597,11.29,2026-05-15
+2025,OH,Ohio,all sectors,161.93397969,12.43,2026-05-15
+2001,OH,Ohio,residential,47.346163,8.37,2026-05-15
+2002,OH,Ohio,residential,50.863642999999996,8.24,2026-05-15
+2003,OH,Ohio,residential,49.620578,8.26,2026-05-15
+2004,OH,Ohio,residential,50.300038,8.45,2026-05-15
+2005,OH,Ohio,residential,53.904244,8.51,2026-05-15
+2006,OH,Ohio,residential,51.375232000000004,9.34,2026-05-15
+2007,OH,Ohio,residential,54.375758999999995,9.57,2026-05-15
+2008,OH,Ohio,residential,53.41059898,10.06,2026-05-15
+2009,OH,Ohio,residential,51.40516201,10.67,2026-05-15
+2010,OH,Ohio,residential,54.474376989999996,11.31,2026-05-15
+2011,OH,Ohio,residential,53.68711101,11.42,2026-05-15
+2012,OH,Ohio,residential,52.28776902,11.76,2026-05-15
+2013,OH,Ohio,residential,52.158093990000005,12.01,2026-05-15
+2014,OH,Ohio,residential,52.80433401,12.5,2026-05-15
+2015,OH,Ohio,residential,51.492953979999996,12.8,2026-05-15
+2016,OH,Ohio,residential,52.52414102,12.47,2026-05-15
+2017,OH,Ohio,residential,49.795540009999996,12.63,2026-05-15
+2018,OH,Ohio,residential,54.451713989999995,12.56,2026-05-15
+2019,OH,Ohio,residential,52.22609701,12.38,2026-05-15
+2020,OH,Ohio,residential,52.55276998,12.29,2026-05-15
+2021,OH,Ohio,residential,53.17119298,12.77,2026-05-15
+2022,OH,Ohio,residential,53.312216,13.85,2026-05-15
+2023,OH,Ohio,residential,49.71353800999999,15.38,2026-05-15
+2024,OH,Ohio,residential,52.174355989999995,15.99,2026-05-15
+2025,OH,Ohio,residential,53.99710231,16.96,2026-05-15
+2001,OK,Oklahoma,all sectors,49.666725,6.1,2026-05-15
+2002,OK,Oklahoma,all sectors,49.485466,5.59,2026-05-15
+2003,OK,Oklahoma,all sectors,50.428168,6.35,2026-05-15
+2004,OK,Oklahoma,all sectors,50.942042,6.5,2026-05-15
+2005,OK,Oklahoma,all sectors,53.707102,6.85,2026-05-15
+2006,OK,Oklahoma,all sectors,54.905314,7.3,2026-05-15
+2007,OK,Oklahoma,all sectors,55.1932,7.29,2026-05-15
+2008,OK,Oklahoma,all sectors,56.27886606,7.81,2026-05-15
+2009,OK,Oklahoma,all sectors,54.54458,6.94,2026-05-15
+2010,OK,Oklahoma,all sectors,57.845980020000006,7.59,2026-05-15
+2011,OK,Oklahoma,all sectors,59.846794020000004,7.8,2026-05-15
+2012,OK,Oklahoma,all sectors,59.34062402,7.54,2026-05-15
+2013,OK,Oklahoma,all sectors,59.92917199,7.86,2026-05-15
+2014,OK,Oklahoma,all sectors,61.57337402,8.18,2026-05-15
+2015,OK,Oklahoma,all sectors,61.33638499,7.9,2026-05-15
+2016,OK,Oklahoma,all sectors,61.516554,7.83,2026-05-15
+2017,OK,Oklahoma,all sectors,60.49212799,8.2,2026-05-15
+2018,OK,Oklahoma,all sectors,64.57531599,8.09,2026-05-15
+2019,OK,Oklahoma,all sectors,64.795946,7.86,2026-05-15
+2020,OK,Oklahoma,all sectors,62.29930498,7.63,2026-05-15
+2021,OK,Oklahoma,all sectors,64.525137,8.52,2026-05-15
+2022,OK,Oklahoma,all sectors,69.48694202,10.05,2026-05-15
+2023,OK,Oklahoma,all sectors,68.97884001,9.3,2026-05-15
+2024,OK,Oklahoma,all sectors,72.08377302,9.09,2026-05-15
+2025,OK,Oklahoma,all sectors,75.11457665,9.5,2026-05-15
+2001,OK,Oklahoma,residential,19.795852999999997,7.27,2026-05-15
+2002,OK,Oklahoma,residential,19.927272000000002,6.73,2026-05-15
+2003,OK,Oklahoma,residential,20.161967,7.47,2026-05-15
+2004,OK,Oklahoma,residential,19.699041,7.72,2026-05-15
+2005,OK,Oklahoma,residential,21.309313999999997,7.95,2026-05-15
+2006,OK,Oklahoma,residential,21.690395,8.55,2026-05-15
+2007,OK,Oklahoma,residential,21.360557,8.58,2026-05-15
+2008,OK,Oklahoma,residential,21.86111201,9.09,2026-05-15
+2009,OK,Oklahoma,residential,21.640954989999997,8.49,2026-05-15
+2010,OK,Oklahoma,residential,23.68886101,9.14,2026-05-15
+2011,OK,Oklahoma,residential,24.425026999999996,9.47,2026-05-15
+2012,OK,Oklahoma,residential,22.80968001,9.51,2026-05-15
+2013,OK,Oklahoma,residential,23.19996799,9.67,2026-05-15
+2014,OK,Oklahoma,residential,23.35114401,10.03,2026-05-15
+2015,OK,Oklahoma,residential,22.61582399,10.14,2026-05-15
+2016,OK,Oklahoma,residential,22.78971499,10.2,2026-05-15
+2017,OK,Oklahoma,residential,21.837596,10.61,2026-05-15
+2018,OK,Oklahoma,residential,24.11680799,10.3,2026-05-15
+2019,OK,Oklahoma,residential,23.805972,10.21,2026-05-15
+2020,OK,Oklahoma,residential,23.232472989999998,10.12,2026-05-15
+2021,OK,Oklahoma,residential,23.74586701,11.0,2026-05-15
+2022,OK,Oklahoma,residential,25.47914402,12.44,2026-05-15
+2023,OK,Oklahoma,residential,23.817506,12.08,2026-05-15
+2024,OK,Oklahoma,residential,24.32827903,12.24,2026-05-15
+2025,OK,Oklahoma,residential,24.474649969999998,13.12,2026-05-15
+2001,OR,Oregon,all sectors,45.88483,5.44,2026-05-15
+2002,OR,Oregon,all sectors,45.255173,6.32,2026-05-15
+2003,OR,Oregon,all sectors,45.19473,6.18,2026-05-15
+2004,OR,Oregon,all sectors,45.636447999999994,6.21,2026-05-15
+2005,OR,Oregon,all sectors,46.419245000000004,6.34,2026-05-15
+2006,OR,Oregon,all sectors,48.069265,6.53,2026-05-15
+2007,OR,Oregon,all sectors,48.696965,7.02,2026-05-15
+2008,OR,Oregon,all sectors,49.18747698,7.24,2026-05-15
+2009,OR,Oregon,all sectors,47.56689702,7.47,2026-05-15
+2010,OR,Oregon,all sectors,46.02594503,7.56,2026-05-15
+2011,OR,Oregon,all sectors,47.17144599,8.04,2026-05-15
+2012,OR,Oregon,all sectors,46.68885597,8.21,2026-05-15
+2013,OR,Oregon,all sectors,47.640978020000006,8.44,2026-05-15
+2014,OR,Oregon,all sectors,47.33495301,8.68,2026-05-15
+2015,OR,Oregon,all sectors,47.26397396,8.75,2026-05-15
+2016,OR,Oregon,all sectors,47.34934999,8.83,2026-05-15
+2017,OR,Oregon,all sectors,50.04381603,8.81,2026-05-15
+2018,OR,Oregon,all sectors,49.325904009999995,8.85,2026-05-15
+2019,OR,Oregon,all sectors,50.40438599,8.81,2026-05-15
+2020,OR,Oregon,all sectors,51.01931301,8.82,2026-05-15
+2021,OR,Oregon,all sectors,54.13520501,8.95,2026-05-15
+2022,OR,Oregon,all sectors,56.32689599,9.26,2026-05-15
+2023,OR,Oregon,all sectors,57.984962,10.32,2026-05-15
+2024,OR,Oregon,all sectors,59.680701,11.11,2026-05-15
+2025,OR,Oregon,all sectors,61.56682497,11.51,2026-05-15
+2001,OR,Oregon,residential,17.502996,6.29,2026-05-15
+2002,OR,Oregon,residential,17.553984,7.12,2026-05-15
+2003,OR,Oregon,residential,17.73556,7.06,2026-05-15
+2004,OR,Oregon,residential,18.000708,7.18,2026-05-15
+2005,OR,Oregon,residential,18.338815,7.25,2026-05-15
+2006,OR,Oregon,residential,18.977579000000002,7.48,2026-05-15
+2007,OR,Oregon,residential,19.374457999999997,8.19,2026-05-15
+2008,OR,Oregon,residential,19.909844,8.49,2026-05-15
+2009,OR,Oregon,residential,19.80431501,8.68,2026-05-15
+2010,OR,Oregon,residential,18.838666,8.87,2026-05-15
+2011,OR,Oregon,residential,19.429175,9.54,2026-05-15
+2012,OR,Oregon,residential,18.85465901,9.8,2026-05-15
+2013,OR,Oregon,residential,19.328558010000002,9.9,2026-05-15
+2014,OR,Oregon,residential,18.61761301,10.47,2026-05-15
+2015,OR,Oregon,residential,18.26900699,10.66,2026-05-15
+2016,OR,Oregon,residential,18.573241999999997,10.66,2026-05-15
+2017,OR,Oregon,residential,20.06593001,10.66,2026-05-15
+2018,OR,Oregon,residential,18.930583,10.98,2026-05-15
+2019,OR,Oregon,residential,19.286182,11.01,2026-05-15
+2020,OR,Oregon,residential,19.628010999999997,11.17,2026-05-15
+2021,OR,Oregon,residential,20.285346,11.37,2026-05-15
+2022,OR,Oregon,residential,20.725899000000002,11.42,2026-05-15
+2023,OR,Oregon,residential,20.44454399,12.73,2026-05-15
+2024,OR,Oregon,residential,19.76774501,14.7,2026-05-15
+2025,OR,Oregon,residential,19.79578469,15.37,2026-05-15
+2001,PA,Pennsylvania,all sectors,135.271933,8.01,2026-05-15
+2002,PA,Pennsylvania,all sectors,139.81987,8.06,2026-05-15
+2003,PA,Pennsylvania,all sectors,140.369128,8.02,2026-05-15
+2004,PA,Pennsylvania,all sectors,143.50149299999998,8.0,2026-05-15
+2005,PA,Pennsylvania,all sectors,148.27294,8.27,2026-05-15
+2006,PA,Pennsylvania,all sectors,146.150358,8.68,2026-05-15
+2007,PA,Pennsylvania,all sectors,151.57295000000002,9.08,2026-05-15
+2008,PA,Pennsylvania,all sectors,150.400589,9.33,2026-05-15
+2009,PA,Pennsylvania,all sectors,143.74743799,9.6,2026-05-15
+2010,PA,Pennsylvania,all sectors,148.963968,10.31,2026-05-15
+2011,PA,Pennsylvania,all sectors,148.75723801,10.45,2026-05-15
+2012,PA,Pennsylvania,all sectors,144.70972701,9.91,2026-05-15
+2013,PA,Pennsylvania,all sectors,146.25376298,9.81,2026-05-15
+2014,PA,Pennsylvania,all sectors,146.687698,10.28,2026-05-15
+2015,PA,Pennsylvania,all sectors,146.34402799,10.31,2026-05-15
+2016,PA,Pennsylvania,all sectors,145.32768299,10.19,2026-05-15
+2017,PA,Pennsylvania,all sectors,142.99089598,10.13,2026-05-15
+2018,PA,Pennsylvania,all sectors,148.97673100999998,10.1,2026-05-15
+2019,PA,Pennsylvania,all sectors,145.58038298,9.81,2026-05-15
+2020,PA,Pennsylvania,all sectors,139.72083699,9.7,2026-05-15
+2021,PA,Pennsylvania,all sectors,143.34015399,9.97,2026-05-15
+2022,PA,Pennsylvania,all sectors,145.04459215,11.86,2026-05-15
+2023,PA,Pennsylvania,all sectors,138.71099303000003,12.57,2026-05-15
+2024,PA,Pennsylvania,all sectors,142.14651402,12.51,2026-05-15
+2025,PA,Pennsylvania,all sectors,143.31714544,14.11,2026-05-15
+2001,PA,Pennsylvania,residential,46.029989,9.68,2026-05-15
+2002,PA,Pennsylvania,residential,48.729956,9.74,2026-05-15
+2003,PA,Pennsylvania,residential,49.651000999999994,9.59,2026-05-15
+2004,PA,Pennsylvania,residential,50.663389,9.58,2026-05-15
+2005,PA,Pennsylvania,residential,53.661476,9.86,2026-05-15
+2006,PA,Pennsylvania,residential,51.790116999999995,10.35,2026-05-15
+2007,PA,Pennsylvania,residential,54.58682,10.95,2026-05-15
+2008,PA,Pennsylvania,residential,54.059762,11.35,2026-05-15
+2009,PA,Pennsylvania,residential,52.905995000000004,11.65,2026-05-15
+2010,PA,Pennsylvania,residential,55.252837,12.7,2026-05-15
+2011,PA,Pennsylvania,residential,54.795633,13.26,2026-05-15
+2012,PA,Pennsylvania,residential,52.876058,12.75,2026-05-15
+2013,PA,Pennsylvania,residential,54.251847000000005,12.79,2026-05-15
+2014,PA,Pennsylvania,residential,54.19533501,13.32,2026-05-15
+2015,PA,Pennsylvania,residential,54.418663,13.64,2026-05-15
+2016,PA,Pennsylvania,residential,53.87712999,13.86,2026-05-15
+2017,PA,Pennsylvania,residential,51.72449799,14.23,2026-05-15
+2018,PA,Pennsylvania,residential,55.896453,13.89,2026-05-15
+2019,PA,Pennsylvania,residential,54.396181989999995,13.8,2026-05-15
+2020,PA,Pennsylvania,residential,55.307093,13.58,2026-05-15
+2021,PA,Pennsylvania,residential,55.94517598,13.76,2026-05-15
+2022,PA,Pennsylvania,residential,56.41321816,15.94,2026-05-15
+2023,PA,Pennsylvania,residential,52.32764301,18.1,2026-05-15
+2024,PA,Pennsylvania,residential,54.272558,17.77,2026-05-15
+2025,PA,Pennsylvania,residential,56.084198629999996,19.3,2026-05-15
+2001,RI,Rhode Island,all sectors,7.392917000000001,11.45,2026-05-15
+2002,RI,Rhode Island,all sectors,7.560699,9.2,2026-05-15
+2003,RI,Rhode Island,all sectors,7.796626,10.47,2026-05-15
+2004,RI,Rhode Island,all sectors,7.887575,10.96,2026-05-15
+2005,RI,Rhode Island,all sectors,8.049112000000001,11.97,2026-05-15
+2006,RI,Rhode Island,all sectors,7.799126,13.98,2026-05-15
+2007,RI,Rhode Island,all sectors,8.013022,13.12,2026-05-15
+2008,RI,Rhode Island,all sectors,7.818594,16.04,2026-05-15
+2009,RI,Rhode Island,all sectors,7.617629,14.22,2026-05-15
+2010,RI,Rhode Island,all sectors,7.799227,14.07,2026-05-15
+2011,RI,Rhode Island,all sectors,7.73242,13.04,2026-05-15
+2012,RI,Rhode Island,all sectors,7.708334,12.74,2026-05-15
+2013,RI,Rhode Island,all sectors,7.781122,13.72,2026-05-15
+2014,RI,Rhode Island,all sectors,7.643104,15.41,2026-05-15
+2015,RI,Rhode Island,all sectors,7.664718,17.01,2026-05-15
+2016,RI,Rhode Island,all sectors,7.5242700000000005,16.28,2026-05-15
+2017,RI,Rhode Island,all sectors,7.384671,16.42,2026-05-15
+2018,RI,Rhode Island,all sectors,7.583339,18.1,2026-05-15
+2019,RI,Rhode Island,all sectors,7.349915,18.49,2026-05-15
+2020,RI,Rhode Island,all sectors,7.351541,18.54,2026-05-15
+2021,RI,Rhode Island,all sectors,7.39800399,18.44,2026-05-15
+2022,RI,Rhode Island,all sectors,7.576283999999999,19.3,2026-05-15
+2023,RI,Rhode Island,all sectors,7.30078799,21.62,2026-05-15
+2024,RI,Rhode Island,all sectors,7.4142470000000005,24.15,2026-05-15
+2025,RI,Rhode Island,all sectors,7.4036376200000005,25.86,2026-05-15
+2001,RI,Rhode Island,residential,2.699059,12.13,2026-05-15
+2002,RI,Rhode Island,residential,2.8288870000000004,10.2,2026-05-15
+2003,RI,Rhode Island,residential,2.9982089999999997,11.61,2026-05-15
+2004,RI,Rhode Island,residential,3.000355,12.19,2026-05-15
+2005,RI,Rhode Island,residential,3.171377,13.04,2026-05-15
+2006,RI,Rhode Island,residential,3.008443,15.12,2026-05-15
+2007,RI,Rhode Island,residential,3.131775,14.05,2026-05-15
+2008,RI,Rhode Island,residential,3.0426840000000004,17.45,2026-05-15
+2009,RI,Rhode Island,residential,2.936699,15.6,2026-05-15
+2010,RI,Rhode Island,residential,3.117808,15.92,2026-05-15
+2011,RI,Rhode Island,residential,3.1294459999999997,14.33,2026-05-15
+2012,RI,Rhode Island,residential,3.1213670000000002,14.4,2026-05-15
+2013,RI,Rhode Island,residential,3.164692,15.2,2026-05-15
+2014,RI,Rhode Island,residential,3.0703470000000004,17.17,2026-05-15
+2015,RI,Rhode Island,residential,3.135506,19.29,2026-05-15
+2016,RI,Rhode Island,residential,3.0815620100000003,18.62,2026-05-15
+2017,RI,Rhode Island,residential,3.028267,18.32,2026-05-15
+2018,RI,Rhode Island,residential,3.124168,20.55,2026-05-15
+2019,RI,Rhode Island,residential,2.983012,21.73,2026-05-15
+2020,RI,Rhode Island,residential,3.1480210000000004,22.01,2026-05-15
+2021,RI,Rhode Island,residential,3.131533,22.3,2026-05-15
+2022,RI,Rhode Island,residential,3.168339,23.21,2026-05-15
+2023,RI,Rhode Island,residential,2.9951619999999997,27.02,2026-05-15
+2024,RI,Rhode Island,residential,3.111332,28.65,2026-05-15
+2025,RI,Rhode Island,residential,3.13405508,29.46,2026-05-15
+2001,SC,South Carolina,all sectors,74.832367,5.77,2026-05-15
+2002,SC,South Carolina,all sectors,77.81939200000001,5.83,2026-05-15
+2003,SC,South Carolina,all sectors,77.054098,6.08,2026-05-15
+2004,SC,South Carolina,all sectors,79.90834,6.22,2026-05-15
+2005,SC,South Carolina,all sectors,81.25408800000001,6.72,2026-05-15
+2006,SC,South Carolina,all sectors,80.877321,6.98,2026-05-15
+2007,SC,South Carolina,all sectors,81.94815799999999,7.18,2026-05-15
+2008,SC,South Carolina,all sectors,80.650572,7.85,2026-05-15
+2009,SC,South Carolina,all sectors,76.41747899,8.42,2026-05-15
+2010,SC,South Carolina,all sectors,82.47929299,8.49,2026-05-15
+2011,SC,South Carolina,all sectors,80.48854601000001,8.8,2026-05-15
+2012,SC,South Carolina,all sectors,77.780953,9.1,2026-05-15
+2013,SC,South Carolina,all sectors,78.602094,9.24,2026-05-15
+2014,SC,South Carolina,all sectors,81.619765,9.67,2026-05-15
+2015,SC,South Carolina,all sectors,81.328246,9.58,2026-05-15
+2016,SC,South Carolina,all sectors,79.57754999,9.79,2026-05-15
+2017,SC,South Carolina,all sectors,78.096757,9.97,2026-05-15
+2018,SC,South Carolina,all sectors,81.64113799,9.67,2026-05-15
+2019,SC,South Carolina,all sectors,80.20562,10.02,2026-05-15
+2020,SC,South Carolina,all sectors,76.73717599,9.9,2026-05-15
+2021,SC,South Carolina,all sectors,79.79213601000001,9.96,2026-05-15
+2022,SC,South Carolina,all sectors,82.75843201,10.74,2026-05-15
+2023,SC,South Carolina,all sectors,81.20218501000001,10.5,2026-05-15
+2024,SC,South Carolina,all sectors,83.96142802,10.9,2026-05-15
+2025,SC,South Carolina,all sectors,85.61948826,11.45,2026-05-15
+2001,SC,South Carolina,residential,24.874643,7.69,2026-05-15
+2002,SC,South Carolina,residential,26.786631,7.72,2026-05-15
+2003,SC,South Carolina,residential,26.421639,8.01,2026-05-15
+2004,SC,South Carolina,residential,27.909738,8.12,2026-05-15
+2005,SC,South Carolina,residential,28.675763,8.67,2026-05-15
+2006,SC,South Carolina,residential,28.539116999999997,9.03,2026-05-15
+2007,SC,South Carolina,residential,29.569241,9.19,2026-05-15
+2008,SC,South Carolina,residential,29.727267,9.89,2026-05-15
+2009,SC,South Carolina,residential,29.556323,10.44,2026-05-15
+2010,SC,South Carolina,residential,32.85208599,10.5,2026-05-15
+2011,SC,South Carolina,residential,30.801731,11.05,2026-05-15
+2012,SC,South Carolina,residential,28.366263,11.77,2026-05-15
+2013,SC,South Carolina,residential,28.81251799,11.99,2026-05-15
+2014,SC,South Carolina,residential,30.715986,12.45,2026-05-15
+2015,SC,South Carolina,residential,30.059188,12.57,2026-05-15
+2016,SC,South Carolina,residential,30.615595990000003,12.65,2026-05-15
+2017,SC,South Carolina,residential,29.224970990000003,13.02,2026-05-15
+2018,SC,South Carolina,residential,31.852419,12.44,2026-05-15
+2019,SC,South Carolina,residential,31.159957,12.99,2026-05-15
+2020,SC,South Carolina,residential,30.82601699,12.78,2026-05-15
+2021,SC,South Carolina,residential,31.38579599,12.86,2026-05-15
+2022,SC,South Carolina,residential,32.287075,13.59,2026-05-15
+2023,SC,South Carolina,residential,30.89832901,13.68,2026-05-15
+2024,SC,South Carolina,residential,32.544816,14.23,2026-05-15
+2025,SC,South Carolina,residential,33.75510329,14.96,2026-05-15
+2001,SD,South Dakota,all sectors,8.626999,6.35,2026-05-15
+2002,SD,South Dakota,all sectors,8.936800999999999,6.26,2026-05-15
+2003,SD,South Dakota,all sectors,9.07999,6.35,2026-05-15
+2004,SD,South Dakota,all sectors,9.213844,6.44,2026-05-15
+2005,SD,South Dakota,all sectors,9.811017,6.6,2026-05-15
+2006,SD,South Dakota,all sectors,10.056387,6.7,2026-05-15
+2007,SD,South Dakota,all sectors,10.603301,6.89,2026-05-15
+2008,SD,South Dakota,all sectors,10.974086,7.14,2026-05-15
+2009,SD,South Dakota,all sectors,11.010118,7.39,2026-05-15
+2010,SD,South Dakota,all sectors,11.35614901,7.82,2026-05-15
+2011,SD,South Dakota,all sectors,11.67960002,8.05,2026-05-15
+2012,SD,South Dakota,all sectors,11.73420999,8.49,2026-05-15
+2013,SD,South Dakota,all sectors,12.20979897,8.86,2026-05-15
+2014,SD,South Dakota,all sectors,12.354726000000001,9.05,2026-05-15
+2015,SD,South Dakota,all sectors,12.101979,9.47,2026-05-15
+2016,SD,South Dakota,all sectors,12.12953002,9.83,2026-05-15
+2017,SD,South Dakota,all sectors,12.31367503,10.05,2026-05-15
+2018,SD,South Dakota,all sectors,12.85693799,9.97,2026-05-15
+2019,SD,South Dakota,all sectors,12.86893098,9.96,2026-05-15
+2020,SD,South Dakota,all sectors,12.69584499,10.06,2026-05-15
+2021,SD,South Dakota,all sectors,13.041391019999999,10.43,2026-05-15
+2022,SD,South Dakota,all sectors,13.46706401,10.44,2026-05-15
+2023,SD,South Dakota,all sectors,13.505999,10.49,2026-05-15
+2024,SD,South Dakota,all sectors,13.63720398,10.87,2026-05-15
+2025,SD,South Dakota,all sectors,13.81250448,11.35,2026-05-15
+2001,SD,South Dakota,residential,3.5804180000000003,7.42,2026-05-15
+2002,SD,South Dakota,residential,3.733016,7.4,2026-05-15
+2003,SD,South Dakota,residential,3.739838,7.47,2026-05-15
+2004,SD,South Dakota,residential,3.695725,7.65,2026-05-15
+2005,SD,South Dakota,residential,3.9729789999999996,7.77,2026-05-15
+2006,SD,South Dakota,residential,4.050931,7.83,2026-05-15
+2007,SD,South Dakota,residential,4.260638,8.07,2026-05-15
+2008,SD,South Dakota,residential,4.4056310000000005,8.27,2026-05-15
+2009,SD,South Dakota,residential,4.51130801,8.49,2026-05-15
+2010,SD,South Dakota,residential,4.6281229999999995,8.97,2026-05-15
+2011,SD,South Dakota,residential,4.64638399,9.35,2026-05-15
+2012,SD,South Dakota,residential,4.453732,10.07,2026-05-15
+2013,SD,South Dakota,residential,4.8241499899999996,10.26,2026-05-15
+2014,SD,South Dakota,residential,4.82736801,10.47,2026-05-15
+2015,SD,South Dakota,residential,4.571325,11.08,2026-05-15
+2016,SD,South Dakota,residential,4.61872401,11.47,2026-05-15
+2017,SD,South Dakota,residential,4.65289,11.77,2026-05-15
+2018,SD,South Dakota,residential,5.0183599999999995,11.59,2026-05-15
+2019,SD,South Dakota,residential,5.057032,11.55,2026-05-15
+2020,SD,South Dakota,residential,5.070024,11.75,2026-05-15
+2021,SD,South Dakota,residential,5.043964020000001,12.22,2026-05-15
+2022,SD,South Dakota,residential,5.322906,12.09,2026-05-15
+2023,SD,South Dakota,residential,5.245819,12.32,2026-05-15
+2024,SD,South Dakota,residential,5.17006698,12.86,2026-05-15
+2025,SD,South Dakota,residential,5.3492783799999994,13.38,2026-05-15
+2001,TN,Tennessee,all sectors,96.13071799999999,5.59,2026-05-15
+2002,TN,Tennessee,all sectors,98.233027,5.72,2026-05-15
+2003,TN,Tennessee,all sectors,97.455808,5.84,2026-05-15
+2004,TN,Tennessee,all sectors,99.660665,6.14,2026-05-15
+2005,TN,Tennessee,all sectors,103.905421,6.31,2026-05-15
+2006,TN,Tennessee,all sectors,103.93174400000001,6.97,2026-05-15
+2007,TN,Tennessee,all sectors,106.716934,7.07,2026-05-15
+2008,TN,Tennessee,all sectors,104.16977899000001,8.18,2026-05-15
+2009,TN,Tennessee,all sectors,94.90984401,8.69,2026-05-15
+2010,TN,Tennessee,all sectors,103.52153701,8.61,2026-05-15
+2011,TN,Tennessee,all sectors,100.733329,9.28,2026-05-15
+2012,TN,Tennessee,all sectors,96.38147196999999,9.27,2026-05-15
+2013,TN,Tennessee,all sectors,96.94401300000001,9.13,2026-05-15
+2014,TN,Tennessee,all sectors,100.21923,9.4,2026-05-15
+2015,TN,Tennessee,all sectors,99.63210796999999,9.3,2026-05-15
+2016,TN,Tennessee,all sectors,100.75843902000001,9.23,2026-05-15
+2017,TN,Tennessee,all sectors,97.23988499000001,9.45,2026-05-15
+2018,TN,Tennessee,all sectors,102.91118299,9.58,2026-05-15
+2019,TN,Tennessee,all sectors,99.82909999,9.69,2026-05-15
+2020,TN,Tennessee,all sectors,95.00388798,9.52,2026-05-15
+2021,TN,Tennessee,all sectors,99.62113697999999,9.78,2026-05-15
+2022,TN,Tennessee,all sectors,102.11205101,10.89,2026-05-15
+2023,TN,Tennessee,all sectors,99.04600500000001,10.69,2026-05-15
+2024,TN,Tennessee,all sectors,102.96243502,10.9,2026-05-15
+2025,TN,Tennessee,all sectors,106.55183746,11.57,2026-05-15
+2001,TN,Tennessee,residential,36.931534,6.32,2026-05-15
+2002,TN,Tennessee,residential,38.75181,6.41,2026-05-15
+2003,TN,Tennessee,residential,37.696940999999995,6.55,2026-05-15
+2004,TN,Tennessee,residential,38.525656000000005,6.9,2026-05-15
+2005,TN,Tennessee,residential,41.132286,6.98,2026-05-15
+2006,TN,Tennessee,residential,40.815857,7.75,2026-05-15
+2007,TN,Tennessee,residential,42.879972,7.84,2026-05-15
+2008,TN,Tennessee,residential,41.94655199,8.91,2026-05-15
+2009,TN,Tennessee,residential,40.274908,9.32,2026-05-15
+2010,TN,Tennessee,residential,45.191027000000005,9.23,2026-05-15
+2011,TN,Tennessee,residential,43.067861,9.98,2026-05-15
+2012,TN,Tennessee,residential,39.75363099,10.1,2026-05-15
+2013,TN,Tennessee,residential,40.905923990000005,9.98,2026-05-15
+2014,TN,Tennessee,residential,42.53824799,10.32,2026-05-15
+2015,TN,Tennessee,residential,41.66741098999999,10.3,2026-05-15
+2016,TN,Tennessee,residential,41.77388801,10.41,2026-05-15
+2017,TN,Tennessee,residential,39.29252799,10.72,2026-05-15
+2018,TN,Tennessee,residential,44.38195701,10.71,2026-05-15
+2019,TN,Tennessee,residential,42.57318301,10.87,2026-05-15
+2020,TN,Tennessee,residential,41.08491099,10.76,2026-05-15
+2021,TN,Tennessee,residential,42.84044199,11.07,2026-05-15
+2022,TN,Tennessee,residential,43.603987000000004,12.25,2026-05-15
+2023,TN,Tennessee,residential,41.35056699,12.19,2026-05-15
+2024,TN,Tennessee,residential,43.82750299,12.42,2026-05-15
+2025,TN,Tennessee,residential,45.26048833,13.18,2026-05-15
+2001,TX,Texas,all sectors,318.044174,7.38,2026-05-15
+2002,TX,Texas,all sectors,320.845849,6.62,2026-05-15
+2003,TX,Texas,all sectors,322.68595500000004,7.5,2026-05-15
+2004,TX,Texas,all sectors,320.61484,7.95,2026-05-15
+2005,TX,Texas,all sectors,334.258262,9.14,2026-05-15
+2006,TX,Texas,all sectors,342.72421299999996,10.34,2026-05-15
+2007,TX,Texas,all sectors,343.828582,10.11,2026-05-15
+2008,TX,Texas,all sectors,347.81464702,10.99,2026-05-15
+2009,TX,Texas,all sectors,345.35141997,9.86,2026-05-15
+2010,TX,Texas,all sectors,358.45754999,9.34,2026-05-15
+2011,TX,Texas,all sectors,376.06511599000004,9.0,2026-05-15
+2012,TX,Texas,all sectors,365.10413099,8.55,2026-05-15
+2013,TX,Texas,all sectors,378.81725403,8.66,2026-05-15
+2014,TX,Texas,all sectors,389.66982,8.94,2026-05-15
+2015,TX,Texas,all sectors,392.33735401,8.7,2026-05-15
+2016,TX,Texas,all sectors,398.66180878,8.43,2026-05-15
+2017,TX,Texas,all sectors,401.88037401,8.38,2026-05-15
+2018,TX,Texas,all sectors,424.418628,8.48,2026-05-15
+2019,TX,Texas,all sectors,429.34340401,8.6,2026-05-15
+2020,TX,Texas,all sectors,426.86326697,8.36,2026-05-15
+2021,TX,Texas,all sectors,435.62787798,9.14,2026-05-15
+2022,TX,Texas,all sectors,475.40119205999997,10.16,2026-05-15
+2023,TX,Texas,all sectors,492.82038499,10.04,2026-05-15
+2024,TX,Texas,all sectors,505.43131701,9.79,2026-05-15
+2025,TX,Texas,all sectors,519.69953363,10.18,2026-05-15
+2001,TX,Texas,residential,117.342779,8.86,2026-05-15
+2002,TX,Texas,residential,121.43511,8.05,2026-05-15
+2003,TX,Texas,residential,121.354826,9.16,2026-05-15
+2004,TX,Texas,residential,120.32988,9.73,2026-05-15
+2005,TX,Texas,residential,126.561913,10.93,2026-05-15
+2006,TX,Texas,residential,126.843225,12.86,2026-05-15
+2007,TX,Texas,residential,124.921214,12.34,2026-05-15
+2008,TX,Texas,residential,128.24004801,13.03,2026-05-15
+2009,TX,Texas,residential,129.81489998,12.38,2026-05-15
+2010,TX,Texas,residential,137.16140201,11.6,2026-05-15
+2011,TX,Texas,residential,145.65422801,11.08,2026-05-15
+2012,TX,Texas,residential,137.41163299000002,10.98,2026-05-15
+2013,TX,Texas,residential,140.27260703000002,11.35,2026-05-15
+2014,TX,Texas,residential,140.899744,11.86,2026-05-15
+2015,TX,Texas,residential,145.65191301,11.56,2026-05-15
+2016,TX,Texas,residential,145.97318092,10.99,2026-05-15
+2017,TX,Texas,residential,144.24213103,11.01,2026-05-15
+2018,TX,Texas,residential,157.26791301,11.2,2026-05-15
+2019,TX,Texas,residential,155.48134201,11.76,2026-05-15
+2020,TX,Texas,residential,156.41481901,11.71,2026-05-15
+2021,TX,Texas,residential,155.07513599,12.11,2026-05-15
+2022,TX,Texas,residential,170.59646002,13.76,2026-05-15
+2023,TX,Texas,residential,168.61087498,14.46,2026-05-15
+2024,TX,Texas,residential,165.051743,14.94,2026-05-15
+2025,TX,Texas,residential,170.86210268000002,15.47,2026-05-15
+2001,US,U.S. Total,all sectors,3394.458104,7.29,2026-05-15
+2002,US,U.S. Total,all sectors,3465.466011,7.2,2026-05-15
+2003,US,U.S. Total,all sectors,3493.734486,7.44,2026-05-15
+2004,US,U.S. Total,all sectors,3547.479483,7.61,2026-05-15
+2005,US,U.S. Total,all sectors,3660.968513,8.14,2026-05-15
+2006,US,U.S. Total,all sectors,3669.91884,8.9,2026-05-15
+2007,US,U.S. Total,all sectors,3764.560712,9.13,2026-05-15
+2008,US,U.S. Total,all sectors,3733.96461911,9.74,2026-05-15
+2009,US,U.S. Total,all sectors,3596.79513389,9.82,2026-05-15
+2010,US,U.S. Total,all sectors,3754.84136823,9.83,2026-05-15
+2011,US,U.S. Total,all sectors,3749.84618003,9.9,2026-05-15
+2012,US,U.S. Total,all sectors,3694.6497856200003,9.84,2026-05-15
+2013,US,U.S. Total,all sectors,3724.86782101,10.07,2026-05-15
+2014,US,U.S. Total,all sectors,3764.700267,10.44,2026-05-15
+2015,US,U.S. Total,all sectors,3758.99238936,10.41,2026-05-15
+2016,US,U.S. Total,all sectors,3762.4616298,10.27,2026-05-15
+2017,US,U.S. Total,all sectors,3723.3559739899997,10.48,2026-05-15
+2018,US,U.S. Total,all sectors,3859.18526084,10.53,2026-05-15
+2019,US,U.S. Total,all sectors,3811.15046304,10.54,2026-05-15
+2020,US,U.S. Total,all sectors,3717.6744808800004,10.59,2026-05-15
+2021,US,U.S. Total,all sectors,3805.87425317,11.1,2026-05-15
+2022,US,U.S. Total,all sectors,3927.1690693299997,12.36,2026-05-15
+2023,US,U.S. Total,all sectors,3874.2533622,12.68,2026-05-15
+2024,US,U.S. Total,all sectors,3975.38183162,12.94,2026-05-15
+2025,US,U.S. Total,all sectors,4058.00715659,13.63,2026-05-15
+2001,US,U.S. Total,residential,1201.6065930000002,8.58,2026-05-15
+2002,US,U.S. Total,residential,1265.179869,8.44,2026-05-15
+2003,US,U.S. Total,residential,1275.8239099999998,8.72,2026-05-15
+2004,US,U.S. Total,residential,1291.981578,8.95,2026-05-15
+2005,US,U.S. Total,residential,1359.2271070000002,9.45,2026-05-15
+2006,US,U.S. Total,residential,1351.5200360000001,10.4,2026-05-15
+2007,US,U.S. Total,residential,1392.240996,10.65,2026-05-15
+2008,US,U.S. Total,residential,1380.66174496,11.26,2026-05-15
+2009,US,U.S. Total,residential,1364.75815298,11.51,2026-05-15
+2010,US,U.S. Total,residential,1445.7084029300001,11.54,2026-05-15
+2011,US,U.S. Total,residential,1422.801093,11.72,2026-05-15
+2012,US,U.S. Total,residential,1374.51470798,11.88,2026-05-15
+2013,US,U.S. Total,residential,1394.81212893,12.13,2026-05-15
+2014,US,U.S. Total,residential,1407.20831097,12.52,2026-05-15
+2015,US,U.S. Total,residential,1404.09649874,12.65,2026-05-15
+2016,US,U.S. Total,residential,1411.05815299,12.55,2026-05-15
+2017,US,U.S. Total,residential,1378.64774208,12.89,2026-05-15
+2018,US,U.S. Total,residential,1469.09305894,12.87,2026-05-15
+2019,US,U.S. Total,residential,1440.2889089999999,13.01,2026-05-15
+2020,US,U.S. Total,residential,1464.60504578,13.15,2026-05-15
+2021,US,U.S. Total,residential,1470.48688203,13.66,2026-05-15
+2022,US,U.S. Total,residential,1509.23316236,15.04,2026-05-15
+2023,US,U.S. Total,residential,1450.0251838899999,16.0,2026-05-15
+2024,US,U.S. Total,residential,1482.8735858799998,16.48,2026-05-15
+2025,US,U.S. Total,residential,1514.99323035,17.3,2026-05-15
+2001,UT,Utah,all sectors,23.217308,5.21,2026-05-15
+2002,UT,Utah,all sectors,23.267187999999997,5.39,2026-05-15
+2003,UT,Utah,all sectors,23.860349999999997,5.41,2026-05-15
+2004,UT,Utah,all sectors,24.511704,5.69,2026-05-15
+2005,UT,Utah,all sectors,25.000498,5.92,2026-05-15
+2006,UT,Utah,all sectors,26.365716,5.99,2026-05-15
+2007,UT,Utah,all sectors,27.785447,6.41,2026-05-15
+2008,UT,Utah,all sectors,28.19151101,6.49,2026-05-15
+2009,UT,Utah,all sectors,27.58669999,6.77,2026-05-15
+2010,UT,Utah,all sectors,28.04400099,6.94,2026-05-15
+2011,UT,Utah,all sectors,28.85894601,7.13,2026-05-15
+2012,UT,Utah,all sectors,29.723367999999997,7.84,2026-05-15
+2013,UT,Utah,all sectors,30.474034019999998,8.15,2026-05-15
+2014,UT,Utah,all sectors,30.04301902,8.35,2026-05-15
+2015,UT,Utah,all sectors,30.19234999,8.54,2026-05-15
+2016,UT,Utah,all sectors,30.17953403,8.72,2026-05-15
+2017,UT,Utah,all sectors,30.58902102,8.6,2026-05-15
+2018,UT,Utah,all sectors,31.242408,8.21,2026-05-15
+2019,UT,Utah,all sectors,31.14256502,8.24,2026-05-15
+2020,UT,Utah,all sectors,31.66315699,8.27,2026-05-15
+2021,UT,Utah,all sectors,32.67762701,8.34,2026-05-15
+2022,UT,Utah,all sectors,33.36550101,8.8,2026-05-15
+2023,UT,Utah,all sectors,33.34353701,9.03,2026-05-15
+2024,UT,Utah,all sectors,34.68808298,9.97,2026-05-15
+2025,UT,Utah,all sectors,35.07420381,10.67,2026-05-15
+2001,UT,Utah,residential,6.692983,6.72,2026-05-15
+2002,UT,Utah,residential,6.938291,6.79,2026-05-15
+2003,UT,Utah,residential,7.166407,6.9,2026-05-15
+2004,UT,Utah,residential,7.324848,7.21,2026-05-15
+2005,UT,Utah,residential,7.567279,7.52,2026-05-15
+2006,UT,Utah,residential,8.23205,7.59,2026-05-15
+2007,UT,Utah,residential,8.751547,8.15,2026-05-15
+2008,UT,Utah,residential,8.78627801,8.26,2026-05-15
+2009,UT,Utah,residential,8.72527399,8.48,2026-05-15
+2010,UT,Utah,residential,8.83423,8.71,2026-05-15
+2011,UT,Utah,residential,8.94674101,8.96,2026-05-15
+2012,UT,Utah,residential,9.188203999999999,9.93,2026-05-15
+2013,UT,Utah,residential,9.401748,10.37,2026-05-15
+2014,UT,Utah,residential,8.963970999999999,10.65,2026-05-15
+2015,UT,Utah,residential,9.117152990000001,10.88,2026-05-15
+2016,UT,Utah,residential,9.37065604,11.02,2026-05-15
+2017,UT,Utah,residential,9.510783009999999,10.95,2026-05-15
+2018,UT,Utah,residential,9.71450701,10.41,2026-05-15
+2019,UT,Utah,residential,9.73952499,10.4,2026-05-15
+2020,UT,Utah,residential,10.546793,10.44,2026-05-15
+2021,UT,Utah,residential,10.95041501,10.43,2026-05-15
+2022,UT,Utah,residential,11.34426499,10.84,2026-05-15
+2023,UT,Utah,residential,11.328264010000002,11.2,2026-05-15
+2024,UT,Utah,residential,11.825248,12.22,2026-05-15
+2025,UT,Utah,residential,11.75784204,13.07,2026-05-15
+2001,VA,Virginia,all sectors,96.453175,6.18,2026-05-15
+2002,VA,Virginia,all sectors,100.61857,6.23,2026-05-15
+2003,VA,Virginia,all sectors,101.509731,6.27,2026-05-15
+2004,VA,Virginia,all sectors,105.424173,6.43,2026-05-15
+2005,VA,Virginia,all sectors,108.849552,6.64,2026-05-15
+2006,VA,Virginia,all sectors,106.72124099999999,6.86,2026-05-15
+2007,VA,Virginia,all sectors,111.569552,7.12,2026-05-15
+2008,VA,Virginia,all sectors,110.10633701,8.0,2026-05-15
+2009,VA,Virginia,all sectors,108.462463,8.93,2026-05-15
+2010,VA,Virginia,all sectors,113.806135,8.69,2026-05-15
+2011,VA,Virginia,all sectors,110.22826499,8.84,2026-05-15
+2012,VA,Virginia,all sectors,107.79498501,9.07,2026-05-15
+2013,VA,Virginia,all sectors,110.51182700999999,8.96,2026-05-15
+2014,VA,Virginia,all sectors,112.09838099000001,9.17,2026-05-15
+2015,VA,Virginia,all sectors,112.00904498999999,9.31,2026-05-15
+2016,VA,Virginia,all sectors,112.28066500999999,9.09,2026-05-15
+2017,VA,Virginia,all sectors,111.52973201,9.18,2026-05-15
+2018,VA,Virginia,all sectors,118.16634802,9.48,2026-05-15
+2019,VA,Virginia,all sectors,118.43537999,9.52,2026-05-15
+2020,VA,Virginia,all sectors,117.254388,9.16,2026-05-15
+2021,VA,Virginia,all sectors,125.24519598,9.14,2026-05-15
+2022,VA,Virginia,all sectors,132.26461702999998,10.75,2026-05-15
+2023,VA,Virginia,all sectors,132.31850501,10.68,2026-05-15
+2024,VA,Virginia,all sectors,138.044772,10.62,2026-05-15
+2025,VA,Virginia,all sectors,144.67413360999998,11.41,2026-05-15
+2001,VA,Virginia,residential,37.325231,7.79,2026-05-15
+2002,VA,Virginia,residential,40.358373,7.79,2026-05-15
+2003,VA,Virginia,residential,40.876706,7.76,2026-05-15
+2004,VA,Virginia,residential,42.503395,7.99,2026-05-15
+2005,VA,Virginia,residential,44.661839,8.16,2026-05-15
+2006,VA,Virginia,residential,42.906017999999996,8.49,2026-05-15
+2007,VA,Virginia,residential,45.480519,8.74,2026-05-15
+2008,VA,Virginia,residential,44.596588000000004,9.62,2026-05-15
+2009,VA,Virginia,residential,44.763019,10.61,2026-05-15
+2010,VA,Virginia,residential,48.438958,10.45,2026-05-15
+2011,VA,Virginia,residential,45.771144,10.64,2026-05-15
+2012,VA,Virginia,residential,43.534675,11.08,2026-05-15
+2013,VA,Virginia,residential,45.41625301,10.84,2026-05-15
+2014,VA,Virginia,residential,46.443716,11.1,2026-05-15
+2015,VA,Virginia,residential,45.928411,11.37,2026-05-15
+2016,VA,Virginia,residential,45.186057,11.36,2026-05-15
+2017,VA,Virginia,residential,43.98244001,11.55,2026-05-15
+2018,VA,Virginia,residential,47.96260602,11.73,2026-05-15
+2019,VA,Virginia,residential,46.666163,12.07,2026-05-15
+2020,VA,Virginia,residential,46.088846,12.03,2026-05-15
+2021,VA,Virginia,residential,46.634411,11.96,2026-05-15
+2022,VA,Virginia,residential,46.717546999999996,13.34,2026-05-15
+2023,VA,Virginia,residential,43.09583801,14.26,2026-05-15
+2024,VA,Virginia,residential,45.272825,14.41,2026-05-15
+2025,VA,Virginia,residential,47.216824800000005,15.28,2026-05-15
+2001,VT,Vermont,all sectors,5.585446,10.86,2026-05-15
+2002,VT,Vermont,all sectors,5.629263,10.87,2026-05-15
+2003,VT,Vermont,all sectors,5.352429,10.98,2026-05-15
+2004,VT,Vermont,all sectors,5.663772,11.02,2026-05-15
+2005,VT,Vermont,all sectors,5.883053,10.95,2026-05-15
+2006,VT,Vermont,all sectors,5.795029,11.37,2026-05-15
+2007,VT,Vermont,all sectors,5.864006000000001,12.04,2026-05-15
+2008,VT,Vermont,all sectors,5.741204,12.33,2026-05-15
+2009,VT,Vermont,all sectors,5.496513,12.75,2026-05-15
+2010,VT,Vermont,all sectors,5.59483302,13.24,2026-05-15
+2011,VT,Vermont,all sectors,5.550184,13.8,2026-05-15
+2012,VT,Vermont,all sectors,5.510764,14.22,2026-05-15
+2013,VT,Vermont,all sectors,5.587712000000001,14.61,2026-05-15
+2014,VT,Vermont,all sectors,5.5698609900000005,14.57,2026-05-15
+2015,VT,Vermont,all sectors,5.52110901,14.41,2026-05-15
+2016,VT,Vermont,all sectors,5.51645001,14.46,2026-05-15
+2017,VT,Vermont,all sectors,5.423662,14.6,2026-05-15
+2018,VT,Vermont,all sectors,5.53094799,15.13,2026-05-15
+2019,VT,Vermont,all sectors,5.42766399,15.36,2026-05-15
+2020,VT,Vermont,all sectors,5.33145801,16.33,2026-05-15
+2021,VT,Vermont,all sectors,5.41269602,16.34,2026-05-15
+2022,VT,Vermont,all sectors,5.47047101,16.99,2026-05-15
+2023,VT,Vermont,all sectors,5.3640230099999995,17.53,2026-05-15
+2024,VT,Vermont,all sectors,5.458947,18.41,2026-05-15
+2025,VT,Vermont,all sectors,5.47255542,19.39,2026-05-15
+2001,VT,Vermont,residential,2.009403,12.67,2026-05-15
+2002,VT,Vermont,residential,2.046818,12.78,2026-05-15
+2003,VT,Vermont,residential,2.011389,12.82,2026-05-15
+2004,VT,Vermont,residential,2.109494,12.94,2026-05-15
+2005,VT,Vermont,residential,2.1886390000000002,12.96,2026-05-15
+2006,VT,Vermont,residential,2.142237,13.39,2026-05-15
+2007,VT,Vermont,residential,2.169646,14.15,2026-05-15
+2008,VT,Vermont,residential,2.1334969999999998,14.48,2026-05-15
+2009,VT,Vermont,residential,2.121828,14.9,2026-05-15
+2010,VT,Vermont,residential,2.1279350100000003,15.57,2026-05-15
+2011,VT,Vermont,residential,2.124533,16.26,2026-05-15
+2012,VT,Vermont,residential,2.095283,17.01,2026-05-15
+2013,VT,Vermont,residential,2.125435,17.14,2026-05-15
+2014,VT,Vermont,residential,2.121347,17.47,2026-05-15
+2015,VT,Vermont,residential,2.08894,17.09,2026-05-15
+2016,VT,Vermont,residential,2.056402,17.37,2026-05-15
+2017,VT,Vermont,residential,2.023424,17.68,2026-05-15
+2018,VT,Vermont,residential,2.116045,18.02,2026-05-15
+2019,VT,Vermont,residential,2.081545,17.71,2026-05-15
+2020,VT,Vermont,residential,2.157001,19.54,2026-05-15
+2021,VT,Vermont,residential,2.1744890199999998,19.26,2026-05-15
+2022,VT,Vermont,residential,2.1866670100000003,19.93,2026-05-15
+2023,VT,Vermont,residential,2.1763139999999996,20.82,2026-05-15
+2024,VT,Vermont,residential,2.23015501,21.9,2026-05-15
+2025,VT,Vermont,residential,2.22489961,22.92,2026-05-15
+2001,WA,Washington,all sectors,78.495247,5.34,2026-05-15
+2002,WA,Washington,all sectors,75.403856,5.88,2026-05-15
+2003,WA,Washington,all sectors,78.13350100000001,5.86,2026-05-15
+2004,WA,Washington,all sectors,79.981608,5.8,2026-05-15
+2005,WA,Washington,all sectors,83.4252,5.87,2026-05-15
+2006,WA,Washington,all sectors,85.03333500000001,6.14,2026-05-15
+2007,WA,Washington,all sectors,85.741947,6.37,2026-05-15
+2008,WA,Washington,all sectors,87.332884,6.55,2026-05-15
+2009,WA,Washington,all sectors,90.21000198,6.59,2026-05-15
+2010,WA,Washington,all sectors,90.37997001999999,6.66,2026-05-15
+2011,WA,Washington,all sectors,93.724917,6.78,2026-05-15
+2012,WA,Washington,all sectors,92.33644097,6.94,2026-05-15
+2013,WA,Washington,all sectors,92.88272298000001,7.09,2026-05-15
+2014,WA,Washington,all sectors,92.14077698999999,7.13,2026-05-15
+2015,WA,Washington,all sectors,90.11608597,7.4,2026-05-15
+2016,WA,Washington,all sectors,88.885316,7.68,2026-05-15
+2017,WA,Washington,all sectors,91.94817201,7.94,2026-05-15
+2018,WA,Washington,all sectors,90.00579099,8.0,2026-05-15
+2019,WA,Washington,all sectors,91.05279598,8.04,2026-05-15
+2020,WA,Washington,all sectors,86.706144,8.33,2026-05-15
+2021,WA,Washington,all sectors,88.19866800000001,8.75,2026-05-15
+2022,WA,Washington,all sectors,90.89731998,9.05,2026-05-15
+2023,WA,Washington,all sectors,89.55262999,9.58,2026-05-15
+2024,WA,Washington,all sectors,89.981629,10.13,2026-05-15
+2025,WA,Washington,all sectors,91.04398405,11.06,2026-05-15
+2001,WA,Washington,residential,31.608471,5.7,2026-05-15
+2002,WA,Washington,residential,32.065996999999996,6.29,2026-05-15
+2003,WA,Washington,residential,31.872045,6.31,2026-05-15
+2004,WA,Washington,residential,32.454682,6.37,2026-05-15
+2005,WA,Washington,residential,33.212197,6.54,2026-05-15
+2006,WA,Washington,residential,34.438565000000004,6.82,2026-05-15
+2007,WA,Washington,residential,35.388779,7.26,2026-05-15
+2008,WA,Washington,residential,36.335847009999995,7.54,2026-05-15
+2009,WA,Washington,residential,36.76818399,7.67,2026-05-15
+2010,WA,Washington,residential,34.90692601,8.04,2026-05-15
+2011,WA,Washington,residential,36.376143,8.28,2026-05-15
+2012,WA,Washington,residential,35.510961,8.53,2026-05-15
+2013,WA,Washington,residential,35.98348598,8.7,2026-05-15
+2014,WA,Washington,residential,35.082957990000004,8.67,2026-05-15
+2015,WA,Washington,residential,34.07198699,9.09,2026-05-15
+2016,WA,Washington,residential,34.211748,9.48,2026-05-15
+2017,WA,Washington,residential,37.282900999999995,9.66,2026-05-15
+2018,WA,Washington,residential,35.33897799,9.75,2026-05-15
+2019,WA,Washington,residential,36.512423999999996,9.71,2026-05-15
+2020,WA,Washington,residential,36.858798,9.87,2026-05-15
+2021,WA,Washington,residential,38.021233,10.11,2026-05-15
+2022,WA,Washington,residential,39.77584899,10.26,2026-05-15
+2023,WA,Washington,residential,38.940142,10.98,2026-05-15
+2024,WA,Washington,residential,38.626766,11.9,2026-05-15
+2025,WA,Washington,residential,38.9896794,13.11,2026-05-15
+2001,WI,Wisconsin,all sectors,65.218293,6.08,2026-05-15
+2002,WI,Wisconsin,all sectors,66.999296,6.28,2026-05-15
+2003,WI,Wisconsin,all sectors,67.241494,6.64,2026-05-15
+2004,WI,Wisconsin,all sectors,67.97570900000001,6.88,2026-05-15
+2005,WI,Wisconsin,all sectors,70.335683,7.48,2026-05-15
+2006,WI,Wisconsin,all sectors,69.82074899999999,8.13,2026-05-15
+2007,WI,Wisconsin,all sectors,71.3013,8.48,2026-05-15
+2008,WI,Wisconsin,all sectors,70.12182700999999,9.0,2026-05-15
+2009,WI,Wisconsin,all sectors,66.28643898,9.38,2026-05-15
+2010,WI,Wisconsin,all sectors,68.75241704,9.78,2026-05-15
+2011,WI,Wisconsin,all sectors,68.61162202,10.21,2026-05-15
+2012,WI,Wisconsin,all sectors,68.82008991,10.28,2026-05-15
+2013,WI,Wisconsin,all sectors,69.12404299,10.51,2026-05-15
+2014,WI,Wisconsin,all sectors,69.49475499,10.57,2026-05-15
+2015,WI,Wisconsin,all sectors,68.69893192,10.73,2026-05-15
+2016,WI,Wisconsin,all sectors,69.73633799,10.67,2026-05-15
+2017,WI,Wisconsin,all sectors,69.07910897000001,10.76,2026-05-15
+2018,WI,Wisconsin,all sectors,70.95954899,10.58,2026-05-15
+2019,WI,Wisconsin,all sectors,69.15753999,10.66,2026-05-15
+2020,WI,Wisconsin,all sectors,67.44836105,10.82,2026-05-15
+2021,WI,Wisconsin,all sectors,69.42661502,11.01,2026-05-15
+2022,WI,Wisconsin,all sectors,69.87587103,11.95,2026-05-15
+2023,WI,Wisconsin,all sectors,68.56390399,12.72,2026-05-15
+2024,WI,Wisconsin,all sectors,68.29142398,12.72,2026-05-15
+2025,WI,Wisconsin,all sectors,70.17950225999999,13.35,2026-05-15
+2001,WI,Wisconsin,residential,20.417899000000002,7.9,2026-05-15
+2002,WI,Wisconsin,residential,21.575371,8.18,2026-05-15
+2003,WI,Wisconsin,residential,21.364143,8.67,2026-05-15
+2004,WI,Wisconsin,residential,21.192325,9.07,2026-05-15
+2005,WI,Wisconsin,residential,22.458357,9.66,2026-05-15
+2006,WI,Wisconsin,residential,21.779468,10.51,2026-05-15
+2007,WI,Wisconsin,residential,22.374048,10.87,2026-05-15
+2008,WI,Wisconsin,residential,21.97610601,11.51,2026-05-15
+2009,WI,Wisconsin,residential,21.42104501,11.94,2026-05-15
+2010,WI,Wisconsin,residential,22.299492989999997,12.65,2026-05-15
+2011,WI,Wisconsin,residential,22.14994102,13.02,2026-05-15
+2012,WI,Wisconsin,residential,22.026353009999998,13.19,2026-05-15
+2013,WI,Wisconsin,residential,22.095921989999997,13.55,2026-05-15
+2014,WI,Wisconsin,residential,21.925712,13.67,2026-05-15
+2015,WI,Wisconsin,residential,21.21478696,14.11,2026-05-15
+2016,WI,Wisconsin,residential,21.81424899,14.07,2026-05-15
+2017,WI,Wisconsin,residential,21.233153989999998,14.35,2026-05-15
+2018,WI,Wisconsin,residential,22.441335,14.02,2026-05-15
+2019,WI,Wisconsin,residential,21.99536,14.18,2026-05-15
+2020,WI,Wisconsin,residential,22.84673402,14.32,2026-05-15
+2021,WI,Wisconsin,residential,22.86404701,14.52,2026-05-15
+2022,WI,Wisconsin,residential,22.88792805,15.62,2026-05-15
+2023,WI,Wisconsin,residential,22.218860980000002,16.88,2026-05-15
+2024,WI,Wisconsin,residential,22.01655899,17.18,2026-05-15
+2025,WI,Wisconsin,residential,22.92786821,18.16,2026-05-15
+2001,WV,West Virginia,all sectors,27.669432,5.07,2026-05-15
+2002,WV,West Virginia,all sectors,28.463122,5.11,2026-05-15
+2003,WV,West Virginia,all sectors,28.296992999999997,5.13,2026-05-15
+2004,WV,West Virginia,all sectors,28.918612,5.13,2026-05-15
+2005,WV,West Virginia,all sectors,30.152069,5.15,2026-05-15
+2006,WV,West Virginia,all sectors,32.312126,5.04,2026-05-15
+2007,WV,West Virginia,all sectors,34.183839,5.34,2026-05-15
+2008,WV,West Virginia,all sectors,34.221103,5.61,2026-05-15
+2009,WV,West Virginia,all sectors,30.271329,6.65,2026-05-15
+2010,WV,West Virginia,all sectors,32.031803,7.45,2026-05-15
+2011,WV,West Virginia,all sectors,31.238753,7.88,2026-05-15
+2012,WV,West Virginia,all sectors,30.81724099,8.14,2026-05-15
+2013,WV,West Virginia,all sectors,31.399849999999997,7.91,2026-05-15
+2014,WV,West Virginia,all sectors,32.696106,7.65,2026-05-15
+2015,WV,West Virginia,all sectors,32.303026,8.11,2026-05-15
+2016,WV,West Virginia,all sectors,32.07614599,8.98,2026-05-15
+2017,WV,West Virginia,all sectors,31.709019,9.0,2026-05-15
+2018,WV,West Virginia,all sectors,33.646813,8.72,2026-05-15
+2019,WV,West Virginia,all sectors,33.247012999999995,8.49,2026-05-15
+2020,WV,West Virginia,all sectors,32.076583,8.75,2026-05-15
+2021,WV,West Virginia,all sectors,32.777988019999995,8.87,2026-05-15
+2022,WV,West Virginia,all sectors,32.986288,9.74,2026-05-15
+2023,WV,West Virginia,all sectors,32.07068699,10.26,2026-05-15
+2024,WV,West Virginia,all sectors,32.99057,11.05,2026-05-15
+2025,WV,West Virginia,all sectors,33.68312373,11.4,2026-05-15
+2001,WV,West Virginia,residential,9.82818,6.26,2026-05-15
+2002,WV,West Virginia,residential,10.444146,6.23,2026-05-15
+2003,WV,West Virginia,residential,10.473404,6.24,2026-05-15
+2004,WV,West Virginia,residential,10.755869,6.23,2026-05-15
+2005,WV,West Virginia,residential,11.384443,6.21,2026-05-15
+2006,WV,West Virginia,residential,11.014418,6.35,2026-05-15
+2007,WV,West Virginia,residential,11.74931,6.73,2026-05-15
+2008,WV,West Virginia,residential,11.762542999999999,7.06,2026-05-15
+2009,WV,West Virginia,residential,11.587693,7.9,2026-05-15
+2010,WV,West Virginia,residential,12.442583,8.79,2026-05-15
+2011,WV,West Virginia,residential,11.746151,9.39,2026-05-15
+2012,WV,West Virginia,residential,11.194679,9.85,2026-05-15
+2013,WV,West Virginia,residential,11.581825,9.52,2026-05-15
+2014,WV,West Virginia,residential,11.990727999999999,9.34,2026-05-15
+2015,WV,West Virginia,residential,11.437451,10.08,2026-05-15
+2016,WV,West Virginia,residential,11.375581,11.44,2026-05-15
+2017,WV,West Virginia,residential,10.57346301,11.63,2026-05-15
+2018,WV,West Virginia,residential,11.679455,11.18,2026-05-15
+2019,WV,West Virginia,residential,11.153219,11.25,2026-05-15
+2020,WV,West Virginia,residential,10.877499,11.8,2026-05-15
+2021,WV,West Virginia,residential,11.050705,12.15,2026-05-15
+2022,WV,West Virginia,residential,11.13697,13.23,2026-05-15
+2023,WV,West Virginia,residential,10.233823990000001,14.05,2026-05-15
+2024,WV,West Virginia,residential,10.674503000000001,15.07,2026-05-15
+2025,WV,West Virginia,residential,11.16316005,15.41,2026-05-15
+2001,WY,Wyoming,all sectors,12.949504999999998,4.46,2026-05-15
+2002,WY,Wyoming,all sectors,12.87406,4.68,2026-05-15
+2003,WY,Wyoming,all sectors,13.253836,4.76,2026-05-15
+2004,WY,Wyoming,all sectors,13.539513000000001,4.98,2026-05-15
+2005,WY,Wyoming,all sectors,14.137727,5.16,2026-05-15
+2006,WY,Wyoming,all sectors,14.946612,5.27,2026-05-15
+2007,WY,Wyoming,all sectors,15.535552,5.29,2026-05-15
+2008,WY,Wyoming,all sectors,16.69024899,5.67,2026-05-15
+2009,WY,Wyoming,all sectors,16.56193701,6.08,2026-05-15
+2010,WY,Wyoming,all sectors,17.11345801,6.2,2026-05-15
+2011,WY,Wyoming,all sectors,17.417762009999997,6.58,2026-05-15
+2012,WY,Wyoming,all sectors,16.97135399,7.19,2026-05-15
+2013,WY,Wyoming,all sectors,17.053514,7.55,2026-05-15
+2014,WY,Wyoming,all sectors,17.13407502,7.76,2026-05-15
+2015,WY,Wyoming,all sectors,16.92476199,7.97,2026-05-15
+2016,WY,Wyoming,all sectors,16.554869999999998,8.19,2026-05-15
+2017,WY,Wyoming,all sectors,16.77806699,8.28,2026-05-15
+2018,WY,Wyoming,all sectors,16.86467799,8.09,2026-05-15
+2019,WY,Wyoming,all sectors,16.763496009999997,8.1,2026-05-15
+2020,WY,Wyoming,all sectors,15.331018,8.27,2026-05-15
+2021,WY,Wyoming,all sectors,15.784711999999999,8.25,2026-05-15
+2022,WY,Wyoming,all sectors,16.49942898,8.24,2026-05-15
+2023,WY,Wyoming,all sectors,16.790115,8.39,2026-05-15
+2024,WY,Wyoming,all sectors,17.21690101,9.14,2026-05-15
+2025,WY,Wyoming,all sectors,17.33645385,9.75,2026-05-15
+2001,WY,Wyoming,residential,2.145532,6.77,2026-05-15
+2002,WY,Wyoming,residential,2.232285,6.97,2026-05-15
+2003,WY,Wyoming,residential,2.286201,7.04,2026-05-15
+2004,WY,Wyoming,residential,2.2618139999999998,7.21,2026-05-15
+2005,WY,Wyoming,residential,2.376532,7.48,2026-05-15
+2006,WY,Wyoming,residential,2.4679349999999998,7.75,2026-05-15
+2007,WY,Wyoming,residential,2.5921190000000003,7.75,2026-05-15
+2008,WY,Wyoming,residential,2.718705,8.21,2026-05-15
+2009,WY,Wyoming,residential,2.71952401,8.58,2026-05-15
+2010,WY,Wyoming,residential,2.7272009899999996,8.77,2026-05-15
+2011,WY,Wyoming,residential,2.80272599,9.11,2026-05-15
+2012,WY,Wyoming,residential,2.71652799,9.85,2026-05-15
+2013,WY,Wyoming,residential,2.8294960000000002,10.16,2026-05-15
+2014,WY,Wyoming,residential,2.75231302,10.5,2026-05-15
+2015,WY,Wyoming,residential,2.676702,10.97,2026-05-15
+2016,WY,Wyoming,residential,2.751073,11.13,2026-05-15
+2017,WY,Wyoming,residential,2.772371,11.37,2026-05-15
+2018,WY,Wyoming,residential,2.7483560000000002,11.29,2026-05-15
+2019,WY,Wyoming,residential,2.8493780099999997,11.18,2026-05-15
+2020,WY,Wyoming,residential,2.8795279999999996,11.11,2026-05-15
+2021,WY,Wyoming,residential,2.897498,11.17,2026-05-15
+2022,WY,Wyoming,residential,3.00868001,11.09,2026-05-15
+2023,WY,Wyoming,residential,2.947863,11.46,2026-05-15
+2024,WY,Wyoming,residential,2.968051,12.47,2026-05-15
+2025,WY,Wyoming,residential,2.9548567699999997,13.38,2026-05-15

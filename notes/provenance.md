@@ -5,6 +5,46 @@ vintage, and methodology caveats. Newest entries at the top.
 
 ---
 
+## State-level energy datasets — Q3a deepened energy section
+
+- **Files:** `data/processed/us_electricity_by_state.csv`,
+  `data/processed/energy_states_summary.csv`; manual sources
+  `data/raw/manual/datacenter_energy_states.csv`,
+  `data/raw/manual/electricity_price_outlook.csv`,
+  `data/raw/manual/datacenter_power_deals.csv`.
+- **Scripts:** `fetch_electricity_states.py`, `analyze_energy_states.py`.
+  Retrieved 2026-05-15.
+
+### us_electricity_by_state.csv
+- **Source:** EIA API v2 `electricity/retail-sales`, `stateid` facet — 50
+  states + DC, sectors all + residential, annual 2001-2025. Same EIA key as the
+  national pull; the raw JSON has the echoed `api_key` redacted.
+- State all-sector sales sum to 100% of the EIA US total (sanity check passes).
+
+### datacenter_energy_states.csv (manual, Tier 3)
+- Hand-keyed **approximate** data-center electricity by state (VA ~32 TWh ≈ 25%
+  of the state's load; TX ~17; IL ~12; CA ~11; OR ~7), from LBNL/EPRI/secondary
+  reporting. No clean machine-readable state breakdown exists — treat the
+  *concentration* as the finding, not the second digit.
+
+### electricity_price_outlook.csv (manual, Tier 3)
+- Modelled price projections and the **contested** causal finding: Dallas Fed
+  WP2606 (wholesale +3-5% now, ~20-50% by 2028; PCE inflation +0.05 → 0.13-0.26pp),
+  EIA AEO 2026, PJM capacity-auction prices, and the Institute for Energy Research
+  counter-analysis (no significant data-center/price link). Both sides recorded.
+
+### datacenter_power_deals.csv (manual, Tier 3)
+- Hyperscaler power procurement / grid participation — Meta-Constellation
+  1,121 MW, Amazon-Talen 1,920 MW, Google-NextEra 615 MW, demand response,
+  off-grid builds. Data centers are not net power sellers as of 2026.
+
+### Key result (analyze_energy_states.py)
+2020-2025: data-center-heavy states' electricity consumption +13% (Virginia +23%)
+vs +8% elsewhere; residential price +38% vs +28%, diverging after 2021. Whether
+data centers *cause* the price gap stays contested (Dallas Fed vs. IER).
+
+---
+
 ## construction_sector.csv — Q3d construction-sector denominators
 
 - **File:** `data/processed/construction_sector.csv`
