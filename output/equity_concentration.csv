@@ -1,0 +1,12 @@
+section,item,value,units,retrieved
+concentration,Cap-weight (SPY) total return since 2015,344.4,%,2026-05-29
+concentration,Equal-weight (RSP) total return since 2015,216.1,%,2026-05-29
+concentration,"Cap/equal-weight outperformance (ratio, end of window)",1.406,x,2026-05-29
+concentration,Cap-weight trailing ~1y return,29.6,%,2026-05-29
+concentration,Equal-weight trailing ~1y return,20.4,%,2026-05-29
+concentration,Mag-7 combined market cap,23.86,USD tn,2026-05-29
+concentration,Mag-7 share of S&P 500 by index weight (external ref),35.0,% (flagged),2026-05-29
+valuation_erp,Shiller CAPE (latest),38.5,x,2026-05-29
+valuation_erp,Cyclically-adj. earnings yield (1/CAPE),2.6,%,2026-05-29
+valuation_erp,"Real 10y (TIPS, year-end)",2.09,%,2026-05-29
+valuation_erp,Equity risk premium (earnings yield - real 10y),0.51,%,2026-05-29

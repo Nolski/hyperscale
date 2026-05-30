@@ -1,0 +1,9 @@
+section,item,value,units,retrieved
+snapshot,Nominal 10y yield,4.48,%,2026-05-29
+snapshot,  = Real (TIPS) 10y,2.09,%,2026-05-29
+snapshot,  + Breakeven inflation 10y,2.39,%,2026-05-29
+snapshot,"Term premium 10y (ACM, model est.)",0.83,%,2026-05-29
+snapshot,  Expectations component (nominal - TP),3.65,%,2026-05-29
+term_premium_regime,Mean TP 2010-2019 (QE era),0.22,%,2026-05-29
+term_premium_regime,Mean TP 2020-present,0.14,%,2026-05-29
+term_premium_regime,Mean TP last 90 obs,0.64,%,2026-05-29

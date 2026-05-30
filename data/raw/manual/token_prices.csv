@@ -1,0 +1,15 @@
+# Frontier-LLM API token prices over time (USD per MILLION tokens), input & output.
+# STAGED for Thread 4 (token unit economics / asset NPV) — not yet analyzed. MANUAL, Tier-2,
+# all rows verified=false: list prices change frequently and tiers vary; CONFIRM against
+# provider pricing pages before use. Purpose: document the ~order-of-magnitude annual decline
+# in $/token for a given capability — the revenue-side pressure on GPU asset value.
+model,date,input_usd_per_mtok,output_usd_per_mtok,provider,verified,note
+GPT-4 (8k),2023-03,30.00,60.00,OpenAI,false,original GPT-4 launch price
+GPT-4 Turbo,2023-11,10.00,30.00,OpenAI,false,
+Claude 3 Opus,2024-03,15.00,75.00,Anthropic,false,
+GPT-4o,2024-05,5.00,15.00,OpenAI,false,
+Claude 3.5 Sonnet,2024-06,3.00,15.00,Anthropic,false,
+Gemini 1.5 Flash,2024-06,0.075,0.30,Google,false,small/fast tier
+GPT-4o mini,2024-07,0.15,0.60,OpenAI,false,small/fast tier
+DeepSeek-V3,2025-01,0.27,1.10,DeepSeek,false,low-cost open-weight; China
+DeepSeek-R1,2025-01,0.55,2.19,DeepSeek,false,reasoning; China

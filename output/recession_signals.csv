@@ -1,0 +1,23 @@
+section,inversion_start,inversion_end,inversion_days,min_spread_pct,next_recession_start,lead_time_months,retrieved
+inversion_episode,1978-08-18,1980-05-01,622.0,-2.41,1980-02-01,17.5,2026-05-29
+inversion_episode,1980-09-12,1981-10-23,406.0,-1.7,1981-08-01,10.6,2026-05-29
+inversion_episode,1982-01-20,1982-05-19,119.0,-0.71,1990-08-01,102.3,2026-05-29
+inversion_episode,1982-06-04,1982-07-09,35.0,-0.34,1990-08-01,97.9,2026-05-29
+inversion_episode,1989-01-04,1989-06-29,176.0,-0.45,1990-08-01,18.9,2026-05-29
+inversion_episode,1989-08-11,1989-09-13,33.0,-0.18,1990-08-01,11.7,2026-05-29
+inversion_episode,1989-09-18,1989-10-11,23.0,-0.2,1990-08-01,10.4,2026-05-29
+inversion_episode,1990-03-08,1990-03-29,21.0,-0.14,1990-08-01,4.8,2026-05-29
+inversion_episode,1998-06-15,1998-07-09,24.0,-0.07,2001-04-01,33.5,2026-05-29
+inversion_episode,2000-02-11,2000-12-26,319.0,-0.52,2001-04-01,13.6,2026-05-29
+inversion_episode,2006-01-31,2006-03-07,35.0,-0.16,2008-01-01,23.0,2026-05-29
+inversion_episode,2006-06-08,2006-06-28,20.0,-0.06,2008-01-01,18.8,2026-05-29
+inversion_episode,2006-06-30,2006-07-26,26.0,-0.07,2008-01-01,18.1,2026-05-29
+inversion_episode,2006-08-17,2007-03-20,215.0,-0.19,2008-01-01,16.5,2026-05-29
+inversion_episode,2007-05-03,2007-05-21,18.0,-0.06,2008-01-01,8.0,2026-05-29
+inversion_episode,2022-07-06,2024-08-26,782.0,-1.08,none yet,,2026-05-29
+dashboard,T10Y2Y spread (pp),,,0.46,positive / un-inverted,,2026-05-29
+dashboard,T10Y3M spread (pp),,,0.76,positive / un-inverted,,2026-05-29
+dashboard,Recession prob 12m (%),,,1.82,low,,2026-05-29
+dashboard,Sahm rule (pp),,,0.13,below 0.50 trigger,,2026-05-29
+dashboard,Unemployment rate (%),,,4.3,level,,2026-05-29
+dashboard,Initial jobless claims,,,215000.0,low/normal,,2026-05-29

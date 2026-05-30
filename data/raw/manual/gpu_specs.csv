@@ -1,0 +1,17 @@
+# AI accelerator specifications. MANUAL, Tier-2. Compiled from vendor datasheets and
+# secondary reporting, 2026-05. FLOPS are DENSE (non-sparse) TENSOR throughput in TFLOPS at
+# the stated precision; vendors often headline 2x SPARSE numbers — these are dense. Store
+# bf16 and fp8 separately (older parts lack fp8; Volta lacks bf16 and is recorded as FP16).
+# Prices are APPROXIMATE street/list (USD) and vary widely by buyer/era — treat as order-of-
+# magnitude. CHINA parts (Huawei) are ESTIMATES from secondary sources — heavily [verify].
+# memory_bw in TB/s. system note: GB200 is a 2-GPU + Grace-CPU superchip (per-GPU ~= B200).
+model,vendor,country,year_released,process_node,tdp_watts,flops_dense_bf16_tflops,flops_dense_fp8_tflops,memory_gb,memory_bw_tbs,msrp_usd,verified,source,note
+V100 SXM2,NVIDIA,US,2017,TSMC 12nm,300,125,,32,0.9,10000,true,NVIDIA Tesla V100 datasheet,"FP16 tensor (Volta; no bf16/fp8)"
+A100 SXM 80GB,NVIDIA,US,2020,TSMC 7nm,400,312,,80,2.039,15000,true,NVIDIA A100 datasheet,"bf16/fp16 312 dense; no fp8"
+H100 SXM5,NVIDIA,US,2022,TSMC 4N,700,990,1979,80,3.35,30000,true,NVIDIA H100 datasheet,"bf16 ~989 dense; fp8 ~1979 dense"
+H200 SXM,NVIDIA,US,2024,TSMC 4N,700,990,1979,141,4.8,32000,true,NVIDIA H200 datasheet,"same compute as H100; more/faster HBM3e memory"
+B200,NVIDIA,US,2025,TSMC 4NP,1000,2250,4500,192,8.0,35000,true,NVIDIA Blackwell datasheet,"dense bf16 ~2250; fp8 ~4500; fp4 also supported"
+GB200 superchip,NVIDIA,US,2025,TSMC 4NP,2700,4500,9000,384,16.0,70000,false,NVIDIA GB200 (Grace+2xB200),"2 GPUs + Grace CPU; per-GPU ~= B200; price/TDP approx"
+MI300X,AMD,US,2023,TSMC 5nm/6nm,750,1307,2615,192,5.3,18000,true,AMD Instinct MI300X datasheet,"dense bf16 ~1307; fp8 ~2615"
+Ascend 910B,Huawei,China,2023,SMIC ~7nm (N+2),400,376,,64,1.6,16000,false,"secondary estimates (SemiAnalysis/press)","ESTIMATE; ~FP16 320-400; fp8 unclear; export-control context"
+Ascend 910C,Huawei,China,2025,SMIC ~7nm (dual-die),700,780,,128,3.2,20000,false,"secondary estimates (SemiAnalysis/press)","ESTIMATE; ~2x 910B (dual 910B dies); CloudMatrix 384 scale-out part"

@@ -1,0 +1,9 @@
+# AI inference token volume over time. MANUAL, Tier-2 (company keynotes, verified=false).
+# Google is the clearest public signal: monthly tokens processed across its AI surface
+# (Gemini, Search AI Overviews, Cloud APIs, etc.), disclosed by Pichai/Hassabis. The demand
+# explosion (~7x/yr, ~330x over two years) is the usage growth the revenue case rests on.
+# tokens_per_month in absolute tokens. Used to calibrate the adoption S-curve.
+provider,period,tokens_per_month,source,verified,note
+Google,2024-04,9700000000000,"Google (Pichai), via press",false,"~9.7 trillion/month"
+Google,2025-05,480000000000000,"Google I/O 2025, via press",false,"~480 trillion/month"
+Google,2026-05,3200000000000000,"Google I/O 2026 keynote (Pichai)",false,"~3.2 quadrillion/month; 7x YoY"

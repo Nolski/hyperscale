@@ -1,0 +1,6 @@
+model,year_released,country,tflops_per_watt,compute_pflops_per_mw,energy_only_per_pflops_hour,stranding_price_cents_kwh,stranded_at_current,stranded_at_plus50,current_price_cents_kwh,frontier_chip,retrieved
+V100 SXM2,2017,US,0.417,248.02,0.348,13.5,False,False,8.6,B200,2026-05-29
+A100 SXM 80GB,2020,US,0.78,464.29,0.186,31.5,False,False,8.6,B200,2026-05-29
+H100 SXM5,2022,US,1.414,841.84,0.102,100.6,False,False,8.6,B200,2026-05-29
+H200 SXM,2024,US,1.414,841.84,0.102,100.6,False,False,8.6,B200,2026-05-29
+B200,2025,US,2.25,1339.29,0.064,,False,False,8.6,B200,2026-05-29

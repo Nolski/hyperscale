@@ -1,0 +1,13 @@
+# Estimated bill-of-materials (COGS) for AI GPUs, USD per unit. MANUAL, Tier-2, all
+# verified=false: these are teardown/analyst ESTIMATES (SemiAnalysis/TrendForce-style), not
+# disclosed figures — CONFIRM before quoting. Purpose: open up the chip MSRP black box so the
+# cost-stack decomposition can show how much of the price is manufacturing vs vendor margin,
+# and that HBM memory (not the logic die) is the largest real cost and the supply bottleneck.
+# vendor gross margin is taken from SEC EDGAR (chip_margins.csv) for context; here margin is
+# derived per-chip as msrp - COGS (product-level, higher than the blended company margin).
+# die = logic die(s); hbm = high-bandwidth memory stack(s); packaging = CoWoS/substrate;
+# other = assembly, test, VRM, board, etc.
+chip,msrp_usd,die_cost_usd,hbm_cost_usd,packaging_cost_usd,other_bom_usd,verified,source,note
+A100 SXM 80GB,15000,1000,1000,300,200,false,"analyst estimates","7nm; HBM2e 80GB"
+H100 SXM5,30000,1300,1500,500,400,false,"analyst estimates","4N; HBM3 80GB; HBM ~largest BOM item"
+B200,35000,2400,3500,1000,600,false,"analyst estimates","4NP dual-die; HBM3e 192GB; CoWoS-L; richer BOM, lower margin share"

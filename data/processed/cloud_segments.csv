@@ -1,0 +1,18 @@
+provider,year,revenue_usd,operating_income_usd,source,accession,verified,retrieved,operating_margin
+AWS,2013,3108000000,,Amazon segment disclosures,,False,2026-05-30,
+AWS,2014,4644000000,,Amazon segment disclosures,,False,2026-05-30,
+AWS,2015,7880000000,1507000000.0,Amazon segment disclosures,,False,2026-05-30,0.191
+AWS,2016,12219000000,3108000000.0,Amazon segment disclosures,,False,2026-05-30,0.254
+AWS,2017,17459000000,4331000000.0,Amazon segment disclosures,,False,2026-05-30,0.248
+AWS,2018,25655000000,7296000000.0,Amazon segment disclosures,,False,2026-05-30,0.284
+AWS,2019,35026000000,9201000000.0,Amazon segment disclosures,,False,2026-05-30,0.263
+AWS,2020,45370000000,13531000000.0,Amazon segment disclosures,,False,2026-05-30,0.298
+AWS,2021,62202000000,18532000000.0,Amazon segment disclosures,,False,2026-05-30,0.298
+AWS,2022,80096000000,22841000000.0,Amazon segment disclosures,,False,2026-05-30,0.285
+AWS,2023,90757000000,24631000000.0,Amazon segment disclosures,,False,2026-05-30,0.271
+AWS,2024,107556000000,39834000000.0,Amazon segment disclosures,,False,2026-05-30,0.37
+AWS,2025,128725000000,45606000000.0,SEC EDGAR 10-K (get_segment_data),0001018724-26-000004,True,2026-05-30,0.354
+Google Cloud,2023,33088000000,1716000000.0,Alphabet segment disclosures,,False,2026-05-30,0.052
+Google Cloud,2024,43229000000,6112000000.0,Alphabet segment disclosures,,False,2026-05-30,0.141
+Google Cloud,2025,58705000000,13910000000.0,SEC EDGAR 10-K (get_segment_data),alphabet-10k-fy2025,True,2026-05-30,0.237
+Microsoft Intelligent Cloud,2025,106265000000,44589000000.0,SEC EDGAR 10-K FY2025 (get_segment_data),msft-10k-fy2025,True,2026-05-30,0.42

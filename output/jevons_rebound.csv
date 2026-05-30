@@ -1,0 +1,3 @@
+scenario,energy_base_twh,energy_end_twh,energy_cagr,efficiency_cagr,implied_compute_cagr,breakeven_compute_cagr,compute_growth_x,frozen_efficiency_energy_twh,frozen_demand_energy_twh,retrieved
+LBNL low,176.0,325.0,0.131,0.235,0.396,0.235,5.3,932,61,2026-05-29
+LBNL high,176.0,580.0,0.269,0.235,0.567,0.235,9.5,1664,61,2026-05-29

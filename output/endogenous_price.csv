@@ -1,0 +1,49 @@
+year,regime,demand_scenario,price_cents_kwh,dc_twh
+2023,null (IER: no link),low,8.62,176.0
+2024,null (IER: no link),low,8.62,206.0
+2025,null (IER: no link),low,8.62,236.0
+2026,null (IER: no link),low,8.62,265.0
+2027,null (IER: no link),low,8.62,295.0
+2028,null (IER: no link),low,8.62,325.0
+2029,null (IER: no link),low,8.62,325.0
+2030,null (IER: no link),low,8.62,325.0
+2023,null (IER: no link),high,8.62,176.0
+2024,null (IER: no link),high,8.62,257.0
+2025,null (IER: no link),high,8.62,338.0
+2026,null (IER: no link),high,8.62,418.0
+2027,null (IER: no link),high,8.62,499.0
+2028,null (IER: no link),high,8.62,580.0
+2029,null (IER: no link),high,8.62,580.0
+2030,null (IER: no link),high,8.62,580.0
+2023,moderate (Dallas Fed),low,8.62,176.0
+2024,moderate (Dallas Fed),low,8.62,206.0
+2025,moderate (Dallas Fed),low,8.62,236.0
+2026,moderate (Dallas Fed),low,9.08,265.0
+2027,moderate (Dallas Fed),low,9.54,295.0
+2028,moderate (Dallas Fed),low,10.0,325.0
+2029,moderate (Dallas Fed),low,10.28,325.0
+2030,moderate (Dallas Fed),low,10.56,325.0
+2023,moderate (Dallas Fed),high,8.62,176.0
+2024,moderate (Dallas Fed),high,8.62,257.0
+2025,moderate (Dallas Fed),high,8.62,338.0
+2026,moderate (Dallas Fed),high,9.19,418.0
+2027,moderate (Dallas Fed),high,9.77,499.0
+2028,moderate (Dallas Fed),high,10.34,580.0
+2029,moderate (Dallas Fed),high,10.69,580.0
+2030,moderate (Dallas Fed),high,11.03,580.0
+2023,high (Dallas Fed),low,8.62,176.0
+2024,high (Dallas Fed),low,8.62,206.0
+2025,high (Dallas Fed),low,8.62,236.0
+2026,high (Dallas Fed),low,9.77,265.0
+2027,high (Dallas Fed),low,10.93,295.0
+2028,high (Dallas Fed),low,12.08,325.0
+2029,high (Dallas Fed),low,12.77,325.0
+2030,high (Dallas Fed),low,13.46,325.0
+2023,high (Dallas Fed),high,8.62,176.0
+2024,high (Dallas Fed),high,8.62,257.0
+2025,high (Dallas Fed),high,8.62,338.0
+2026,high (Dallas Fed),high,10.06,418.0
+2027,high (Dallas Fed),high,11.49,499.0
+2028,high (Dallas Fed),high,12.93,580.0
+2029,high (Dallas Fed),high,13.79,580.0
+2030,high (Dallas Fed),high,14.65,580.0

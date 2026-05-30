@@ -1,0 +1,23 @@
+# Documented changes to the assumed USEFUL LIFE of servers / network equipment in
+# hyperscaler 10-K property-&-equipment accounting-policy notes. Longer life -> lower
+# annual depreciation -> higher reported operating income (the Burry/Chanos claim).
+#
+# MANUAL, Tier-2. Direction and approximate magnitude are well documented; exact dollar
+# impacts and year boundaries are reconstructed and must be CONFIRMED against the cited
+# filing text (the SEC EDGAR MCP does not surface the PP&E footnote cleanly). The
+# 'verified' column is false until the sentence is checked in the filing. Income-impact
+# figures are the company's own DISCLOSED estimate for the indicated fiscal year, in USD
+# billion; positive = raised operating income, negative = lowered it.
+#
+# Accession numbers (for verification):
+#   MSFT FY2023 10-K = 0000950170-23-035122 (filed 2023-07-27)
+#   MSFT FY2020 10-K = filed 2020-07-30
+#   GOOGL/AMZN/META: locate the 10-K for change_fiscal_year via SEC EDGAR.
+ticker,company,change_fiscal_year,asset_class,old_years,new_years,direction,disclosed_income_impact_usd_bn,verified,note
+MSFT,Microsoft,2020,server & network equipment,3,4,extended,,false,FY2020 10-K; first extension
+MSFT,Microsoft,2023,server & network equipment,4,6,extended,3.7,false,"FY2023 10-K acc 0000950170-23-035122; disclosed ~+$3.7B FY23 operating income (confirm)"
+GOOGL,Alphabet,2021,servers,3,4,extended,,false,"Jan 2021; network equipment also extended (confirm exact)"
+GOOGL,Alphabet,2023,servers,4,6,extended,3.4,false,"Jan 2023; servers 4->6, certain network 5->6; ~+$3.4B 2023 net income (confirm; Q1'23 ~+$988M)"
+AMZN,Amazon,2022,servers,4,5,extended,,false,"Jan 2022; earlier 3->4 in 2020 (confirm)"
+AMZN,Amazon,2024,subset of servers,6,5,shortened,-0.7,false,"early 2024: SHORTENED a subset citing faster tech/AI change; ~-$0.7B 2024 op income (confirm) -- counter-example"
+META,Meta Platforms,2022,servers & certain network assets,4,5,extended,,false,"2022 extension raised income (confirm exact years/amount)"

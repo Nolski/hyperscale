@@ -1,0 +1,13 @@
+ticker,company,change_fiscal_year,asset_class,old_years,new_years,direction,disclosed_income_impact_usd_bn,verified,note,section,fiscal_year,depreciation_usd_bn,dep_change_usd_bn,gross_ppe_change_usd_bn,early_year,early_implied_life_yrs,latest_year,latest_implied_life_yrs,change_yrs,retrieved
+MSFT,Microsoft,2020.0,server & network equipment,3.0,4.0,extended,,False,FY2020 10-K; first extension,disclosed_useful_life_change,,,,,,,,,,2026-05-29
+MSFT,Microsoft,2023.0,server & network equipment,4.0,6.0,extended,3.7,False,FY2023 10-K acc 0000950170-23-035122; disclosed ~+$3.7B FY23 operating income (confirm),disclosed_useful_life_change,,,,,,,,,,2026-05-29
+GOOGL,Alphabet,2021.0,servers,3.0,4.0,extended,,False,Jan 2021; network equipment also extended (confirm exact),disclosed_useful_life_change,,,,,,,,,,2026-05-29
+GOOGL,Alphabet,2023.0,servers,4.0,6.0,extended,3.4,False,"Jan 2023; servers 4->6, certain network 5->6; ~+$3.4B 2023 net income (confirm; Q1'23 ~+$988M)",disclosed_useful_life_change,,,,,,,,,,2026-05-29
+AMZN,Amazon,2022.0,servers,4.0,5.0,extended,,False,Jan 2022; earlier 3->4 in 2020 (confirm),disclosed_useful_life_change,,,,,,,,,,2026-05-29
+AMZN,Amazon,2024.0,subset of servers,6.0,5.0,shortened,-0.7,False,early 2024: SHORTENED a subset citing faster tech/AI change; ~-$0.7B 2024 op income (confirm) -- counter-example,disclosed_useful_life_change,,,,,,,,,,2026-05-29
+META,Meta Platforms,2022.0,servers & certain network assets,4.0,5.0,extended,,False,2022 extension raised income (confirm exact years/amount),disclosed_useful_life_change,,,,,,,,,,2026-05-29
+MSFT,Microsoft,,,,,,,,depreciation FELL while gross PP&E rose — consistent with a life extension,depreciation_fingerprint,2021.0,9.3,-1.4,23.72,,,,,,2026-05-29
+MSFT,Microsoft,,,,,,,,depreciation FELL while gross PP&E rose — consistent with a life extension,depreciation_fingerprint,2023.0,11.0,-1.6,29.83,,,,,,2026-05-29
+MSFT,Microsoft,,,,,,,,,implied_life_suggestive,,,,,2017.0,7.1,2025.0,11.6,4.6,2026-05-29
+AMZN,Amazon,,,,,,,,,implied_life_suggestive,,,,,2017.0,5.0,2025.0,7.1,2.0,2026-05-29
+ORCL,Oracle,,,,,,,,,implied_life_suggestive,,,,,2017.0,9.2,2025.0,12.2,3.0,2026-05-29

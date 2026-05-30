@@ -1,0 +1,14 @@
+section,metric,value,driver,npv_low,npv_high,swing,retrieved
+result,prob_clears_cost_of_capital,0.069,,,,,2026-05-30
+result,prob_clears_broad_attribution,0.479,,,,,2026-05-30
+result,median_npv_bn,-2408.0,,,,,2026-05-30
+result,p10_npv_bn,-4075.0,,,,,2026-05-30
+result,p90_npv_bn,-379.0,,,,,2026-05-30
+result,base_case_npv_bn,-2764.0,,,,,2026-05-30
+result,n_draws,50000.0,,,,,2026-05-30
+result,seed,42.0,,,,,2026-05-30
+tornado,,,R2030,-4265.0,-363.0,3902.0,2026-05-30
+tornado,,,K,-964.0,-4864.0,3900.0,2026-05-30
+tornado,,,margin,-3891.0,-1354.0,2536.0,2026-05-30
+tornado,,,wacc,-1558.0,-3423.0,1865.0,2026-05-30
+tornado,,,g_post,-3217.0,-1927.0,1291.0,2026-05-30

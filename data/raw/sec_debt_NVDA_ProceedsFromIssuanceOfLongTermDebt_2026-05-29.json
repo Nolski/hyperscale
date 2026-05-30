@@ -1,0 +1,67 @@
+{
+  "cik": 1045810,
+  "taxonomy": "us-gaap",
+  "tag": "ProceedsFromIssuanceOfLongTermDebt",
+  "label": "Proceeds from Issuance of Long-term Debt",
+  "description": "The cash inflow from a debt initially having maturity due after one year or beyond the operating cycle, if longer.",
+  "entityName": "NVIDIA CORP",
+  "units": {
+    "USD": [
+      {
+        "start": "2016-09-01",
+        "end": "2016-09-30",
+        "val": 1980000000,
+        "accn": "0001045810-21-000010",
+        "fy": 2021,
+        "fp": "FY",
+        "form": "10-K",
+        "filed": "2021-02-26",
+        "frame": "CY2016Q3I"
+      },
+      {
+        "start": "2016-02-01",
+        "end": "2017-01-29",
+        "val": 1980000000,
+        "accn": "0001045810-17-000027",
+        "fy": 2017,
+        "fp": "FY",
+        "form": "10-K",
+        "filed": "2017-03-01",
+        "frame": "CY2016"
+      },
+      {
+        "start": "2017-01-30",
+        "end": "2018-01-28",
+        "val": 1980000000,
+        "accn": "0001045810-18-000010",
+        "fy": 2018,
+        "fp": "FY",
+        "form": "10-K",
+        "filed": "2018-02-28",
+        "frame": "CY2017"
+      },
+      {
+        "start": "2018-01-29",
+        "end": "2019-01-27",
+        "val": 1980000000,
+        "accn": "0001045810-19-000023",
+        "fy": 2019,
+        "fp": "FY",
+        "form": "10-K",
+        "filed": "2019-02-21",
+        "frame": "CY2018"
+      },
+      {
+        "start": "2019-01-28",
+        "end": "2020-01-26",
+        "val": 1980000000,
+        "accn": "0001045810-20-000010",
+        "fy": 2020,
+        "fp": "FY",
+        "form": "10-K",
+        "filed": "2020-02-20",
+        "frame": "CY2019"
+      }
+    ]
+  }
+}

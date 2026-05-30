@@ -1,0 +1,13 @@
+# Cloud GPU on-demand rental rates over time (USD per GPU-hour). STAGED for Thread 4 —
+# not yet analyzed. MANUAL, Tier-2, verified=false: rates vary widely by provider, term,
+# and availability; CONFIRM before use. Purpose: a MARKET read on the decaying economic
+# value of a GPU vintage — H100 rents collapsed from shortage-era ~$8/hr toward ~$2/hr as
+# supply caught up, a faster value decay than the 6-year book life implies.
+gpu,date,usd_per_hour,provider_type,verified,note
+A100 80GB,2022-06,3.50,cloud avg,false,early A100 era
+A100 80GB,2024-06,1.80,cloud avg,false,
+A100 80GB,2025-06,1.00,cloud avg,false,
+H100 SXM,2023-06,8.00,cloud avg,false,shortage peak
+H100 SXM,2024-06,3.50,cloud avg,false,
+H100 SXM,2025-06,2.00,cloud avg,false,supply caught up
+B200,2025-06,5.00,cloud avg,false,early Blackwell pricing (rough)

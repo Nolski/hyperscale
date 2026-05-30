@@ -1,0 +1,24 @@
+# Cloud-segment revenue and operating income. PRIMARY where verified=true (SEC EDGAR 10-K,
+# captured via the sec-edgar get_segment_data MCP, accession noted); the AWS multi-year RAMP
+# (2013-2024) is hand-keyed from Amazon's published annual segment figures (verified=false).
+# These segments include but are not limited to AI; they anchor (a) the mature-cloud OPERATING
+# MARGIN the AI buildout must reach (~24-42%) and (b) the AWS revenue RAMP as the steepest real
+# precedent for a compute-infrastructure business. Microsoft fiscal year ends Jun 30.
+provider,year,revenue_usd,operating_income_usd,source,accession,verified
+AWS,2013,3108000000,,Amazon segment disclosures,,false
+AWS,2014,4644000000,,Amazon segment disclosures,,false
+AWS,2015,7880000000,1507000000,Amazon segment disclosures,,false
+AWS,2016,12219000000,3108000000,Amazon segment disclosures,,false
+AWS,2017,17459000000,4331000000,Amazon segment disclosures,,false
+AWS,2018,25655000000,7296000000,Amazon segment disclosures,,false
+AWS,2019,35026000000,9201000000,Amazon segment disclosures,,false
+AWS,2020,45370000000,13531000000,Amazon segment disclosures,,false
+AWS,2021,62202000000,18532000000,Amazon segment disclosures,,false
+AWS,2022,80096000000,22841000000,Amazon segment disclosures,,false
+AWS,2023,90757000000,24631000000,Amazon segment disclosures,,false
+AWS,2024,107556000000,39834000000,Amazon segment disclosures,,false
+AWS,2025,128725000000,45606000000,SEC EDGAR 10-K (get_segment_data),0001018724-26-000004,true
+Google Cloud,2023,33088000000,1716000000,Alphabet segment disclosures,,false
+Google Cloud,2024,43229000000,6112000000,Alphabet segment disclosures,,false
+Google Cloud,2025,58705000000,13910000000,SEC EDGAR 10-K (get_segment_data),alphabet-10k-fy2025,true
+Microsoft Intelligent Cloud,2025,106265000000,44589000000,SEC EDGAR 10-K FY2025 (get_segment_data),msft-10k-fy2025,true

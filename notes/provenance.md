@@ -5,6 +5,210 @@ vintage, and methodology caveats. Newest entries at the top.
 
 ---
 
+## Revenue / payback datasets — "can the revenue pay it back?" thread
+
+- **Methodology:** `notes/methodology_revenue.md`. **Scripts:** `fetch_cloud_revenue.py`,
+  `model_revenue_payback.py`, `model_payback_montecarlo.py`. Retrieved 2026-05-30.
+- **cloud_segments.csv** — cloud-segment revenue + operating income. **PRIMARY** rows
+  (`verified=true`): AWS FY2025 ($128.7B rev / $45.6B OI / 35%), Google Cloud FY2025 ($58.7B /
+  $13.9B / 24%), Microsoft Intelligent Cloud FY2025 ($106.3B / $44.6B / 42%) — captured from SEC
+  EDGAR 10-Ks via the `get_segment_data` MCP (Amazon accession 0001018724-26-000004; GOOGL/MSFT
+  FY2025 10-Ks). The AWS 2013–2024 ramp is hand-keyed from Amazon's published segment figures
+  (Tier-2). Anchors the mature-cloud margin ceiling and the AWS revenue-ramp comparable.
+- **ai_native_revenue.csv** (Tier-2, press): OpenAI ~$25B and Anthropic ~$30B annualized
+  run-rate, with trajectories; flagged that AI-native revenue is currently unprofitable.
+- **token_volume.csv** (Tier-2, keynotes): Google tokens/month 9.7T (2024) → 480T (2025) → 3.2
+  quadrillion (2026); calibrates the adoption S-curve.
+- **revenue_payback.csv / payback_montecarlo.csv** (model outputs): WACC ≈ 10%; capital deployed
+  ~$3.5–7.4T; required revenue ~$3.5–6.1T/yr (35% margin) vs achievable ~$0.7–1.4T by 2030;
+  required ramp ~4× AWS's pace; probability the buildout clears its cost of capital ≈ **7%
+  (AI-specific revenue)** / **48% (broad attribution)**. Achievable revenue is scenario;
+  attribution is the dominant assumption; probabilities are conditional on the input ranges.
+
+---
+
+## 2026 news/framing datasets — report reframe ("The Build and the Bill")
+
+- **Files:** `data/raw/manual/ai_capex_revenue_2026.csv`, `data/raw/manual/ai_adoption_signals.csv`.
+- **Used by:** `build_report.py` (the reframed long-read), retrieved 2026-05-30.
+- **TIER-2 FRAMING, not data of record.** Journalism + analyst estimates gathered via web
+  search; every row is `verified=false` and carries a `source` + `url`. These are cited inline
+  in the report and listed in its Sources block; the primary-source pipeline (SEC/FRED/EIA/BLS)
+  remains the spine. Figures move quarter to quarter — confirm against the linked source before
+  re-quoting.
+- **ai_capex_revenue_2026.csv:** Big-Five 2026 capex guidance (~$635–725B combined, ~2× 2024;
+  Amazon ~$200B, Alphabet ~$180B, Meta ~$135B, Microsoft ~$120B+), AI-service revenue ~$25B
+  (2025), capex ~45–57% of revenue, projected FCF drop, OpenAI ~$1.4T commitments vs ~$13B
+  revenue. Sources: Futurum, MUFG, NPR, HeyGoTrade (URLs in file).
+- **ai_adoption_signals.csv:** MIT NANDA 95% of GenAI pilots no P&L return (~$30–40B spend);
+  Robert Half 29% rehired after AI layoffs; Forrester 55% regret; ~$800B circular financing;
+  ~50% of 2026 US data centers delayed (power-constrained); Microsoft ~$80B unfulfilled Azure
+  orders; Burry ~2.5yr GPU useful-life claim. Sources: Fortune, Washington Times, BlockEden,
+  Tech-Insider, Global Data Center Hub, Quasa (URLs in file).
+
+---
+
+## Hardware-economics datasets — energy / efficiency / depreciation thread
+
+- **Methodology:** `notes/methodology_hardware_economics.md`; bibliography
+  `notes/bibliography_hardware_economics.md`.
+- **Scripts:** `fetch_gpu_specs.py`, `fetch_epoch_hardware.py`, `model_gpu_tco.py`,
+  `model_economic_obsolescence.py`. Retrieved 2026-05-29.
+
+### gpu_specs.csv (manual, Tier-2)
+- Hand-keyed AI-accelerator specs (`data/raw/manual/gpu_specs.csv`): NVIDIA V100→GB200,
+  AMD MI300X, Huawei Ascend 910B/910C. FLOPS are **dense** (not the headline sparse
+  numbers); `flops_dense_bf16` and `flops_dense_fp8` stored separately (Volta = FP16).
+  Prices are approximate street/list. **Huawei rows are ESTIMATES** (`verified=false`),
+  used for the China-vs-US thread. `country` column tags US vs China.
+
+### pue_assumptions.csv (manual, Tier-2)
+- PUE, system-overhead (GPU≈60-70% of server power → ~1.5×), utilization, hours/yr by
+  scenario (hyperscaler ~1.12 / industry ~1.5 / off-grid). Sources: hyperscaler
+  sustainability reports, Uptime Institute. The models use `hyperscaler_modern`.
+
+### epoch_hardware.csv (Epoch AI, live download)
+- `https://epoch.ai/data/ml_hardware.csv` (CC-BY; no key), ≈300 accelerators, 62 with both
+  BF16 perf and TDP retained. Used as external corroboration of gpu_specs.csv and the
+  perf/watt frontier. **Caveat:** Epoch's BF16 figure may follow a different sparsity
+  convention than our DENSE gpu_specs (e.g. Epoch H100 PCIe ≈2.16 TF/W vs our dense H100 SXM
+  ≈1.41) — trends agree; absolute levels differ by convention. Manual fallback supported.
+
+### gpu_tco.csv / economic_obsolescence.csv (model outputs)
+- TCO and economic-obsolescence model outputs (in `output/`). Key honest finding: at US
+  industrial power (~8.6¢/kWh, EIA, via `us_electricity.csv`), energy is ~10-17% of GPU TCO,
+  so **energy COST alone strands only old silicon** (V100 stranding price ≈13.5¢, A100 ≈32¢,
+  H100 ≈$1.00/kWh). The real refresh driver is power-CAPACITY opportunity cost (compute/MW).
+  The earnings-overstatement figure is a **conditional, illustrative** back-of-envelope.
+  Price scenarios (+20/+50%) anchor on Dallas Fed WP2606 via `electricity_price_outlook.csv`.
+
+### token_prices.csv / gpu_rental_rates.csv (manual, Tier-2 — STAGED, not yet analyzed)
+- Hand-keyed anchors for Thread 4 (token NPV): frontier-LLM $/Mtok over time and cloud
+  GPU $/hour over time. All `verified=false` — list prices change frequently; CONFIRM against
+  provider pages. Document the ~order-of-magnitude $/token decline and the H100 rent collapse
+  (~$8→$2/hr) as the revenue-side pressure on hardware value.
+
+### endogenous_price.csv (model output — demand→price feedback)
+- `model_endogenous_price.py`. Makes industrial electricity price a function of data-center
+  demand (LBNL path from `datacenter_energy.csv`), pinned to Dallas Fed WP2606 (+20%/+50% by
+  2028, `electricity_price_outlook.csv`) with an **IER null** (no causal link). Feeds the
+  price path into the per-vintage stranding thresholds. Finding: even the high path only
+  nears stranding V100 (~2029) and never modern chips. **Causation is CONTESTED** (Dallas Fed
+  vs IER, both carried); price path is scenario-anchored, not a structural grid model.
+
+### chip_margins.csv (SEC EDGAR)
+- `fetch_chip_margins.py`: GrossProfit / Revenue (10-K) for NVDA, AMD. Latest: NVIDIA ~71%
+  blended gross margin (FY2026, $216B rev), AMD ~50%. The vendor-markup slice of the cost stack.
+
+### cost_stack.csv (manual BOM + model output)
+- `data/raw/manual/cost_stack.csv` (Tier-2 analyst BOM ESTIMATES, `verified=false`: die / HBM /
+  packaging / other) + `model_cost_stack.py`. Decomposes full deployed cost: manufacturing |
+  vendor margin | facility+cooling capex (@ ~$9M/MW, flagged range) | lifetime energy. Finding
+  (H100): margin ~60%, facility+cooling ~24%, energy ~8%, manufacturing ~8% (HBM ~41% of COGS).
+  Explains the "energy looks small" artifact — the MSRP is mostly margin. Facility $/MW and BOM
+  are wide-range assumptions; proportions, not precision.
+
+### token_economics.csv (model output — Thread 4)
+- `model_token_economics.py`. Converts GPU compute to tokens/sec via the standard inference
+  rule (~2·N_active_params FLOPs/token) with **explicit flagged assumptions** (N≈100B active,
+  MFU 0.30, util 80%, discount 12%, 5y life); decode is often memory-bound so this is a
+  compute-bound proxy (MLPerf would refine). Cost/Mtok by vintage (H100 ≈$0.24) vs the API
+  OUTPUT price path (frontier flagship tier from `token_prices.csv`: ~$15/Mtok now, ~69%/yr
+  decline — flagship line GPT-4→4-Turbo→4o, EXCLUDING the "mini" tier). Finding: at list prices
+  + high utilisation, inference hardware pays back in ~year 1 (break-even flat price ~$0.32/Mtok,
+  ~50× below list) — so GPU unit economics aren't the risk; training capex, the price war, and
+  utilisation are. **Best-case monetisation** (all output tokens at list, high util) — upper bound.
+
+### jevons_rebound.csv (model output — Thread 3)
+- `model_jevons_rebound.py`. Decomposes DC energy growth via the identity E = C·e: frontier
+  perf/watt improving ~23%/yr (gpu_specs.csv), LBNL energy 176→325-580 TWh (datacenter_energy.csv),
+  so implied compute growth ~40-57%/yr — about 2× the efficiency rate. **Jevons result:** demand
+  outruns efficiency, total energy rises. Counterfactual (LBNL high): efficiency 'saved' ~1,084 TWh
+  (580 actual vs 1,664 frozen-efficiency), but energy still tripled from the 176 base. Caveats:
+  FLEET efficiency lags the FRONTIER (rebound even stronger); compute growth is INFERRED from the
+  identity (Epoch corroborates magnitude); the Jevons causal claim is interpretation; LBNL is a
+  scenario range.
+
+---
+
+## Financial-markets datasets — "Two Markets" thread (bonds vs. equities vs. AI)
+
+- **Methodology note:** `notes/methodology_financial_markets.md`.
+- **Files:** `data/processed/{treasury_curve, credit_spreads, market_stress,
+  equity_prices, equity_market_caps, shiller_cape, hyperscaler_debt}.csv`.
+- **Scripts:** `fetch_{treasury_curve, credit_spreads, market_stress, equity_market,
+  hyperscaler_debt}.py`; `analyze_{curve_decomposition, recession_signals,
+  equity_concentration, ai_financing_linkage, credit_equity_coherence}.py`.
+  Retrieved 2026-05-29.
+
+### treasury_curve.csv (FRED REST, https://api.stlouisfed.org/fred/)
+- Series: DGS3MO/2/5/10/30 (nominal CMT), T10Y2Y, T10Y3M (spreads), DFII5/DFII10
+  (TIPS real), T5YIE/T10YIE/T5YIFR (breakevens), **THREEFYTP10** (ACM 10y term
+  premium), DFEDTARU/EFFR (policy). Daily except policy.
+- **THREEFYTP10 is a MODEL ESTIMATE** (Adrian–Crump–Moench), not an observed price;
+  Kim–Wright and other models give different levels. Report level *and* model
+  dependence. Sanity check: nominal_10y − real_10y − breakeven_10y ≈ 0 (it does).
+
+### credit_spreads.csv (FRED REST)
+- ICE BofA OAS: BAMLH0A0HYM2 (HY), BAMLC0A0CM (IG), BAMLH0A3HYC (CCC); Moody's
+  BAA10Y/AAA10Y; DRTSCILM (SLOOS net % tightening C&I, quarterly survey).
+- ICE OAS series begin ~2023 in this pull's vintage window (n≈785); Moody's spreads
+  run to the 1980s. Percentile comparisons in analyze_* use each series' own history.
+
+### market_stress.csv (FRED REST)
+- VIXCLS, NFCI, STLFSI4, RECPROUSM156N (12-mo recession prob), SAHMREALTIME, USREC
+  (NBER dates), UNRATE, PAYEMS, ICSA, GDPC1.
+- **MOVE gap:** ICE BofA MOVE (Treasury implied vol) is paywalled / not on FRED.
+  analyze_credit_equity_coherence.py substitutes REALIZED 10y vol (21-day annualized
+  std of DGS10 daily changes) — a proxy, not the index. Flagged in-figure.
+
+### equity_prices.csv, equity_market_caps.csv (Yahoo Finance via `yfinance`, Tier-2)
+- Daily adjusted closes (auto_adjust) for SPY, RSP, QQQ, SMH and the Mag-7 (AAPL,
+  MSFT, GOOGL, AMZN, NVDA, META, TSLA) from 2003; current marketCap per Mag-7 name.
+- Yahoo is convenience/secondary-grade — fine for index-RELATIVE analysis (SPY vs
+  RSP divergence), not a statistical-agency source. Mag-7 share of S&P 500 by index
+  weight (~35%) is an EXTERNAL flagged reference in analyze_equity_concentration.py
+  (float weights are not computed from this data).
+
+### shiller_cape.csv (MANUAL, Tier-2 / approximate)
+- Hand-keyed APPROXIMATE year-end CAPE (CAPE-10) from Robert Shiller's online dataset
+  (econ.yale.edu/~shiller/data.htm), plus a current reading. 1/CAPE is a REAL
+  cyclically-adjusted earnings yield, compared against the TIPS real 10y to get the
+  equity risk premium. Treat the REGIME (high-30s, near dot-com extremes) as the
+  finding, not the second digit. Refresh from Shiller's file.
+
+### hyperscaler_debt.csv (SEC EDGAR XBRL companyconcept, no key; User-Agent set)
+- Same 7 firms as hyperscaler_capex_annual.csv. Concepts: LongTermDebtNoncurrent
+  (instant), ProceedsFromIssuanceOfLongTermDebt (duration), InterestExpense,
+  NetCashProvidedByUsedInOperatingActivities. Candidate tags tried in order.
+- **Oracle override:** Oracle does not file LongTermDebtNoncurrent; debt stock taken
+  from DebtInstrumentCarryingAmount (verified $92.9B at FY2025-05-31).
+- **Issuance is GROSS** proceeds (not net of repayment). MSFT/GOOGL/NVDA report no
+  issuance tag in recent FYs — shown as MISSING, not zero (they are net repayers /
+  cash-funded). Coverage = operating cash flow ÷ capex.
+
+### hyperscaler_depreciation.csv + server_useful_life_changes.csv (depreciation / useful-life test)
+- **Scripts:** `fetch_hyperscaler_depreciation.py`, `analyze_hyperscaler_depreciation.py`.
+  Bibliography context in `notes/bibliography_financial_markets.md` (Burry/Chanos).
+- **hyperscaler_depreciation.csv** — SEC EDGAR XBRL companyconcept: depreciation/D&A
+  (duration), PropertyPlantAndEquipmentGross/Net (instant). **Tag heterogeneity:**
+  MSFT/GOOGL/ORCL report `Depreciation` (clean); AMZN/META/NVDA/CRWV report
+  `DepreciationDepletionAndAmortization` (includes intangible amortization) — so the
+  implied-life proxy is NOT comparable across firms. **Coverage gaps:** Meta stops
+  reporting gross PP&E after FY2018; Alphabet after FY2024 — implied life is computable
+  only for MSFT/AMZN/ORCL, and even then is confounded by capex growth. The implied-life
+  number is SUGGESTIVE ONLY; the depreciation-expense fingerprint and the disclosures
+  are the evidence.
+- **server_useful_life_changes.csv (manual, Tier-2 — NOT yet text-verified):** documented
+  server/network useful-life changes from 10-K accounting-policy notes (MSFT 3→4→6y,
+  GOOGL 3→4→6y, AMZN 4→5y then a 6→5y *shortening* in 2024, META 4→5y) with disclosed
+  income impacts (~$3.7B MSFT FY23, ~$3.4B GOOGL 2023). The SEC EDGAR MCP exposes only
+  business/risk-factor sections, not the PP&E footnote, so dollar figures and exact year
+  boundaries must be CONFIRMED against the cited filings (e.g. MSFT FY2023 10-K accession
+  0000950170-23-035122). The `verified` column is false until checked.
+
+---
+
 ## State-level energy datasets — Q3a deepened energy section
 
 - **Files:** `data/processed/us_electricity_by_state.csv`,

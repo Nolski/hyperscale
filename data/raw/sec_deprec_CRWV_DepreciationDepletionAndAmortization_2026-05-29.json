@@ -1,0 +1,128 @@
+{
+  "cik": 1769628,
+  "taxonomy": "us-gaap",
+  "tag": "DepreciationDepletionAndAmortization",
+  "label": "Depreciation, Depletion and Amortization",
+  "description": "The aggregate expense recognized in the current period that allocates the cost of tangible assets, intangible assets, or depleting assets to periods that benefit from use of the assets.",
+  "entityName": "CoreWeave, Inc.",
+  "units": {
+    "USD": [
+      {
+        "start": "2023-01-01",
+        "end": "2023-12-31",
+        "val": 103000000,
+        "accn": "0001769628-26-000104",
+        "fy": 2025,
+        "fp": "FY",
+        "form": "10-K",
+        "filed": "2026-03-02",
+        "frame": "CY2023"
+      },
+      {
+        "start": "2024-01-01",
+        "end": "2024-03-31",
+        "val": 79510000,
+        "accn": "0001769628-25-000014",
+        "fy": 2025,
+        "fp": "Q1",
+        "form": "10-Q",
+        "filed": "2025-05-15",
+        "frame": "CY2024Q1"
+      },
+      {
+        "start": "2024-01-01",
+        "end": "2024-06-30",
+        "val": 243970000,
+        "accn": "0001769628-25-000041",
+        "fy": 2025,
+        "fp": "Q2",
+        "form": "10-Q",
+        "filed": "2025-08-13"
+      },
+      {
+        "start": "2024-01-01",
+        "end": "2024-09-30",
+        "val": 497994000,
+        "accn": "0001769628-25-000062",
+        "fy": 2025,
+        "fp": "Q3",
+        "form": "10-Q",
+        "filed": "2025-11-13"
+      },
+      {
+        "start": "2024-01-01",
+        "end": "2024-12-31",
+        "val": 863000000,
+        "accn": "0001769628-26-000104",
+        "fy": 2025,
+        "fp": "FY",
+        "form": "10-K",
+        "filed": "2026-03-02",
+        "frame": "CY2024"
+      },
+      {
+        "start": "2025-01-01",
+        "end": "2025-03-31",
+        "val": 443497000,
+        "accn": "0001769628-25-000014",
+        "fy": 2025,
+        "fp": "Q1",
+        "form": "10-Q",
+        "filed": "2025-05-15"
+      },
+      {
+        "start": "2025-01-01",
+        "end": "2025-03-31",
+        "val": 443000000,
+        "accn": "0001769628-26-000222",
+        "fy": 2026,
+        "fp": "Q1",
+        "form": "10-Q",
+        "filed": "2026-05-08",
+        "frame": "CY2025Q1"
+      },
+      {
+        "start": "2025-01-01",
+        "end": "2025-06-30",
+        "val": 1002978000,
+        "accn": "0001769628-25-000041",
+        "fy": 2025,
+        "fp": "Q2",
+        "form": "10-Q",
+        "filed": "2025-08-13"
+      },
+      {
+        "start": "2025-01-01",
+        "end": "2025-09-30",
+        "val": 1633457000,
+        "accn": "0001769628-25-000062",
+        "fy": 2025,
+        "fp": "Q3",
+        "form": "10-Q",
+        "filed": "2025-11-13"
+      },
+      {
+        "start": "2025-01-01",
+        "end": "2025-12-31",
+        "val": 2454000000,
+        "accn": "0001769628-26-000104",
+        "fy": 2025,
+        "fp": "FY",
+        "form": "10-K",
+        "filed": "2026-03-02",
+        "frame": "CY2025"
+      },
+      {
+        "start": "2026-01-01",
+        "end": "2026-03-31",
+        "val": 1147000000,
+        "accn": "0001769628-26-000222",
+        "fy": 2026,
+        "fp": "Q1",
+        "form": "10-Q",
+        "filed": "2026-05-08",
+        "frame": "CY2026Q1"
+      }
+    ]
+  }
+}

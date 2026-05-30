@@ -1,0 +1,13 @@
+# AI adoption / hype-reversal and bubble-warning signals, late 2025 - mid 2026. MANUAL,
+# Tier-2 FRAMING (journalism/analyst), all verified=false — attribute inline, confirm before
+# quoting; not the primary-source pipeline. Used in "The Hype Recedes", "Real but Inflated",
+# "The Bill", and "What Popping Means". indicator,value in stated unit.
+indicator,value,unit,source,url,date,verified,note
+genai_pilots_no_return,95,percent,"MIT NANDA, 'The GenAI Divide' (via Fortune)",https://fortune.com/2025/08/18/mit-report-95-percent-generative-ai-pilots-at-companies-failing-cfo/,2025-08,false,"95% of enterprise GenAI pilots show no measurable P&L return"
+enterprise_genai_spend,40,usd_billion,"MIT NANDA (via Fortune)",https://fortune.com/2025/08/18/mit-report-95-percent-generative-ai-pilots-at-companies-failing-cfo/,2025-08,false,"~$30-40B enterprise GenAI spend yielding little return"
+firms_rehired_after_ai,29,percent,"Robert Half survey (via press)",https://www.washingtontimes.com/news/2026/mar/10/ai-layoff-reversal-companies-rehire-customer-roles-eliminated/,2026-03,false,"share of firms that laid off for AI then rehired"
+employers_regret_ai_layoffs,55,percent,"Forrester (via press)",https://www.washingtontimes.com/news/2026/mar/10/ai-layoff-reversal-companies-rehire-customer-roles-eliminated/,2026-03,false,"share of employers regretting AI-related layoffs"
+circular_financing,800,usd_billion,"press / analyst (vendor-financing loop)",https://blockeden.xyz/blog/2026/03/06/ai-circular-financing-loop-vendor-financing/,2026-03,false,"~$800B of circular arrangements (Nvidia->OpenAI->Oracle->Nvidia, etc.)"
+datacenters_delayed_2026,50,percent,"press (US data-center delays)",https://tech-insider.org/us-ai-data-center-delays-cancellations-7gw-capacity-crisis-2026/,2026,false,"~half of planned 2026 US data centers delayed/canceled; power is the gate"
+microsoft_unfulfilled_orders,80,usd_billion,"press (Microsoft Azure)",https://www.globaldatacenterhub.com/p/microsoft-q3-fy2026-the-190b-capex,2026,false,"Azure orders MSFT cannot power; GPUs idle in warehouses for lack of electricity"
+burry_gpu_useful_life,2.5,years,"Michael Burry (via press)",https://quasa.io/media/why-michael-burry-thinks-the-ai-boom-is-a-bubble,2025,false,"argues true GPU life ~2.5yr; longer book lives flatter reported profit"

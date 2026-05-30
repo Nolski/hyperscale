@@ -1,0 +1,11 @@
+# Data-center power/utilization assumptions for the TCO and obsolescence models.
+# MANUAL, Tier-2. PUE = total facility power / IT power (1.0 = perfect). system_overhead =
+# multiplier on GPU TDP to capture the rest of the server (CPU, NIC, memory, PSU losses)
+# attributable per GPU; a GPU is ~60-70% of server power, so ~1.4-1.6x. utilization = share
+# of hours the accelerator is actively drawing ~peak power. hours_per_year = 8760.
+# Sources: hyperscaler sustainability reports (Google/Meta fleet PUE ~1.1), Uptime Institute
+# annual survey (industry-average PUE ~1.5), general server power-budget breakdowns.
+scenario,pue,system_overhead_factor,utilization,hours_per_year,verified,source,note
+hyperscaler_modern,1.12,1.5,0.80,8760,true,"Google/Meta sustainability reports","best-in-class fleet PUE; high utilization training/inference"
+industry_average,1.5,1.5,0.65,8760,true,"Uptime Institute survey","older/colo facilities; lower utilization"
+offgrid_selfgen,1.1,1.5,0.80,8760,false,"xAI Colossus reporting","behind-the-meter gas; PUE-like but self-generated power cost differs"

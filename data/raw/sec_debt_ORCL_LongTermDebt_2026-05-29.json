@@ -1,0 +1,22 @@
+{
+  "cik": 1341439,
+  "taxonomy": "us-gaap",
+  "tag": "LongTermDebt",
+  "label": "Long-term Debt",
+  "description": "Amount, after unamortized (discount) premium and debt issuance costs, of long-term debt. Includes, but not limited to, notes payable, bonds payable, debentures, mortgage loans and commercial paper. Excludes capital lease obligations.",
+  "entityName": "Oracle Corporation",
+  "units": {
+    "USD": [
+      {
+        "end": "2022-05-31",
+        "val": 0,
+        "accn": "0001564590-22-023675",
+        "fy": 2022,
+        "fp": "FY",
+        "form": "10-K",
+        "filed": "2022-06-21",
+        "frame": "CY2022Q2I"
+      }
+    ]
+  }
+}

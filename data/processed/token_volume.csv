@@ -1,0 +1,4 @@
+provider,period,tokens_per_month,source,verified,note,retrieved
+Google,2024-04,9700000000000,"Google (Pichai), via press",False,~9.7 trillion/month,2026-05-30
+Google,2025-05,480000000000000,"Google I/O 2025, via press",False,~480 trillion/month,2026-05-30
+Google,2026-05,3200000000000000,Google I/O 2026 keynote (Pichai),False,~3.2 quadrillion/month; 7x YoY,2026-05-30

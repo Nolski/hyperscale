@@ -1,0 +1,12 @@
+# AI-native frontier-lab annualized revenue run-rate over time. MANUAL, Tier-2 (press /
+# company statements, verified=false) — confirm before quoting. Shows the explosive but
+# still-small AI-specific revenue base, and (in prose) that this revenue is currently
+# UNPROFITABLE at the frontier (reporting: OpenAI ~ -$1.35 per $1 of revenue). ARR in USD billions.
+company,date,arr_usd_billion,source,verified,note
+OpenAI,2024-12,12,"press (annualized run-rate)",false,
+OpenAI,2025-12,20,"press (annualized run-rate)",false,
+OpenAI,2026-02,25,"The Information (annualized)",false,"~$2B/month"
+Anthropic,2025-01,1,"press / Epoch AI",false,
+Anthropic,2025-06,4,"press / Epoch AI",false,
+Anthropic,2025-12,9,"press / Epoch AI",false,
+Anthropic,2026-04,30,"press (run-rate)",false,"30x in 15 months; passed OpenAI"

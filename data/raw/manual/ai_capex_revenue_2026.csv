@@ -1,0 +1,15 @@
+# The capex-vs-revenue gap, 2026. MANUAL, Tier-2 framing (journalism/analyst, not the
+# primary-source pipeline). All verified=false: figures are company guidance and analyst
+# estimates that move quarter to quarter — CONFIRM against filings/sources before quoting.
+# Used in the report's "10x Problem" section, attributed inline. metric,value in stated unit.
+metric,value,unit,year,source,url,verified,note
+capex_amazon,200,usd_billion,2026,"Futurum / press (2026 guidance)",https://futurumgroup.com/insights/ai-capex-2026-the-690b-infrastructure-sprint/,false,"planned 2026 capex"
+capex_alphabet,180,usd_billion,2026,"Futurum / press (2026 guidance)",https://futurumgroup.com/insights/ai-capex-2026-the-690b-infrastructure-sprint/,false,"raised guidance ~175-185B"
+capex_meta,135,usd_billion,2026,"Futurum / press (2026 guidance)",https://futurumgroup.com/insights/ai-capex-2026-the-690b-infrastructure-sprint/,false,"up to ~135B"
+capex_microsoft,120,usd_billion,2026,"Futurum / press (FY2026 guidance)",https://futurumgroup.com/insights/ai-capex-2026-the-690b-infrastructure-sprint/,false,"FY2026 track; some estimates higher"
+capex_big5_total,690,usd_billion,2026,"MUFG / Futurum (combined 2026 guidance)",https://futurumgroup.com/insights/ai-capex-2026-the-690b-infrastructure-sprint/,false,"~635-725B range across sources; ~2x 2024"
+ai_service_revenue,25,usd_billion,2025,"analyst estimates (press)",https://www.heygotrade.com/en/blog/ai-capex-risk-openai-revenue-report/,false,"AI-related services revenue; ~10% of infra spend"
+capex_share_of_revenue,57,percent,2026,"press (hyperscaler capex/revenue)",https://www.heygotrade.com/en/blog/ai-capex-risk-openai-revenue-report/,false,"45-57% vs 10-15% in 2020"
+fcf_drop,90,percent,2026,"analyst projection (press)",https://www.heygotrade.com/en/blog/ai-capex-risk-openai-revenue-report/,false,"projected big-tech free-cash-flow drop if capex outpaces revenue"
+openai_commitments,1400,usd_billion,2026,"press (OpenAI infra commitments)",https://www.npr.org/2025/11/23/nx-s1-5615410/ai-bubble-nvidia-openai-revenue-bust-data-centers,false,"~$1.4T over 8 years across Broadcom/Oracle/MSFT/NVDA/AMD/AWS/CoreWeave"
+openai_revenue,13,usd_billion,2025,"press (OpenAI revenue)",https://www.npr.org/2025/11/23/nx-s1-5615410/ai-bubble-nvidia-openai-revenue-bust-data-centers,false,"against the $1.4T of commitments"
