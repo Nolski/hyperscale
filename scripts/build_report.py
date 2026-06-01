@@ -76,6 +76,12 @@ def csv_dict(path, key="indicator", val="value"):
     return {k: to_num(v) for k, v in zip(df[key].astype(str).str.strip(), df[val])}
 
 
+def _fcov(d, company):
+    """Latest-FY operating-cash-flow / capex coverage for one firm, from ai_financing."""
+    r = d["funding"][d["funding"]["company"] == company]
+    return float(r["coverage_ocf_over_capex"].iloc[0]) if not r.empty else float("nan")
+
+
 # --------------------------------------------------------------------------
 # Data
 # --------------------------------------------------------------------------
@@ -176,6 +182,11 @@ def load():
     fin = pd.read_csv(OUTPUT / "ai_financing.csv")
     agg = fin[fin["section"] == "aggregate_latest_fy"]
     d["debt_issuance"] = float(agg["debt_issuance_usd_bn"].iloc[0]) if not agg.empty else 77.0
+    d["ocf_agg"] = float(agg["operating_cash_flow_usd_bn"].iloc[0]) if not agg.empty else 683.0
+    d["cov_agg"] = float(agg["coverage_ocf_over_capex"].iloc[0]) if not agg.empty else 1.73
+    d["funding"] = (fin[fin["section"] == "latest_fy_by_firm"]
+                    .dropna(subset=["coverage_ocf_over_capex"])
+                    .sort_values("coverage_ocf_over_capex"))
 
     # Concentration time series: cap-weight vs equal-weight S&P, rebased to 2015 = 100
     ep = pd.read_csv(PROCESSED / "equity_prices.csv", parse_dates=["date"])
@@ -200,6 +211,11 @@ def load():
     nat = pd.read_csv(PROCESSED / "ai_native_revenue.csv")
     d["native_latest"] = {c: nat[nat.company == c].sort_values("date").iloc[-1]["arr_usd_billion"]
                           for c in nat["company"].unique()}
+
+    circ = pd.read_csv(MANUAL / "circular_financing.csv", comment="#")
+    d["circ"] = circ
+    d["circ_edge"] = {(r.source, r.target): float(r.amount_usd_billion) for r in circ.itertuples()}
+    d["oai_commit_sum"] = circ[circ.source == "OpenAI"]["amount_usd_billion"].sum()
     return d
 
 
@@ -440,17 +456,18 @@ def chart_required_vs_achievable(d):
     fig, ax = plt.subplots(figsize=(8, 4.5))
     ax.fill_between(years, ach["low"], ach["high"], color=NAVY, alpha=0.12)
     ax.plot(years, ach["mid"], color=NAVY, lw=2.4, marker="o",
-            label="Achievable AI revenue (usage S-curve)")
+            label="Achievable (usage S-curve)")
     ax.plot(years, ach["low"], color=NAVY, lw=1, ls=":")
     ax.plot(years, ach["high"], color=NAVY, lw=1, ls=":")
     ax.axhline(d["req_rev"][(6, 0.35)], color=RED, lw=2, ls="--",
-               label="Required to pay back @ 35% margin")
+               label="Required @ 35% margin")
     ax.axhline(d["req_rev"][(6, 0.25)], color=GOLD, lw=2, ls="--",
                label="Required @ 25% margin")
-    ax.axhline(2000, color=GREY, lw=1, ls="-.", label="Bain: ~$2T/yr 'cover cost'")
+    ax.axhline(2000, color=GREY, lw=1, ls="-.", label="Bain ~$2T 'cover cost'")
     ax.set_ylabel("AI revenue, USD billion / year")
     ax.set_ylim(0, d["req_rev"][(6, 0.25)] * 1.1)
-    ax.legend(fontsize=7.6, frameon=False, loc="upper left")
+    ax.set_xticks(years)
+    ax.legend(fontsize=8.5, frameon=False, loc="center left", bbox_to_anchor=(1.02, 0.5))
     ax.grid(axis="x", visible=False)
     return fig_to_b64(fig)
 
@@ -470,6 +487,57 @@ def chart_aws_vs_required(d):
     ax.set_ylabel("Revenue, USD billion (log)")
     ax.legend(fontsize=8, frameon=False, loc="upper left")
     ax.grid(alpha=0.3, which="both")
+    return fig_to_b64(fig)
+
+
+def chart_funding_coverage(d):
+    f = d["funding"]
+    cov = f["coverage_ocf_over_capex"].astype(float)
+    names = f["company"]
+    colors = [RED if c < 1 else NAVY for c in cov]
+    fig, ax = plt.subplots(figsize=(8, 3.8))
+    bars = ax.barh(names, cov, color=colors, height=0.64)
+    ax.axvline(1.0, color=INK, lw=1.4, ls="--")
+    ax.text(1.02, -0.45, "self-funds →", fontsize=8, color=NAVY)
+    ax.text(0.98, -0.45, "← needs outside money", fontsize=8, color=RED, ha="right")
+    for b, c in zip(bars, cov):
+        ax.text(c + 0.05, b.get_y() + b.get_height() / 2, f"{c:.2f}×",
+                va="center", fontsize=9, weight="bold")
+    ax.set_xlabel("Operating cash flow ÷ capex (latest fiscal year)")
+    ax.set_xlim(0, max(cov) * 1.15)
+    ax.grid(axis="y", visible=False)
+    return fig_to_b64(fig)
+
+
+def chart_circular(d):
+    e = d["circ_edge"]
+    fig, ax = plt.subplots(figsize=(8, 5.4))
+    ax.set_xlim(0, 10); ax.set_ylim(0, 10); ax.axis("off")
+    pos = {"NVIDIA": (5, 8.7), "OpenAI": (2.2, 2.6), "Oracle /\nCoreWeave": (7.8, 2.6),
+           "Microsoft": (1.0, 7.4)}
+    boxc = {"NVIDIA": RED, "OpenAI": NAVY, "Oracle /\nCoreWeave": NAVY_MID, "Microsoft": GREY}
+    for name, (x, y) in pos.items():
+        ax.text(x, y, name, ha="center", va="center", fontsize=10.5, weight="bold",
+                color="white", bbox=dict(boxstyle="round,pad=0.5", fc=boxc[name], ec="none"))
+
+    def arrow(a, b, label, rad, lab_xy, color=INK, lw=2.4):
+        (x0, y0), (x1, y1) = pos[a], pos[b]
+        ax.annotate("", xy=(x1, y1), xytext=(x0, y0),
+                    arrowprops=dict(arrowstyle="-|>", color=color, lw=lw, shrinkA=30,
+                                    shrinkB=30, connectionstyle=f"arc3,rad={rad}"))
+        ax.text(lab_xy[0], lab_xy[1], label, ha="center", va="center", fontsize=9,
+                color=color, weight="bold")
+
+    # clean clockwise triangle loop, arrows bowing OUTWARD
+    arrow("NVIDIA", "OpenAI", f"invests\n~${e[('NVIDIA','OpenAI')]:.0f}B", rad=0.22, lab_xy=(2.9, 6.1))
+    arrow("OpenAI", "Oracle /\nCoreWeave", f"~${e[('OpenAI','Oracle')]:.0f}B+ compute deals",
+          rad=-0.25, lab_xy=(5, 1.0))
+    arrow("Oracle /\nCoreWeave", "NVIDIA", "buy the GPUs", rad=0.22, lab_xy=(7.3, 6.1))
+    # one satellite: Microsoft also funds OpenAI
+    arrow("Microsoft", "OpenAI", "invests", rad=0.0, color=GREY, lw=1.4, lab_xy=(1.0, 4.9))
+    ax.text(5, 9.7, "The money goes in a circle", ha="center", fontsize=12, weight="bold")
+    ax.text(5, 0.2, "≈ $800B of commitments circulating — each lap booked as growth",
+            ha="center", fontsize=8.8, style="italic", color=GREY)
     return fig_to_b64(fig)
 
 
@@ -651,274 +719,251 @@ def build_paragraphs(n, c):
         'the repository. These move quarter to quarter; treat them as of mid-2026.</p></div>')
 
     return [
-        ("lede", f"In 2025, seven companies &mdash; Microsoft, Alphabet, Amazon, Meta, "
-         f"Oracle, Nvidia and CoreWeave &mdash; committed about {n['hyper']} to capital "
-         f"investment, most of it data centers built for artificial intelligence. That "
-         f"single year&rsquo;s spending equaled roughly {n['share_gdp']} of American "
-         f"gross domestic product, close to a tenth of all private business investment "
-         f"in the country, and nearly a third &mdash; {n['share_it']} &mdash; of "
-         f"everything American business spends on information-technology equipment and "
-         f"software combined. A decade earlier, the same firms spent on the order of "
-         f"{n['capex0']} a year between them."),
+        ("lede", f"It is the largest private capital bet in history. In 2025 seven "
+         f"companies committed about {n['hyper']} to building artificial-intelligence "
+         f"infrastructure; for 2026 the five biggest are guiding, between them, toward "
+         f"something like {n['capex26']} &mdash; roughly double their 2024 spending &mdash; "
+         f"and the buildout will have absorbed on the order of {n['kmid']} of capital by "
+         f"2030. Set against that is the revenue it earns today: all the AI-specific "
+         f"services in the economy, frontier labs included, run at roughly {n['r0']} a year. "
+         f"The returns, in other words, are a forecast; the costs are already here. This "
+         f"report follows that asymmetry all the way down &mdash; can a bet this size ever be "
+         f"paid back, and if it can&rsquo;t, who is left holding it, and who is already paying "
+         f"while the forecast plays out?"),
         ("fig", figure(c["ramp"], "A near-vertical climb",
                        "Combined annual capital investment of seven US hyperscalers, "
                        "cash capex plus finance leases.", "Source: SEC EDGAR filings")),
-
-        ("h2", "The Build"),
-        ("p", f"That was the floor, and it has since lifted off. For 2026 the largest "
-         f"firms are guiding, between them, toward something like {n['capex26']} &mdash; "
-         f"roughly double their 2024 spending, and now on the order of {n['capex_pct_rev']} "
-         f"of their revenue, against 10 to 15 percent at the start of the decade. "
-         f"Analysts project the group&rsquo;s free cash flow could fall sharply as the "
-         f"spending outruns what the products bring in. Outlays at this scale stop being "
-         f"the kind of investment a company makes out of profit, and become a bet it "
-         f"makes on conviction &mdash; and, increasingly, on debt."),
+        ("p", f"A decade ago these firms spent on the order of {n['capex0']} a year between "
+         f"them. The total roughly doubled in the single year to 2025, and a single "
+         f"year&rsquo;s spending now equals close to a third &mdash; {n['share_it']} &mdash; "
+         f"of everything American business invests in information-technology equipment and "
+         f"software combined. This is no longer a sector story. It is a claim on the "
+         f"economy&rsquo;s entire investable surplus, made by a handful of boardrooms."),
         ("fig", figure(c["macro"], "A claim on the economy&rsquo;s investable surplus",
                        "2025 hyperscaler capital investment, measured against US capital "
                        "formation.", "Source: SEC EDGAR; FRED (BEA national accounts)")),
-        ("p", "Concentration on this scale is itself a kind of risk. When a handful of "
-         "firms account for nearly a third of national IT investment, the economy&rsquo;s "
-         "growth, its stock-market gains and a measurable slice of its productivity "
-         "statistics all become correlated with the same few decisions. The buildout has "
-         "made the wider economy unusually dependent on whether a few boardrooms keep "
-         "believing in it &mdash; and unusually exposed to the moment any of them stops."),
 
-        ("h2", "The Ten-X Problem"),
-        ("p", f"Set the spending beside what it earns. All AI-specific revenue &mdash; the "
-         f"frontier labs (OpenAI ~{n['oai_rev_now']}, Anthropic ~{n['ant_rev']}) plus the "
-         f"hyperscalers&rsquo; AI services &mdash; runs at roughly {n['r0']} a year, against "
-         f"capital spending near {n['capex26']}. That is the headline gap, and it is real."),
+        ("h2", "The Arithmetic"),
+        ("p", f"Start with the version that looks impossible, because it is the honest "
+         f"starting point. The buildout has committed roughly {n['kmid']} of capital at a "
+         f"cost of capital around {n['wacc']}. To earn that back &mdash; even at the "
+         f"{n['margin_sh']} operating margin Amazon&rsquo;s AWS earns at scale, the most "
+         f"profitable cloud business ever built &mdash; the AI economy would have to "
+         f"generate on the order of {n['req35']} in revenue every year. Today it generates "
+         f"about {n['r0']}."),
         ("fig", figure(c["capexrev"], "The gap the buildout is betting on",
-                       "2026 capital spending (largest firms&rsquo; guidance) against "
-                       "today&rsquo;s AI-service revenue.",
+                       "2026 capital spending against today&rsquo;s AI-service revenue.",
                        "Source: SEC EDGAR; analyst / press estimates &mdash; Tier-2")),
-        ("p", f"But this year&rsquo;s gap is not the real test. The real test is whether the "
-         f"revenue can ever earn the capital back at its cost. So model it. The buildout has "
-         f"committed something like {n['kmid']} of capital between 2024 and 2030, at a cost "
-         f"of capital around {n['wacc']}. To return that &mdash; even at the {n['margin_sh']} "
-         f"operating margin Amazon&rsquo;s AWS earns at scale, the most profitable cloud "
-         f"business yet built &mdash; the AI economy would need to generate on the order of "
-         f"{n['req35']} in revenue every year. At thinner margins, more."),
-        ("p", f"Demand is, to be clear, exploding. Google now processes more than seven times "
-         f"as many AI tokens each year as the last &mdash; the clearest public signal that "
-         f"usage is real and vertical. But project that growth forward on an adoption curve, "
-         f"net the collapsing price per token, and achievable AI revenue reaches roughly "
-         f"{n['ach_mid']} by 2030 in the central case, {n['ach_hi']} even in an optimistic "
-         f"one. Against a requirement of {n['req35']} or more, the curve does not close the "
-         f"gap; it does not come within several times of it."),
+        ("p", f"Demand is, to be clear, exploding: Google now processes more than seven "
+         f"times as many AI tokens each year as the last. But run that growth forward on an "
+         f"adoption curve, net the collapsing price per token, and achievable AI revenue "
+         f"reaches roughly {n['ach_mid']} by 2030 in the central case &mdash; {n['ach_hi']} "
+         f"even in an optimistic one. Against a requirement of {n['req35']} or more, the "
+         f"curve does not close the gap. It does not come within several times of it."),
         ("fig", figure(c["reqach"], "What it must earn versus what usage can deliver",
                        "Revenue required to pay back the buildout at its cost of capital, "
                        "against an adoption-curve projection of achievable AI revenue.",
                        "Source: author&rsquo;s model on SEC capex, FRED rates, observed usage")),
-        ("pull", f"To pay the buildout back at its cost of capital, AI revenue would have to "
-         f"grow about {n['req_cagr']} a year &mdash; roughly {n['aws_x']} AWS&rsquo;s pace over "
-         f"its thirteen-year climb, at far greater scale. There is no precedent for it."),
+        ("pull", f"To pay the buildout back from AI revenue, that revenue would have to grow "
+         f"about {n['req_cagr']} a year &mdash; roughly {n['aws_x']} AWS&rsquo;s pace over its "
+         f"thirteen-year climb, at far greater scale. Nothing in the history of business has "
+         f"done it."),
         ("fig", figure(c["awsreq"], "A ramp without precedent",
                        "The required AI revenue ramp against AWS&rsquo;s actual climb to "
                        "~$130B &mdash; the steepest real precedent for cloud infrastructure.",
                        "Source: SEC EDGAR (AWS segment); author&rsquo;s required-ramp model")),
-        ("p", f"Run the whole thing as a probability &mdash; a Monte Carlo over the swing "
-         f"assumptions (usage growth, price decline, margin, cost of capital, asset life), "
-         f"crediting revenue earned well past 2030 &mdash; and the buildout clears its cost of "
-         f"capital in only about {n['p_clear']} of paths, if it must be repaid by AI-specific "
-         f"revenue. Credit AI instead with lifting all of cloud, advertising and search, and "
-         f"that rises to about {n['p_broad']} &mdash; a coin flip. The answer hinges almost "
-         f"entirely on that attribution question, and even the generous version is even money."),
-        ("p", "None of which says the technology is fake; it plainly is not. Britain&rsquo;s "
-         "railways and America&rsquo;s late-1990s fiber glut were the same species of "
-         "bet &mdash; real, transformative infrastructure laid years ahead of the demand, and "
-         "ruinous to most of the people who financed the early laying. The mature-cloud margins "
-         "are the ceiling the case requires, and AI-native revenue today still earns *below* "
-         "zero. The question was never whether AI matters. It is whether the revenue arrives, "
-         "at a high enough margin, before the financing runs out."),
 
-        ("h2", "The Hype Recedes"),
-        ("p", f"And just as the bill comes due, the demand meant to do the multiplying is "
-         f"being walked back. A widely cited MIT study found that about {n['mit95']} of "
-         f"enterprise generative-AI pilots delivered no measurable return. Companies that "
-         f"shed staff for AI are quietly reversing course: by one survey roughly "
-         f"{n['rehire']} of firms that laid off workers for AI have rehired, and "
-         f"{n['regret']} of employers say they regret the cuts. IBM, Duolingo and others "
-         f"have unwound their boldest &ldquo;AI-first&rdquo; promises. The 2023 rhetoric "
-         f"of imminent mass job replacement has, in 2026, gone notably quiet."),
-        ("p", f"The labor data anticipated this. By one measure the average US job has "
-         f"about {n['elo']} of its tasks exposed to large language models; but a second "
-         f"measure, built from observed use rather than predicted capability, puts the "
-         f"figure closer to {n['anth']}. The distance between what is possible and what is "
-         f"actually happening was always the story &mdash; and the enterprise ROI numbers "
-         f"now suggest that distance is closing more slowly than the spending assumes."),
-        ("fig", figure(c["labor"], "Promise versus practice",
-                       "Share of occupational tasks exposed to AI &mdash; predicted "
-                       "capability versus observed use, employment-weighted.",
-                       "Source: BLS OEWS; Eloundou et al.; Anthropic Economic Index")),
-        ("p", "Exposure is not displacement, and the early signal is specific: this wave "
-         "climbs the wage ladder rather than descending it, falling on the white-collar "
-         "core &mdash; customer service, sales, administrative and interpretive work. But "
-         "the buildout&rsquo;s return depends on that work being done more cheaply at "
-         "scale. If the enterprise payoff is not materializing, the tenfold revenue ramp "
-         "does not look closer. It looks further away."),
+        ("h2", "So Who Actually Pays?"),
+        ("p", f"If the arithmetic is that bad, the buildout should have stopped. It has not, "
+         f"and the reason is the hinge of this whole story: the giants are not paying for it "
+         f"out of AI revenue. They are paying for it out of the monopolies they already own. "
+         f"Microsoft, Alphabet, Amazon and Meta together throw off something like "
+         f"{n['ocf_agg']} a year in operating cash flow &mdash; from Search ads, Office, "
+         f"Windows, AWS and the ad machines &mdash; and across the group that cash still "
+         f"covers their capital spending about {n['cov_agg']} over. They are spending Search "
+         f"and advertising profits on AI data centers."),
+        ("fig", figure(c["funding"], "Who can pay their own way &mdash; and who can&rsquo;t",
+                       "Operating cash flow divided by capital spending, latest fiscal year. "
+                       "Below 1.0× means the buildout is being financed from outside.",
+                       "Source: SEC EDGAR filings")),
+        ("p", f"That is why the giants are not in danger of insolvency, whatever happens to "
+         f"AI revenue &mdash; their risk is wasted shareholder value, not bankruptcy. But "
+         f"look at the firms below the line. Oracle&rsquo;s operating cash flow covers only "
+         f"about {n['oracle_cov']}× its capital spending; CoreWeave&rsquo;s, about "
+         f"{n['crwv_cov']}×. They cannot pay from earnings, so they pay with debt, equity "
+         f"raises and contracted revenue &mdash; and a striking share of that contracted "
+         f"revenue turns out to be the same money going around in a circle."),
 
-        ("h2", "Real, but Inflated"),
-        ("p", "None of this means AI is fake. At the level of a single chip answering "
-         "queries, the economics are genuinely excellent: a modern accelerator&rsquo;s "
-         "running cost is a tiny fraction of what its output sells for, and it can repay "
-         "its purchase price within a year. The technology works, and the unit economics "
-         "of inference are real. What is inflated is the price of the picks and shovels."),
-        ("p", f"Decompose the full deployed cost of an AI accelerator and roughly "
-         f"{n['margin_sh']} of it is Nvidia&rsquo;s gross margin &mdash; scarcity rent, "
-         f"not the physical cost of building anything. The manufacturing is a sliver, and "
-         f"within it the high-bandwidth memory, not the logic chip, is the costly, "
-         f"supply-constrained part. The building, power and cooling are about "
-         f"{n['facil_sh']}; the electricity to run the thing for five years is only "
-         f"{n['energy_sh']}. The reason energy &ldquo;looks small&rdquo; is that the "
-         f"price is mostly markup."),
-        ("fig", figure(c["coststack"], "Mostly markup",
-                       "What a deployed AI accelerator costs over its life, by component "
-                       "share.", "Source: SEC EDGAR margins; analyst BOM estimates (Tier-2)")),
-        ("p", f"So a large part of what is counted as &ldquo;AI investment&rdquo; is a "
-         f"transfer to a single chokepoint rather than productive capital. And some of the "
-         f"demand is, in effect, manufactured: an estimated {n['circular']} of circular "
-         f"financing &mdash; Nvidia funding OpenAI, OpenAI paying Oracle, Oracle buying "
-         f"Nvidia &mdash; recycles the same dollars around a loop and books them as growth "
-         f"at each turn. Wall Street has begun calling it what the late 1990s "
-         f"called it: vendor financing."),
-        ("fig", figure(c["semis"], "One company, half the supply",
+        ("h2", "The Circle"),
+        ("p", f"By one estimate, about {n['circular']} of arrangements now loop capital "
+         f"around a ring. Nvidia is putting up to {n['nvidia_oai']} into OpenAI. OpenAI has "
+         f"committed something like {n['oai_commit']} over the next several years &mdash; "
+         f"around {n['oai_oracle']} to Oracle, with hundreds of billions more pledged to "
+         f"Microsoft, Broadcom, AMD and CoreWeave. And those providers, in turn, spend much "
+         f"of it buying Nvidia&rsquo;s chips. Nvidia books the sales as revenue and takes "
+         f"equity stakes in the very customers placing the orders &mdash; roughly 7 percent "
+         f"of CoreWeave among them. Each lap around the ring is counted, somewhere, as growth."),
+        ("fig", figure(c["circle"], "The money goes in a circle",
+                       "Headline AI financing commitments among the chipmaker, the lab and "
+                       "the clouds. Figures are multi-year announced commitments, not annual "
+                       "revenue.", "Source: company announcements / press &mdash; Tier-2")),
+        ("p", f"Set OpenAI&rsquo;s {n['oai_commit']} of commitments beside its roughly "
+         f"{n['oai_rev_now']} of actual annual revenue and the structure gives itself away. "
+         f"This is vendor financing: a supplier funding the customers who buy its product, so "
+         f"that the purchases show up as independent demand. Wall Street has seen the movie "
+         f"before &mdash; Lucent and Nortel booked loans to their own customers as equipment "
+         f"sales right up to the 2000 telecom bust, when the customers turned out unable to pay."),
+        ("p", "It is not pure illusion: real compute is delivered, real chips are installed, "
+         "and the demand for tokens underneath is genuine. But the ring flatters apparent "
+         "demand and concentrates the danger, because it runs on one input no balance sheet "
+         "controls &mdash; fresh capital continuing to flow in. The day investors stop funding "
+         "the next OpenAI round is the day Oracle&rsquo;s contracted revenue, "
+         "CoreWeave&rsquo;s debt service and Nvidia&rsquo;s order book all wobble at once. The "
+         "circle is a confidence machine; it spins beautifully until it doesn&rsquo;t."),
+
+        ("h2", "They Know"),
+        ("p", "The executives running these firms are not fooled by the arithmetic above; "
+         "they can do the sums better than anyone. What looks irrational from outside is the "
+         "rational move from inside, and their own stated logic is blunt: the risk of "
+         "under-investing is greater than the risk of over-investing. Three things make that "
+         "true for them even if the aggregate is a bubble."),
+        ("p", "First, it is defensive insurance on a far larger franchise. If AI becomes the "
+         "way people get answers, Google&rsquo;s search-ad business &mdash; the thing that "
+         "actually pays for all this &mdash; is the thing most at risk; spending a hundred "
+         "billion to defend a three-hundred-billion-a-year monopoly is rational at almost any "
+         "ROI. Second, it is a winner-take-most option: if transformative AI has even a "
+         "modest chance of being enormous, the expected value justifies enormous spending. "
+         "Third, it is a trap of the prisoner&rsquo;s-dilemma kind &mdash; each firm builds "
+         "because the others are building, and none can afford to be the one that sat out if "
+         "AI turns out to matter. That is exactly how individually-rational actors "
+         "manufacture a collective bubble."),
+        ("fig", figure(c["semis"], "The bet&rsquo;s single point of failure",
                        "Latest-fiscal-year revenue of the five largest US-listed chip "
-                       "suppliers. Nearly all are fabricated by a single Taiwanese "
-                       "foundry.", "Source: SEC EDGAR filings")),
-        ("p", "That chokepoint is also where the buildout meets geopolitics. Almost every "
-         "advanced AI chip is fabricated by one contractor, on an island within reach of "
-         "Chinese military pressure, using equipment from one Dutch supplier. A financial "
-         "commitment that can be made in a quarter rests on a manufacturing base that "
-         "takes a decade to expand and a geography no balance sheet controls. The cycle "
-         "can be funded far faster than it can be supplied &mdash; or defended."),
+                       "suppliers &mdash; nearly all fabricated by one Taiwanese foundry.",
+                       "Source: SEC EDGAR filings")),
+        ("p", f"And underneath the defensiveness is a genuine bull case. If AI really does "
+         f"become the substrate of knowledge work, its &ldquo;revenue&rdquo; stops being a "
+         f"metered-token line item and becomes a cut of the labor it replaces &mdash; a slice "
+         f"of GDP measured in trillions. That is the world the spending implies. Run the "
+         f"payback as a probability and the split is stark: the buildout clears its cost of "
+         f"capital in only about {n['p_clear']} of outcomes if it must be repaid by "
+         f"AI-specific revenue, but about {n['p_broad']} if AI is credited with lifting all "
+         f"of cloud, advertising and search. The entire bet hinges on which of those worlds "
+         f"arrives &mdash; and even the generous one is a coin flip."),
 
         ("h2", "The Bill"),
-        ("p", "Even where the arithmetic works for the firm, the costs land somewhere "
-         "else &mdash; and the first to arrive is electricity. For thirteen years, from "
-         "2007 to 2020, total US power demand was essentially flat, a generation of "
-         "efficiency gains canceling out growth. Forecasters came to treat flat demand as "
-         "the natural condition of a mature grid. The data-center surge is the first force "
-         "in a generation strong enough to break it."),
+        ("p", f"Here the asymmetry from the start of this piece turns concrete. The payback "
+         f"is a forecast; the running costs are not a forecast at all. They are already being "
+         f"paid &mdash; and increasingly by the public. The first is "
+         f"electricity. US power demand was flat for thirteen years; it is now rising about "
+         f"{n['surge']} a year, with data centers a principal cause, climbing from "
+         f"{n['dc23']} of US electricity in 2023 toward {n['dc30']} by 2030."),
         ("fig", figure(c["demand"], "Thirteen flat years, then a wall",
                        "US electricity demand, all sectors.", "Source: EIA")),
-        ("p", f"Demand is now rising about {n['surge']} a year. Data centers drew roughly "
-         f"{n['dc23']} of US electricity in 2023; depending on the scenario, that reaches "
-         f"between {n['dc30']} by 2030."),
         ("fig", figure(c["dcshare"], "The grid absorbs the buildout",
                        "Data centers as a share of total US electricity, 2023 actual and "
                        "2030 projected range.", "Source: LBNL; EPRI; EIA")),
-        ("p", f"By 2026 the binding constraint had flipped. It is no longer money, and no "
-         f"longer chips &mdash; it is power. Roughly {n['dc_delayed']} of planned US "
-         f"data centers for the year are reported delayed or canceled, held up not by "
-         f"financing but by transformers, switchgear and interconnection queues. "
-         f"Microsoft has disclosed something like {n['ms_unfilled']} of orders it cannot "
-         f"fill because it cannot secure the electricity to power chips already sitting in "
-         f"its warehouses. The grid cannot be scaled at the speed of capital, and the "
-         f"buildout has run headfirst into that fact."),
-        ("p", "The load does not spread evenly; it clusters. Virginia alone hosts an "
-         "estimated 32 terawatt-hours of data-center demand &mdash; on the order of a "
-         "quarter of the state&rsquo;s electricity. About fifteen states carry some 80 "
-         "percent of the national total. The buildout is a national story told in a few "
-         "ZIP codes, and those places carry a grid burden the average never shows."),
-        ("fig", figure(c["states"], "Where the load lands",
-                       "Data-center electricity by state &mdash; approximate 2023 "
-                       "estimates.", "Source: LBNL; EPRI; secondary reporting")),
-        ("p", f"Does the load raise prices? In the data-center-heavy states, residential "
-         f"power rose about {n['p_heavy']} between 2020 and 2025, against roughly "
-         f"{n['p_rest']} elsewhere, and the two diverged after 2021. The Dallas Fed&rsquo;s "
-         f"dispatch model finds data centers have already lifted wholesale prices by "
-         f"around {n['w_now']} percent and could add {n['w_mod']} to {n['w_high']} percent "
-         f"by 2028. The causation is genuinely contested &mdash; the Institute for Energy "
-         f"Research finds no significant link, and state prices turn on fuel mix and policy "
-         f"too &mdash; but the mechanism, where it operates, is not mysterious: a large new "
-         f"load bids against households for the same generation and transmission, and the "
-         f"cost flows to everyone on the shared system."),
+        ("p", f"By 2026 power, not money or chips, had become the binding constraint: roughly "
+         f"{n['dc_delayed']} of planned US data centers are delayed or canceled, and "
+         f"Microsoft is sitting on something like {n['ms_unfilled']} of orders it cannot fill "
+         f"because it cannot find the electricity to run chips already in its warehouses. Nor "
+         f"will efficiency rescue the grid &mdash; it accelerates the strain. Chips get about "
+         f"{n['eff_yr']} more efficient each year, but to meet the projected energy path "
+         f"compute must grow {n['comp_lo']}&ndash;{n['comp_hi']} a year, roughly twice as "
+         f"fast. Efficiency spared the grid perhaps {n['jev_saved']} terawatt-hours by "
+         f"2028 &mdash; and demand still tripled. It is the oldest result in energy "
+         f"economics, the Jevons paradox, playing out in real time."),
+        ("fig", figure(c["jevons"], "Why efficiency does not save the grid",
+                       "US data-center electricity in 2028: what efficiency saved, and what "
+                       "demand added on top.",
+                       "Source: vendor / Epoch AI perf-per-watt; LBNL energy")),
+        ("p", f"The pattern repeats inside the machine. Decompose the full cost of a deployed "
+         f"AI accelerator and only about {n['energy_sh']} is the electricity to run it; some "
+         f"{n['facil_sh']} is the building and cooling; and fully {n['margin_sh']} is "
+         f"Nvidia&rsquo;s gross margin &mdash; scarcity rent, not the cost of making anything. "
+         f"In the data-center-heavy states, residential power has risen about {n['p_heavy']} "
+         f"in five years against {n['p_rest']} elsewhere; whether the data centers caused it "
+         f"is genuinely contested, but the mechanism, where it operates, is plain. The "
+         f"margin, in other words, is privatised, and the bill is increasingly socialised."),
+        ("fig", figure(c["coststack"], "Mostly markup",
+                       "What a deployed AI accelerator costs over its life, by component "
+                       "share.", "Source: SEC EDGAR margins; analyst BOM estimates (Tier-2)")),
         ("fig", figure(c["prices"], "After 2021, a divergence",
                        "Residential electricity price, indexed to 2010, in data-center-"
                        "heavy states versus the rest.",
                        "Source: EIA API v2 (state retail prices)")),
-        ("fig", figure(c["outlook"], "How high prices could go",
-                       "Modelled data-center impact on US wholesale electricity prices.",
-                       "Source: Federal Reserve Bank of Dallas, WP2606")),
-        ("p", f"And efficiency will not bail the grid out &mdash; it accelerates the "
-         f"problem. AI chips do get more efficient, by about {n['eff_yr']} a year in "
-         f"performance per watt. But to meet the projected energy path, the underlying "
-         f"compute must grow {n['comp_lo']} to {n['comp_hi']} a year &mdash; about twice "
-         f"as fast. Total energy therefore rises, not falls: this is the Jevons paradox, "
-         f"the oldest result in energy economics. Efficiency gains spared the grid roughly "
-         f"{n['jev_saved']} terawatt-hours by 2028 &mdash; and data-center demand still "
-         f"roughly tripled anyway."),
-        ("fig", figure(c["jevons"], "Why efficiency does not save the grid",
-                       "US data-center electricity in 2028: what efficiency saved, and "
-                       "what demand added on top.",
-                       "Source: vendor / Epoch AI perf-per-watt; LBNL energy")),
         ("pull", "The margin is private. The bill &mdash; the grid, the prices, the "
-         "water &mdash; is increasingly public."),
+         "water &mdash; is public."),
 
-        ("h2", "Everyone&rsquo;s Bet"),
-        ("p", f"The financial risk is concentrated the way the spending is. Seven names "
-         f"now make up about {n['mag7_sh']} of the S&amp;P 500. The equity risk "
-         f"premium &mdash; the extra return investors get for holding stocks instead of "
-         f"safe Treasuries &mdash; has thinned to roughly {n['erp']}. And the cap-weighted "
-         f"index has pulled about {n['conc_x']} ahead of the average stock since 2015: the "
-         f"market &ldquo;looks fine&rdquo; largely because a few AI megacaps carry it."),
-        ("fig", figure(c["conc"], "The index and the median stock",
+        ("h2", "Is the Demand Even There?"),
+        ("p", f"All of which assumes the revenue eventually shows up. The early evidence is "
+         f"mixed, and the most-hyped version of it is receding. A widely cited MIT study found "
+         f"that about {n['mit95']} of enterprise generative-AI pilots delivered no measurable "
+         f"return; by one survey {n['rehire']} of firms that cut staff for AI have rehired, "
+         f"and {n['regret']} of employers regret the cuts. Usage in tokens is vertical; usage "
+         f"in dollars, and in delivered productivity, lags well behind it."),
+        ("fig", figure(c["labor"], "Promise versus practice",
+                       "Share of occupational tasks exposed to AI &mdash; predicted "
+                       "capability versus observed use, employment-weighted.",
+                       "Source: BLS OEWS; Eloundou et al.; Anthropic Economic Index")),
+        ("p", "The gap between what AI can do and what it is paid to do is the adoption "
+         "runway still ahead &mdash; and the buildout&rsquo;s entire case is that the runway "
+         "gets crossed, at a high margin, before the financing runs out. That remains a "
+         "wager on a future, not a description of the present."),
+
+        ("h2", "What &ldquo;Popping&rdquo; Would Mean"),
+        ("p", f"So suppose the wager sours. &ldquo;The AI bubble bursting&rdquo; conjures the "
+         f"year 2000, but the analogy misleads, because the people who actually owe the money "
+         f"are not the ones who look most exposed. Popping would not mean AI is exposed as "
+         f"fake. It would mean the leveraged claims stacked on top of a real-but-overbuilt "
+         f"infrastructure repricing to what it truly earns &mdash; and that repricing lands "
+         f"on the fringe, not the giants. The Oracles, CoreWeaves and labs hit refinancing "
+         f"walls; Nvidia&rsquo;s valuation multiple compresses; and depreciation finally "
+         f"catches up &mdash; the short-seller Michael Burry argues an AI server&rsquo;s true "
+         f"working life is about {n['burry']}, well under the six years the books assume, "
+         f"which would gut reported profits if applied."),
+        ("fig", figure(c["life"], "How long does an AI server really last?",
+                       "Assumed useful life: the depreciation schedule in the filings, a "
+                       "prominent short-seller&rsquo;s estimate, and this report&rsquo;s "
+                       "hardware model.",
+                       "Source: SEC EDGAR; press; author&rsquo;s model (Tier-2)")),
+        ("p", f"Because the bet has been indexed into everyone&rsquo;s savings &mdash; seven "
+         f"names are now about {n['mag7_sh']} of the S&amp;P 500, and the premium for holding "
+         f"stocks over safe bonds has thinned to roughly {n['erp']} &mdash; that repricing "
+         f"would not stay contained to a few balance sheets; it would run straight through the "
+         f"index funds in ordinary retirement accounts. And then the part that rhymes with "
+         f"history: the assets persist. The dark fiber of 1999 was eventually all lit. The "
+         f"data centers and chips will not vanish; they will be repriced, absorbed and, in "
+         f"time, used &mdash; while Microsoft keeps printing Office money throughout."),
+        ("fig", figure(c["conc"], "Everyone&rsquo;s bet now",
                        "Total return of the cap-weighted S&amp;P 500 versus its "
                        "equal-weighted twin, rebased to 2015.",
                        "Source: Yahoo Finance (Tier-2)")),
-        ("p", f"Meanwhile the buildout is turning to debt &mdash; roughly {n['debt_iss']} "
-         f"of new hyperscaler long-term issuance in a single year, with the marginal "
-         f"builders, Oracle and CoreWeave, borrowing well beyond what their own cash flow "
-         f"covers. Because nearly every retirement account is indexed to the same handful "
-         f"of names, this long ago stopped being a technology-sector wager. It became a "
-         f"household one, whether the household agreed to it or not."),
-
-        ("h2", "What &ldquo;Popping&rdquo; Would Mean"),
-        ("p", "So what if the bet sours? &ldquo;The AI bubble bursting&rdquo; summons the "
-         "year 2000, but the analogy misleads. The hyperscalers are real, profitable and "
-         "cash-rich; the technology is not vaporware; a chip serving inference makes "
-         "money. Popping, here, would not mean AI is exposed as a fraud. It would mean the "
-         "tower of financial claims built on top of a real-but-overbuilt infrastructure "
-         "repricing to what that infrastructure actually earns."),
-        ("p", f"That has a recognizable shape. It begins with capex deceleration &mdash; "
-         f"and the sentiment has already turned, with investors now selling hyperscalers "
-         f"when they announce <i>more</i> spending rather than rewarding it. It strikes "
-         f"the second derivative hardest: Nvidia&rsquo;s valuation multiple, the "
-         f"debt-funded clouds, and the power-and-construction supply chain, all priced for "
-         f"the ramp to continue. And depreciation catches up. Michael Burry has argued an "
-         f"AI server&rsquo;s true working life is about {n['burry']} &mdash; well under "
-         f"the six years the books assume; on a realistic schedule, today&rsquo;s reported "
-         f"profits would look materially worse."),
-        ("fig", figure(c["life"], "How long does an AI server really last?",
-                       "Assumed useful life: the depreciation schedule in the filings, a "
-                       "prominent short-seller&rsquo;s estimate, and this "
-                       "report&rsquo;s hardware model.",
-                       "Source: SEC EDGAR; press; author&rsquo;s model (Tier-2)")),
-        ("p", "From there the marginal borrowers hit refinancing walls, and the "
-         "concentration carries the damage into ordinary index funds. Then comes the part "
-         "that rhymes with history: the assets persist. The dark fiber laid in 1999 was "
-         "eventually all lit. The data centers and the chips will not vanish &mdash; they "
-         "will be repriced, absorbed and, in time, used. What pops is the financing and "
-         "the valuations stacked on top of them. And the public is left holding the grid "
-         "it paid to build."),
 
         ("h2", "Does the Math Math?"),
-        ("p", "At the level of a single machine, yes; at the level of the whole bet, not "
-         "yet. The largest firms can mostly fund their own spending, and an inference chip "
-         "pays for itself. But the trillion-dollar total rests on a revenue ramp with no "
-         "precedent, on a margin that one chokepoint controls and competitors are already "
-         "gunning for, on a supply chain that runs through a single Taiwanese fab in the "
-         "most dangerous geopolitical decade in living memory, and on a quiet assumption "
-         "that the public keeps paying the power bill."),
-        ("p", "Both things can be true at once &mdash; a genuine technological revolution "
-         "and a speculative mania &mdash; because historically they almost always have "
-         "been. Canals, railways, electricity, the internet: each delivered, and each "
-         "ruined a generation of investors first. The honest verdict is therefore not a "
-         "forecast but an accounting. The build is real. The bill is already being paid, "
-         "disproportionately, by people who never voted for it. And the open question is "
-         "not whether artificial intelligence matters &mdash; it plainly does &mdash; but "
-         "who is left holding which half of the bargain when the wager is finally settled."),
+        ("p", f"As a standalone investment &mdash; AI revenue paying back AI capital &mdash; "
+         f"no. It clears its cost of capital in roughly {n['p_clear']} of plausible paths, on "
+         f"the most generous mature-cloud margins, and the revenue ramp it needs has no "
+         f"precedent. As something else &mdash; spend the franchise&rsquo;s monopoly profits "
+         f"on a defensive option, push the fragile financing onto whoever is furthest out on "
+         f"the limb, and let the public carry the grid and the prices &mdash; it pencils out "
+         f"fine, for the giants. Both can be true at once: a genuine technological revolution "
+         f"and a speculative mania. They almost always have been. Canals, railways, "
+         f"electricity, the internet &mdash; each delivered, and each ruined a generation of "
+         f"financiers first."),
+        ("p", "The honest verdict is therefore not a forecast but an accounting, and it comes "
+         "down to the asymmetry this report has tracked from its first lines. The returns are "
+         "a forecast; the costs are already here &mdash; and the two do not fall on the same "
+         "people. The profits concentrate at a handful of chokepoints &mdash; Nvidia&rsquo;s "
+         "margin, a single Taiwanese foundry, a few cloud balance sheets. The costs spread "
+         "outward: onto ratepayers and the grid, onto the leveraged firms at the edge of the "
+         "circle, and onto everyone whose retirement is indexed to the same seven stocks. The "
+         "companies know the arithmetic does not close on AI revenue alone, and they spend "
+         "anyway, because for each of them it is the rational move &mdash; which is precisely "
+         "how the overhang gets built. So the question was never whether artificial "
+         "intelligence is real. It is real. The question is who is left holding the bet when "
+         "its claims finally reprice to what the machines can actually earn &mdash; and, long "
+         "before that reckoning, who is paying for it now."),
         ("methodbox", methodbox),
         ("sources", sources),
     ]
@@ -1024,14 +1069,20 @@ def main() -> None:
         "r0": f"${rps['R0_2026_bn']:.0f} billion",
         "oai_rev_now": f"${d['native_latest'].get('OpenAI', 25):.0f} billion",
         "ant_rev": f"${d['native_latest'].get('Anthropic', 30):.0f} billion",
+        "ocf_agg": f"${d['ocf_agg']:.0f} billion",
+        "cov_agg": f"{d['cov_agg']:.1f} times",
+        "oracle_cov": f"{_fcov(d, 'Oracle'):.2f}",
+        "crwv_cov": f"{_fcov(d, 'CoreWeave'):.2f}",
+        "nvidia_oai": f"${d['circ_edge'][('NVIDIA', 'OpenAI')]:.0f} billion",
+        "oai_oracle": f"${d['circ_edge'][('OpenAI', 'Oracle')]:.0f} billion",
     })
 
     c = {"ramp": chart_ramp(d), "macro": chart_macro(d), "semis": chart_semis(d),
          "demand": chart_us_demand(d), "dcshare": chart_dc_share(d),
-         "states": chart_dc_states(d), "prices": chart_state_prices(d),
-         "outlook": chart_price_outlook(d), "labor": chart_labor(d),
+         "prices": chart_state_prices(d), "labor": chart_labor(d),
          "capexrev": chart_capex_vs_revenue(d), "coststack": chart_cost_stack(d),
          "reqach": chart_required_vs_achievable(d), "awsreq": chart_aws_vs_required(d),
+         "funding": chart_funding_coverage(d), "circle": chart_circular(d),
          "conc": chart_concentration(d), "jevons": chart_jevons(d),
          "life": chart_useful_life(d)}
 
@@ -1057,11 +1108,11 @@ def main() -> None:
             words += len(re.sub("<[^>]+>", "", content).split())
 
     headline = "The Build and the Bill"
-    deck = ("American tech is spending close to a trillion dollars a year building "
-            "artificial-intelligence infrastructure — against a few tens of billions "
-            "in revenue. The technology is real. The arithmetic is a bet. And its "
-            "costs are already landing on people who never made it. A clear-eyed "
-            "reckoning with what the math does, and does not, support.")
+    deck = ("American tech is spending the better part of a trillion dollars a year "
+            "building artificial-intelligence infrastructure that AI revenue cannot come "
+            "close to paying back. So who does pay — and who is left holding the bet when "
+            "the math comes due? A clear-eyed reckoning, from the arithmetic down to who "
+            "carries the bill.")
     html = f"""<!DOCTYPE html>
 <html lang="en">
 <head>

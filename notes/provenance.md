@@ -40,6 +40,12 @@ vintage, and methodology caveats. Newest entries at the top.
   Amazon ~$200B, Alphabet ~$180B, Meta ~$135B, Microsoft ~$120B+), AI-service revenue ~$25B
   (2025), capex ~45–57% of revenue, projected FCF drop, OpenAI ~$1.4T commitments vs ~$13B
   revenue. Sources: Futurum, MUFG, NPR, HeyGoTrade (URLs in file).
+- **circular_financing.csv** (Tier-2, press/analyst, `verified=false`): the headline AI
+  vendor-financing loop as announced multi-year COMMITMENTS (not annual revenue) — Nvidia→OpenAI
+  (~$100B), OpenAI→Oracle/Microsoft/Broadcom/AMD/CoreWeave (~$1.1T summed; ~$1.4T incl. AWS),
+  providers→Nvidia (GPU purchases), Nvidia equity stakes (~7% of CoreWeave). Drives the report's
+  "The Circle" section + money-loop diagram. Figures vary by source; size the structure, not a
+  cash-flow statement. Sources: BlockEden, NPR, press (URLs with the figures).
 - **ai_adoption_signals.csv:** MIT NANDA 95% of GenAI pilots no P&L return (~$30–40B spend);
   Robert Half 29% rehired after AI layoffs; Forrester 55% regret; ~$800B circular financing;
   ~50% of 2026 US data centers delayed (power-constrained); Microsoft ~$80B unfulfilled Azure

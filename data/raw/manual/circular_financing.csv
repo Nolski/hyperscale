@@ -1,0 +1,16 @@
+# Circular / vendor financing in the AI buildout. MANUAL, Tier-2 (press/analyst, verified=false;
+# confirm before quoting). The same capital loops around a ring: a chipmaker invests in an AI lab,
+# the lab commits to clouds for compute, the clouds (and the lab) buy the chipmaker's GPUs, each
+# pass booked as revenue/growth. Amounts are ANNOUNCED multi-year COMMITMENTS (not annual revenue),
+# and figures vary by source; they size the structure, not a cash-flow statement.
+source,target,amount_usd_billion,kind,note,verified
+NVIDIA,OpenAI,100,investment,"Nvidia investing up to ~$100B in OpenAI",false
+Microsoft,OpenAI,13,investment,"prior cumulative investment in OpenAI",false
+OpenAI,Oracle,300,compute commitment,"multi-year cloud/compute deal",false
+OpenAI,Microsoft,250,compute commitment,"Azure compute",false
+OpenAI,Broadcom,350,chips,"custom-silicon / accelerator commitment",false
+OpenAI,NVIDIA,100,chips,"GPU purchases",false
+OpenAI,AMD,90,chips,"GPU purchases + warrants",false
+OpenAI,CoreWeave,22,compute commitment,"",false
+Oracle,NVIDIA,0,chips,"Oracle buys Nvidia GPUs to serve OpenAI (amount n/a)",false
+CoreWeave,NVIDIA,0,chips,"CoreWeave buys Nvidia GPUs; Nvidia holds ~7% stake (amount n/a)",false

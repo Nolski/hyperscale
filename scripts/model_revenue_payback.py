@@ -190,21 +190,20 @@ def main():
     # --- Fig 1: required vs achievable to 2030 ---
     fig, ax = plt.subplots(figsize=(8, 4.6))
     ax.fill_between(years, ach["low"], ach["high"], color=NAVY, alpha=0.13)
-    ax.plot(years, ach["mid"], color=NAVY, lw=2.4, marker="o", label="Achievable AI revenue (S-curve, mid)")
+    ax.plot(years, ach["mid"], color=NAVY, lw=2.4, marker="o", label="Achievable (usage S-curve)")
     ax.plot(years, ach["low"], color=NAVY, lw=1, ls=":")
     ax.plot(years, ach["high"], color=NAVY, lw=1, ls=":")
-    for m, col, lab in [(0.35, RED, "required @ 35% margin, 6-yr life"),
-                        (0.25, GOLD, "required @ 25% margin, 6-yr life")]:
+    for m, col, lab in [(0.35, RED, "Required @ 35% margin"),
+                        (0.25, GOLD, "Required @ 25% margin")]:
         rv = req[(req.margin == m) & (req.life_years == 6)]["required_revenue_bn"].iloc[0]
         ax.axhline(rv, color=col, lw=2, ls="--", label=lab)
-    ax.axhline(2000, color=GREY, lw=1, ls="-.", label="Bain: ~$2T/yr 'cover cost' bar")
+    ax.axhline(2000, color=GREY, lw=1, ls="-.", label="Bain ~$2T 'cover cost'")
     ax.set_ylabel("AI revenue, USD billion / year")
     ax.set_title("What the buildout must earn vs what usage can plausibly deliver")
-    ax.legend(fontsize=7.6, frameon=False, loc="upper left")
+    ax.legend(fontsize=8, frameon=False, loc="center left", bbox_to_anchor=(1.02, 0.5))
     ax.grid(axis="x", visible=False)
     caption(ax)
-    fig.tight_layout(rect=(0, 0.03, 1, 1))
-    fig.savefig(OUTPUT / "fig_required_vs_achievable.png", dpi=150)
+    fig.savefig(OUTPUT / "fig_required_vs_achievable.png", dpi=150, bbox_inches="tight")
     plt.close(fig)
 
     # --- Fig 2: AWS ramp vs required ramp (log) ---
