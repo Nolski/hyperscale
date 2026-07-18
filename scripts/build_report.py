@@ -621,7 +621,10 @@ def chart_useful_life(d):
 # HTML
 # --------------------------------------------------------------------------
 CSS = """
-:root { --ink:#121212; --grey:#6b6b6b; --rule:#dcdcdc; }
+:root { --ink:#121212; --grey:#6b6b6b; --rule:#dcdcdc; --link:#1a3a5c; }
+a { color:var(--link); text-decoration:none; border-bottom:1px solid #c9c9c9; }
+a:hover { border-bottom-color:var(--link); }
+.sources a, .fig-src a { border-bottom-color:#cfcfcf; }
 * { box-sizing:border-box; }
 body { margin:0; background:#fff; color:var(--ink);
   font-family:Georgia,'Times New Roman',serif; -webkit-font-smoothing:antialiased; }
@@ -708,15 +711,58 @@ def build_paragraphs(n, c):
 
     sources = (
         '<div class="sources"><div class="mb-h">Sources &amp; further reading</div>'
-        '<p>Framing figures cited above (journalism and analyst estimates, not primary '
-        'data) include: MIT&nbsp;NANDA, &ldquo;The GenAI Divide&rdquo; (via <i>Fortune</i>, '
-        'Aug&nbsp;2025); Robert&nbsp;Half and Forrester on AI re-hiring (via the '
-        '<i>Washington Times</i>, Mar&nbsp;2026); Futurum and MUFG on 2026 hyperscaler '
-        'capex; NPR (Nov&nbsp;2025) and reporting on OpenAI&rsquo;s ~$1.4&nbsp;trillion '
-        'commitments; coverage of ~$800&nbsp;billion in circular financing; reporting on '
-        '2026 data-center delays and Microsoft&rsquo;s unfilled, unpowered orders; and '
-        'Michael&nbsp;Burry on GPU depreciation. URLs are recorded with the data files in '
-        'the repository. These move quarter to quarter; treat them as of mid-2026.</p></div>')
+        '<p>Framing figures cited above are journalism and analyst estimates, not the '
+        'primary-source pipeline; they are attributed inline and flagged Tier-2. They move '
+        'quarter to quarter &mdash; treat them as of mid-2026 and confirm against the linked '
+        'source before re-quoting. Full dataset-by-dataset provenance, including these URLs, '
+        'is in <code>notes/provenance.md</code>.</p>'
+        '<p><b>Adoption &amp; the hype reversal.</b> MIT&nbsp;NANDA, &ldquo;The GenAI '
+        'Divide&rdquo; (95% of enterprise pilots show no P&amp;L return), via '
+        '<a href="https://fortune.com/2025/08/18/mit-report-95-percent-generative-ai-pilots-at-companies-failing-cfo/">'
+        '<i>Fortune</i>, Aug&nbsp;2025</a>; Robert&nbsp;Half and Forrester on post-AI '
+        're-hiring, via the '
+        '<a href="https://www.washingtontimes.com/news/2026/mar/10/ai-layoff-reversal-companies-rehire-customer-roles-eliminated/">'
+        '<i>Washington Times</i>, Mar&nbsp;2026</a>.</p>'
+        '<p><b>Capex, revenue &amp; circular financing.</b> 2026 hyperscaler capex guidance '
+        '(Futurum, MUFG) and OpenAI&rsquo;s ~$1.4&nbsp;trillion in commitments; the '
+        '~$800&nbsp;billion vendor-financing loop, via '
+        '<a href="https://blockeden.xyz/blog/2026/03/06/ai-circular-financing-loop-vendor-financing/">'
+        'BlockEden, Mar&nbsp;2026</a>; 2026 data-center delays, via '
+        '<a href="https://tech-insider.org/us-ai-data-center-delays-cancellations-7gw-capacity-crisis-2026/">'
+        'Tech&nbsp;Insider</a>; Microsoft&rsquo;s unfilled, unpowered Azure orders, via '
+        '<a href="https://www.globaldatacenterhub.com/p/microsoft-q3-fy2026-the-190b-capex">'
+        'Global&nbsp;Data&nbsp;Center&nbsp;Hub</a>.</p>'
+        '<p><b>GPU depreciation &amp; useful life.</b> Michael&nbsp;Burry (posting as '
+        '&ldquo;Cassandra&nbsp;Unchained&rdquo;) argues hyperscalers flatter earnings by '
+        'booking a 5&ndash;6-year life on hardware whose real economic life is ~2&ndash;3 '
+        'years &mdash; an estimated ~$176&nbsp;billion of understated depreciation across the '
+        'sector for 2026&ndash;2028 &mdash; in '
+        '<a href="https://x.com/michaeljburry/status/1987918650104283372">posts on&nbsp;X '
+        '(Nov&nbsp;2025)</a> and his Substack, reported by '
+        '<a href="https://www.cnbc.com/2025/11/11/big-short-investor-michael-burry-accuses-ai-hyperscalers-of-artificially-boosting-earnings.html">'
+        'CNBC (Nov&nbsp;11, 2025)</a>. Burry disclosed put positions on Nvidia and Palantir. '
+        'For the counter-view &mdash; that retired training GPUs find a long second life in '
+        'inference &mdash; see '
+        '<a href="https://siliconangle.com/2025/11/22/resetting-gpu-depreciation-ai-factories-bend-dont-break-useful-life-assumptions/">'
+        'SiliconANGLE (Nov&nbsp;2025)</a>.</p>'
+        '<p><b>Enron or telecom &mdash; which analogy?</b> The depreciation critique is often '
+        'wrapped in the Enron story: Jim&nbsp;Chanos, who called Enron by reading the footnote '
+        'everyone skipped, now reads the useful-life footnote the same way, and adds a seller-side '
+        'twist &mdash; the same buildout dollar is booked as high-margin revenue by the chip-maker '
+        '<i>now</i> while the buyer expenses it slowly over six years, so index-level earnings '
+        'flatter the underlying economics until the spending stops. The mechanic is real, but the '
+        'Enron label overreaches. Enron was <i>fraud</i> &mdash; debt hidden in off-balance-sheet '
+        'vehicles, self-dealing, fabricated marks; hyperscaler useful-life extensions are '
+        '<i>disclosed</i> judgments sitting in the 10-K, aggressive but legal, at firms that '
+        'generate real cash. The tighter historical rhyme is the one Chanos himself reaches for '
+        'when he calls Nvidia&rsquo;s investing-in-its-own-customers &ldquo;the most sophisticated '
+        'vendor-financing scheme since Lucent&rdquo; &mdash; the <b>2000 telecom overbuild</b>: '
+        'genuine demand overshoot, double- and triple-ordering of scarce gear, then cancellation, '
+        'ending in Cisco&rsquo;s ~$2.2&nbsp;billion inventory writedown in 2001. That is an '
+        '<i>overinvestment</i> failure, not a concealment one &mdash; and it is the more apt, and '
+        'more sobering, template for an AI capex cycle whose returns are still a forecast. '
+        '(Chanos&rsquo;s sharpest single data point: feeding CoreWeave&rsquo;s own ~2&ndash;3-year '
+        'GPU-life estimate into the model implies roughly 0% return on invested capital.)</p></div>')
 
     return [
         ("lede", f"It is the largest private capital bet in history. In 2025 seven "
@@ -919,9 +965,11 @@ def build_paragraphs(n, c):
          f"infrastructure repricing to what it truly earns &mdash; and that repricing lands "
          f"on the fringe, not the giants. The Oracles, CoreWeaves and labs hit refinancing "
          f"walls; Nvidia&rsquo;s valuation multiple compresses; and depreciation finally "
-         f"catches up &mdash; the short-seller Michael Burry argues an AI server&rsquo;s true "
-         f"working life is about {n['burry']}, well under the six years the books assume, "
-         f"which would gut reported profits if applied."),
+         f"catches up &mdash; the short-seller Michael Burry "
+         f"<a href=\"https://www.cnbc.com/2025/11/11/big-short-investor-michael-burry-accuses-ai-hyperscalers-of-artificially-boosting-earnings.html\">"
+         f"argues</a> an AI server&rsquo;s true working life is closer to two or three years "
+         f"&mdash; about {n['burry']} at the midpoint &mdash; well under the six years the "
+         f"books assume, which would gut reported profits if applied."),
         ("fig", figure(c["life"], "How long does an AI server really last?",
                        "Assumed useful life: the depreciation schedule in the filings, a "
                        "prominent short-seller&rsquo;s estimate, and this report&rsquo;s "

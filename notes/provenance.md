@@ -246,6 +246,34 @@ vintage, and methodology caveats. Newest entries at the top.
   boundaries must be CONFIRMED against the cited filings (e.g. MSFT FY2023 10-K accession
   0000950170-23-035122). The `verified` column is false until checked.
 
+### Burry GPU-depreciation thesis (Tier-2 framing — venue/dates verified 2026-06-16)
+- **What it is:** the report's "true useful life << 6-year book life" point (figure
+  "How long does an AI server really last?", and the `burry_gpu_useful_life` row in
+  `ai_adoption_signals.csv`). It is the *bear thesis*, attributed — NOT a primary
+  measurement. Carry it as a contested claim alongside the hyperscaler 6-year schedules.
+- **Venues (primary):** Michael Burry, posting as **"Cassandra Unchained" (@michaeljburry on
+  X)**, **Nov 10–11 2025** — the originating post:
+  `https://x.com/michaeljburry/status/1987918650104283372` ("Understating depreciation by
+  extending useful life of assets artificially boosts earnings — one of the more common
+  frauds of the modern era…"). Full analysis on his **Substack, also "Cassandra Unchained."**
+- **Coverage (citable secondary):** CNBC, "'Big Short' investor Michael Burry accuses AI
+  hyperscalers of artificially boosting earnings," Nov 11 2025 —
+  `https://www.cnbc.com/2025/11/11/big-short-investor-michael-burry-accuses-ai-hyperscalers-of-artificially-boosting-earnings.html`.
+  This REPLACES the weaker quasa.io link previously in `ai_adoption_signals.csv`.
+- **The specific numbers Burry asserts:** real economic life **~2–3 years** vs. the **5–6
+  year** schedules hyperscalers book (the report uses **2.5yr** as the midpoint of his
+  range — flag that it's a midpoint, not a figure he states); cumulative depreciation
+  understatement **~$176B across the sector, 2026–2028**; company illustrations (e.g. Oracle
+  ~26% / Meta ~20% earnings overstated by 2028 under unchanged assumptions). His fund
+  disclosed put positions on NVDA and PLTR — a CONFLICT to note when citing.
+- **Corroborating primary fact (not Burry's claim):** Meta moved its server useful-life
+  assumption to **5.5 years in 2025**, cutting depreciation expense by ~$2.9B (~4% of pre-tax
+  profit) — confirm against Meta's FY2025 10-K accounting-policy note; see also
+  `server_useful_life_changes.csv` above (MSFT/GOOGL 3→4→6y, AMZN's 2024 6→5y *shortening*).
+- **Caveat:** Burry's "2–3 year" economic life is itself a contested ASSERTION. The
+  counter-camp (SiliconANGLE Nov 22 2025; Deepquarry) argues retired training GPUs are
+  redeployed to inference, giving a longer real tail. Both sides belong in the text.
+
 ---
 
 ## State-level energy datasets — Q3a deepened energy section

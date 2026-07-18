@@ -89,8 +89,21 @@ permanence. Treat as leads to verify against primary filings/data.*
   Daily" / "Daily Spark") on AI capex, S&P 500 concentration, private-credit financing of
   data centers, and (relevant here) market-concentration-vs-dot-com comparisons. [verify]
   Probably the most on-point current commentator for our datasets.
-- **Jim Chanos** — short-seller; public skepticism on hyperscaler capital intensity and
-  **depreciation/useful-life accounting**. [verify recent statements]
+- **Jim Chanos** — short-seller who called Enron; 2025–26 skepticism on hyperscaler
+  capital intensity and **depreciation/useful-life accounting**. Two specific, citable
+  claims (verified 2026-07-06): (1) plugging CoreWeave's *own* CEO GPU useful-life estimate
+  of ~2–3 years into the model implies roughly **0% return on invested capital**; (2) he
+  calls Nvidia's practice of investing in its own customers **"the most sophisticated vendor
+  financing scheme since Lucent"** — i.e. his working analogy is the **2000 telecom
+  overbuild**, not Enron fraud. Coverage: Stocktwits, "Short Seller Who Predicted Enron's
+  Collapse Joins Michael Burry…" (`https://stocktwits.com/news-articles/markets/equity/jim-chanos-joins-michael-burry-in-sounding-ai-alarm/cLPIZeRRE59`);
+  Financial-World, "Michael Burry warns AI leaders on depreciation risk as Chanos raises
+  capex alarm" (`https://www.financial-world.org/news/news/financial/29534/michael-burry-warns-ai-leaders-on-depreciation-risk-as-chanos-raises-capex-alarm/`).
+  **Caveat on the Enron framing:** Enron was fraud (off-balance-sheet SPEs, self-dealing);
+  hyperscaler useful-life extensions are *disclosed* accounting judgments in the 10-K. The
+  honest historical rhyme for the AI capex mechanic is telecom overbuild (double-ordering →
+  Cisco's ~$2.2bn 2001 inventory writedown), not Enron. See the report's depreciation
+  section for the distinction.
 - **Michael Burry (Scion Asset Management)** — 2025 commentary alleging hyperscalers
   **understate depreciation by extending the useful life of servers/GPUs**, flattering
   earnings. [verify — this is the precise claim the depreciation analysis
