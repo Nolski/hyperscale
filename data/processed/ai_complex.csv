@@ -1,0 +1,20 @@
+ticker,company,layer,fiscal_year,period_end,revenue_usd,capex_usd,namespace,verified,retrieved
+DLR,Digital Realty,data-center REIT,2025.0,2025-12-31,6112692000.0,,us-gaap,True,2026-06-01
+EQIX,Equinix,data-center REIT,2025.0,2025-12-31,9217000000.0,4311000000.0,us-gaap,True,2026-06-01
+ETN,Eaton,electrical/cooling,2025.0,2025-12-31,27448000000.0,919000000.0,us-gaap,True,2026-06-01
+GEV,GE Vernova,electrical/cooling,2025.0,2025-12-31,38068000000.0,1277000000.0,us-gaap,True,2026-06-01
+PWR,Quanta Services,electrical/cooling,2025.0,2025-12-31,28479697000.0,609154000.0,us-gaap,True,2026-06-01
+VRT,Vertiv,electrical/cooling,2025.0,2025-12-31,10229900000.0,220000000.0,us-gaap,True,2026-06-01
+AMAT,Applied Materials,equipment,2025.0,2025-10-26,28368000000.0,2260000000.0,us-gaap,True,2026-06-01
+ASML,ASML,equipment,,,,,,False,2026-06-01
+KLAC,KLA,equipment,2025.0,2025-06-30,12156162000.0,335259000.0,us-gaap,True,2026-06-01
+LRCX,Lam Research,equipment,2025.0,2025-06-29,18435591000.0,759186000.0,us-gaap,True,2026-06-01
+MU,Micron,memory,2025.0,2025-08-28,37378000000.0,15857000000.0,us-gaap,True,2026-06-01
+CRWV,CoreWeave,neocloud,2025.0,2025-12-31,5131000000.0,10309000000.0,us-gaap,True,2026-06-01
+ANET,Arista Networks,networking,2025.0,2025-12-31,9005700000.0,119500000.0,us-gaap,True,2026-06-01
+AVGO,Broadcom,networking,2025.0,2025-11-02,63887000000.0,623000000.0,us-gaap,True,2026-06-01
+MRVL,Marvell,networking,2026.0,2026-01-31,8194600000.0,354100000.0,us-gaap,True,2026-06-01
+CEG,Constellation,power/IPP,2025.0,2025-12-31,22663000000.0,2949000000.0,us-gaap,True,2026-06-01
+NEE,NextEra Energy,power/IPP,2025.0,2025-12-31,25800000000.0,,us-gaap,True,2026-06-01
+NRG,NRG Energy,power/IPP,2025.0,2025-12-31,30347000000.0,1147000000.0,us-gaap,True,2026-06-01
+VST,Vistra,power/IPP,2025.0,2025-12-31,17586000000.0,2752000000.0,us-gaap,True,2026-06-01

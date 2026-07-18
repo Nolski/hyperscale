@@ -5,6 +5,39 @@ vintage, and methodology caveats. Newest entries at the top.
 
 ---
 
+## Broadening datasets — the AI-industrial complex (beyond the 7)
+
+- **Methodology/blueprint:** `notes/methodology_broadening.md` (existing-analysis review, 4-layer
+  sector map, per-layer acquisition spec, exposure-vs-attribution discipline).
+- **Scripts:** `fetch_bea.py`, `analyze_macro_attribution.py`, `fetch_ai_complex.py`,
+  `analyze_ai_complex.py`. Retrieved 2026-06-01.
+
+### bea_fixed_investment.csv / bea_real_gdp.csv / bea_contributions.csv (BEA API, PRIMARY)
+- BEA NIPA via `https://apps.bea.gov/api/data` (UserID=`BEA_API_KEY`, GetData, NIPA, quarterly):
+  **T50306** (real private fixed investment by type — the "information processing equipment and
+  software" line), **T10106** (real GDP level), **T10102** (contributions to % change in real GDP,
+  cross-check). Values are **real (chained $), SAAR, and REVISED** — note the retrieval vintage.
+- **macro_attribution.csv** (output): IT-investment contribution to real GDP growth. Reproduces
+  Furman with primary data — H1 2025 IT investment ≈ **92% of GDP growth** (0.1% without it); IT
+  investment 2.6%→7.0% of GDP (2010→2026). Contribution, **not causation** (Furman's own caveat).
+  Contribution-from-real-levels approximates BEA's chain-weighted contributions.
+
+### ai_complex.csv (SEC EDGAR, PRIMARY where US-listed)
+- `fetch_ai_complex.py`: revenue + capex (latest FY) for 19 firms across 7 layers (memory,
+  equipment, networking, data-center REITs, electrical/cooling, power/IPP, neoclouds), via the
+  `companyconcept` pattern; CIKs resolved from SEC `company_tickers.json`. **18/19 resolved**;
+  **ASML flagged** (files in EUR, not USD — needs Tier-2 conversion). **Revenue is AI-EXPOSURE,
+  not AI-attribution** — an upper bound on each firm's AI tie, never summed into an "AI total";
+  prefer disclosed segments. Memory understated (Micron only; SK Hynix/Samsung are foreign Tier-2).
+- **ai_complex_summary.csv** (output): ~$399B AI-exposed revenue + ~$45B capex across the complex.
+
+### private_credit.csv (Tier-2, STAGED — systemic-financing layer, analysis pending)
+- Hand-keyed regulator/bank/press figures: JPMorgan ~$1.5T IG issuance / ~$3.5T cumulative AI
+  capex 2026-29; BofA survey 34% (AI capex = top systemic-credit risk); FSB May-2026 private-credit
+  vulnerability report; ~$3T private-credit market. All `verified=false`; sources/URLs in file.
+
+---
+
 ## Revenue / payback datasets — "can the revenue pay it back?" thread
 
 - **Methodology:** `notes/methodology_revenue.md`. **Scripts:** `fetch_cloud_revenue.py`,

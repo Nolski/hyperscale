@@ -1,0 +1,8 @@
+layer,firms,revenue_bn,capex_bn,note,retrieved
+electrical/cooling,4,104.225597,3.025154,"AI-EXPOSURE (upper bound), not AI-only revenue",2026-06-01
+power/IPP,4,96.396,6.848,"AI-EXPOSURE (upper bound), not AI-only revenue",2026-06-01
+networking,3,81.0873,1.0966,"AI-EXPOSURE (upper bound), not AI-only revenue",2026-06-01
+equipment,3,58.959753,3.3544449999999997,"AI-EXPOSURE (upper bound), not AI-only revenue",2026-06-01
+memory,1,37.378,15.857,"AI-EXPOSURE (upper bound), not AI-only revenue",2026-06-01
+data-center REIT,2,15.329692000000001,4.311,"AI-EXPOSURE (upper bound), not AI-only revenue",2026-06-01
+neocloud,1,5.131,10.309,"AI-EXPOSURE (upper bound), not AI-only revenue",2026-06-01

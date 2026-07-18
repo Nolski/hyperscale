@@ -1,0 +1,2081 @@
+table,line,description,time_period,value,units,retrieved
+T50306,1,Private fixed investment,2010Q1,2192686.0,Level,2026-06-01
+T50306,1,Private fixed investment,2010Q2,2272707.0,Level,2026-06-01
+T50306,1,Private fixed investment,2010Q3,2285204.0,Level,2026-06-01
+T50306,1,Private fixed investment,2010Q4,2328831.0,Level,2026-06-01
+T50306,1,Private fixed investment,2011Q1,2325257.0,Level,2026-06-01
+T50306,1,Private fixed investment,2011Q2,2380022.0,Level,2026-06-01
+T50306,1,Private fixed investment,2011Q3,2480401.0,Level,2026-06-01
+T50306,1,Private fixed investment,2011Q4,2544234.0,Level,2026-06-01
+T50306,1,Private fixed investment,2012Q1,2624008.0,Level,2026-06-01
+T50306,1,Private fixed investment,2012Q2,2677220.0,Level,2026-06-01
+T50306,1,Private fixed investment,2012Q3,2681288.0,Level,2026-06-01
+T50306,1,Private fixed investment,2012Q4,2729394.0,Level,2026-06-01
+T50306,1,Private fixed investment,2013Q1,2782635.0,Level,2026-06-01
+T50306,1,Private fixed investment,2013Q2,2811721.0,Level,2026-06-01
+T50306,1,Private fixed investment,2013Q3,2863364.0,Level,2026-06-01
+T50306,1,Private fixed investment,2013Q4,2910211.0,Level,2026-06-01
+T50306,1,Private fixed investment,2014Q1,2946011.0,Level,2026-06-01
+T50306,1,Private fixed investment,2014Q2,3032651.0,Level,2026-06-01
+T50306,1,Private fixed investment,2014Q3,3094489.0,Level,2026-06-01
+T50306,1,Private fixed investment,2014Q4,3137275.0,Level,2026-06-01
+T50306,1,Private fixed investment,2015Q1,3150326.0,Level,2026-06-01
+T50306,1,Private fixed investment,2015Q2,3184460.0,Level,2026-06-01
+T50306,1,Private fixed investment,2015Q3,3220257.0,Level,2026-06-01
+T50306,1,Private fixed investment,2015Q4,3219485.0,Level,2026-06-01
+T50306,1,Private fixed investment,2016Q1,3243156.0,Level,2026-06-01
+T50306,1,Private fixed investment,2016Q2,3267121.0,Level,2026-06-01
+T50306,1,Private fixed investment,2016Q3,3303627.0,Level,2026-06-01
+T50306,1,Private fixed investment,2016Q4,3333741.0,Level,2026-06-01
+T50306,1,Private fixed investment,2017Q1,3376900.0,Level,2026-06-01
+T50306,1,Private fixed investment,2017Q2,3410548.0,Level,2026-06-01
+T50306,1,Private fixed investment,2017Q3,3436561.0,Level,2026-06-01
+T50306,1,Private fixed investment,2017Q4,3515953.0,Level,2026-06-01
+T50306,1,Private fixed investment,2018Q1,3576791.0,Level,2026-06-01
+T50306,1,Private fixed investment,2018Q2,3613793.0,Level,2026-06-01
+T50306,1,Private fixed investment,2018Q3,3623466.0,Level,2026-06-01
+T50306,1,Private fixed investment,2018Q4,3632827.0,Level,2026-06-01
+T50306,1,Private fixed investment,2019Q1,3643127.0,Level,2026-06-01
+T50306,1,Private fixed investment,2019Q2,3710747.0,Level,2026-06-01
+T50306,1,Private fixed investment,2019Q3,3750143.0,Level,2026-06-01
+T50306,1,Private fixed investment,2019Q4,3739506.0,Level,2026-06-01
+T50306,1,Private fixed investment,2020Q1,3711130.0,Level,2026-06-01
+T50306,1,Private fixed investment,2020Q2,3419782.0,Level,2026-06-01
+T50306,1,Private fixed investment,2020Q3,3642212.0,Level,2026-06-01
+T50306,1,Private fixed investment,2020Q4,3784330.0,Level,2026-06-01
+T50306,1,Private fixed investment,2021Q1,3861326.0,Level,2026-06-01
+T50306,1,Private fixed investment,2021Q2,3918900.0,Level,2026-06-01
+T50306,1,Private fixed investment,2021Q3,3906524.0,Level,2026-06-01
+T50306,1,Private fixed investment,2021Q4,3935983.0,Level,2026-06-01
+T50306,1,Private fixed investment,2022Q1,4000524.0,Level,2026-06-01
+T50306,1,Private fixed investment,2022Q2,4019818.0,Level,2026-06-01
+T50306,1,Private fixed investment,2022Q3,3997231.0,Level,2026-06-01
+T50306,1,Private fixed investment,2022Q4,3992070.0,Level,2026-06-01
+T50306,1,Private fixed investment,2023Q1,4039657.0,Level,2026-06-01
+T50306,1,Private fixed investment,2023Q2,4132262.0,Level,2026-06-01
+T50306,1,Private fixed investment,2023Q3,4171247.0,Level,2026-06-01
+T50306,1,Private fixed investment,2023Q4,4218495.0,Level,2026-06-01
+T50306,1,Private fixed investment,2024Q1,4249704.0,Level,2026-06-01
+T50306,1,Private fixed investment,2024Q2,4264905.0,Level,2026-06-01
+T50306,1,Private fixed investment,2024Q3,4281263.0,Level,2026-06-01
+T50306,1,Private fixed investment,2024Q4,4260295.0,Level,2026-06-01
+T50306,1,Private fixed investment,2025Q1,4333588.0,Level,2026-06-01
+T50306,1,Private fixed investment,2025Q2,4380471.0,Level,2026-06-01
+T50306,1,Private fixed investment,2025Q3,4389314.0,Level,2026-06-01
+T50306,1,Private fixed investment,2025Q4,4405661.0,Level,2026-06-01
+T50306,1,Private fixed investment,2026Q1,4474966.0,Level,2026-06-01
+T50306,2,Nonresidential,2010Q1,1718732.0,Level,2026-06-01
+T50306,2,Nonresidential,2010Q2,1775333.0,Level,2026-06-01
+T50306,2,Nonresidential,2010Q3,1823655.0,Level,2026-06-01
+T50306,2,Nonresidential,2010Q4,1859421.0,Level,2026-06-01
+T50306,2,Nonresidential,2011Q1,1857309.0,Level,2026-06-01
+T50306,2,Nonresidential,2011Q2,1905711.0,Level,2026-06-01
+T50306,2,Nonresidential,2011Q3,1995353.0,Level,2026-06-01
+T50306,2,Nonresidential,2011Q4,2046640.0,Level,2026-06-01
+T50306,2,Nonresidential,2012Q1,2099256.0,Level,2026-06-01
+T50306,2,Nonresidential,2012Q2,2146704.0,Level,2026-06-01
+T50306,2,Nonresidential,2012Q3,2139633.0,Level,2026-06-01
+T50306,2,Nonresidential,2012Q4,2162912.0,Level,2026-06-01
+T50306,2,Nonresidential,2013Q1,2196264.0,Level,2026-06-01
+T50306,2,Nonresidential,2013Q2,2207605.0,Level,2026-06-01
+T50306,2,Nonresidential,2013Q3,2248212.0,Level,2026-06-01
+T50306,2,Nonresidential,2013Q4,2302178.0,Level,2026-06-01
+T50306,2,Nonresidential,2014Q1,2339393.0,Level,2026-06-01
+T50306,2,Nonresidential,2014Q2,2406416.0,Level,2026-06-01
+T50306,2,Nonresidential,2014Q3,2458452.0,Level,2026-06-01
+T50306,2,Nonresidential,2014Q4,2479937.0,Level,2026-06-01
+T50306,2,Nonresidential,2015Q1,2481110.0,Level,2026-06-01
+T50306,2,Nonresidential,2015Q2,2498351.0,Level,2026-06-01
+T50306,2,Nonresidential,2015Q3,2513595.0,Level,2026-06-01
+T50306,2,Nonresidential,2015Q4,2502473.0,Level,2026-06-01
+T50306,2,Nonresidential,2016Q1,2504570.0,Level,2026-06-01
+T50306,2,Nonresidential,2016Q2,2525941.0,Level,2026-06-01
+T50306,2,Nonresidential,2016Q3,2564000.0,Level,2026-06-01
+T50306,2,Nonresidential,2016Q4,2584602.0,Level,2026-06-01
+T50306,2,Nonresidential,2017Q1,2610431.0,Level,2026-06-01
+T50306,2,Nonresidential,2017Q2,2639796.0,Level,2026-06-01
+T50306,2,Nonresidential,2017Q3,2665246.0,Level,2026-06-01
+T50306,2,Nonresidential,2017Q4,2728927.0,Level,2026-06-01
+T50306,2,Nonresidential,2018Q1,2805277.0,Level,2026-06-01
+T50306,2,Nonresidential,2018Q2,2837057.0,Level,2026-06-01
+T50306,2,Nonresidential,2018Q3,2854550.0,Level,2026-06-01
+T50306,2,Nonresidential,2018Q4,2880391.0,Level,2026-06-01
+T50306,2,Nonresidential,2019Q1,2899840.0,Level,2026-06-01
+T50306,2,Nonresidential,2019Q2,2954978.0,Level,2026-06-01
+T50306,2,Nonresidential,2019Q3,2983489.0,Level,2026-06-01
+T50306,2,Nonresidential,2019Q4,2970305.0,Level,2026-06-01
+T50306,2,Nonresidential,2020Q1,2918067.0,Level,2026-06-01
+T50306,2,Nonresidential,2020Q2,2681079.0,Level,2026-06-01
+T50306,2,Nonresidential,2020Q3,2796634.0,Level,2026-06-01
+T50306,2,Nonresidential,2020Q4,2875442.0,Level,2026-06-01
+T50306,2,Nonresidential,2021Q1,2939916.0,Level,2026-06-01
+T50306,2,Nonresidential,2021Q2,3010859.0,Level,2026-06-01
+T50306,2,Nonresidential,2021Q3,2999341.0,Level,2026-06-01
+T50306,2,Nonresidential,2021Q4,3022081.0,Level,2026-06-01
+T50306,2,Nonresidential,2022Q1,3110067.0,Level,2026-06-01
+T50306,2,Nonresidential,2022Q2,3163406.0,Level,2026-06-01
+T50306,2,Nonresidential,2022Q3,3210162.0,Level,2026-06-01
+T50306,2,Nonresidential,2022Q4,3265979.0,Level,2026-06-01
+T50306,2,Nonresidential,2023Q1,3333291.0,Level,2026-06-01
+T50306,2,Nonresidential,2023Q2,3421757.0,Level,2026-06-01
+T50306,2,Nonresidential,2023Q3,3436424.0,Level,2026-06-01
+T50306,2,Nonresidential,2023Q4,3482993.0,Level,2026-06-01
+T50306,2,Nonresidential,2024Q1,3496025.0,Level,2026-06-01
+T50306,2,Nonresidential,2024Q2,3517460.0,Level,2026-06-01
+T50306,2,Nonresidential,2024Q3,3547627.0,Level,2026-06-01
+T50306,2,Nonresidential,2024Q4,3514424.0,Level,2026-06-01
+T50306,2,Nonresidential,2025Q1,3595389.0,Level,2026-06-01
+T50306,2,Nonresidential,2025Q2,3659320.0,Level,2026-06-01
+T50306,2,Nonresidential,2025Q3,3687843.0,Level,2026-06-01
+T50306,2,Nonresidential,2025Q4,3709689.0,Level,2026-06-01
+T50306,2,Nonresidential,2026Q1,3800015.0,Level,2026-06-01
+T50306,3,Structures,2010Q1,445966.0,Level,2026-06-01
+T50306,3,Structures,2010Q2,459037.0,Level,2026-06-01
+T50306,3,Structures,2010Q3,452642.0,Level,2026-06-01
+T50306,3,Structures,2010Q4,461641.0,Level,2026-06-01
+T50306,3,Structures,2011Q1,428196.0,Level,2026-06-01
+T50306,3,Structures,2011Q2,458394.0,Level,2026-06-01
+T50306,3,Structures,2011Q3,486074.0,Level,2026-06-01
+T50306,3,Structures,2011Q4,503202.0,Level,2026-06-01
+T50306,3,Structures,2012Q1,527403.0,Level,2026-06-01
+T50306,3,Structures,2012Q2,540262.0,Level,2026-06-01
+T50306,3,Structures,2012Q3,534258.0,Level,2026-06-01
+T50306,3,Structures,2012Q4,523964.0,Level,2026-06-01
+T50306,3,Structures,2013Q1,513041.0,Level,2026-06-01
+T50306,3,Structures,2013Q2,526559.0,Level,2026-06-01
+T50306,3,Structures,2013Q3,552040.0,Level,2026-06-01
+T50306,3,Structures,2013Q4,557443.0,Level,2026-06-01
+T50306,3,Structures,2014Q1,578061.0,Level,2026-06-01
+T50306,3,Structures,2014Q2,598857.0,Level,2026-06-01
+T50306,3,Structures,2014Q3,600814.0,Level,2026-06-01
+T50306,3,Structures,2014Q4,611158.0,Level,2026-06-01
+T50306,3,Structures,2015Q1,604938.0,Level,2026-06-01
+T50306,3,Structures,2015Q2,613431.0,Level,2026-06-01
+T50306,3,Structures,2015Q3,597171.0,Level,2026-06-01
+T50306,3,Structures,2015Q4,577134.0,Level,2026-06-01
+T50306,3,Structures,2016Q1,557417.0,Level,2026-06-01
+T50306,3,Structures,2016Q2,570209.0,Level,2026-06-01
+T50306,3,Structures,2016Q3,592897.0,Level,2026-06-01
+T50306,3,Structures,2016Q4,598385.0,Level,2026-06-01
+T50306,3,Structures,2017Q1,597767.0,Level,2026-06-01
+T50306,3,Structures,2017Q2,599305.0,Level,2026-06-01
+T50306,3,Structures,2017Q3,586350.0,Level,2026-06-01
+T50306,3,Structures,2017Q4,596180.0,Level,2026-06-01
+T50306,3,Structures,2018Q1,631345.0,Level,2026-06-01
+T50306,3,Structures,2018Q2,633902.0,Level,2026-06-01
+T50306,3,Structures,2018Q3,634805.0,Level,2026-06-01
+T50306,3,Structures,2018Q4,616933.0,Level,2026-06-01
+T50306,3,Structures,2019Q1,619167.0,Level,2026-06-01
+T50306,3,Structures,2019Q2,639126.0,Level,2026-06-01
+T50306,3,Structures,2019Q3,664450.0,Level,2026-06-01
+T50306,3,Structures,2019Q4,653200.0,Level,2026-06-01
+T50306,3,Structures,2020Q1,643317.0,Level,2026-06-01
+T50306,3,Structures,2020Q2,569152.0,Level,2026-06-01
+T50306,3,Structures,2020Q3,560888.0,Level,2026-06-01
+T50306,3,Structures,2020Q4,564857.0,Level,2026-06-01
+T50306,3,Structures,2021Q1,573730.0,Level,2026-06-01
+T50306,3,Structures,2021Q2,574597.0,Level,2026-06-01
+T50306,3,Structures,2021Q3,569191.0,Level,2026-06-01
+T50306,3,Structures,2021Q4,556819.0,Level,2026-06-01
+T50306,3,Structures,2022Q1,567498.0,Level,2026-06-01
+T50306,3,Structures,2022Q2,579717.0,Level,2026-06-01
+T50306,3,Structures,2022Q3,594612.0,Level,2026-06-01
+T50306,3,Structures,2022Q4,611041.0,Level,2026-06-01
+T50306,3,Structures,2023Q1,653065.0,Level,2026-06-01
+T50306,3,Structures,2023Q2,683643.0,Level,2026-06-01
+T50306,3,Structures,2023Q3,694976.0,Level,2026-06-01
+T50306,3,Structures,2023Q4,713794.0,Level,2026-06-01
+T50306,3,Structures,2024Q1,704755.0,Level,2026-06-01
+T50306,3,Structures,2024Q2,697842.0,Level,2026-06-01
+T50306,3,Structures,2024Q3,693923.0,Level,2026-06-01
+T50306,3,Structures,2024Q4,679462.0,Level,2026-06-01
+T50306,3,Structures,2025Q1,674182.0,Level,2026-06-01
+T50306,3,Structures,2025Q2,661157.0,Level,2026-06-01
+T50306,3,Structures,2025Q3,652766.0,Level,2026-06-01
+T50306,3,Structures,2025Q4,641826.0,Level,2026-06-01
+T50306,3,Structures,2026Q1,632983.0,Level,2026-06-01
+T50306,4,Commercial and health care,2010Q1,111653.0,Level,2026-06-01
+T50306,4,Commercial and health care,2010Q2,107059.0,Level,2026-06-01
+T50306,4,Commercial and health care,2010Q3,104278.0,Level,2026-06-01
+T50306,4,Commercial and health care,2010Q4,103603.0,Level,2026-06-01
+T50306,4,Commercial and health care,2011Q1,100363.0,Level,2026-06-01
+T50306,4,Commercial and health care,2011Q2,105353.0,Level,2026-06-01
+T50306,4,Commercial and health care,2011Q3,108878.0,Level,2026-06-01
+T50306,4,Commercial and health care,2011Q4,110010.0,Level,2026-06-01
+T50306,4,Commercial and health care,2012Q1,112755.0,Level,2026-06-01
+T50306,4,Commercial and health care,2012Q2,115268.0,Level,2026-06-01
+T50306,4,Commercial and health care,2012Q3,116642.0,Level,2026-06-01
+T50306,4,Commercial and health care,2012Q4,115441.0,Level,2026-06-01
+T50306,4,Commercial and health care,2013Q1,117809.0,Level,2026-06-01
+T50306,4,Commercial and health care,2013Q2,114650.0,Level,2026-06-01
+T50306,4,Commercial and health care,2013Q3,118573.0,Level,2026-06-01
+T50306,4,Commercial and health care,2013Q4,125505.0,Level,2026-06-01
+T50306,4,Commercial and health care,2014Q1,125429.0,Level,2026-06-01
+T50306,4,Commercial and health care,2014Q2,132122.0,Level,2026-06-01
+T50306,4,Commercial and health care,2014Q3,137687.0,Level,2026-06-01
+T50306,4,Commercial and health care,2014Q4,142847.0,Level,2026-06-01
+T50306,4,Commercial and health care,2015Q1,143405.0,Level,2026-06-01
+T50306,4,Commercial and health care,2015Q2,153181.0,Level,2026-06-01
+T50306,4,Commercial and health care,2015Q3,152139.0,Level,2026-06-01
+T50306,4,Commercial and health care,2015Q4,154741.0,Level,2026-06-01
+T50306,4,Commercial and health care,2016Q1,164798.0,Level,2026-06-01
+T50306,4,Commercial and health care,2016Q2,171405.0,Level,2026-06-01
+T50306,4,Commercial and health care,2016Q3,182502.0,Level,2026-06-01
+T50306,4,Commercial and health care,2016Q4,185747.0,Level,2026-06-01
+T50306,4,Commercial and health care,2017Q1,182922.0,Level,2026-06-01
+T50306,4,Commercial and health care,2017Q2,183726.0,Level,2026-06-01
+T50306,4,Commercial and health care,2017Q3,179384.0,Level,2026-06-01
+T50306,4,Commercial and health care,2017Q4,180993.0,Level,2026-06-01
+T50306,4,Commercial and health care,2018Q1,186395.0,Level,2026-06-01
+T50306,4,Commercial and health care,2018Q2,186960.0,Level,2026-06-01
+T50306,4,Commercial and health care,2018Q3,185246.0,Level,2026-06-01
+T50306,4,Commercial and health care,2018Q4,178350.0,Level,2026-06-01
+T50306,4,Commercial and health care,2019Q1,180044.0,Level,2026-06-01
+T50306,4,Commercial and health care,2019Q2,182600.0,Level,2026-06-01
+T50306,4,Commercial and health care,2019Q3,191280.0,Level,2026-06-01
+T50306,4,Commercial and health care,2019Q4,194174.0,Level,2026-06-01
+T50306,4,Commercial and health care,2020Q1,199759.0,Level,2026-06-01
+T50306,4,Commercial and health care,2020Q2,193826.0,Level,2026-06-01
+T50306,4,Commercial and health care,2020Q3,190426.0,Level,2026-06-01
+T50306,4,Commercial and health care,2020Q4,188360.0,Level,2026-06-01
+T50306,4,Commercial and health care,2021Q1,190297.0,Level,2026-06-01
+T50306,4,Commercial and health care,2021Q2,188626.0,Level,2026-06-01
+T50306,4,Commercial and health care,2021Q3,187404.0,Level,2026-06-01
+T50306,4,Commercial and health care,2021Q4,177756.0,Level,2026-06-01
+T50306,4,Commercial and health care,2022Q1,178674.0,Level,2026-06-01
+T50306,4,Commercial and health care,2022Q2,180589.0,Level,2026-06-01
+T50306,4,Commercial and health care,2022Q3,180129.0,Level,2026-06-01
+T50306,4,Commercial and health care,2022Q4,182527.0,Level,2026-06-01
+T50306,4,Commercial and health care,2023Q1,185521.0,Level,2026-06-01
+T50306,4,Commercial and health care,2023Q2,190036.0,Level,2026-06-01
+T50306,4,Commercial and health care,2023Q3,192771.0,Level,2026-06-01
+T50306,4,Commercial and health care,2023Q4,191931.0,Level,2026-06-01
+T50306,4,Commercial and health care,2024Q1,185915.0,Level,2026-06-01
+T50306,4,Commercial and health care,2024Q2,179116.0,Level,2026-06-01
+T50306,4,Commercial and health care,2024Q3,175618.0,Level,2026-06-01
+T50306,4,Commercial and health care,2024Q4,171156.0,Level,2026-06-01
+T50306,4,Commercial and health care,2025Q1,168589.0,Level,2026-06-01
+T50306,4,Commercial and health care,2025Q2,167983.0,Level,2026-06-01
+T50306,4,Commercial and health care,2025Q3,167579.0,Level,2026-06-01
+T50306,4,Commercial and health care,2025Q4,165413.0,Level,2026-06-01
+T50306,4,Commercial and health care,2026Q1,166018.0,Level,2026-06-01
+T50306,5,Manufacturing,2010Q1,52922.0,Level,2026-06-01
+T50306,5,Manufacturing,2010Q2,50637.0,Level,2026-06-01
+T50306,5,Manufacturing,2010Q3,44586.0,Level,2026-06-01
+T50306,5,Manufacturing,2010Q4,39139.0,Level,2026-06-01
+T50306,5,Manufacturing,2011Q1,38018.0,Level,2026-06-01
+T50306,5,Manufacturing,2011Q2,43299.0,Level,2026-06-01
+T50306,5,Manufacturing,2011Q3,48374.0,Level,2026-06-01
+T50306,5,Manufacturing,2011Q4,50531.0,Level,2026-06-01
+T50306,5,Manufacturing,2012Q1,49434.0,Level,2026-06-01
+T50306,5,Manufacturing,2012Q2,51702.0,Level,2026-06-01
+T50306,5,Manufacturing,2012Q3,52625.0,Level,2026-06-01
+T50306,5,Manufacturing,2012Q4,53914.0,Level,2026-06-01
+T50306,5,Manufacturing,2013Q1,53713.0,Level,2026-06-01
+T50306,5,Manufacturing,2013Q2,51821.0,Level,2026-06-01
+T50306,5,Manufacturing,2013Q3,56272.0,Level,2026-06-01
+T50306,5,Manufacturing,2013Q4,56081.0,Level,2026-06-01
+T50306,5,Manufacturing,2014Q1,55320.0,Level,2026-06-01
+T50306,5,Manufacturing,2014Q2,57120.0,Level,2026-06-01
+T50306,5,Manufacturing,2014Q3,61351.0,Level,2026-06-01
+T50306,5,Manufacturing,2014Q4,73937.0,Level,2026-06-01
+T50306,5,Manufacturing,2015Q1,80442.0,Level,2026-06-01
+T50306,5,Manufacturing,2015Q2,86315.0,Level,2026-06-01
+T50306,5,Manufacturing,2015Q3,85160.0,Level,2026-06-01
+T50306,5,Manufacturing,2015Q4,83329.0,Level,2026-06-01
+T50306,5,Manufacturing,2016Q1,79661.0,Level,2026-06-01
+T50306,5,Manufacturing,2016Q2,82110.0,Level,2026-06-01
+T50306,5,Manufacturing,2016Q3,81809.0,Level,2026-06-01
+T50306,5,Manufacturing,2016Q4,77704.0,Level,2026-06-01
+T50306,5,Manufacturing,2017Q1,71793.0,Level,2026-06-01
+T50306,5,Manufacturing,2017Q2,71561.0,Level,2026-06-01
+T50306,5,Manufacturing,2017Q3,67922.0,Level,2026-06-01
+T50306,5,Manufacturing,2017Q4,68603.0,Level,2026-06-01
+T50306,5,Manufacturing,2018Q1,67974.0,Level,2026-06-01
+T50306,5,Manufacturing,2018Q2,68125.0,Level,2026-06-01
+T50306,5,Manufacturing,2018Q3,69782.0,Level,2026-06-01
+T50306,5,Manufacturing,2018Q4,69298.0,Level,2026-06-01
+T50306,5,Manufacturing,2019Q1,73089.0,Level,2026-06-01
+T50306,5,Manufacturing,2019Q2,73509.0,Level,2026-06-01
+T50306,5,Manufacturing,2019Q3,72962.0,Level,2026-06-01
+T50306,5,Manufacturing,2019Q4,71059.0,Level,2026-06-01
+T50306,5,Manufacturing,2020Q1,68959.0,Level,2026-06-01
+T50306,5,Manufacturing,2020Q2,64741.0,Level,2026-06-01
+T50306,5,Manufacturing,2020Q3,64788.0,Level,2026-06-01
+T50306,5,Manufacturing,2020Q4,64776.0,Level,2026-06-01
+T50306,5,Manufacturing,2021Q1,66592.0,Level,2026-06-01
+T50306,5,Manufacturing,2021Q2,66540.0,Level,2026-06-01
+T50306,5,Manufacturing,2021Q3,68167.0,Level,2026-06-01
+T50306,5,Manufacturing,2021Q4,70463.0,Level,2026-06-01
+T50306,5,Manufacturing,2022Q1,74487.0,Level,2026-06-01
+T50306,5,Manufacturing,2022Q2,80290.0,Level,2026-06-01
+T50306,5,Manufacturing,2022Q3,86491.0,Level,2026-06-01
+T50306,5,Manufacturing,2022Q4,96151.0,Level,2026-06-01
+T50306,5,Manufacturing,2023Q1,113093.0,Level,2026-06-01
+T50306,5,Manufacturing,2023Q2,125420.0,Level,2026-06-01
+T50306,5,Manufacturing,2023Q3,130878.0,Level,2026-06-01
+T50306,5,Manufacturing,2023Q4,142558.0,Level,2026-06-01
+T50306,5,Manufacturing,2024Q1,146204.0,Level,2026-06-01
+T50306,5,Manufacturing,2024Q2,150674.0,Level,2026-06-01
+T50306,5,Manufacturing,2024Q3,151481.0,Level,2026-06-01
+T50306,5,Manufacturing,2024Q4,148551.0,Level,2026-06-01
+T50306,5,Manufacturing,2025Q1,145228.0,Level,2026-06-01
+T50306,5,Manufacturing,2025Q2,142245.0,Level,2026-06-01
+T50306,5,Manufacturing,2025Q3,136654.0,Level,2026-06-01
+T50306,5,Manufacturing,2025Q4,126551.0,Level,2026-06-01
+T50306,5,Manufacturing,2026Q1,117810.0,Level,2026-06-01
+T50306,6,Power and communication,2010Q1,80056.0,Level,2026-06-01
+T50306,6,Power and communication,2010Q2,88668.0,Level,2026-06-01
+T50306,6,Power and communication,2010Q3,86687.0,Level,2026-06-01
+T50306,6,Power and communication,2010Q4,99928.0,Level,2026-06-01
+T50306,6,Power and communication,2011Q1,75752.0,Level,2026-06-01
+T50306,6,Power and communication,2011Q2,82254.0,Level,2026-06-01
+T50306,6,Power and communication,2011Q3,87589.0,Level,2026-06-01
+T50306,6,Power and communication,2011Q4,87480.0,Level,2026-06-01
+T50306,6,Power and communication,2012Q1,101479.0,Level,2026-06-01
+T50306,6,Power and communication,2012Q2,104471.0,Level,2026-06-01
+T50306,6,Power and communication,2012Q3,102992.0,Level,2026-06-01
+T50306,6,Power and communication,2012Q4,99188.0,Level,2026-06-01
+T50306,6,Power and communication,2013Q1,81748.0,Level,2026-06-01
+T50306,6,Power and communication,2013Q2,91089.0,Level,2026-06-01
+T50306,6,Power and communication,2013Q3,104149.0,Level,2026-06-01
+T50306,6,Power and communication,2013Q4,114102.0,Level,2026-06-01
+T50306,6,Power and communication,2014Q1,127366.0,Level,2026-06-01
+T50306,6,Power and communication,2014Q2,120672.0,Level,2026-06-01
+T50306,6,Power and communication,2014Q3,111763.0,Level,2026-06-01
+T50306,6,Power and communication,2014Q4,98343.0,Level,2026-06-01
+T50306,6,Power and communication,2015Q1,110041.0,Level,2026-06-01
+T50306,6,Power and communication,2015Q2,127561.0,Level,2026-06-01
+T50306,6,Power and communication,2015Q3,126851.0,Level,2026-06-01
+T50306,6,Power and communication,2015Q4,121843.0,Level,2026-06-01
+T50306,6,Power and communication,2016Q1,118506.0,Level,2026-06-01
+T50306,6,Power and communication,2016Q2,123637.0,Level,2026-06-01
+T50306,6,Power and communication,2016Q3,129960.0,Level,2026-06-01
+T50306,6,Power and communication,2016Q4,134184.0,Level,2026-06-01
+T50306,6,Power and communication,2017Q1,123316.0,Level,2026-06-01
+T50306,6,Power and communication,2017Q2,112997.0,Level,2026-06-01
+T50306,6,Power and communication,2017Q3,107875.0,Level,2026-06-01
+T50306,6,Power and communication,2017Q4,109196.0,Level,2026-06-01
+T50306,6,Power and communication,2018Q1,128952.0,Level,2026-06-01
+T50306,6,Power and communication,2018Q2,121563.0,Level,2026-06-01
+T50306,6,Power and communication,2018Q3,115472.0,Level,2026-06-01
+T50306,6,Power and communication,2018Q4,112351.0,Level,2026-06-01
+T50306,6,Power and communication,2019Q1,108289.0,Level,2026-06-01
+T50306,6,Power and communication,2019Q2,125440.0,Level,2026-06-01
+T50306,6,Power and communication,2019Q3,138224.0,Level,2026-06-01
+T50306,6,Power and communication,2019Q4,144474.0,Level,2026-06-01
+T50306,6,Power and communication,2020Q1,132488.0,Level,2026-06-01
+T50306,6,Power and communication,2020Q2,125890.0,Level,2026-06-01
+T50306,6,Power and communication,2020Q3,124804.0,Level,2026-06-01
+T50306,6,Power and communication,2020Q4,125779.0,Level,2026-06-01
+T50306,6,Power and communication,2021Q1,124826.0,Level,2026-06-01
+T50306,6,Power and communication,2021Q2,124286.0,Level,2026-06-01
+T50306,6,Power and communication,2021Q3,121024.0,Level,2026-06-01
+T50306,6,Power and communication,2021Q4,114728.0,Level,2026-06-01
+T50306,6,Power and communication,2022Q1,113389.0,Level,2026-06-01
+T50306,6,Power and communication,2022Q2,113581.0,Level,2026-06-01
+T50306,6,Power and communication,2022Q3,113308.0,Level,2026-06-01
+T50306,6,Power and communication,2022Q4,111148.0,Level,2026-06-01
+T50306,6,Power and communication,2023Q1,123870.0,Level,2026-06-01
+T50306,6,Power and communication,2023Q2,127384.0,Level,2026-06-01
+T50306,6,Power and communication,2023Q3,134316.0,Level,2026-06-01
+T50306,6,Power and communication,2023Q4,140095.0,Level,2026-06-01
+T50306,6,Power and communication,2024Q1,136984.0,Level,2026-06-01
+T50306,6,Power and communication,2024Q2,136464.0,Level,2026-06-01
+T50306,6,Power and communication,2024Q3,135725.0,Level,2026-06-01
+T50306,6,Power and communication,2024Q4,136807.0,Level,2026-06-01
+T50306,6,Power and communication,2025Q1,140895.0,Level,2026-06-01
+T50306,6,Power and communication,2025Q2,140408.0,Level,2026-06-01
+T50306,6,Power and communication,2025Q3,139542.0,Level,2026-06-01
+T50306,6,Power and communication,2025Q4,141448.0,Level,2026-06-01
+T50306,6,Power and communication,2026Q1,142129.0,Level,2026-06-01
+T50306,7,"Mining exploration, shafts, and wells",2010Q1,104945.0,Level,2026-06-01
+T50306,7,"Mining exploration, shafts, and wells",2010Q2,119100.0,Level,2026-06-01
+T50306,7,"Mining exploration, shafts, and wells",2010Q3,127653.0,Level,2026-06-01
+T50306,7,"Mining exploration, shafts, and wells",2010Q4,129859.0,Level,2026-06-01
+T50306,7,"Mining exploration, shafts, and wells",2011Q1,136589.0,Level,2026-06-01
+T50306,7,"Mining exploration, shafts, and wells",2011Q2,145100.0,Level,2026-06-01
+T50306,7,"Mining exploration, shafts, and wells",2011Q3,156945.0,Level,2026-06-01
+T50306,7,"Mining exploration, shafts, and wells",2011Q4,169512.0,Level,2026-06-01
+T50306,7,"Mining exploration, shafts, and wells",2012Q1,173984.0,Level,2026-06-01
+T50306,7,"Mining exploration, shafts, and wells",2012Q2,175871.0,Level,2026-06-01
+T50306,7,"Mining exploration, shafts, and wells",2012Q3,168072.0,Level,2026-06-01
+T50306,7,"Mining exploration, shafts, and wells",2012Q4,162308.0,Level,2026-06-01
+T50306,7,"Mining exploration, shafts, and wells",2013Q1,168888.0,Level,2026-06-01
+T50306,7,"Mining exploration, shafts, and wells",2013Q2,174048.0,Level,2026-06-01
+T50306,7,"Mining exploration, shafts, and wells",2013Q3,173488.0,Level,2026-06-01
+T50306,7,"Mining exploration, shafts, and wells",2013Q4,160730.0,Level,2026-06-01
+T50306,7,"Mining exploration, shafts, and wells",2014Q1,167089.0,Level,2026-06-01
+T50306,7,"Mining exploration, shafts, and wells",2014Q2,182793.0,Level,2026-06-01
+T50306,7,"Mining exploration, shafts, and wells",2014Q3,182743.0,Level,2026-06-01
+T50306,7,"Mining exploration, shafts, and wells",2014Q4,183082.0,Level,2026-06-01
+T50306,7,"Mining exploration, shafts, and wells",2015Q1,159936.0,Level,2026-06-01
+T50306,7,"Mining exploration, shafts, and wells",2015Q2,128308.0,Level,2026-06-01
+T50306,7,"Mining exploration, shafts, and wells",2015Q3,112450.0,Level,2026-06-01
+T50306,7,"Mining exploration, shafts, and wells",2015Q4,100064.0,Level,2026-06-01
+T50306,7,"Mining exploration, shafts, and wells",2016Q1,76690.0,Level,2026-06-01
+T50306,7,"Mining exploration, shafts, and wells",2016Q2,66370.0,Level,2026-06-01
+T50306,7,"Mining exploration, shafts, and wells",2016Q3,70483.0,Level,2026-06-01
+T50306,7,"Mining exploration, shafts, and wells",2016Q4,71327.0,Level,2026-06-01
+T50306,7,"Mining exploration, shafts, and wells",2017Q1,89631.0,Level,2026-06-01
+T50306,7,"Mining exploration, shafts, and wells",2017Q2,97715.0,Level,2026-06-01
+T50306,7,"Mining exploration, shafts, and wells",2017Q3,98257.0,Level,2026-06-01
+T50306,7,"Mining exploration, shafts, and wells",2017Q4,104713.0,Level,2026-06-01
+T50306,7,"Mining exploration, shafts, and wells",2018Q1,113033.0,Level,2026-06-01
+T50306,7,"Mining exploration, shafts, and wells",2018Q2,122852.0,Level,2026-06-01
+T50306,7,"Mining exploration, shafts, and wells",2018Q3,132416.0,Level,2026-06-01
+T50306,7,"Mining exploration, shafts, and wells",2018Q4,127357.0,Level,2026-06-01
+T50306,7,"Mining exploration, shafts, and wells",2019Q1,125093.0,Level,2026-06-01
+T50306,7,"Mining exploration, shafts, and wells",2019Q2,125794.0,Level,2026-06-01
+T50306,7,"Mining exploration, shafts, and wells",2019Q3,130098.0,Level,2026-06-01
+T50306,7,"Mining exploration, shafts, and wells",2019Q4,113369.0,Level,2026-06-01
+T50306,7,"Mining exploration, shafts, and wells",2020Q1,117560.0,Level,2026-06-01
+T50306,7,"Mining exploration, shafts, and wells",2020Q2,60344.0,Level,2026-06-01
+T50306,7,"Mining exploration, shafts, and wells",2020Q3,57004.0,Level,2026-06-01
+T50306,7,"Mining exploration, shafts, and wells",2020Q4,67917.0,Level,2026-06-01
+T50306,7,"Mining exploration, shafts, and wells",2021Q1,77530.0,Level,2026-06-01
+T50306,7,"Mining exploration, shafts, and wells",2021Q2,89574.0,Level,2026-06-01
+T50306,7,"Mining exploration, shafts, and wells",2021Q3,91886.0,Level,2026-06-01
+T50306,7,"Mining exploration, shafts, and wells",2021Q4,96417.0,Level,2026-06-01
+T50306,7,"Mining exploration, shafts, and wells",2022Q1,101490.0,Level,2026-06-01
+T50306,7,"Mining exploration, shafts, and wells",2022Q2,102909.0,Level,2026-06-01
+T50306,7,"Mining exploration, shafts, and wells",2022Q3,112490.0,Level,2026-06-01
+T50306,7,"Mining exploration, shafts, and wells",2022Q4,113603.0,Level,2026-06-01
+T50306,7,"Mining exploration, shafts, and wells",2023Q1,116400.0,Level,2026-06-01
+T50306,7,"Mining exploration, shafts, and wells",2023Q2,117942.0,Level,2026-06-01
+T50306,7,"Mining exploration, shafts, and wells",2023Q3,108553.0,Level,2026-06-01
+T50306,7,"Mining exploration, shafts, and wells",2023Q4,110372.0,Level,2026-06-01
+T50306,7,"Mining exploration, shafts, and wells",2024Q1,109218.0,Level,2026-06-01
+T50306,7,"Mining exploration, shafts, and wells",2024Q2,107637.0,Level,2026-06-01
+T50306,7,"Mining exploration, shafts, and wells",2024Q3,109275.0,Level,2026-06-01
+T50306,7,"Mining exploration, shafts, and wells",2024Q4,103060.0,Level,2026-06-01
+T50306,7,"Mining exploration, shafts, and wells",2025Q1,103610.0,Level,2026-06-01
+T50306,7,"Mining exploration, shafts, and wells",2025Q2,92186.0,Level,2026-06-01
+T50306,7,"Mining exploration, shafts, and wells",2025Q3,90386.0,Level,2026-06-01
+T50306,7,"Mining exploration, shafts, and wells",2025Q4,92893.0,Level,2026-06-01
+T50306,7,"Mining exploration, shafts, and wells",2026Q1,93493.0,Level,2026-06-01
+T50306,8,Other structures,2010Q1,90038.0,Level,2026-06-01
+T50306,8,Other structures,2010Q2,87398.0,Level,2026-06-01
+T50306,8,Other structures,2010Q3,84202.0,Level,2026-06-01
+T50306,8,Other structures,2010Q4,82188.0,Level,2026-06-01
+T50306,8,Other structures,2011Q1,74232.0,Level,2026-06-01
+T50306,8,Other structures,2011Q2,78587.0,Level,2026-06-01
+T50306,8,Other structures,2011Q3,80163.0,Level,2026-06-01
+T50306,8,Other structures,2011Q4,82047.0,Level,2026-06-01
+T50306,8,Other structures,2012Q1,84522.0,Level,2026-06-01
+T50306,8,Other structures,2012Q2,87472.0,Level,2026-06-01
+T50306,8,Other structures,2012Q3,88582.0,Level,2026-06-01
+T50306,8,Other structures,2012Q4,88016.0,Level,2026-06-01
+T50306,8,Other structures,2013Q1,87642.0,Level,2026-06-01
+T50306,8,Other structures,2013Q2,90951.0,Level,2026-06-01
+T50306,8,Other structures,2013Q3,94411.0,Level,2026-06-01
+T50306,8,Other structures,2013Q4,95103.0,Level,2026-06-01
+T50306,8,Other structures,2014Q1,96495.0,Level,2026-06-01
+T50306,8,Other structures,2014Q2,100319.0,Level,2026-06-01
+T50306,8,Other structures,2014Q3,102093.0,Level,2026-06-01
+T50306,8,Other structures,2014Q4,108647.0,Level,2026-06-01
+T50306,8,Other structures,2015Q1,107579.0,Level,2026-06-01
+T50306,8,Other structures,2015Q2,116198.0,Level,2026-06-01
+T50306,8,Other structures,2015Q3,119385.0,Level,2026-06-01
+T50306,8,Other structures,2015Q4,116373.0,Level,2026-06-01
+T50306,8,Other structures,2016Q1,117606.0,Level,2026-06-01
+T50306,8,Other structures,2016Q2,126733.0,Level,2026-06-01
+T50306,8,Other structures,2016Q3,128178.0,Level,2026-06-01
+T50306,8,Other structures,2016Q4,129445.0,Level,2026-06-01
+T50306,8,Other structures,2017Q1,130134.0,Level,2026-06-01
+T50306,8,Other structures,2017Q2,133305.0,Level,2026-06-01
+T50306,8,Other structures,2017Q3,132880.0,Level,2026-06-01
+T50306,8,Other structures,2017Q4,132679.0,Level,2026-06-01
+T50306,8,Other structures,2018Q1,135430.0,Level,2026-06-01
+T50306,8,Other structures,2018Q2,135353.0,Level,2026-06-01
+T50306,8,Other structures,2018Q3,133596.0,Level,2026-06-01
+T50306,8,Other structures,2018Q4,131039.0,Level,2026-06-01
+T50306,8,Other structures,2019Q1,133475.0,Level,2026-06-01
+T50306,8,Other structures,2019Q2,133074.0,Level,2026-06-01
+T50306,8,Other structures,2019Q3,133725.0,Level,2026-06-01
+T50306,8,Other structures,2019Q4,130604.0,Level,2026-06-01
+T50306,8,Other structures,2020Q1,125486.0,Level,2026-06-01
+T50306,8,Other structures,2020Q2,118237.0,Level,2026-06-01
+T50306,8,Other structures,2020Q3,117043.0,Level,2026-06-01
+T50306,8,Other structures,2020Q4,113145.0,Level,2026-06-01
+T50306,8,Other structures,2021Q1,110986.0,Level,2026-06-01
+T50306,8,Other structures,2021Q2,105208.0,Level,2026-06-01
+T50306,8,Other structures,2021Q3,100996.0,Level,2026-06-01
+T50306,8,Other structures,2021Q4,99713.0,Level,2026-06-01
+T50306,8,Other structures,2022Q1,102729.0,Level,2026-06-01
+T50306,8,Other structures,2022Q2,105158.0,Level,2026-06-01
+T50306,8,Other structures,2022Q3,107243.0,Level,2026-06-01
+T50306,8,Other structures,2022Q4,110943.0,Level,2026-06-01
+T50306,8,Other structures,2023Q1,116258.0,Level,2026-06-01
+T50306,8,Other structures,2023Q2,123018.0,Level,2026-06-01
+T50306,8,Other structures,2023Q3,124633.0,Level,2026-06-01
+T50306,8,Other structures,2023Q4,124340.0,Level,2026-06-01
+T50306,8,Other structures,2024Q1,121617.0,Level,2026-06-01
+T50306,8,Other structures,2024Q2,118901.0,Level,2026-06-01
+T50306,8,Other structures,2024Q3,117678.0,Level,2026-06-01
+T50306,8,Other structures,2024Q4,115058.0,Level,2026-06-01
+T50306,8,Other structures,2025Q1,112712.0,Level,2026-06-01
+T50306,8,Other structures,2025Q2,111830.0,Level,2026-06-01
+T50306,8,Other structures,2025Q3,112391.0,Level,2026-06-01
+T50306,8,Other structures,2025Q4,112533.0,Level,2026-06-01
+T50306,8,Other structures,2026Q1,112336.0,Level,2026-06-01
+T50306,9,Equipment,2010Q1,699529.0,Level,2026-06-01
+T50306,9,Equipment,2010Q2,745107.0,Level,2026-06-01
+T50306,9,Equipment,2010Q3,785236.0,Level,2026-06-01
+T50306,9,Equipment,2010Q4,801162.0,Level,2026-06-01
+T50306,9,Equipment,2011Q1,820993.0,Level,2026-06-01
+T50306,9,Equipment,2011Q2,832346.0,Level,2026-06-01
+T50306,9,Equipment,2011Q3,882413.0,Level,2026-06-01
+T50306,9,Equipment,2011Q4,902777.0,Level,2026-06-01
+T50306,9,Equipment,2012Q1,930892.0,Level,2026-06-01
+T50306,9,Equipment,2012Q2,957161.0,Level,2026-06-01
+T50306,9,Equipment,2012Q3,954361.0,Level,2026-06-01
+T50306,9,Equipment,2012Q4,973367.0,Level,2026-06-01
+T50306,9,Equipment,2013Q1,993659.0,Level,2026-06-01
+T50306,9,Equipment,2013Q2,995375.0,Level,2026-06-01
+T50306,9,Equipment,2013Q3,998034.0,Level,2026-06-01
+T50306,9,Equipment,2013Q4,1038905.0,Level,2026-06-01
+T50306,9,Equipment,2014Q1,1049377.0,Level,2026-06-01
+T50306,9,Equipment,2014Q2,1077672.0,Level,2026-06-01
+T50306,9,Equipment,2014Q3,1111248.0,Level,2026-06-01
+T50306,9,Equipment,2014Q4,1105789.0,Level,2026-06-01
+T50306,9,Equipment,2015Q1,1117415.0,Level,2026-06-01
+T50306,9,Equipment,2015Q2,1122157.0,Level,2026-06-01
+T50306,9,Equipment,2015Q3,1140854.0,Level,2026-06-01
+T50306,9,Equipment,2015Q4,1128413.0,Level,2026-06-01
+T50306,9,Equipment,2016Q1,1125443.0,Level,2026-06-01
+T50306,9,Equipment,2016Q2,1113799.0,Level,2026-06-01
+T50306,9,Equipment,2016Q3,1112586.0,Level,2026-06-01
+T50306,9,Equipment,2016Q4,1118081.0,Level,2026-06-01
+T50306,9,Equipment,2017Q1,1125384.0,Level,2026-06-01
+T50306,9,Equipment,2017Q2,1146797.0,Level,2026-06-01
+T50306,9,Equipment,2017Q3,1165922.0,Level,2026-06-01
+T50306,9,Equipment,2017Q4,1201709.0,Level,2026-06-01
+T50306,9,Equipment,2018Q1,1222971.0,Level,2026-06-01
+T50306,9,Equipment,2018Q2,1225089.0,Level,2026-06-01
+T50306,9,Equipment,2018Q3,1225125.0,Level,2026-06-01
+T50306,9,Equipment,2018Q4,1241159.0,Level,2026-06-01
+T50306,9,Equipment,2019Q1,1248027.0,Level,2026-06-01
+T50306,9,Equipment,2019Q2,1260714.0,Level,2026-06-01
+T50306,9,Equipment,2019Q3,1241936.0,Level,2026-06-01
+T50306,9,Equipment,2019Q4,1213833.0,Level,2026-06-01
+T50306,9,Equipment,2020Q1,1153119.0,Level,2026-06-01
+T50306,9,Equipment,2020Q2,1019876.0,Level,2026-06-01
+T50306,9,Equipment,2020Q3,1126628.0,Level,2026-06-01
+T50306,9,Equipment,2020Q4,1174480.0,Level,2026-06-01
+T50306,9,Equipment,2021Q1,1190165.0,Level,2026-06-01
+T50306,9,Equipment,2021Q2,1224338.0,Level,2026-06-01
+T50306,9,Equipment,2021Q3,1188347.0,Level,2026-06-01
+T50306,9,Equipment,2021Q4,1186827.0,Level,2026-06-01
+T50306,9,Equipment,2022Q1,1223506.0,Level,2026-06-01
+T50306,9,Equipment,2022Q2,1225667.0,Level,2026-06-01
+T50306,9,Equipment,2022Q3,1233843.0,Level,2026-06-01
+T50306,9,Equipment,2022Q4,1241369.0,Level,2026-06-01
+T50306,9,Equipment,2023Q1,1240604.0,Level,2026-06-01
+T50306,9,Equipment,2023Q2,1277955.0,Level,2026-06-01
+T50306,9,Equipment,2023Q3,1269554.0,Level,2026-06-01
+T50306,9,Equipment,2023Q4,1279903.0,Level,2026-06-01
+T50306,9,Equipment,2024Q1,1281417.0,Level,2026-06-01
+T50306,9,Equipment,2024Q2,1309013.0,Level,2026-06-01
+T50306,9,Equipment,2024Q3,1334979.0,Level,2026-06-01
+T50306,9,Equipment,2024Q4,1320558.0,Level,2026-06-01
+T50306,9,Equipment,2025Q1,1386028.0,Level,2026-06-01
+T50306,9,Equipment,2025Q2,1414674.0,Level,2026-06-01
+T50306,9,Equipment,2025Q3,1432892.0,Level,2026-06-01
+T50306,9,Equipment,2025Q4,1447944.0,Level,2026-06-01
+T50306,9,Equipment,2026Q1,1506503.0,Level,2026-06-01
+T50306,10,Information processing equipment,2010Q1,228799.0,Level,2026-06-01
+T50306,10,Information processing equipment,2010Q2,236423.0,Level,2026-06-01
+T50306,10,Information processing equipment,2010Q3,244578.0,Level,2026-06-01
+T50306,10,Information processing equipment,2010Q4,246942.0,Level,2026-06-01
+T50306,10,Information processing equipment,2011Q1,242342.0,Level,2026-06-01
+T50306,10,Information processing equipment,2011Q2,249926.0,Level,2026-06-01
+T50306,10,Information processing equipment,2011Q3,255014.0,Level,2026-06-01
+T50306,10,Information processing equipment,2011Q4,256114.0,Level,2026-06-01
+T50306,10,Information processing equipment,2012Q1,270788.0,Level,2026-06-01
+T50306,10,Information processing equipment,2012Q2,275886.0,Level,2026-06-01
+T50306,10,Information processing equipment,2012Q3,270808.0,Level,2026-06-01
+T50306,10,Information processing equipment,2012Q4,278678.0,Level,2026-06-01
+T50306,10,Information processing equipment,2013Q1,290573.0,Level,2026-06-01
+T50306,10,Information processing equipment,2013Q2,290799.0,Level,2026-06-01
+T50306,10,Information processing equipment,2013Q3,294656.0,Level,2026-06-01
+T50306,10,Information processing equipment,2013Q4,299531.0,Level,2026-06-01
+T50306,10,Information processing equipment,2014Q1,301891.0,Level,2026-06-01
+T50306,10,Information processing equipment,2014Q2,313714.0,Level,2026-06-01
+T50306,10,Information processing equipment,2014Q3,313587.0,Level,2026-06-01
+T50306,10,Information processing equipment,2014Q4,322338.0,Level,2026-06-01
+T50306,10,Information processing equipment,2015Q1,325639.0,Level,2026-06-01
+T50306,10,Information processing equipment,2015Q2,332137.0,Level,2026-06-01
+T50306,10,Information processing equipment,2015Q3,342043.0,Level,2026-06-01
+T50306,10,Information processing equipment,2015Q4,346894.0,Level,2026-06-01
+T50306,10,Information processing equipment,2016Q1,350391.0,Level,2026-06-01
+T50306,10,Information processing equipment,2016Q2,351824.0,Level,2026-06-01
+T50306,10,Information processing equipment,2016Q3,357560.0,Level,2026-06-01
+T50306,10,Information processing equipment,2016Q4,364666.0,Level,2026-06-01
+T50306,10,Information processing equipment,2017Q1,369807.0,Level,2026-06-01
+T50306,10,Information processing equipment,2017Q2,383982.0,Level,2026-06-01
+T50306,10,Information processing equipment,2017Q3,388432.0,Level,2026-06-01
+T50306,10,Information processing equipment,2017Q4,401627.0,Level,2026-06-01
+T50306,10,Information processing equipment,2018Q1,413132.0,Level,2026-06-01
+T50306,10,Information processing equipment,2018Q2,414631.0,Level,2026-06-01
+T50306,10,Information processing equipment,2018Q3,419827.0,Level,2026-06-01
+T50306,10,Information processing equipment,2018Q4,419643.0,Level,2026-06-01
+T50306,10,Information processing equipment,2019Q1,426982.0,Level,2026-06-01
+T50306,10,Information processing equipment,2019Q2,435386.0,Level,2026-06-01
+T50306,10,Information processing equipment,2019Q3,428829.0,Level,2026-06-01
+T50306,10,Information processing equipment,2019Q4,424438.0,Level,2026-06-01
+T50306,10,Information processing equipment,2020Q1,406292.0,Level,2026-06-01
+T50306,10,Information processing equipment,2020Q2,418082.0,Level,2026-06-01
+T50306,10,Information processing equipment,2020Q3,446530.0,Level,2026-06-01
+T50306,10,Information processing equipment,2020Q4,458294.0,Level,2026-06-01
+T50306,10,Information processing equipment,2021Q1,469835.0,Level,2026-06-01
+T50306,10,Information processing equipment,2021Q2,475372.0,Level,2026-06-01
+T50306,10,Information processing equipment,2021Q3,470885.0,Level,2026-06-01
+T50306,10,Information processing equipment,2021Q4,497786.0,Level,2026-06-01
+T50306,10,Information processing equipment,2022Q1,514483.0,Level,2026-06-01
+T50306,10,Information processing equipment,2022Q2,510976.0,Level,2026-06-01
+T50306,10,Information processing equipment,2022Q3,515141.0,Level,2026-06-01
+T50306,10,Information processing equipment,2022Q4,496686.0,Level,2026-06-01
+T50306,10,Information processing equipment,2023Q1,491722.0,Level,2026-06-01
+T50306,10,Information processing equipment,2023Q2,486014.0,Level,2026-06-01
+T50306,10,Information processing equipment,2023Q3,483635.0,Level,2026-06-01
+T50306,10,Information processing equipment,2023Q4,498859.0,Level,2026-06-01
+T50306,10,Information processing equipment,2024Q1,498259.0,Level,2026-06-01
+T50306,10,Information processing equipment,2024Q2,511309.0,Level,2026-06-01
+T50306,10,Information processing equipment,2024Q3,529365.0,Level,2026-06-01
+T50306,10,Information processing equipment,2024Q4,530206.0,Level,2026-06-01
+T50306,10,Information processing equipment,2025Q1,598794.0,Level,2026-06-01
+T50306,10,Information processing equipment,2025Q2,615578.0,Level,2026-06-01
+T50306,10,Information processing equipment,2025Q3,628661.0,Level,2026-06-01
+T50306,10,Information processing equipment,2025Q4,680171.0,Level,2026-06-01
+T50306,10,Information processing equipment,2026Q1,747565.0,Level,2026-06-01
+T50306,11,Computers and peripheral equipment,2010Q1,90911.0,Level,2026-06-01
+T50306,11,Computers and peripheral equipment,2010Q2,94067.0,Level,2026-06-01
+T50306,11,Computers and peripheral equipment,2010Q3,93225.0,Level,2026-06-01
+T50306,11,Computers and peripheral equipment,2010Q4,89303.0,Level,2026-06-01
+T50306,11,Computers and peripheral equipment,2011Q1,85776.0,Level,2026-06-01
+T50306,11,Computers and peripheral equipment,2011Q2,91419.0,Level,2026-06-01
+T50306,11,Computers and peripheral equipment,2011Q3,95282.0,Level,2026-06-01
+T50306,11,Computers and peripheral equipment,2011Q4,94523.0,Level,2026-06-01
+T50306,11,Computers and peripheral equipment,2012Q1,102865.0,Level,2026-06-01
+T50306,11,Computers and peripheral equipment,2012Q2,102183.0,Level,2026-06-01
+T50306,11,Computers and peripheral equipment,2012Q3,98249.0,Level,2026-06-01
+T50306,11,Computers and peripheral equipment,2012Q4,101218.0,Level,2026-06-01
+T50306,11,Computers and peripheral equipment,2013Q1,103546.0,Level,2026-06-01
+T50306,11,Computers and peripheral equipment,2013Q2,97809.0,Level,2026-06-01
+T50306,11,Computers and peripheral equipment,2013Q3,98776.0,Level,2026-06-01
+T50306,11,Computers and peripheral equipment,2013Q4,102199.0,Level,2026-06-01
+T50306,11,Computers and peripheral equipment,2014Q1,98657.0,Level,2026-06-01
+T50306,11,Computers and peripheral equipment,2014Q2,100843.0,Level,2026-06-01
+T50306,11,Computers and peripheral equipment,2014Q3,99823.0,Level,2026-06-01
+T50306,11,Computers and peripheral equipment,2014Q4,102198.0,Level,2026-06-01
+T50306,11,Computers and peripheral equipment,2015Q1,100385.0,Level,2026-06-01
+T50306,11,Computers and peripheral equipment,2015Q2,100724.0,Level,2026-06-01
+T50306,11,Computers and peripheral equipment,2015Q3,102523.0,Level,2026-06-01
+T50306,11,Computers and peripheral equipment,2015Q4,98016.0,Level,2026-06-01
+T50306,11,Computers and peripheral equipment,2016Q1,101356.0,Level,2026-06-01
+T50306,11,Computers and peripheral equipment,2016Q2,100151.0,Level,2026-06-01
+T50306,11,Computers and peripheral equipment,2016Q3,97568.0,Level,2026-06-01
+T50306,11,Computers and peripheral equipment,2016Q4,99592.0,Level,2026-06-01
+T50306,11,Computers and peripheral equipment,2017Q1,99987.0,Level,2026-06-01
+T50306,11,Computers and peripheral equipment,2017Q2,104407.0,Level,2026-06-01
+T50306,11,Computers and peripheral equipment,2017Q3,109963.0,Level,2026-06-01
+T50306,11,Computers and peripheral equipment,2017Q4,108755.0,Level,2026-06-01
+T50306,11,Computers and peripheral equipment,2018Q1,117549.0,Level,2026-06-01
+T50306,11,Computers and peripheral equipment,2018Q2,121574.0,Level,2026-06-01
+T50306,11,Computers and peripheral equipment,2018Q3,121079.0,Level,2026-06-01
+T50306,11,Computers and peripheral equipment,2018Q4,118331.0,Level,2026-06-01
+T50306,11,Computers and peripheral equipment,2019Q1,118540.0,Level,2026-06-01
+T50306,11,Computers and peripheral equipment,2019Q2,124919.0,Level,2026-06-01
+T50306,11,Computers and peripheral equipment,2019Q3,118459.0,Level,2026-06-01
+T50306,11,Computers and peripheral equipment,2019Q4,122312.0,Level,2026-06-01
+T50306,11,Computers and peripheral equipment,2020Q1,119680.0,Level,2026-06-01
+T50306,11,Computers and peripheral equipment,2020Q2,129839.0,Level,2026-06-01
+T50306,11,Computers and peripheral equipment,2020Q3,134513.0,Level,2026-06-01
+T50306,11,Computers and peripheral equipment,2020Q4,141710.0,Level,2026-06-01
+T50306,11,Computers and peripheral equipment,2021Q1,148491.0,Level,2026-06-01
+T50306,11,Computers and peripheral equipment,2021Q2,147509.0,Level,2026-06-01
+T50306,11,Computers and peripheral equipment,2021Q3,149752.0,Level,2026-06-01
+T50306,11,Computers and peripheral equipment,2021Q4,156282.0,Level,2026-06-01
+T50306,11,Computers and peripheral equipment,2022Q1,161439.0,Level,2026-06-01
+T50306,11,Computers and peripheral equipment,2022Q2,157193.0,Level,2026-06-01
+T50306,11,Computers and peripheral equipment,2022Q3,161349.0,Level,2026-06-01
+T50306,11,Computers and peripheral equipment,2022Q4,152022.0,Level,2026-06-01
+T50306,11,Computers and peripheral equipment,2023Q1,144225.0,Level,2026-06-01
+T50306,11,Computers and peripheral equipment,2023Q2,145040.0,Level,2026-06-01
+T50306,11,Computers and peripheral equipment,2023Q3,143683.0,Level,2026-06-01
+T50306,11,Computers and peripheral equipment,2023Q4,152694.0,Level,2026-06-01
+T50306,11,Computers and peripheral equipment,2024Q1,162287.0,Level,2026-06-01
+T50306,11,Computers and peripheral equipment,2024Q2,172040.0,Level,2026-06-01
+T50306,11,Computers and peripheral equipment,2024Q3,184085.0,Level,2026-06-01
+T50306,11,Computers and peripheral equipment,2024Q4,181719.0,Level,2026-06-01
+T50306,11,Computers and peripheral equipment,2025Q1,217095.0,Level,2026-06-01
+T50306,11,Computers and peripheral equipment,2025Q2,244796.0,Level,2026-06-01
+T50306,11,Computers and peripheral equipment,2025Q3,269386.0,Level,2026-06-01
+T50306,11,Computers and peripheral equipment,2025Q4,312047.0,Level,2026-06-01
+T50306,11,Computers and peripheral equipment,2026Q1,359124.0,Level,2026-06-01
+T50306,12,Other,2010Q1,142188.0,Level,2026-06-01
+T50306,12,Other,2010Q2,146811.0,Level,2026-06-01
+T50306,12,Other,2010Q3,155082.0,Level,2026-06-01
+T50306,12,Other,2010Q4,160380.0,Level,2026-06-01
+T50306,12,Other,2011Q1,158830.0,Level,2026-06-01
+T50306,12,Other,2011Q2,161484.0,Level,2026-06-01
+T50306,12,Other,2011Q3,163204.0,Level,2026-06-01
+T50306,12,Other,2011Q4,164803.0,Level,2026-06-01
+T50306,12,Other,2012Q1,171949.0,Level,2026-06-01
+T50306,12,Other,2012Q2,177246.0,Level,2026-06-01
+T50306,12,Other,2012Q3,175616.0,Level,2026-06-01
+T50306,12,Other,2012Q4,180634.0,Level,2026-06-01
+T50306,12,Other,2013Q1,189944.0,Level,2026-06-01
+T50306,12,Other,2013Q2,194795.0,Level,2026-06-01
+T50306,12,Other,2013Q3,197656.0,Level,2026-06-01
+T50306,12,Other,2013Q4,199451.0,Level,2026-06-01
+T50306,12,Other,2014Q1,204679.0,Level,2026-06-01
+T50306,12,Other,2014Q2,214119.0,Level,2026-06-01
+T50306,12,Other,2014Q3,214870.0,Level,2026-06-01
+T50306,12,Other,2014Q4,221203.0,Level,2026-06-01
+T50306,12,Other,2015Q1,225992.0,Level,2026-06-01
+T50306,12,Other,2015Q2,231977.0,Level,2026-06-01
+T50306,12,Other,2015Q3,239978.0,Level,2026-06-01
+T50306,12,Other,2015Q4,248903.0,Level,2026-06-01
+T50306,12,Other,2016Q1,249202.0,Level,2026-06-01
+T50306,12,Other,2016Q2,251767.0,Level,2026-06-01
+T50306,12,Other,2016Q3,259942.0,Level,2026-06-01
+T50306,12,Other,2016Q4,265041.0,Level,2026-06-01
+T50306,12,Other,2017Q1,269792.0,Level,2026-06-01
+T50306,12,Other,2017Q2,279563.0,Level,2026-06-01
+T50306,12,Other,2017Q3,278473.0,Level,2026-06-01
+T50306,12,Other,2017Q4,292908.0,Level,2026-06-01
+T50306,12,Other,2018Q1,295486.0,Level,2026-06-01
+T50306,12,Other,2018Q2,292826.0,Level,2026-06-01
+T50306,12,Other,2018Q3,298599.0,Level,2026-06-01
+T50306,12,Other,2018Q4,301307.0,Level,2026-06-01
+T50306,12,Other,2019Q1,308547.0,Level,2026-06-01
+T50306,12,Other,2019Q2,310324.0,Level,2026-06-01
+T50306,12,Other,2019Q3,310477.0,Level,2026-06-01
+T50306,12,Other,2019Q4,301972.0,Level,2026-06-01
+T50306,12,Other,2020Q1,286313.0,Level,2026-06-01
+T50306,12,Other,2020Q2,287568.0,Level,2026-06-01
+T50306,12,Other,2020Q3,311525.0,Level,2026-06-01
+T50306,12,Other,2020Q4,315846.0,Level,2026-06-01
+T50306,12,Other,2021Q1,320366.0,Level,2026-06-01
+T50306,12,Other,2021Q2,327066.0,Level,2026-06-01
+T50306,12,Other,2021Q3,320030.0,Level,2026-06-01
+T50306,12,Other,2021Q4,340527.0,Level,2026-06-01
+T50306,12,Other,2022Q1,352043.0,Level,2026-06-01
+T50306,12,Other,2022Q2,353140.0,Level,2026-06-01
+T50306,12,Other,2022Q3,352782.0,Level,2026-06-01
+T50306,12,Other,2022Q4,344088.0,Level,2026-06-01
+T50306,12,Other,2023Q1,347634.0,Level,2026-06-01
+T50306,12,Other,2023Q2,340815.0,Level,2026-06-01
+T50306,12,Other,2023Q3,339834.0,Level,2026-06-01
+T50306,12,Other,2023Q4,345619.0,Level,2026-06-01
+T50306,12,Other,2024Q1,334549.0,Level,2026-06-01
+T50306,12,Other,2024Q2,337352.0,Level,2026-06-01
+T50306,12,Other,2024Q3,342841.0,Level,2026-06-01
+T50306,12,Other,2024Q4,346236.0,Level,2026-06-01
+T50306,12,Other,2025Q1,378296.0,Level,2026-06-01
+T50306,12,Other,2025Q2,365703.0,Level,2026-06-01
+T50306,12,Other,2025Q3,352837.0,Level,2026-06-01
+T50306,12,Other,2025Q4,360135.0,Level,2026-06-01
+T50306,12,Other,2026Q1,378698.0,Level,2026-06-01
+T50306,13,Industrial equipment,2010Q1,153283.0,Level,2026-06-01
+T50306,13,Industrial equipment,2010Q2,163028.0,Level,2026-06-01
+T50306,13,Industrial equipment,2010Q3,166441.0,Level,2026-06-01
+T50306,13,Industrial equipment,2010Q4,174067.0,Level,2026-06-01
+T50306,13,Industrial equipment,2011Q1,184734.0,Level,2026-06-01
+T50306,13,Industrial equipment,2011Q2,187424.0,Level,2026-06-01
+T50306,13,Industrial equipment,2011Q3,201269.0,Level,2026-06-01
+T50306,13,Industrial equipment,2011Q4,214375.0,Level,2026-06-01
+T50306,13,Industrial equipment,2012Q1,212523.0,Level,2026-06-01
+T50306,13,Industrial equipment,2012Q2,217297.0,Level,2026-06-01
+T50306,13,Industrial equipment,2012Q3,209744.0,Level,2026-06-01
+T50306,13,Industrial equipment,2012Q4,214355.0,Level,2026-06-01
+T50306,13,Industrial equipment,2013Q1,213069.0,Level,2026-06-01
+T50306,13,Industrial equipment,2013Q2,211772.0,Level,2026-06-01
+T50306,13,Industrial equipment,2013Q3,213668.0,Level,2026-06-01
+T50306,13,Industrial equipment,2013Q4,212652.0,Level,2026-06-01
+T50306,13,Industrial equipment,2014Q1,217658.0,Level,2026-06-01
+T50306,13,Industrial equipment,2014Q2,223883.0,Level,2026-06-01
+T50306,13,Industrial equipment,2014Q3,228766.0,Level,2026-06-01
+T50306,13,Industrial equipment,2014Q4,223717.0,Level,2026-06-01
+T50306,13,Industrial equipment,2015Q1,224765.0,Level,2026-06-01
+T50306,13,Industrial equipment,2015Q2,226162.0,Level,2026-06-01
+T50306,13,Industrial equipment,2015Q3,224921.0,Level,2026-06-01
+T50306,13,Industrial equipment,2015Q4,227011.0,Level,2026-06-01
+T50306,13,Industrial equipment,2016Q1,223141.0,Level,2026-06-01
+T50306,13,Industrial equipment,2016Q2,225902.0,Level,2026-06-01
+T50306,13,Industrial equipment,2016Q3,223958.0,Level,2026-06-01
+T50306,13,Industrial equipment,2016Q4,226716.0,Level,2026-06-01
+T50306,13,Industrial equipment,2017Q1,230757.0,Level,2026-06-01
+T50306,13,Industrial equipment,2017Q2,236729.0,Level,2026-06-01
+T50306,13,Industrial equipment,2017Q3,238590.0,Level,2026-06-01
+T50306,13,Industrial equipment,2017Q4,243228.0,Level,2026-06-01
+T50306,13,Industrial equipment,2018Q1,247241.0,Level,2026-06-01
+T50306,13,Industrial equipment,2018Q2,245455.0,Level,2026-06-01
+T50306,13,Industrial equipment,2018Q3,248287.0,Level,2026-06-01
+T50306,13,Industrial equipment,2018Q4,253668.0,Level,2026-06-01
+T50306,13,Industrial equipment,2019Q1,252251.0,Level,2026-06-01
+T50306,13,Industrial equipment,2019Q2,255459.0,Level,2026-06-01
+T50306,13,Industrial equipment,2019Q3,258135.0,Level,2026-06-01
+T50306,13,Industrial equipment,2019Q4,246824.0,Level,2026-06-01
+T50306,13,Industrial equipment,2020Q1,236869.0,Level,2026-06-01
+T50306,13,Industrial equipment,2020Q2,220178.0,Level,2026-06-01
+T50306,13,Industrial equipment,2020Q3,231014.0,Level,2026-06-01
+T50306,13,Industrial equipment,2020Q4,238915.0,Level,2026-06-01
+T50306,13,Industrial equipment,2021Q1,236942.0,Level,2026-06-01
+T50306,13,Industrial equipment,2021Q2,247656.0,Level,2026-06-01
+T50306,13,Industrial equipment,2021Q3,250785.0,Level,2026-06-01
+T50306,13,Industrial equipment,2021Q4,253282.0,Level,2026-06-01
+T50306,13,Industrial equipment,2022Q1,254914.0,Level,2026-06-01
+T50306,13,Industrial equipment,2022Q2,250473.0,Level,2026-06-01
+T50306,13,Industrial equipment,2022Q3,246078.0,Level,2026-06-01
+T50306,13,Industrial equipment,2022Q4,251444.0,Level,2026-06-01
+T50306,13,Industrial equipment,2023Q1,251252.0,Level,2026-06-01
+T50306,13,Industrial equipment,2023Q2,253284.0,Level,2026-06-01
+T50306,13,Industrial equipment,2023Q3,249846.0,Level,2026-06-01
+T50306,13,Industrial equipment,2023Q4,251614.0,Level,2026-06-01
+T50306,13,Industrial equipment,2024Q1,253754.0,Level,2026-06-01
+T50306,13,Industrial equipment,2024Q2,252752.0,Level,2026-06-01
+T50306,13,Industrial equipment,2024Q3,256301.0,Level,2026-06-01
+T50306,13,Industrial equipment,2024Q4,256764.0,Level,2026-06-01
+T50306,13,Industrial equipment,2025Q1,259500.0,Level,2026-06-01
+T50306,13,Industrial equipment,2025Q2,263613.0,Level,2026-06-01
+T50306,13,Industrial equipment,2025Q3,264977.0,Level,2026-06-01
+T50306,13,Industrial equipment,2025Q4,262568.0,Level,2026-06-01
+T50306,13,Industrial equipment,2026Q1,265735.0,Level,2026-06-01
+T50306,14,Transportation equipment,2010Q1,121513.0,Level,2026-06-01
+T50306,14,Transportation equipment,2010Q2,141319.0,Level,2026-06-01
+T50306,14,Transportation equipment,2010Q3,172214.0,Level,2026-06-01
+T50306,14,Transportation equipment,2010Q4,174636.0,Level,2026-06-01
+T50306,14,Transportation equipment,2011Q1,185164.0,Level,2026-06-01
+T50306,14,Transportation equipment,2011Q2,183271.0,Level,2026-06-01
+T50306,14,Transportation equipment,2011Q3,202487.0,Level,2026-06-01
+T50306,14,Transportation equipment,2011Q4,212277.0,Level,2026-06-01
+T50306,14,Transportation equipment,2012Q1,221339.0,Level,2026-06-01
+T50306,14,Transportation equipment,2012Q2,232149.0,Level,2026-06-01
+T50306,14,Transportation equipment,2012Q3,232667.0,Level,2026-06-01
+T50306,14,Transportation equipment,2012Q4,241128.0,Level,2026-06-01
+T50306,14,Transportation equipment,2013Q1,250213.0,Level,2026-06-01
+T50306,14,Transportation equipment,2013Q2,255501.0,Level,2026-06-01
+T50306,14,Transportation equipment,2013Q3,256444.0,Level,2026-06-01
+T50306,14,Transportation equipment,2013Q4,268504.0,Level,2026-06-01
+T50306,14,Transportation equipment,2014Q1,273313.0,Level,2026-06-01
+T50306,14,Transportation equipment,2014Q2,282443.0,Level,2026-06-01
+T50306,14,Transportation equipment,2014Q3,298913.0,Level,2026-06-01
+T50306,14,Transportation equipment,2014Q4,294877.0,Level,2026-06-01
+T50306,14,Transportation equipment,2015Q1,311663.0,Level,2026-06-01
+T50306,14,Transportation equipment,2015Q2,318135.0,Level,2026-06-01
+T50306,14,Transportation equipment,2015Q3,329608.0,Level,2026-06-01
+T50306,14,Transportation equipment,2015Q4,315437.0,Level,2026-06-01
+T50306,14,Transportation equipment,2016Q1,313328.0,Level,2026-06-01
+T50306,14,Transportation equipment,2016Q2,300260.0,Level,2026-06-01
+T50306,14,Transportation equipment,2016Q3,298990.0,Level,2026-06-01
+T50306,14,Transportation equipment,2016Q4,297671.0,Level,2026-06-01
+T50306,14,Transportation equipment,2017Q1,291405.0,Level,2026-06-01
+T50306,14,Transportation equipment,2017Q2,289484.0,Level,2026-06-01
+T50306,14,Transportation equipment,2017Q3,303041.0,Level,2026-06-01
+T50306,14,Transportation equipment,2017Q4,315610.0,Level,2026-06-01
+T50306,14,Transportation equipment,2018Q1,320727.0,Level,2026-06-01
+T50306,14,Transportation equipment,2018Q2,319352.0,Level,2026-06-01
+T50306,14,Transportation equipment,2018Q3,314755.0,Level,2026-06-01
+T50306,14,Transportation equipment,2018Q4,318290.0,Level,2026-06-01
+T50306,14,Transportation equipment,2019Q1,316932.0,Level,2026-06-01
+T50306,14,Transportation equipment,2019Q2,310438.0,Level,2026-06-01
+T50306,14,Transportation equipment,2019Q3,298623.0,Level,2026-06-01
+T50306,14,Transportation equipment,2019Q4,293577.0,Level,2026-06-01
+T50306,14,Transportation equipment,2020Q1,265446.0,Level,2026-06-01
+T50306,14,Transportation equipment,2020Q2,168741.0,Level,2026-06-01
+T50306,14,Transportation equipment,2020Q3,210845.0,Level,2026-06-01
+T50306,14,Transportation equipment,2020Q4,230732.0,Level,2026-06-01
+T50306,14,Transportation equipment,2021Q1,234789.0,Level,2026-06-01
+T50306,14,Transportation equipment,2021Q2,257272.0,Level,2026-06-01
+T50306,14,Transportation equipment,2021Q3,221932.0,Level,2026-06-01
+T50306,14,Transportation equipment,2021Q4,193108.0,Level,2026-06-01
+T50306,14,Transportation equipment,2022Q1,204927.0,Level,2026-06-01
+T50306,14,Transportation equipment,2022Q2,217347.0,Level,2026-06-01
+T50306,14,Transportation equipment,2022Q3,232127.0,Level,2026-06-01
+T50306,14,Transportation equipment,2022Q4,251362.0,Level,2026-06-01
+T50306,14,Transportation equipment,2023Q1,259320.0,Level,2026-06-01
+T50306,14,Transportation equipment,2023Q2,297792.0,Level,2026-06-01
+T50306,14,Transportation equipment,2023Q3,295706.0,Level,2026-06-01
+T50306,14,Transportation equipment,2023Q4,285672.0,Level,2026-06-01
+T50306,14,Transportation equipment,2024Q1,281960.0,Level,2026-06-01
+T50306,14,Transportation equipment,2024Q2,301943.0,Level,2026-06-01
+T50306,14,Transportation equipment,2024Q3,310751.0,Level,2026-06-01
+T50306,14,Transportation equipment,2024Q4,300964.0,Level,2026-06-01
+T50306,14,Transportation equipment,2025Q1,304560.0,Level,2026-06-01
+T50306,14,Transportation equipment,2025Q2,322235.0,Level,2026-06-01
+T50306,14,Transportation equipment,2025Q3,318793.0,Level,2026-06-01
+T50306,14,Transportation equipment,2025Q4,293187.0,Level,2026-06-01
+T50306,14,Transportation equipment,2026Q1,282180.0,Level,2026-06-01
+T50306,15,Other equipment,2010Q1,185612.0,Level,2026-06-01
+T50306,15,Other equipment,2010Q2,196807.0,Level,2026-06-01
+T50306,15,Other equipment,2010Q3,196616.0,Level,2026-06-01
+T50306,15,Other equipment,2010Q4,200800.0,Level,2026-06-01
+T50306,15,Other equipment,2011Q1,207916.0,Level,2026-06-01
+T50306,15,Other equipment,2011Q2,209185.0,Level,2026-06-01
+T50306,15,Other equipment,2011Q3,224432.0,Level,2026-06-01
+T50306,15,Other equipment,2011Q4,222052.0,Level,2026-06-01
+T50306,15,Other equipment,2012Q1,226725.0,Level,2026-06-01
+T50306,15,Other equipment,2012Q2,233189.0,Level,2026-06-01
+T50306,15,Other equipment,2012Q3,243873.0,Level,2026-06-01
+T50306,15,Other equipment,2012Q4,241475.0,Level,2026-06-01
+T50306,15,Other equipment,2013Q1,240931.0,Level,2026-06-01
+T50306,15,Other equipment,2013Q2,238644.0,Level,2026-06-01
+T50306,15,Other equipment,2013Q3,233923.0,Level,2026-06-01
+T50306,15,Other equipment,2013Q4,260602.0,Level,2026-06-01
+T50306,15,Other equipment,2014Q1,259022.0,Level,2026-06-01
+T50306,15,Other equipment,2014Q2,259587.0,Level,2026-06-01
+T50306,15,Other equipment,2014Q3,273691.0,Level,2026-06-01
+T50306,15,Other equipment,2014Q4,267100.0,Level,2026-06-01
+T50306,15,Other equipment,2015Q1,257849.0,Level,2026-06-01
+T50306,15,Other equipment,2015Q2,247804.0,Level,2026-06-01
+T50306,15,Other equipment,2015Q3,246141.0,Level,2026-06-01
+T50306,15,Other equipment,2015Q4,240110.0,Level,2026-06-01
+T50306,15,Other equipment,2016Q1,239334.0,Level,2026-06-01
+T50306,15,Other equipment,2016Q2,236196.0,Level,2026-06-01
+T50306,15,Other equipment,2016Q3,232227.0,Level,2026-06-01
+T50306,15,Other equipment,2016Q4,229065.0,Level,2026-06-01
+T50306,15,Other equipment,2017Q1,233424.0,Level,2026-06-01
+T50306,15,Other equipment,2017Q2,236597.0,Level,2026-06-01
+T50306,15,Other equipment,2017Q3,235843.0,Level,2026-06-01
+T50306,15,Other equipment,2017Q4,241256.0,Level,2026-06-01
+T50306,15,Other equipment,2018Q1,241952.0,Level,2026-06-01
+T50306,15,Other equipment,2018Q2,245802.0,Level,2026-06-01
+T50306,15,Other equipment,2018Q3,242579.0,Level,2026-06-01
+T50306,15,Other equipment,2018Q4,249639.0,Level,2026-06-01
+T50306,15,Other equipment,2019Q1,252289.0,Level,2026-06-01
+T50306,15,Other equipment,2019Q2,259895.0,Level,2026-06-01
+T50306,15,Other equipment,2019Q3,256481.0,Level,2026-06-01
+T50306,15,Other equipment,2019Q4,249389.0,Level,2026-06-01
+T50306,15,Other equipment,2020Q1,244418.0,Level,2026-06-01
+T50306,15,Other equipment,2020Q2,217622.0,Level,2026-06-01
+T50306,15,Other equipment,2020Q3,242288.0,Level,2026-06-01
+T50306,15,Other equipment,2020Q4,250678.0,Level,2026-06-01
+T50306,15,Other equipment,2021Q1,253867.0,Level,2026-06-01
+T50306,15,Other equipment,2021Q2,250365.0,Level,2026-06-01
+T50306,15,Other equipment,2021Q3,248540.0,Level,2026-06-01
+T50306,15,Other equipment,2021Q4,246871.0,Level,2026-06-01
+T50306,15,Other equipment,2022Q1,254786.0,Level,2026-06-01
+T50306,15,Other equipment,2022Q2,253759.0,Level,2026-06-01
+T50306,15,Other equipment,2022Q3,249830.0,Level,2026-06-01
+T50306,15,Other equipment,2022Q4,249117.0,Level,2026-06-01
+T50306,15,Other equipment,2023Q1,245529.0,Level,2026-06-01
+T50306,15,Other equipment,2023Q2,247149.0,Level,2026-06-01
+T50306,15,Other equipment,2023Q3,246703.0,Level,2026-06-01
+T50306,15,Other equipment,2023Q4,251345.0,Level,2026-06-01
+T50306,15,Other equipment,2024Q1,254278.0,Level,2026-06-01
+T50306,15,Other equipment,2024Q2,252099.0,Level,2026-06-01
+T50306,15,Other equipment,2024Q3,250134.0,Level,2026-06-01
+T50306,15,Other equipment,2024Q4,245042.0,Level,2026-06-01
+T50306,15,Other equipment,2025Q1,245075.0,Level,2026-06-01
+T50306,15,Other equipment,2025Q2,238215.0,Level,2026-06-01
+T50306,15,Other equipment,2025Q3,245901.0,Level,2026-06-01
+T50306,15,Other equipment,2025Q4,244607.0,Level,2026-06-01
+T50306,15,Other equipment,2026Q1,251377.0,Level,2026-06-01
+T50306,16,Intellectual property products,2010Q1,580237.0,Level,2026-06-01
+T50306,16,Intellectual property products,2010Q2,577346.0,Level,2026-06-01
+T50306,16,Intellectual property products,2010Q3,588543.0,Level,2026-06-01
+T50306,16,Intellectual property products,2010Q4,599561.0,Level,2026-06-01
+T50306,16,Intellectual property products,2011Q1,605659.0,Level,2026-06-01
+T50306,16,Intellectual property products,2011Q2,615579.0,Level,2026-06-01
+T50306,16,Intellectual property products,2011Q3,628055.0,Level,2026-06-01
+T50306,16,Intellectual property products,2011Q4,642440.0,Level,2026-06-01
+T50306,16,Intellectual property products,2012Q1,643771.0,Level,2026-06-01
+T50306,16,Intellectual property products,2012Q2,652006.0,Level,2026-06-01
+T50306,16,Intellectual property products,2012Q3,653267.0,Level,2026-06-01
+T50306,16,Intellectual property products,2012Q4,666083.0,Level,2026-06-01
+T50306,16,Intellectual property products,2013Q1,688207.0,Level,2026-06-01
+T50306,16,Intellectual property products,2013Q2,685463.0,Level,2026-06-01
+T50306,16,Intellectual property products,2013Q3,699763.0,Level,2026-06-01
+T50306,16,Intellectual property products,2013Q4,706401.0,Level,2026-06-01
+T50306,16,Intellectual property products,2014Q1,713319.0,Level,2026-06-01
+T50306,16,Intellectual property products,2014Q2,731432.0,Level,2026-06-01
+T50306,16,Intellectual property products,2014Q3,747241.0,Level,2026-06-01
+T50306,16,Intellectual property products,2014Q4,764208.0,Level,2026-06-01
+T50306,16,Intellectual property products,2015Q1,759608.0,Level,2026-06-01
+T50306,16,Intellectual property products,2015Q2,763776.0,Level,2026-06-01
+T50306,16,Intellectual property products,2015Q3,775881.0,Level,2026-06-01
+T50306,16,Intellectual property products,2015Q4,796860.0,Level,2026-06-01
+T50306,16,Intellectual property products,2016Q1,821304.0,Level,2026-06-01
+T50306,16,Intellectual property products,2016Q2,841936.0,Level,2026-06-01
+T50306,16,Intellectual property products,2016Q3,858886.0,Level,2026-06-01
+T50306,16,Intellectual property products,2016Q4,868457.0,Level,2026-06-01
+T50306,16,Intellectual property products,2017Q1,887406.0,Level,2026-06-01
+T50306,16,Intellectual property products,2017Q2,893682.0,Level,2026-06-01
+T50306,16,Intellectual property products,2017Q3,912926.0,Level,2026-06-01
+T50306,16,Intellectual property products,2017Q4,930972.0,Level,2026-06-01
+T50306,16,Intellectual property products,2018Q1,950810.0,Level,2026-06-01
+T50306,16,Intellectual property products,2018Q2,977853.0,Level,2026-06-01
+T50306,16,Intellectual property products,2018Q3,994495.0,Level,2026-06-01
+T50306,16,Intellectual property products,2018Q4,1022761.0,Level,2026-06-01
+T50306,16,Intellectual property products,2019Q1,1033447.0,Level,2026-06-01
+T50306,16,Intellectual property products,2019Q2,1055701.0,Level,2026-06-01
+T50306,16,Intellectual property products,2019Q3,1076451.0,Level,2026-06-01
+T50306,16,Intellectual property products,2019Q4,1102537.0,Level,2026-06-01
+T50306,16,Intellectual property products,2020Q1,1119880.0,Level,2026-06-01
+T50306,16,Intellectual property products,2020Q2,1090862.0,Level,2026-06-01
+T50306,16,Intellectual property products,2020Q3,1110690.0,Level,2026-06-01
+T50306,16,Intellectual property products,2020Q4,1138777.0,Level,2026-06-01
+T50306,16,Intellectual property products,2021Q1,1178735.0,Level,2026-06-01
+T50306,16,Intellectual property products,2021Q2,1215799.0,Level,2026-06-01
+T50306,16,Intellectual property products,2021Q3,1245272.0,Level,2026-06-01
+T50306,16,Intellectual property products,2021Q4,1283954.0,Level,2026-06-01
+T50306,16,Intellectual property products,2022Q1,1326158.0,Level,2026-06-01
+T50306,16,Intellectual property products,2022Q2,1365427.0,Level,2026-06-01
+T50306,16,Intellectual property products,2022Q3,1388348.0,Level,2026-06-01
+T50306,16,Intellectual property products,2022Q4,1419518.0,Level,2026-06-01
+T50306,16,Intellectual property products,2023Q1,1438645.0,Level,2026-06-01
+T50306,16,Intellectual property products,2023Q2,1455181.0,Level,2026-06-01
+T50306,16,Intellectual property products,2023Q3,1465490.0,Level,2026-06-01
+T50306,16,Intellectual property products,2023Q4,1480651.0,Level,2026-06-01
+T50306,16,Intellectual property products,2024Q1,1504799.0,Level,2026-06-01
+T50306,16,Intellectual property products,2024Q2,1507290.0,Level,2026-06-01
+T50306,16,Intellectual property products,2024Q3,1517093.0,Level,2026-06-01
+T50306,16,Intellectual property products,2024Q4,1514975.0,Level,2026-06-01
+T50306,16,Intellectual property products,2025Q1,1539022.0,Level,2026-06-01
+T50306,16,Intellectual property products,2025Q2,1593766.0,Level,2026-06-01
+T50306,16,Intellectual property products,2025Q3,1615567.0,Level,2026-06-01
+T50306,16,Intellectual property products,2025Q4,1636774.0,Level,2026-06-01
+T50306,16,Intellectual property products,2026Q1,1682460.0,Level,2026-06-01
+T50306,17,Software,2010Q1,199948.0,Level,2026-06-01
+T50306,17,Software,2010Q2,196824.0,Level,2026-06-01
+T50306,17,Software,2010Q3,200309.0,Level,2026-06-01
+T50306,17,Software,2010Q4,204333.0,Level,2026-06-01
+T50306,17,Software,2011Q1,210503.0,Level,2026-06-01
+T50306,17,Software,2011Q2,217871.0,Level,2026-06-01
+T50306,17,Software,2011Q3,226538.0,Level,2026-06-01
+T50306,17,Software,2011Q4,234394.0,Level,2026-06-01
+T50306,17,Software,2012Q1,238608.0,Level,2026-06-01
+T50306,17,Software,2012Q2,246779.0,Level,2026-06-01
+T50306,17,Software,2012Q3,247346.0,Level,2026-06-01
+T50306,17,Software,2012Q4,254150.0,Level,2026-06-01
+T50306,17,Software,2013Q1,262952.0,Level,2026-06-01
+T50306,17,Software,2013Q2,257564.0,Level,2026-06-01
+T50306,17,Software,2013Q3,265394.0,Level,2026-06-01
+T50306,17,Software,2013Q4,271340.0,Level,2026-06-01
+T50306,17,Software,2014Q1,276163.0,Level,2026-06-01
+T50306,17,Software,2014Q2,283457.0,Level,2026-06-01
+T50306,17,Software,2014Q3,291110.0,Level,2026-06-01
+T50306,17,Software,2014Q4,293760.0,Level,2026-06-01
+T50306,17,Software,2015Q1,297416.0,Level,2026-06-01
+T50306,17,Software,2015Q2,301515.0,Level,2026-06-01
+T50306,17,Software,2015Q3,305129.0,Level,2026-06-01
+T50306,17,Software,2015Q4,314188.0,Level,2026-06-01
+T50306,17,Software,2016Q1,325922.0,Level,2026-06-01
+T50306,17,Software,2016Q2,335156.0,Level,2026-06-01
+T50306,17,Software,2016Q3,345510.0,Level,2026-06-01
+T50306,17,Software,2016Q4,355269.0,Level,2026-06-01
+T50306,17,Software,2017Q1,366112.0,Level,2026-06-01
+T50306,17,Software,2017Q2,375936.0,Level,2026-06-01
+T50306,17,Software,2017Q3,388802.0,Level,2026-06-01
+T50306,17,Software,2017Q4,400931.0,Level,2026-06-01
+T50306,17,Software,2018Q1,414379.0,Level,2026-06-01
+T50306,17,Software,2018Q2,428604.0,Level,2026-06-01
+T50306,17,Software,2018Q3,440694.0,Level,2026-06-01
+T50306,17,Software,2018Q4,451897.0,Level,2026-06-01
+T50306,17,Software,2019Q1,450135.0,Level,2026-06-01
+T50306,17,Software,2019Q2,459065.0,Level,2026-06-01
+T50306,17,Software,2019Q3,469776.0,Level,2026-06-01
+T50306,17,Software,2019Q4,487129.0,Level,2026-06-01
+T50306,17,Software,2020Q1,502514.0,Level,2026-06-01
+T50306,17,Software,2020Q2,500784.0,Level,2026-06-01
+T50306,17,Software,2020Q3,509303.0,Level,2026-06-01
+T50306,17,Software,2020Q4,529969.0,Level,2026-06-01
+T50306,17,Software,2021Q1,559767.0,Level,2026-06-01
+T50306,17,Software,2021Q2,579786.0,Level,2026-06-01
+T50306,17,Software,2021Q3,594613.0,Level,2026-06-01
+T50306,17,Software,2021Q4,613205.0,Level,2026-06-01
+T50306,17,Software,2022Q1,645111.0,Level,2026-06-01
+T50306,17,Software,2022Q2,667031.0,Level,2026-06-01
+T50306,17,Software,2022Q3,681878.0,Level,2026-06-01
+T50306,17,Software,2022Q4,704014.0,Level,2026-06-01
+T50306,17,Software,2023Q1,708070.0,Level,2026-06-01
+T50306,17,Software,2023Q2,715185.0,Level,2026-06-01
+T50306,17,Software,2023Q3,725951.0,Level,2026-06-01
+T50306,17,Software,2023Q4,743521.0,Level,2026-06-01
+T50306,17,Software,2024Q1,763037.0,Level,2026-06-01
+T50306,17,Software,2024Q2,769906.0,Level,2026-06-01
+T50306,17,Software,2024Q3,774661.0,Level,2026-06-01
+T50306,17,Software,2024Q4,780059.0,Level,2026-06-01
+T50306,17,Software,2025Q1,814344.0,Level,2026-06-01
+T50306,17,Software,2025Q2,863792.0,Level,2026-06-01
+T50306,17,Software,2025Q3,871492.0,Level,2026-06-01
+T50306,17,Software,2025Q4,881716.0,Level,2026-06-01
+T50306,17,Software,2026Q1,926427.0,Level,2026-06-01
+T50306,18,Research and development,2010Q1,315630.0,Level,2026-06-01
+T50306,18,Research and development,2010Q2,313131.0,Level,2026-06-01
+T50306,18,Research and development,2010Q3,319688.0,Level,2026-06-01
+T50306,18,Research and development,2010Q4,325566.0,Level,2026-06-01
+T50306,18,Research and development,2011Q1,327093.0,Level,2026-06-01
+T50306,18,Research and development,2011Q2,329927.0,Level,2026-06-01
+T50306,18,Research and development,2011Q3,332666.0,Level,2026-06-01
+T50306,18,Research and development,2011Q4,337695.0,Level,2026-06-01
+T50306,18,Research and development,2012Q1,333246.0,Level,2026-06-01
+T50306,18,Research and development,2012Q2,332464.0,Level,2026-06-01
+T50306,18,Research and development,2012Q3,333337.0,Level,2026-06-01
+T50306,18,Research and development,2012Q4,338929.0,Level,2026-06-01
+T50306,18,Research and development,2013Q1,352258.0,Level,2026-06-01
+T50306,18,Research and development,2013Q2,354960.0,Level,2026-06-01
+T50306,18,Research and development,2013Q3,361596.0,Level,2026-06-01
+T50306,18,Research and development,2013Q4,362175.0,Level,2026-06-01
+T50306,18,Research and development,2014Q1,362843.0,Level,2026-06-01
+T50306,18,Research and development,2014Q2,372617.0,Level,2026-06-01
+T50306,18,Research and development,2014Q3,379542.0,Level,2026-06-01
+T50306,18,Research and development,2014Q4,392925.0,Level,2026-06-01
+T50306,18,Research and development,2015Q1,383893.0,Level,2026-06-01
+T50306,18,Research and development,2015Q2,383499.0,Level,2026-06-01
+T50306,18,Research and development,2015Q3,391207.0,Level,2026-06-01
+T50306,18,Research and development,2015Q4,402559.0,Level,2026-06-01
+T50306,18,Research and development,2016Q1,414257.0,Level,2026-06-01
+T50306,18,Research and development,2016Q2,425374.0,Level,2026-06-01
+T50306,18,Research and development,2016Q3,429801.0,Level,2026-06-01
+T50306,18,Research and development,2016Q4,428416.0,Level,2026-06-01
+T50306,18,Research and development,2017Q1,436092.0,Level,2026-06-01
+T50306,18,Research and development,2017Q2,432297.0,Level,2026-06-01
+T50306,18,Research and development,2017Q3,438300.0,Level,2026-06-01
+T50306,18,Research and development,2017Q4,443216.0,Level,2026-06-01
+T50306,18,Research and development,2018Q1,448971.0,Level,2026-06-01
+T50306,18,Research and development,2018Q2,461123.0,Level,2026-06-01
+T50306,18,Research and development,2018Q3,465554.0,Level,2026-06-01
+T50306,18,Research and development,2018Q4,481642.0,Level,2026-06-01
+T50306,18,Research and development,2019Q1,494265.0,Level,2026-06-01
+T50306,18,Research and development,2019Q2,507671.0,Level,2026-06-01
+T50306,18,Research and development,2019Q3,516723.0,Level,2026-06-01
+T50306,18,Research and development,2019Q4,524696.0,Level,2026-06-01
+T50306,18,Research and development,2020Q1,527784.0,Level,2026-06-01
+T50306,18,Research and development,2020Q2,506632.0,Level,2026-06-01
+T50306,18,Research and development,2020Q3,520215.0,Level,2026-06-01
+T50306,18,Research and development,2020Q4,528536.0,Level,2026-06-01
+T50306,18,Research and development,2021Q1,542032.0,Level,2026-06-01
+T50306,18,Research and development,2021Q2,558780.0,Level,2026-06-01
+T50306,18,Research and development,2021Q3,571495.0,Level,2026-06-01
+T50306,18,Research and development,2021Q4,589106.0,Level,2026-06-01
+T50306,18,Research and development,2022Q1,603002.0,Level,2026-06-01
+T50306,18,Research and development,2022Q2,618034.0,Level,2026-06-01
+T50306,18,Research and development,2022Q3,624508.0,Level,2026-06-01
+T50306,18,Research and development,2022Q4,636003.0,Level,2026-06-01
+T50306,18,Research and development,2023Q1,649904.0,Level,2026-06-01
+T50306,18,Research and development,2023Q2,658485.0,Level,2026-06-01
+T50306,18,Research and development,2023Q3,659160.0,Level,2026-06-01
+T50306,18,Research and development,2023Q4,660504.0,Level,2026-06-01
+T50306,18,Research and development,2024Q1,666928.0,Level,2026-06-01
+T50306,18,Research and development,2024Q2,664361.0,Level,2026-06-01
+T50306,18,Research and development,2024Q3,669493.0,Level,2026-06-01
+T50306,18,Research and development,2024Q4,663411.0,Level,2026-06-01
+T50306,18,Research and development,2025Q1,660176.0,Level,2026-06-01
+T50306,18,Research and development,2025Q2,673694.0,Level,2026-06-01
+T50306,18,Research and development,2025Q3,687488.0,Level,2026-06-01
+T50306,18,Research and development,2025Q4,699479.0,Level,2026-06-01
+T50306,18,Research and development,2026Q1,707238.0,Level,2026-06-01
+T50306,19,"Entertainment, literary, and artistic originals",2010Q1,70298.0,Level,2026-06-01
+T50306,19,"Entertainment, literary, and artistic originals",2010Q2,73401.0,Level,2026-06-01
+T50306,19,"Entertainment, literary, and artistic originals",2010Q3,74759.0,Level,2026-06-01
+T50306,19,"Entertainment, literary, and artistic originals",2010Q4,75902.0,Level,2026-06-01
+T50306,19,"Entertainment, literary, and artistic originals",2011Q1,73440.0,Level,2026-06-01
+T50306,19,"Entertainment, literary, and artistic originals",2011Q2,72370.0,Level,2026-06-01
+T50306,19,"Entertainment, literary, and artistic originals",2011Q3,72594.0,Level,2026-06-01
+T50306,19,"Entertainment, literary, and artistic originals",2011Q4,73616.0,Level,2026-06-01
+T50306,19,"Entertainment, literary, and artistic originals",2012Q1,74436.0,Level,2026-06-01
+T50306,19,"Entertainment, literary, and artistic originals",2012Q2,74382.0,Level,2026-06-01
+T50306,19,"Entertainment, literary, and artistic originals",2012Q3,74208.0,Level,2026-06-01
+T50306,19,"Entertainment, literary, and artistic originals",2012Q4,74348.0,Level,2026-06-01
+T50306,19,"Entertainment, literary, and artistic originals",2013Q1,74335.0,Level,2026-06-01
+T50306,19,"Entertainment, literary, and artistic originals",2013Q2,74946.0,Level,2026-06-01
+T50306,19,"Entertainment, literary, and artistic originals",2013Q3,74458.0,Level,2026-06-01
+T50306,19,"Entertainment, literary, and artistic originals",2013Q4,74150.0,Level,2026-06-01
+T50306,19,"Entertainment, literary, and artistic originals",2014Q1,75363.0,Level,2026-06-01
+T50306,19,"Entertainment, literary, and artistic originals",2014Q2,76388.0,Level,2026-06-01
+T50306,19,"Entertainment, literary, and artistic originals",2014Q3,77474.0,Level,2026-06-01
+T50306,19,"Entertainment, literary, and artistic originals",2014Q4,78767.0,Level,2026-06-01
+T50306,19,"Entertainment, literary, and artistic originals",2015Q1,79121.0,Level,2026-06-01
+T50306,19,"Entertainment, literary, and artistic originals",2015Q2,79440.0,Level,2026-06-01
+T50306,19,"Entertainment, literary, and artistic originals",2015Q3,80265.0,Level,2026-06-01
+T50306,19,"Entertainment, literary, and artistic originals",2015Q4,80786.0,Level,2026-06-01
+T50306,19,"Entertainment, literary, and artistic originals",2016Q1,81704.0,Level,2026-06-01
+T50306,19,"Entertainment, literary, and artistic originals",2016Q2,81973.0,Level,2026-06-01
+T50306,19,"Entertainment, literary, and artistic originals",2016Q3,83962.0,Level,2026-06-01
+T50306,19,"Entertainment, literary, and artistic originals",2016Q4,84927.0,Level,2026-06-01
+T50306,19,"Entertainment, literary, and artistic originals",2017Q1,85270.0,Level,2026-06-01
+T50306,19,"Entertainment, literary, and artistic originals",2017Q2,85393.0,Level,2026-06-01
+T50306,19,"Entertainment, literary, and artistic originals",2017Q3,85772.0,Level,2026-06-01
+T50306,19,"Entertainment, literary, and artistic originals",2017Q4,86865.0,Level,2026-06-01
+T50306,19,"Entertainment, literary, and artistic originals",2018Q1,87696.0,Level,2026-06-01
+T50306,19,"Entertainment, literary, and artistic originals",2018Q2,88486.0,Level,2026-06-01
+T50306,19,"Entertainment, literary, and artistic originals",2018Q3,88882.0,Level,2026-06-01
+T50306,19,"Entertainment, literary, and artistic originals",2018Q4,89764.0,Level,2026-06-01
+T50306,19,"Entertainment, literary, and artistic originals",2019Q1,89086.0,Level,2026-06-01
+T50306,19,"Entertainment, literary, and artistic originals",2019Q2,88891.0,Level,2026-06-01
+T50306,19,"Entertainment, literary, and artistic originals",2019Q3,90006.0,Level,2026-06-01
+T50306,19,"Entertainment, literary, and artistic originals",2019Q4,91292.0,Level,2026-06-01
+T50306,19,"Entertainment, literary, and artistic originals",2020Q1,90920.0,Level,2026-06-01
+T50306,19,"Entertainment, literary, and artistic originals",2020Q2,86083.0,Level,2026-06-01
+T50306,19,"Entertainment, literary, and artistic originals",2020Q3,83604.0,Level,2026-06-01
+T50306,19,"Entertainment, literary, and artistic originals",2020Q4,83925.0,Level,2026-06-01
+T50306,19,"Entertainment, literary, and artistic originals",2021Q1,82461.0,Level,2026-06-01
+T50306,19,"Entertainment, literary, and artistic originals",2021Q2,83317.0,Level,2026-06-01
+T50306,19,"Entertainment, literary, and artistic originals",2021Q3,85576.0,Level,2026-06-01
+T50306,19,"Entertainment, literary, and artistic originals",2021Q4,88273.0,Level,2026-06-01
+T50306,19,"Entertainment, literary, and artistic originals",2022Q1,87205.0,Level,2026-06-01
+T50306,19,"Entertainment, literary, and artistic originals",2022Q2,90427.0,Level,2026-06-01
+T50306,19,"Entertainment, literary, and artistic originals",2022Q3,93052.0,Level,2026-06-01
+T50306,19,"Entertainment, literary, and artistic originals",2022Q4,92407.0,Level,2026-06-01
+T50306,19,"Entertainment, literary, and artistic originals",2023Q1,92466.0,Level,2026-06-01
+T50306,19,"Entertainment, literary, and artistic originals",2023Q2,93202.0,Level,2026-06-01
+T50306,19,"Entertainment, literary, and artistic originals",2023Q3,93497.0,Level,2026-06-01
+T50306,19,"Entertainment, literary, and artistic originals",2023Q4,92359.0,Level,2026-06-01
+T50306,19,"Entertainment, literary, and artistic originals",2024Q1,92696.0,Level,2026-06-01
+T50306,19,"Entertainment, literary, and artistic originals",2024Q2,92326.0,Level,2026-06-01
+T50306,19,"Entertainment, literary, and artistic originals",2024Q3,92308.0,Level,2026-06-01
+T50306,19,"Entertainment, literary, and artistic originals",2024Q4,92415.0,Level,2026-06-01
+T50306,19,"Entertainment, literary, and artistic originals",2025Q1,91486.0,Level,2026-06-01
+T50306,19,"Entertainment, literary, and artistic originals",2025Q2,90211.0,Level,2026-06-01
+T50306,19,"Entertainment, literary, and artistic originals",2025Q3,89823.0,Level,2026-06-01
+T50306,19,"Entertainment, literary, and artistic originals",2025Q4,88963.0,Level,2026-06-01
+T50306,19,"Entertainment, literary, and artistic originals",2026Q1,89463.0,Level,2026-06-01
+T50306,20,Residential,2010Q1,474574.0,Level,2026-06-01
+T50306,20,Residential,2010Q2,499233.0,Level,2026-06-01
+T50306,20,Residential,2010Q3,454993.0,Level,2026-06-01
+T50306,20,Residential,2010Q4,462520.0,Level,2026-06-01
+T50306,20,Residential,2011Q1,460953.0,Level,2026-06-01
+T50306,20,Residential,2011Q2,466179.0,Level,2026-06-01
+T50306,20,Residential,2011Q3,474579.0,Level,2026-06-01
+T50306,20,Residential,2011Q4,486889.0,Level,2026-06-01
+T50306,20,Residential,2012Q1,516345.0,Level,2026-06-01
+T50306,20,Residential,2012Q2,520771.0,Level,2026-06-01
+T50306,20,Residential,2012Q3,534146.0,Level,2026-06-01
+T50306,20,Residential,2012Q4,561974.0,Level,2026-06-01
+T50306,20,Residential,2013Q1,583345.0,Level,2026-06-01
+T50306,20,Residential,2013Q2,603035.0,Level,2026-06-01
+T50306,20,Residential,2013Q3,613966.0,Level,2026-06-01
+T50306,20,Residential,2013Q4,604215.0,Level,2026-06-01
+T50306,20,Residential,2014Q1,601624.0,Level,2026-06-01
+T50306,20,Residential,2014Q2,621366.0,Level,2026-06-01
+T50306,20,Residential,2014Q3,630798.0,Level,2026-06-01
+T50306,20,Residential,2014Q4,653415.0,Level,2026-06-01
+T50306,20,Residential,2015Q1,666289.0,Level,2026-06-01
+T50306,20,Residential,2015Q2,684076.0,Level,2026-06-01
+T50306,20,Residential,2015Q3,705645.0,Level,2026-06-01
+T50306,20,Residential,2015Q4,716639.0,Level,2026-06-01
+T50306,20,Residential,2016Q1,739045.0,Level,2026-06-01
+T50306,20,Residential,2016Q2,741346.0,Level,2026-06-01
+T50306,20,Residential,2016Q3,739347.0,Level,2026-06-01
+T50306,20,Residential,2016Q4,748925.0,Level,2026-06-01
+T50306,20,Residential,2017Q1,766457.0,Level,2026-06-01
+T50306,20,Residential,2017Q2,770751.0,Level,2026-06-01
+T50306,20,Residential,2017Q3,771325.0,Level,2026-06-01
+T50306,20,Residential,2017Q4,787030.0,Level,2026-06-01
+T50306,20,Residential,2018Q1,772134.0,Level,2026-06-01
+T50306,20,Residential,2018Q2,777417.0,Level,2026-06-01
+T50306,20,Residential,2018Q3,770056.0,Level,2026-06-01
+T50306,20,Residential,2018Q4,754590.0,Level,2026-06-01
+T50306,20,Residential,2019Q1,746082.0,Level,2026-06-01
+T50306,20,Residential,2019Q2,758737.0,Level,2026-06-01
+T50306,20,Residential,2019Q3,769618.0,Level,2026-06-01
+T50306,20,Residential,2019Q4,772063.0,Level,2026-06-01
+T50306,20,Residential,2020Q1,793939.0,Level,2026-06-01
+T50306,20,Residential,2020Q2,738889.0,Level,2026-06-01
+T50306,20,Residential,2020Q3,840325.0,Level,2026-06-01
+T50306,20,Residential,2020Q4,899614.0,Level,2026-06-01
+T50306,20,Residential,2021Q1,911810.0,Level,2026-06-01
+T50306,20,Residential,2021Q2,901698.0,Level,2026-06-01
+T50306,20,Residential,2021Q3,899780.0,Level,2026-06-01
+T50306,20,Residential,2021Q4,905828.0,Level,2026-06-01
+T50306,20,Residential,2022Q1,889761.0,Level,2026-06-01
+T50306,20,Residential,2022Q2,863934.0,Level,2026-06-01
+T50306,20,Residential,2022Q3,809224.0,Level,2026-06-01
+T50306,20,Residential,2022Q4,762082.0,Level,2026-06-01
+T50306,20,Residential,2023Q1,749198.0,Level,2026-06-01
+T50306,20,Residential,2023Q2,756909.0,Level,2026-06-01
+T50306,20,Residential,2023Q3,777717.0,Level,2026-06-01
+T50306,20,Residential,2023Q4,780626.0,Level,2026-06-01
+T50306,20,Residential,2024Q1,796175.0,Level,2026-06-01
+T50306,20,Residential,2024Q2,792174.0,Level,2026-06-01
+T50306,20,Residential,2024Q3,782472.0,Level,2026-06-01
+T50306,20,Residential,2024Q4,790685.0,Level,2026-06-01
+T50306,20,Residential,2025Q1,788779.0,Level,2026-06-01
+T50306,20,Residential,2025Q2,778530.0,Level,2026-06-01
+T50306,20,Residential,2025Q3,764262.0,Level,2026-06-01
+T50306,20,Residential,2025Q4,760993.0,Level,2026-06-01
+T50306,20,Residential,2026Q1,748842.0,Level,2026-06-01
+T50306,21,Structures,2010Q1,468005.0,Level,2026-06-01
+T50306,21,Structures,2010Q2,492328.0,Level,2026-06-01
+T50306,21,Structures,2010Q3,447766.0,Level,2026-06-01
+T50306,21,Structures,2010Q4,455057.0,Level,2026-06-01
+T50306,21,Structures,2011Q1,453133.0,Level,2026-06-01
+T50306,21,Structures,2011Q2,458201.0,Level,2026-06-01
+T50306,21,Structures,2011Q3,466527.0,Level,2026-06-01
+T50306,21,Structures,2011Q4,478669.0,Level,2026-06-01
+T50306,21,Structures,2012Q1,508248.0,Level,2026-06-01
+T50306,21,Structures,2012Q2,512793.0,Level,2026-06-01
+T50306,21,Structures,2012Q3,526068.0,Level,2026-06-01
+T50306,21,Structures,2012Q4,553924.0,Level,2026-06-01
+T50306,21,Structures,2013Q1,574851.0,Level,2026-06-01
+T50306,21,Structures,2013Q2,594146.0,Level,2026-06-01
+T50306,21,Structures,2013Q3,604612.0,Level,2026-06-01
+T50306,21,Structures,2013Q4,594677.0,Level,2026-06-01
+T50306,21,Structures,2014Q1,591776.0,Level,2026-06-01
+T50306,21,Structures,2014Q2,610750.0,Level,2026-06-01
+T50306,21,Structures,2014Q3,619952.0,Level,2026-06-01
+T50306,21,Structures,2014Q4,642292.0,Level,2026-06-01
+T50306,21,Structures,2015Q1,654779.0,Level,2026-06-01
+T50306,21,Structures,2015Q2,672117.0,Level,2026-06-01
+T50306,21,Structures,2015Q3,693436.0,Level,2026-06-01
+T50306,21,Structures,2015Q4,704172.0,Level,2026-06-01
+T50306,21,Structures,2016Q1,725920.0,Level,2026-06-01
+T50306,21,Structures,2016Q2,728049.0,Level,2026-06-01
+T50306,21,Structures,2016Q3,725526.0,Level,2026-06-01
+T50306,21,Structures,2016Q4,734837.0,Level,2026-06-01
+T50306,21,Structures,2017Q1,751912.0,Level,2026-06-01
+T50306,21,Structures,2017Q2,755967.0,Level,2026-06-01
+T50306,21,Structures,2017Q3,756181.0,Level,2026-06-01
+T50306,21,Structures,2017Q4,771404.0,Level,2026-06-01
+T50306,21,Structures,2018Q1,756450.0,Level,2026-06-01
+T50306,21,Structures,2018Q2,762095.0,Level,2026-06-01
+T50306,21,Structures,2018Q3,755050.0,Level,2026-06-01
+T50306,21,Structures,2018Q4,739920.0,Level,2026-06-01
+T50306,21,Structures,2019Q1,731411.0,Level,2026-06-01
+T50306,21,Structures,2019Q2,743825.0,Level,2026-06-01
+T50306,21,Structures,2019Q3,754292.0,Level,2026-06-01
+T50306,21,Structures,2019Q4,756396.0,Level,2026-06-01
+T50306,21,Structures,2020Q1,778345.0,Level,2026-06-01
+T50306,21,Structures,2020Q2,723489.0,Level,2026-06-01
+T50306,21,Structures,2020Q3,823618.0,Level,2026-06-01
+T50306,21,Structures,2020Q4,883520.0,Level,2026-06-01
+T50306,21,Structures,2021Q1,894275.0,Level,2026-06-01
+T50306,21,Structures,2021Q2,883798.0,Level,2026-06-01
+T50306,21,Structures,2021Q3,882871.0,Level,2026-06-01
+T50306,21,Structures,2021Q4,888846.0,Level,2026-06-01
+T50306,21,Structures,2022Q1,872639.0,Level,2026-06-01
+T50306,21,Structures,2022Q2,846658.0,Level,2026-06-01
+T50306,21,Structures,2022Q3,791983.0,Level,2026-06-01
+T50306,21,Structures,2022Q4,745280.0,Level,2026-06-01
+T50306,21,Structures,2023Q1,731858.0,Level,2026-06-01
+T50306,21,Structures,2023Q2,739457.0,Level,2026-06-01
+T50306,21,Structures,2023Q3,759925.0,Level,2026-06-01
+T50306,21,Structures,2023Q4,762591.0,Level,2026-06-01
+T50306,21,Structures,2024Q1,778108.0,Level,2026-06-01
+T50306,21,Structures,2024Q2,773678.0,Level,2026-06-01
+T50306,21,Structures,2024Q3,763847.0,Level,2026-06-01
+T50306,21,Structures,2024Q4,771838.0,Level,2026-06-01
+T50306,21,Structures,2025Q1,769699.0,Level,2026-06-01
+T50306,21,Structures,2025Q2,759798.0,Level,2026-06-01
+T50306,21,Structures,2025Q3,745613.0,Level,2026-06-01
+T50306,21,Structures,2025Q4,742286.0,Level,2026-06-01
+T50306,21,Structures,2026Q1,729943.0,Level,2026-06-01
+T50306,22,Permanent site,2010Q1,167945.0,Level,2026-06-01
+T50306,22,Permanent site,2010Q2,173338.0,Level,2026-06-01
+T50306,22,Permanent site,2010Q3,161212.0,Level,2026-06-01
+T50306,22,Permanent site,2010Q4,155013.0,Level,2026-06-01
+T50306,22,Permanent site,2011Q1,155547.0,Level,2026-06-01
+T50306,22,Permanent site,2011Q2,154940.0,Level,2026-06-01
+T50306,22,Permanent site,2011Q3,159774.0,Level,2026-06-01
+T50306,22,Permanent site,2011Q4,163849.0,Level,2026-06-01
+T50306,22,Permanent site,2012Q1,177444.0,Level,2026-06-01
+T50306,22,Permanent site,2012Q2,187984.0,Level,2026-06-01
+T50306,22,Permanent site,2012Q3,201312.0,Level,2026-06-01
+T50306,22,Permanent site,2012Q4,220422.0,Level,2026-06-01
+T50306,22,Permanent site,2013Q1,235251.0,Level,2026-06-01
+T50306,22,Permanent site,2013Q2,246504.0,Level,2026-06-01
+T50306,22,Permanent site,2013Q3,251951.0,Level,2026-06-01
+T50306,22,Permanent site,2013Q4,252131.0,Level,2026-06-01
+T50306,22,Permanent site,2014Q1,257807.0,Level,2026-06-01
+T50306,22,Permanent site,2014Q2,267780.0,Level,2026-06-01
+T50306,22,Permanent site,2014Q3,270956.0,Level,2026-06-01
+T50306,22,Permanent site,2014Q4,289346.0,Level,2026-06-01
+T50306,22,Permanent site,2015Q1,294100.0,Level,2026-06-01
+T50306,22,Permanent site,2015Q2,298004.0,Level,2026-06-01
+T50306,22,Permanent site,2015Q3,311067.0,Level,2026-06-01
+T50306,22,Permanent site,2015Q4,319130.0,Level,2026-06-01
+T50306,22,Permanent site,2016Q1,329850.0,Level,2026-06-01
+T50306,22,Permanent site,2016Q2,330388.0,Level,2026-06-01
+T50306,22,Permanent site,2016Q3,323476.0,Level,2026-06-01
+T50306,22,Permanent site,2016Q4,329234.0,Level,2026-06-01
+T50306,22,Permanent site,2017Q1,333364.0,Level,2026-06-01
+T50306,22,Permanent site,2017Q2,343398.0,Level,2026-06-01
+T50306,22,Permanent site,2017Q3,348260.0,Level,2026-06-01
+T50306,22,Permanent site,2017Q4,351674.0,Level,2026-06-01
+T50306,22,Permanent site,2018Q1,350399.0,Level,2026-06-01
+T50306,22,Permanent site,2018Q2,355841.0,Level,2026-06-01
+T50306,22,Permanent site,2018Q3,352790.0,Level,2026-06-01
+T50306,22,Permanent site,2018Q4,341546.0,Level,2026-06-01
+T50306,22,Permanent site,2019Q1,329323.0,Level,2026-06-01
+T50306,22,Permanent site,2019Q2,333866.0,Level,2026-06-01
+T50306,22,Permanent site,2019Q3,338660.0,Level,2026-06-01
+T50306,22,Permanent site,2019Q4,341043.0,Level,2026-06-01
+T50306,22,Permanent site,2020Q1,354207.0,Level,2026-06-01
+T50306,22,Permanent site,2020Q2,329228.0,Level,2026-06-01
+T50306,22,Permanent site,2020Q3,353346.0,Level,2026-06-01
+T50306,22,Permanent site,2020Q4,401110.0,Level,2026-06-01
+T50306,22,Permanent site,2021Q1,425695.0,Level,2026-06-01
+T50306,22,Permanent site,2021Q2,434500.0,Level,2026-06-01
+T50306,22,Permanent site,2021Q3,437100.0,Level,2026-06-01
+T50306,22,Permanent site,2021Q4,430787.0,Level,2026-06-01
+T50306,22,Permanent site,2022Q1,435820.0,Level,2026-06-01
+T50306,22,Permanent site,2022Q2,428779.0,Level,2026-06-01
+T50306,22,Permanent site,2022Q3,388468.0,Level,2026-06-01
+T50306,22,Permanent site,2022Q4,361338.0,Level,2026-06-01
+T50306,22,Permanent site,2023Q1,350681.0,Level,2026-06-01
+T50306,22,Permanent site,2023Q2,360443.0,Level,2026-06-01
+T50306,22,Permanent site,2023Q3,382029.0,Level,2026-06-01
+T50306,22,Permanent site,2023Q4,384451.0,Level,2026-06-01
+T50306,22,Permanent site,2024Q1,388561.0,Level,2026-06-01
+T50306,22,Permanent site,2024Q2,382095.0,Level,2026-06-01
+T50306,22,Permanent site,2024Q3,367407.0,Level,2026-06-01
+T50306,22,Permanent site,2024Q4,364390.0,Level,2026-06-01
+T50306,22,Permanent site,2025Q1,362647.0,Level,2026-06-01
+T50306,22,Permanent site,2025Q2,353634.0,Level,2026-06-01
+T50306,22,Permanent site,2025Q3,343764.0,Level,2026-06-01
+T50306,22,Permanent site,2025Q4,339398.0,Level,2026-06-01
+T50306,22,Permanent site,2026Q1,334893.0,Level,2026-06-01
+T50306,23,Single family,2010Q1,145432.0,Level,2026-06-01
+T50306,23,Single family,2010Q2,152944.0,Level,2026-06-01
+T50306,23,Single family,2010Q3,141571.0,Level,2026-06-01
+T50306,23,Single family,2010Q4,135348.0,Level,2026-06-01
+T50306,23,Single family,2011Q1,136054.0,Level,2026-06-01
+T50306,23,Single family,2011Q2,134779.0,Level,2026-06-01
+T50306,23,Single family,2011Q3,137612.0,Level,2026-06-01
+T50306,23,Single family,2011Q4,140479.0,Level,2026-06-01
+T50306,23,Single family,2012Q1,151593.0,Level,2026-06-01
+T50306,23,Single family,2012Q2,158745.0,Level,2026-06-01
+T50306,23,Single family,2012Q3,169117.0,Level,2026-06-01
+T50306,23,Single family,2012Q4,184733.0,Level,2026-06-01
+T50306,23,Single family,2013Q1,196269.0,Level,2026-06-01
+T50306,23,Single family,2013Q2,205072.0,Level,2026-06-01
+T50306,23,Single family,2013Q3,208435.0,Level,2026-06-01
+T50306,23,Single family,2013Q4,204468.0,Level,2026-06-01
+T50306,23,Single family,2014Q1,207511.0,Level,2026-06-01
+T50306,23,Single family,2014Q2,213255.0,Level,2026-06-01
+T50306,23,Single family,2014Q3,213745.0,Level,2026-06-01
+T50306,23,Single family,2014Q4,229916.0,Level,2026-06-01
+T50306,23,Single family,2015Q1,233166.0,Level,2026-06-01
+T50306,23,Single family,2015Q2,235619.0,Level,2026-06-01
+T50306,23,Single family,2015Q3,244536.0,Level,2026-06-01
+T50306,23,Single family,2015Q4,249984.0,Level,2026-06-01
+T50306,23,Single family,2016Q1,256267.0,Level,2026-06-01
+T50306,23,Single family,2016Q2,255234.0,Level,2026-06-01
+T50306,23,Single family,2016Q3,247493.0,Level,2026-06-01
+T50306,23,Single family,2016Q4,254001.0,Level,2026-06-01
+T50306,23,Single family,2017Q1,259654.0,Level,2026-06-01
+T50306,23,Single family,2017Q2,268963.0,Level,2026-06-01
+T50306,23,Single family,2017Q3,274881.0,Level,2026-06-01
+T50306,23,Single family,2017Q4,277154.0,Level,2026-06-01
+T50306,23,Single family,2018Q1,278538.0,Level,2026-06-01
+T50306,23,Single family,2018Q2,284123.0,Level,2026-06-01
+T50306,23,Single family,2018Q3,281364.0,Level,2026-06-01
+T50306,23,Single family,2018Q4,266675.0,Level,2026-06-01
+T50306,23,Single family,2019Q1,252384.0,Level,2026-06-01
+T50306,23,Single family,2019Q2,257579.0,Level,2026-06-01
+T50306,23,Single family,2019Q3,263501.0,Level,2026-06-01
+T50306,23,Single family,2019Q4,266744.0,Level,2026-06-01
+T50306,23,Single family,2020Q1,275660.0,Level,2026-06-01
+T50306,23,Single family,2020Q2,250980.0,Level,2026-06-01
+T50306,23,Single family,2020Q3,266005.0,Level,2026-06-01
+T50306,23,Single family,2020Q4,310703.0,Level,2026-06-01
+T50306,23,Single family,2021Q1,331547.0,Level,2026-06-01
+T50306,23,Single family,2021Q2,339512.0,Level,2026-06-01
+T50306,23,Single family,2021Q3,342973.0,Level,2026-06-01
+T50306,23,Single family,2021Q4,338460.0,Level,2026-06-01
+T50306,23,Single family,2022Q1,344272.0,Level,2026-06-01
+T50306,23,Single family,2022Q2,338085.0,Level,2026-06-01
+T50306,23,Single family,2022Q3,298960.0,Level,2026-06-01
+T50306,23,Single family,2022Q4,265183.0,Level,2026-06-01
+T50306,23,Single family,2023Q1,250111.0,Level,2026-06-01
+T50306,23,Single family,2023Q2,257063.0,Level,2026-06-01
+T50306,23,Single family,2023Q3,277116.0,Level,2026-06-01
+T50306,23,Single family,2023Q4,281577.0,Level,2026-06-01
+T50306,23,Single family,2024Q1,289837.0,Level,2026-06-01
+T50306,23,Single family,2024Q2,286832.0,Level,2026-06-01
+T50306,23,Single family,2024Q3,277012.0,Level,2026-06-01
+T50306,23,Single family,2024Q4,279221.0,Level,2026-06-01
+T50306,23,Single family,2025Q1,278366.0,Level,2026-06-01
+T50306,23,Single family,2025Q2,270809.0,Level,2026-06-01
+T50306,23,Single family,2025Q3,261632.0,Level,2026-06-01
+T50306,23,Single family,2025Q4,257074.0,Level,2026-06-01
+T50306,23,Single family,2026Q1,253781.0,Level,2026-06-01
+T50306,24,Multifamily,2010Q1,21437.0,Level,2026-06-01
+T50306,24,Multifamily,2010Q2,19227.0,Level,2026-06-01
+T50306,24,Multifamily,2010Q3,18601.0,Level,2026-06-01
+T50306,24,Multifamily,2010Q4,18697.0,Level,2026-06-01
+T50306,24,Multifamily,2011Q1,18489.0,Level,2026-06-01
+T50306,24,Multifamily,2011Q2,19190.0,Level,2026-06-01
+T50306,24,Multifamily,2011Q3,21245.0,Level,2026-06-01
+T50306,24,Multifamily,2011Q4,22473.0,Level,2026-06-01
+T50306,24,Multifamily,2012Q1,24921.0,Level,2026-06-01
+T50306,24,Multifamily,2012Q2,28356.0,Level,2026-06-01
+T50306,24,Multifamily,2012Q3,31298.0,Level,2026-06-01
+T50306,24,Multifamily,2012Q4,34731.0,Level,2026-06-01
+T50306,24,Multifamily,2013Q1,38014.0,Level,2026-06-01
+T50306,24,Multifamily,2013Q2,40457.0,Level,2026-06-01
+T50306,24,Multifamily,2013Q3,42601.0,Level,2026-06-01
+T50306,24,Multifamily,2013Q4,47099.0,Level,2026-06-01
+T50306,24,Multifamily,2014Q1,49876.0,Level,2026-06-01
+T50306,24,Multifamily,2014Q2,54333.0,Level,2026-06-01
+T50306,24,Multifamily,2014Q3,57241.0,Level,2026-06-01
+T50306,24,Multifamily,2014Q4,59283.0,Level,2026-06-01
+T50306,24,Multifamily,2015Q1,60832.0,Level,2026-06-01
+T50306,24,Multifamily,2015Q2,62320.0,Level,2026-06-01
+T50306,24,Multifamily,2015Q3,66499.0,Level,2026-06-01
+T50306,24,Multifamily,2015Q4,69129.0,Level,2026-06-01
+T50306,24,Multifamily,2016Q1,73572.0,Level,2026-06-01
+T50306,24,Multifamily,2016Q2,75165.0,Level,2026-06-01
+T50306,24,Multifamily,2016Q3,76043.0,Level,2026-06-01
+T50306,24,Multifamily,2016Q4,75267.0,Level,2026-06-01
+T50306,24,Multifamily,2017Q1,73713.0,Level,2026-06-01
+T50306,24,Multifamily,2017Q2,74433.0,Level,2026-06-01
+T50306,24,Multifamily,2017Q3,73381.0,Level,2026-06-01
+T50306,24,Multifamily,2017Q4,74518.0,Level,2026-06-01
+T50306,24,Multifamily,2018Q1,71902.0,Level,2026-06-01
+T50306,24,Multifamily,2018Q2,71794.0,Level,2026-06-01
+T50306,24,Multifamily,2018Q3,71507.0,Level,2026-06-01
+T50306,24,Multifamily,2018Q4,74817.0,Level,2026-06-01
+T50306,24,Multifamily,2019Q1,76814.0,Level,2026-06-01
+T50306,24,Multifamily,2019Q2,76208.0,Level,2026-06-01
+T50306,24,Multifamily,2019Q3,75113.0,Level,2026-06-01
+T50306,24,Multifamily,2019Q4,74251.0,Level,2026-06-01
+T50306,24,Multifamily,2020Q1,78480.0,Level,2026-06-01
+T50306,24,Multifamily,2020Q2,78228.0,Level,2026-06-01
+T50306,24,Multifamily,2020Q3,87386.0,Level,2026-06-01
+T50306,24,Multifamily,2020Q4,90188.0,Level,2026-06-01
+T50306,24,Multifamily,2021Q1,93855.0,Level,2026-06-01
+T50306,24,Multifamily,2021Q2,94602.0,Level,2026-06-01
+T50306,24,Multifamily,2021Q3,93557.0,Level,2026-06-01
+T50306,24,Multifamily,2021Q4,91646.0,Level,2026-06-01
+T50306,24,Multifamily,2022Q1,90496.0,Level,2026-06-01
+T50306,24,Multifamily,2022Q2,89645.0,Level,2026-06-01
+T50306,24,Multifamily,2022Q3,89719.0,Level,2026-06-01
+T50306,24,Multifamily,2022Q4,98528.0,Level,2026-06-01
+T50306,24,Multifamily,2023Q1,103960.0,Level,2026-06-01
+T50306,24,Multifamily,2023Q2,106763.0,Level,2026-06-01
+T50306,24,Multifamily,2023Q3,107800.0,Level,2026-06-01
+T50306,24,Multifamily,2023Q4,105371.0,Level,2026-06-01
+T50306,24,Multifamily,2024Q1,100502.0,Level,2026-06-01
+T50306,24,Multifamily,2024Q2,96763.0,Level,2026-06-01
+T50306,24,Multifamily,2024Q3,91669.0,Level,2026-06-01
+T50306,24,Multifamily,2024Q4,85792.0,Level,2026-06-01
+T50306,24,Multifamily,2025Q1,84832.0,Level,2026-06-01
+T50306,24,Multifamily,2025Q2,83455.0,Level,2026-06-01
+T50306,24,Multifamily,2025Q3,82971.0,Level,2026-06-01
+T50306,24,Multifamily,2025Q4,83319.0,Level,2026-06-01
+T50306,24,Multifamily,2026Q1,82076.0,Level,2026-06-01
+T50306,25,Other structures,2010Q1,298450.0,Level,2026-06-01
+T50306,25,Other structures,2010Q2,317193.0,Level,2026-06-01
+T50306,25,Other structures,2010Q3,285049.0,Level,2026-06-01
+T50306,25,Other structures,2010Q4,298218.0,Level,2026-06-01
+T50306,25,Other structures,2011Q1,295797.0,Level,2026-06-01
+T50306,25,Other structures,2011Q2,301345.0,Level,2026-06-01
+T50306,25,Other structures,2011Q3,304885.0,Level,2026-06-01
+T50306,25,Other structures,2011Q4,312901.0,Level,2026-06-01
+T50306,25,Other structures,2012Q1,328904.0,Level,2026-06-01
+T50306,25,Other structures,2012Q2,323249.0,Level,2026-06-01
+T50306,25,Other structures,2012Q3,323475.0,Level,2026-06-01
+T50306,25,Other structures,2012Q4,332478.0,Level,2026-06-01
+T50306,25,Other structures,2013Q1,338790.0,Level,2026-06-01
+T50306,25,Other structures,2013Q2,346931.0,Level,2026-06-01
+T50306,25,Other structures,2013Q3,351983.0,Level,2026-06-01
+T50306,25,Other structures,2013Q4,342059.0,Level,2026-06-01
+T50306,25,Other structures,2014Q1,333747.0,Level,2026-06-01
+T50306,25,Other structures,2014Q2,342810.0,Level,2026-06-01
+T50306,25,Other structures,2014Q3,348798.0,Level,2026-06-01
+T50306,25,Other structures,2014Q4,353000.0,Level,2026-06-01
+T50306,25,Other structures,2015Q1,360698.0,Level,2026-06-01
+T50306,25,Other structures,2015Q2,374057.0,Level,2026-06-01
+T50306,25,Other structures,2015Q3,382355.0,Level,2026-06-01
+T50306,25,Other structures,2015Q4,385055.0,Level,2026-06-01
+T50306,25,Other structures,2016Q1,396080.0,Level,2026-06-01
+T50306,25,Other structures,2016Q2,397665.0,Level,2026-06-01
+T50306,25,Other structures,2016Q3,402043.0,Level,2026-06-01
+T50306,25,Other structures,2016Q4,405595.0,Level,2026-06-01
+T50306,25,Other structures,2017Q1,418565.0,Level,2026-06-01
+T50306,25,Other structures,2017Q2,412561.0,Level,2026-06-01
+T50306,25,Other structures,2017Q3,407920.0,Level,2026-06-01
+T50306,25,Other structures,2017Q4,419722.0,Level,2026-06-01
+T50306,25,Other structures,2018Q1,406104.0,Level,2026-06-01
+T50306,25,Other structures,2018Q2,406348.0,Level,2026-06-01
+T50306,25,Other structures,2018Q3,402352.0,Level,2026-06-01
+T50306,25,Other structures,2018Q4,398390.0,Level,2026-06-01
+T50306,25,Other structures,2019Q1,402015.0,Level,2026-06-01
+T50306,25,Other structures,2019Q2,409861.0,Level,2026-06-01
+T50306,25,Other structures,2019Q3,415522.0,Level,2026-06-01
+T50306,25,Other structures,2019Q4,415256.0,Level,2026-06-01
+T50306,25,Other structures,2020Q1,424076.0,Level,2026-06-01
+T50306,25,Other structures,2020Q2,394178.0,Level,2026-06-01
+T50306,25,Other structures,2020Q3,469916.0,Level,2026-06-01
+T50306,25,Other structures,2020Q4,482427.0,Level,2026-06-01
+T50306,25,Other structures,2021Q1,469126.0,Level,2026-06-01
+T50306,25,Other structures,2021Q2,450306.0,Level,2026-06-01
+T50306,25,Other structures,2021Q3,446842.0,Level,2026-06-01
+T50306,25,Other structures,2021Q4,458714.0,Level,2026-06-01
+T50306,25,Other structures,2022Q1,437850.0,Level,2026-06-01
+T50306,25,Other structures,2022Q2,419020.0,Level,2026-06-01
+T50306,25,Other structures,2022Q3,404359.0,Level,2026-06-01
+T50306,25,Other structures,2022Q4,384735.0,Level,2026-06-01
+T50306,25,Other structures,2023Q1,382021.0,Level,2026-06-01
+T50306,25,Other structures,2023Q2,379825.0,Level,2026-06-01
+T50306,25,Other structures,2023Q3,378761.0,Level,2026-06-01
+T50306,25,Other structures,2023Q4,379063.0,Level,2026-06-01
+T50306,25,Other structures,2024Q1,390522.0,Level,2026-06-01
+T50306,25,Other structures,2024Q2,392550.0,Level,2026-06-01
+T50306,25,Other structures,2024Q3,397244.0,Level,2026-06-01
+T50306,25,Other structures,2024Q4,408068.0,Level,2026-06-01
+T50306,25,Other structures,2025Q1,407648.0,Level,2026-06-01
+T50306,25,Other structures,2025Q2,406629.0,Level,2026-06-01
+T50306,25,Other structures,2025Q3,402188.0,Level,2026-06-01
+T50306,25,Other structures,2025Q4,403113.0,Level,2026-06-01
+T50306,25,Other structures,2026Q1,395309.0,Level,2026-06-01
+T50306,26,Equipment,2010Q1,7133.0,Level,2026-06-01
+T50306,26,Equipment,2010Q2,7497.0,Level,2026-06-01
+T50306,26,Equipment,2010Q3,7425.0,Level,2026-06-01
+T50306,26,Equipment,2010Q4,7624.0,Level,2026-06-01
+T50306,26,Equipment,2011Q1,7851.0,Level,2026-06-01
+T50306,26,Equipment,2011Q2,7987.0,Level,2026-06-01
+T50306,26,Equipment,2011Q3,8085.0,Level,2026-06-01
+T50306,26,Equipment,2011Q4,8268.0,Level,2026-06-01
+T50306,26,Equipment,2012Q1,8369.0,Level,2026-06-01
+T50306,26,Equipment,2012Q2,8318.0,Level,2026-06-01
+T50306,26,Equipment,2012Q3,8461.0,Level,2026-06-01
+T50306,26,Equipment,2012Q4,8605.0,Level,2026-06-01
+T50306,26,Equipment,2013Q1,9016.0,Level,2026-06-01
+T50306,26,Equipment,2013Q2,9390.0,Level,2026-06-01
+T50306,26,Equipment,2013Q3,9769.0,Level,2026-06-01
+T50306,26,Equipment,2013Q4,9852.0,Level,2026-06-01
+T50306,26,Equipment,2014Q1,10073.0,Level,2026-06-01
+T50306,26,Equipment,2014Q2,10745.0,Level,2026-06-01
+T50306,26,Equipment,2014Q3,10964.0,Level,2026-06-01
+T50306,26,Equipment,2014Q4,11270.0,Level,2026-06-01
+T50306,26,Equipment,2015Q1,11631.0,Level,2026-06-01
+T50306,26,Equipment,2015Q2,12058.0,Level,2026-06-01
+T50306,26,Equipment,2015Q3,12330.0,Level,2026-06-01
+T50306,26,Equipment,2015Q4,12578.0,Level,2026-06-01
+T50306,26,Equipment,2016Q1,13200.0,Level,2026-06-01
+T50306,26,Equipment,2016Q2,13355.0,Level,2026-06-01
+T50306,26,Equipment,2016Q3,13829.0,Level,2026-06-01
+T50306,26,Equipment,2016Q4,14091.0,Level,2026-06-01
+T50306,26,Equipment,2017Q1,14544.0,Level,2026-06-01
+T50306,26,Equipment,2017Q2,14781.0,Level,2026-06-01
+T50306,26,Equipment,2017Q3,15144.0,Level,2026-06-01
+T50306,26,Equipment,2017Q4,15630.0,Level,2026-06-01
+T50306,26,Equipment,2018Q1,15700.0,Level,2026-06-01
+T50306,26,Equipment,2018Q2,15322.0,Level,2026-06-01
+T50306,26,Equipment,2018Q3,15003.0,Level,2026-06-01
+T50306,26,Equipment,2018Q4,14666.0,Level,2026-06-01
+T50306,26,Equipment,2019Q1,14670.0,Level,2026-06-01
+T50306,26,Equipment,2019Q2,14911.0,Level,2026-06-01
+T50306,26,Equipment,2019Q3,15331.0,Level,2026-06-01
+T50306,26,Equipment,2019Q4,15689.0,Level,2026-06-01
+T50306,26,Equipment,2020Q1,15570.0,Level,2026-06-01
+T50306,26,Equipment,2020Q2,15435.0,Level,2026-06-01
+T50306,26,Equipment,2020Q3,16709.0,Level,2026-06-01
+T50306,26,Equipment,2020Q4,16052.0,Level,2026-06-01
+T50306,26,Equipment,2021Q1,17532.0,Level,2026-06-01
+T50306,26,Equipment,2021Q2,17925.0,Level,2026-06-01
+T50306,26,Equipment,2021Q3,16858.0,Level,2026-06-01
+T50306,26,Equipment,2021Q4,16912.0,Level,2026-06-01
+T50306,26,Equipment,2022Q1,17071.0,Level,2026-06-01
+T50306,26,Equipment,2022Q2,17287.0,Level,2026-06-01
+T50306,26,Equipment,2022Q3,17403.0,Level,2026-06-01
+T50306,26,Equipment,2022Q4,17066.0,Level,2026-06-01
+T50306,26,Equipment,2023Q1,17775.0,Level,2026-06-01
+T50306,26,Equipment,2023Q2,17893.0,Level,2026-06-01
+T50306,26,Equipment,2023Q3,18218.0,Level,2026-06-01
+T50306,26,Equipment,2023Q4,18510.0,Level,2026-06-01
+T50306,26,Equipment,2024Q1,18439.0,Level,2026-06-01
+T50306,26,Equipment,2024Q2,19021.0,Level,2026-06-01
+T50306,26,Equipment,2024Q3,19257.0,Level,2026-06-01
+T50306,26,Equipment,2024Q4,19493.0,Level,2026-06-01
+T50306,26,Equipment,2025Q1,19834.0,Level,2026-06-01
+T50306,26,Equipment,2025Q2,19435.0,Level,2026-06-01
+T50306,26,Equipment,2025Q3,19441.0,Level,2026-06-01
+T50306,26,Equipment,2025Q4,19550.0,Level,2026-06-01
+T50306,26,Equipment,2026Q1,19924.0,Level,2026-06-01
+T50306,27,Residual,2010Q1,1237.0,Level,2026-06-01
+T50306,27,Residual,2010Q2,-2403.0,Level,2026-06-01
+T50306,27,Residual,2010Q3,6818.0,Level,2026-06-01
+T50306,27,Residual,2010Q4,9240.0,Level,2026-06-01
+T50306,27,Residual,2011Q1,8657.0,Level,2026-06-01
+T50306,27,Residual,2011Q2,9177.0,Level,2026-06-01
+T50306,27,Residual,2011Q3,8152.0,Level,2026-06-01
+T50306,27,Residual,2011Q4,6797.0,Level,2026-06-01
+T50306,27,Residual,2012Q1,6356.0,Level,2026-06-01
+T50306,27,Residual,2012Q2,8078.0,Level,2026-06-01
+T50306,27,Residual,2012Q3,4985.0,Level,2026-06-01
+T50306,27,Residual,2012Q4,3742.0,Level,2026-06-01
+T50306,27,Residual,2013Q1,3498.0,Level,2026-06-01
+T50306,27,Residual,2013Q2,1322.0,Level,2026-06-01
+T50306,27,Residual,2013Q3,1767.0,Level,2026-06-01
+T50306,27,Residual,2013Q4,4138.0,Level,2026-06-01
+T50306,27,Residual,2014Q1,5407.0,Level,2026-06-01
+T50306,27,Residual,2014Q2,5144.0,Level,2026-06-01
+T50306,27,Residual,2014Q3,3916.0,Level,2026-06-01
+T50306,27,Residual,2014Q4,2402.0,Level,2026-06-01
+T50306,27,Residual,2015Q1,1511.0,Level,2026-06-01
+T50306,27,Residual,2015Q2,-412.0,Level,2026-06-01
+T50306,27,Residual,2015Q3,-1219.0,Level,2026-06-01
+T50306,27,Residual,2015Q4,-621.0,Level,2026-06-01
+T50306,27,Residual,2016Q1,-1467.0,Level,2026-06-01
+T50306,27,Residual,2016Q2,-1332.0,Level,2026-06-01
+T50306,27,Residual,2016Q3,-670.0,Level,2026-06-01
+T50306,27,Residual,2016Q4,-318.0,Level,2026-06-01
+T50306,27,Residual,2017Q1,-212.0,Level,2026-06-01
+T50306,27,Residual,2017Q2,100.0,Level,2026-06-01
+T50306,27,Residual,2017Q3,135.0,Level,2026-06-01
+T50306,27,Residual,2017Q4,-23.0,Level,2026-06-01
+T50306,27,Residual,2018Q1,-1237.0,Level,2026-06-01
+T50306,27,Residual,2018Q2,-1868.0,Level,2026-06-01
+T50306,27,Residual,2018Q3,-3700.0,Level,2026-06-01
+T50306,27,Residual,2018Q4,-4655.0,Level,2026-06-01
+T50306,27,Residual,2019Q1,-4790.0,Level,2026-06-01
+T50306,27,Residual,2019Q2,-4892.0,Level,2026-06-01
+T50306,27,Residual,2019Q3,-4293.0,Level,2026-06-01
+T50306,27,Residual,2019Q4,-3303.0,Level,2026-06-01
+T50306,27,Residual,2020Q1,-853.0,Level,2026-06-01
+T50306,27,Residual,2020Q2,475.0,Level,2026-06-01
+T50306,27,Residual,2020Q3,4825.0,Level,2026-06-01
+T50306,27,Residual,2020Q4,4673.0,Level,2026-06-01
+T50306,27,Residual,2021Q1,323.0,Level,2026-06-01
+T50306,27,Residual,2021Q2,-9430.0,Level,2026-06-01
+T50306,27,Residual,2021Q3,-5906.0,Level,2026-06-01
+T50306,27,Residual,2021Q4,-9478.0,Level,2026-06-01
+T50306,27,Residual,2022Q1,-23361.0,Level,2026-06-01
+T50306,27,Residual,2022Q2,-34152.0,Level,2026-06-01
+T50306,27,Residual,2022Q3,-54475.0,Level,2026-06-01
+T50306,27,Residual,2022Q4,-68271.0,Level,2026-06-01
+T50306,27,Residual,2023Q1,-67753.0,Level,2026-06-01
+T50306,27,Residual,2023Q2,-64034.0,Level,2026-06-01
+T50306,27,Residual,2023Q3,-56179.0,Level,2026-06-01
+T50306,27,Residual,2023Q4,-58650.0,Level,2026-06-01
+T50306,27,Residual,2024Q1,-59023.0,Level,2026-06-01
+T50306,27,Residual,2024Q2,-65831.0,Level,2026-06-01
+T50306,27,Residual,2024Q3,-74269.0,Level,2026-06-01
+T50306,27,Residual,2024Q4,-73520.0,Level,2026-06-01
+T50306,27,Residual,2025Q1,-98657.0,Level,2026-06-01
+T50306,27,Residual,2025Q2,-116768.0,Level,2026-06-01
+T50306,27,Residual,2025Q3,-124165.0,Level,2026-06-01
+T50306,27,Residual,2025Q4,-138935.0,Level,2026-06-01
+T50306,27,Residual,2026Q1,-168151.0,Level,2026-06-01
+T50306,28,Private fixed investment in structures,2010Q1,916817.0,Level,2026-06-01
+T50306,28,Private fixed investment in structures,2010Q2,953996.0,Level,2026-06-01
+T50306,28,Private fixed investment in structures,2010Q3,903934.0,Level,2026-06-01
+T50306,28,Private fixed investment in structures,2010Q4,920291.0,Level,2026-06-01
+T50306,28,Private fixed investment in structures,2011Q1,883750.0,Level,2026-06-01
+T50306,28,Private fixed investment in structures,2011Q2,920017.0,Level,2026-06-01
+T50306,28,Private fixed investment in structures,2011Q3,956965.0,Level,2026-06-01
+T50306,28,Private fixed investment in structures,2011Q4,986642.0,Level,2026-06-01
+T50306,28,Private fixed investment in structures,2012Q1,1040435.0,Level,2026-06-01
+T50306,28,Private fixed investment in structures,2012Q2,1058519.0,Level,2026-06-01
+T50306,28,Private fixed investment in structures,2012Q3,1064752.0,Level,2026-06-01
+T50306,28,Private fixed investment in structures,2012Q4,1080317.0,Level,2026-06-01
+T50306,28,Private fixed investment in structures,2013Q1,1088903.0,Level,2026-06-01
+T50306,28,Private fixed investment in structures,2013Q2,1121686.0,Level,2026-06-01
+T50306,28,Private fixed investment in structures,2013Q3,1158426.0,Level,2026-06-01
+T50306,28,Private fixed investment in structures,2013Q4,1154489.0,Level,2026-06-01
+T50306,28,Private fixed investment in structures,2014Q1,1173077.0,Level,2026-06-01
+T50306,28,Private fixed investment in structures,2014Q2,1213048.0,Level,2026-06-01
+T50306,28,Private fixed investment in structures,2014Q3,1223967.0,Level,2026-06-01
+T50306,28,Private fixed investment in structures,2014Q4,1256272.0,Level,2026-06-01
+T50306,28,Private fixed investment in structures,2015Q1,1261808.0,Level,2026-06-01
+T50306,28,Private fixed investment in structures,2015Q2,1287451.0,Level,2026-06-01
+T50306,28,Private fixed investment in structures,2015Q3,1291524.0,Level,2026-06-01
+T50306,28,Private fixed investment in structures,2015Q4,1281576.0,Level,2026-06-01
+T50306,28,Private fixed investment in structures,2016Q1,1282964.0,Level,2026-06-01
+T50306,28,Private fixed investment in structures,2016Q2,1298236.0,Level,2026-06-01
+T50306,28,Private fixed investment in structures,2016Q3,1318754.0,Level,2026-06-01
+T50306,28,Private fixed investment in structures,2016Q4,1333500.0,Level,2026-06-01
+T50306,28,Private fixed investment in structures,2017Q1,1349754.0,Level,2026-06-01
+T50306,28,Private fixed investment in structures,2017Q2,1355257.0,Level,2026-06-01
+T50306,28,Private fixed investment in structures,2017Q3,1342481.0,Level,2026-06-01
+T50306,28,Private fixed investment in structures,2017Q4,1367573.0,Level,2026-06-01
+T50306,28,Private fixed investment in structures,2018Q1,1387306.0,Level,2026-06-01
+T50306,28,Private fixed investment in structures,2018Q2,1395622.0,Level,2026-06-01
+T50306,28,Private fixed investment in structures,2018Q3,1389341.0,Level,2026-06-01
+T50306,28,Private fixed investment in structures,2018Q4,1356497.0,Level,2026-06-01
+T50306,28,Private fixed investment in structures,2019Q1,1350004.0,Level,2026-06-01
+T50306,28,Private fixed investment in structures,2019Q2,1382165.0,Level,2026-06-01
+T50306,28,Private fixed investment in structures,2019Q3,1417626.0,Level,2026-06-01
+T50306,28,Private fixed investment in structures,2019Q4,1408640.0,Level,2026-06-01
+T50306,28,Private fixed investment in structures,2020Q1,1421064.0,Level,2026-06-01
+T50306,28,Private fixed investment in structures,2020Q2,1292669.0,Level,2026-06-01
+T50306,28,Private fixed investment in structures,2020Q3,1387009.0,Level,2026-06-01
+T50306,28,Private fixed investment in structures,2020Q4,1452946.0,Level,2026-06-01
+T50306,28,Private fixed investment in structures,2021Q1,1473208.0,Level,2026-06-01
+T50306,28,Private fixed investment in structures,2021Q2,1463459.0,Level,2026-06-01
+T50306,28,Private fixed investment in structures,2021Q3,1457704.0,Level,2026-06-01
+T50306,28,Private fixed investment in structures,2021Q4,1452530.0,Level,2026-06-01
+T50306,28,Private fixed investment in structures,2022Q1,1445163.0,Level,2026-06-01
+T50306,28,Private fixed investment in structures,2022Q2,1429083.0,Level,2026-06-01
+T50306,28,Private fixed investment in structures,2022Q3,1385870.0,Level,2026-06-01
+T50306,28,Private fixed investment in structures,2022Q4,1352894.0,Level,2026-06-01
+T50306,28,Private fixed investment in structures,2023Q1,1379214.0,Level,2026-06-01
+T50306,28,Private fixed investment in structures,2023Q2,1416402.0,Level,2026-06-01
+T50306,28,Private fixed investment in structures,2023Q3,1448327.0,Level,2026-06-01
+T50306,28,Private fixed investment in structures,2023Q4,1468904.0,Level,2026-06-01
+T50306,28,Private fixed investment in structures,2024Q1,1476449.0,Level,2026-06-01
+T50306,28,Private fixed investment in structures,2024Q2,1465266.0,Level,2026-06-01
+T50306,28,Private fixed investment in structures,2024Q3,1451263.0,Level,2026-06-01
+T50306,28,Private fixed investment in structures,2024Q4,1446156.0,Level,2026-06-01
+T50306,28,Private fixed investment in structures,2025Q1,1438989.0,Level,2026-06-01
+T50306,28,Private fixed investment in structures,2025Q2,1416448.0,Level,2026-06-01
+T50306,28,Private fixed investment in structures,2025Q3,1393656.0,Level,2026-06-01
+T50306,28,Private fixed investment in structures,2025Q4,1379998.0,Level,2026-06-01
+T50306,28,Private fixed investment in structures,2026Q1,1358751.0,Level,2026-06-01
+T50306,29,Private fixed investment in new structures,2010Q1,787934.0,Level,2026-06-01
+T50306,29,Private fixed investment in new structures,2010Q2,815799.0,Level,2026-06-01
+T50306,29,Private fixed investment in new structures,2010Q3,791100.0,Level,2026-06-01
+T50306,29,Private fixed investment in new structures,2010Q4,795064.0,Level,2026-06-01
+T50306,29,Private fixed investment in new structures,2011Q1,758562.0,Level,2026-06-01
+T50306,29,Private fixed investment in new structures,2011Q2,791157.0,Level,2026-06-01
+T50306,29,Private fixed investment in new structures,2011Q3,820211.0,Level,2026-06-01
+T50306,29,Private fixed investment in new structures,2011Q4,850133.0,Level,2026-06-01
+T50306,29,Private fixed investment in new structures,2012Q1,891542.0,Level,2026-06-01
+T50306,29,Private fixed investment in new structures,2012Q2,906723.0,Level,2026-06-01
+T50306,29,Private fixed investment in new structures,2012Q3,911827.0,Level,2026-06-01
+T50306,29,Private fixed investment in new structures,2012Q4,920954.0,Level,2026-06-01
+T50306,29,Private fixed investment in new structures,2013Q1,923287.0,Level,2026-06-01
+T50306,29,Private fixed investment in new structures,2013Q2,949176.0,Level,2026-06-01
+T50306,29,Private fixed investment in new structures,2013Q3,984572.0,Level,2026-06-01
+T50306,29,Private fixed investment in new structures,2013Q4,987691.0,Level,2026-06-01
+T50306,29,Private fixed investment in new structures,2014Q1,1013225.0,Level,2026-06-01
+T50306,29,Private fixed investment in new structures,2014Q2,1050889.0,Level,2026-06-01
+T50306,29,Private fixed investment in new structures,2014Q3,1056704.0,Level,2026-06-01
+T50306,29,Private fixed investment in new structures,2014Q4,1085492.0,Level,2026-06-01
+T50306,29,Private fixed investment in new structures,2015Q1,1087458.0,Level,2026-06-01
+T50306,29,Private fixed investment in new structures,2015Q2,1105717.0,Level,2026-06-01
+T50306,29,Private fixed investment in new structures,2015Q3,1107420.0,Level,2026-06-01
+T50306,29,Private fixed investment in new structures,2015Q4,1103575.0,Level,2026-06-01
+T50306,29,Private fixed investment in new structures,2016Q1,1099419.0,Level,2026-06-01
+T50306,29,Private fixed investment in new structures,2016Q2,1109120.0,Level,2026-06-01
+T50306,29,Private fixed investment in new structures,2016Q3,1128173.0,Level,2026-06-01
+T50306,29,Private fixed investment in new structures,2016Q4,1142547.0,Level,2026-06-01
+T50306,29,Private fixed investment in new structures,2017Q1,1152264.0,Level,2026-06-01
+T50306,29,Private fixed investment in new structures,2017Q2,1160578.0,Level,2026-06-01
+T50306,29,Private fixed investment in new structures,2017Q3,1156009.0,Level,2026-06-01
+T50306,29,Private fixed investment in new structures,2017Q4,1177441.0,Level,2026-06-01
+T50306,29,Private fixed investment in new structures,2018Q1,1202879.0,Level,2026-06-01
+T50306,29,Private fixed investment in new structures,2018Q2,1214911.0,Level,2026-06-01
+T50306,29,Private fixed investment in new structures,2018Q3,1215071.0,Level,2026-06-01
+T50306,29,Private fixed investment in new structures,2018Q4,1189132.0,Level,2026-06-01
+T50306,29,Private fixed investment in new structures,2019Q1,1178748.0,Level,2026-06-01
+T50306,29,Private fixed investment in new structures,2019Q2,1201014.0,Level,2026-06-01
+T50306,29,Private fixed investment in new structures,2019Q3,1236531.0,Level,2026-06-01
+T50306,29,Private fixed investment in new structures,2019Q4,1230327.0,Level,2026-06-01
+T50306,29,Private fixed investment in new structures,2020Q1,1242539.0,Level,2026-06-01
+T50306,29,Private fixed investment in new structures,2020Q2,1141371.0,Level,2026-06-01
+T50306,29,Private fixed investment in new structures,2020Q3,1171736.0,Level,2026-06-01
+T50306,29,Private fixed investment in new structures,2020Q4,1221960.0,Level,2026-06-01
+T50306,29,Private fixed investment in new structures,2021Q1,1261939.0,Level,2026-06-01
+T50306,29,Private fixed investment in new structures,2021Q2,1263991.0,Level,2026-06-01
+T50306,29,Private fixed investment in new structures,2021Q3,1253361.0,Level,2026-06-01
+T50306,29,Private fixed investment in new structures,2021Q4,1235475.0,Level,2026-06-01
+T50306,29,Private fixed investment in new structures,2022Q1,1250796.0,Level,2026-06-01
+T50306,29,Private fixed investment in new structures,2022Q2,1249391.0,Level,2026-06-01
+T50306,29,Private fixed investment in new structures,2022Q3,1222395.0,Level,2026-06-01
+T50306,29,Private fixed investment in new structures,2022Q4,1206336.0,Level,2026-06-01
+T50306,29,Private fixed investment in new structures,2023Q1,1232986.0,Level,2026-06-01
+T50306,29,Private fixed investment in new structures,2023Q2,1269935.0,Level,2026-06-01
+T50306,29,Private fixed investment in new structures,2023Q3,1305159.0,Level,2026-06-01
+T50306,29,Private fixed investment in new structures,2023Q4,1332701.0,Level,2026-06-01
+T50306,29,Private fixed investment in new structures,2024Q1,1332113.0,Level,2026-06-01
+T50306,29,Private fixed investment in new structures,2024Q2,1324211.0,Level,2026-06-01
+T50306,29,Private fixed investment in new structures,2024Q3,1313083.0,Level,2026-06-01
+T50306,29,Private fixed investment in new structures,2024Q4,1303762.0,Level,2026-06-01
+T50306,29,Private fixed investment in new structures,2025Q1,1301400.0,Level,2026-06-01
+T50306,29,Private fixed investment in new structures,2025Q2,1281033.0,Level,2026-06-01
+T50306,29,Private fixed investment in new structures,2025Q3,1257456.0,Level,2026-06-01
+T50306,29,Private fixed investment in new structures,2025Q4,1239099.0,Level,2026-06-01
+T50306,29,Private fixed investment in new structures,2026Q1,1224112.0,Level,2026-06-01
+T50306,30,Nonresidential structures,2010Q1,433455.0,Level,2026-06-01
+T50306,30,Nonresidential structures,2010Q2,446346.0,Level,2026-06-01
+T50306,30,Nonresidential structures,2010Q3,440399.0,Level,2026-06-01
+T50306,30,Nonresidential structures,2010Q4,448822.0,Level,2026-06-01
+T50306,30,Nonresidential structures,2011Q1,416704.0,Level,2026-06-01
+T50306,30,Nonresidential structures,2011Q2,445539.0,Level,2026-06-01
+T50306,30,Nonresidential structures,2011Q3,472339.0,Level,2026-06-01
+T50306,30,Nonresidential structures,2011Q4,489007.0,Level,2026-06-01
+T50306,30,Nonresidential structures,2012Q1,511623.0,Level,2026-06-01
+T50306,30,Nonresidential structures,2012Q2,524480.0,Level,2026-06-01
+T50306,30,Nonresidential structures,2012Q3,518689.0,Level,2026-06-01
+T50306,30,Nonresidential structures,2012Q4,508746.0,Level,2026-06-01
+T50306,30,Nonresidential structures,2013Q1,498153.0,Level,2026-06-01
+T50306,30,Nonresidential structures,2013Q2,510772.0,Level,2026-06-01
+T50306,30,Nonresidential structures,2013Q3,534302.0,Level,2026-06-01
+T50306,30,Nonresidential structures,2013Q4,538197.0,Level,2026-06-01
+T50306,30,Nonresidential structures,2014Q1,557715.0,Level,2026-06-01
+T50306,30,Nonresidential structures,2014Q2,577762.0,Level,2026-06-01
+T50306,30,Nonresidential structures,2014Q3,579258.0,Level,2026-06-01
+T50306,30,Nonresidential structures,2014Q4,588953.0,Level,2026-06-01
+T50306,30,Nonresidential structures,2015Q1,581336.0,Level,2026-06-01
+T50306,30,Nonresidential structures,2015Q2,587415.0,Level,2026-06-01
+T50306,30,Nonresidential structures,2015Q3,571191.0,Level,2026-06-01
+T50306,30,Nonresidential structures,2015Q4,551314.0,Level,2026-06-01
+T50306,30,Nonresidential structures,2016Q1,530979.0,Level,2026-06-01
+T50306,30,Nonresidential structures,2016Q2,541873.0,Level,2026-06-01
+T50306,30,Nonresidential structures,2016Q3,562969.0,Level,2026-06-01
+T50306,30,Nonresidential structures,2016Q4,567593.0,Level,2026-06-01
+T50306,30,Nonresidential structures,2017Q1,567363.0,Level,2026-06-01
+T50306,30,Nonresidential structures,2017Q2,568391.0,Level,2026-06-01
+T50306,30,Nonresidential structures,2017Q3,555861.0,Level,2026-06-01
+T50306,30,Nonresidential structures,2017Q4,565917.0,Level,2026-06-01
+T50306,30,Nonresidential structures,2018Q1,599880.0,Level,2026-06-01
+T50306,30,Nonresidential structures,2018Q2,603308.0,Level,2026-06-01
+T50306,30,Nonresidential structures,2018Q3,604974.0,Level,2026-06-01
+T50306,30,Nonresidential structures,2018Q4,587417.0,Level,2026-06-01
+T50306,30,Nonresidential structures,2019Q1,588157.0,Level,2026-06-01
+T50306,30,Nonresidential structures,2019Q2,606993.0,Level,2026-06-01
+T50306,30,Nonresidential structures,2019Q3,633063.0,Level,2026-06-01
+T50306,30,Nonresidential structures,2019Q4,623108.0,Level,2026-06-01
+T50306,30,Nonresidential structures,2020Q1,613294.0,Level,2026-06-01
+T50306,30,Nonresidential structures,2020Q2,538359.0,Level,2026-06-01
+T50306,30,Nonresidential structures,2020Q3,528147.0,Level,2026-06-01
+T50306,30,Nonresidential structures,2020Q4,531495.0,Level,2026-06-01
+T50306,30,Nonresidential structures,2021Q1,539451.0,Level,2026-06-01
+T50306,30,Nonresidential structures,2021Q2,541528.0,Level,2026-06-01
+T50306,30,Nonresidential structures,2021Q3,537898.0,Level,2026-06-01
+T50306,30,Nonresidential structures,2021Q4,526325.0,Level,2026-06-01
+T50306,30,Nonresidential structures,2022Q1,536834.0,Level,2026-06-01
+T50306,30,Nonresidential structures,2022Q2,548450.0,Level,2026-06-01
+T50306,30,Nonresidential structures,2022Q3,563040.0,Level,2026-06-01
+T50306,30,Nonresidential structures,2022Q4,578537.0,Level,2026-06-01
+T50306,30,Nonresidential structures,2023Q1,618400.0,Level,2026-06-01
+T50306,30,Nonresidential structures,2023Q2,647109.0,Level,2026-06-01
+T50306,30,Nonresidential structures,2023Q3,657973.0,Level,2026-06-01
+T50306,30,Nonresidential structures,2023Q4,676458.0,Level,2026-06-01
+T50306,30,Nonresidential structures,2024Q1,667992.0,Level,2026-06-01
+T50306,30,Nonresidential structures,2024Q2,662418.0,Level,2026-06-01
+T50306,30,Nonresidential structures,2024Q3,659597.0,Level,2026-06-01
+T50306,30,Nonresidential structures,2024Q4,646058.0,Level,2026-06-01
+T50306,30,Nonresidential structures,2025Q1,641264.0,Level,2026-06-01
+T50306,30,Nonresidential structures,2025Q2,628494.0,Level,2026-06-01
+T50306,30,Nonresidential structures,2025Q3,620270.0,Level,2026-06-01
+T50306,30,Nonresidential structures,2025Q4,609556.0,Level,2026-06-01
+T50306,30,Nonresidential structures,2026Q1,600370.0,Level,2026-06-01
+T50306,31,Residential structures,2010Q1,351604.0,Level,2026-06-01
+T50306,31,Residential structures,2010Q2,366610.0,Level,2026-06-01
+T50306,31,Residential structures,2010Q3,347619.0,Level,2026-06-01
+T50306,31,Residential structures,2010Q4,342868.0,Level,2026-06-01
+T50306,31,Residential structures,2011Q1,339210.0,Level,2026-06-01
+T50306,31,Residential structures,2011Q2,342309.0,Level,2026-06-01
+T50306,31,Residential structures,2011Q3,343805.0,Level,2026-06-01
+T50306,31,Residential structures,2011Q4,356880.0,Level,2026-06-01
+T50306,31,Residential structures,2012Q1,375462.0,Level,2026-06-01
+T50306,31,Residential structures,2012Q2,377201.0,Level,2026-06-01
+T50306,31,Residential structures,2012Q3,388881.0,Level,2026-06-01
+T50306,31,Residential structures,2012Q4,409307.0,Level,2026-06-01
+T50306,31,Residential structures,2013Q1,423150.0,Level,2026-06-01
+T50306,31,Residential structures,2013Q2,436403.0,Level,2026-06-01
+T50306,31,Residential structures,2013Q3,447846.0,Level,2026-06-01
+T50306,31,Residential structures,2013Q4,446891.0,Level,2026-06-01
+T50306,31,Residential structures,2014Q1,452485.0,Level,2026-06-01
+T50306,31,Residential structures,2014Q2,470031.0,Level,2026-06-01
+T50306,31,Residential structures,2014Q3,474470.0,Level,2026-06-01
+T50306,31,Residential structures,2014Q4,493951.0,Level,2026-06-01
+T50306,31,Residential structures,2015Q1,504205.0,Level,2026-06-01
+T50306,31,Residential structures,2015Q2,516555.0,Level,2026-06-01
+T50306,31,Residential structures,2015Q3,535322.0,Level,2026-06-01
+T50306,31,Residential structures,2015Q4,552067.0,Level,2026-06-01
+T50306,31,Residential structures,2016Q1,568749.0,Level,2026-06-01
+T50306,31,Residential structures,2016Q2,567224.0,Level,2026-06-01
+T50306,31,Residential structures,2016Q3,564909.0,Level,2026-06-01
+T50306,31,Residential structures,2016Q4,574712.0,Level,2026-06-01
+T50306,31,Residential structures,2017Q1,584810.0,Level,2026-06-01
+T50306,31,Residential structures,2017Q2,592189.0,Level,2026-06-01
+T50306,31,Residential structures,2017Q3,600203.0,Level,2026-06-01
+T50306,31,Residential structures,2017Q4,611559.0,Level,2026-06-01
+T50306,31,Residential structures,2018Q1,603328.0,Level,2026-06-01
+T50306,31,Residential structures,2018Q2,611802.0,Level,2026-06-01
+T50306,31,Residential structures,2018Q3,610345.0,Level,2026-06-01
+T50306,31,Residential structures,2018Q4,601785.0,Level,2026-06-01
+T50306,31,Residential structures,2019Q1,590891.0,Level,2026-06-01
+T50306,31,Residential structures,2019Q2,594545.0,Level,2026-06-01
+T50306,31,Residential structures,2019Q3,604184.0,Level,2026-06-01
+T50306,31,Residential structures,2019Q4,607800.0,Level,2026-06-01
+T50306,31,Residential structures,2020Q1,629516.0,Level,2026-06-01
+T50306,31,Residential structures,2020Q2,602606.0,Level,2026-06-01
+T50306,31,Residential structures,2020Q3,642144.0,Level,2026-06-01
+T50306,31,Residential structures,2020Q4,687577.0,Level,2026-06-01
+T50306,31,Residential structures,2021Q1,718289.0,Level,2026-06-01
+T50306,31,Residential structures,2021Q2,718062.0,Level,2026-06-01
+T50306,31,Residential structures,2021Q3,711064.0,Level,2026-06-01
+T50306,31,Residential structures,2021Q4,704400.0,Level,2026-06-01
+T50306,31,Residential structures,2022Q1,709761.0,Level,2026-06-01
+T50306,31,Residential structures,2022Q2,698126.0,Level,2026-06-01
+T50306,31,Residential structures,2022Q3,659048.0,Level,2026-06-01
+T50306,31,Residential structures,2022Q4,629265.0,Level,2026-06-01
+T50306,31,Residential structures,2023Q1,617767.0,Level,2026-06-01
+T50306,31,Residential structures,2023Q2,626590.0,Level,2026-06-01
+T50306,31,Residential structures,2023Q3,650636.0,Level,2026-06-01
+T50306,31,Residential structures,2023Q4,660093.0,Level,2026-06-01
+T50306,31,Residential structures,2024Q1,667399.0,Level,2026-06-01
+T50306,31,Residential structures,2024Q2,664948.0,Level,2026-06-01
+T50306,31,Residential structures,2024Q3,656867.0,Level,2026-06-01
+T50306,31,Residential structures,2024Q4,660234.0,Level,2026-06-01
+T50306,31,Residential structures,2025Q1,662295.0,Level,2026-06-01
+T50306,31,Residential structures,2025Q2,654366.0,Level,2026-06-01
+T50306,31,Residential structures,2025Q3,639349.0,Level,2026-06-01
+T50306,31,Residential structures,2025Q4,631502.0,Level,2026-06-01
+T50306,31,Residential structures,2026Q1,625494.0,Level,2026-06-01
+T50306,32,Private fixed investment in information processing equipment and software,2010Q1,429208.0,Level,2026-06-01
+T50306,32,Private fixed investment in information processing equipment and software,2010Q2,434403.0,Level,2026-06-01
+T50306,32,Private fixed investment in information processing equipment and software,2010Q3,446297.0,Level,2026-06-01
+T50306,32,Private fixed investment in information processing equipment and software,2010Q4,452555.0,Level,2026-06-01
+T50306,32,Private fixed investment in information processing equipment and software,2011Q1,453454.0,Level,2026-06-01
+T50306,32,Private fixed investment in information processing equipment and software,2011Q2,468369.0,Level,2026-06-01
+T50306,32,Private fixed investment in information processing equipment and software,2011Q3,481898.0,Level,2026-06-01
+T50306,32,Private fixed investment in information processing equipment and software,2011Q4,490510.0,Level,2026-06-01
+T50306,32,Private fixed investment in information processing equipment and software,2012Q1,509854.0,Level,2026-06-01
+T50306,32,Private fixed investment in information processing equipment and software,2012Q2,522961.0,Level,2026-06-01
+T50306,32,Private fixed investment in information processing equipment and software,2012Q3,518208.0,Level,2026-06-01
+T50306,32,Private fixed investment in information processing equipment and software,2012Q4,532901.0,Level,2026-06-01
+T50306,32,Private fixed investment in information processing equipment and software,2013Q1,553695.0,Level,2026-06-01
+T50306,32,Private fixed investment in information processing equipment and software,2013Q2,548783.0,Level,2026-06-01
+T50306,32,Private fixed investment in information processing equipment and software,2013Q3,560286.0,Level,2026-06-01
+T50306,32,Private fixed investment in information processing equipment and software,2013Q4,571046.0,Level,2026-06-01
+T50306,32,Private fixed investment in information processing equipment and software,2014Q1,578134.0,Level,2026-06-01
+T50306,32,Private fixed investment in information processing equipment and software,2014Q2,597374.0,Level,2026-06-01
+T50306,32,Private fixed investment in information processing equipment and software,2014Q3,604666.0,Level,2026-06-01
+T50306,32,Private fixed investment in information processing equipment and software,2014Q4,616228.0,Level,2026-06-01
+T50306,32,Private fixed investment in information processing equipment and software,2015Q1,623186.0,Level,2026-06-01
+T50306,32,Private fixed investment in information processing equipment and software,2015Q2,633832.0,Level,2026-06-01
+T50306,32,Private fixed investment in information processing equipment and software,2015Q3,647452.0,Level,2026-06-01
+T50306,32,Private fixed investment in information processing equipment and software,2015Q4,661278.0,Level,2026-06-01
+T50306,32,Private fixed investment in information processing equipment and software,2016Q1,676404.0,Level,2026-06-01
+T50306,32,Private fixed investment in information processing equipment and software,2016Q2,686997.0,Level,2026-06-01
+T50306,32,Private fixed investment in information processing equipment and software,2016Q3,703051.0,Level,2026-06-01
+T50306,32,Private fixed investment in information processing equipment and software,2016Q4,719912.0,Level,2026-06-01
+T50306,32,Private fixed investment in information processing equipment and software,2017Q1,735916.0,Level,2026-06-01
+T50306,32,Private fixed investment in information processing equipment and software,2017Q2,759910.0,Level,2026-06-01
+T50306,32,Private fixed investment in information processing equipment and software,2017Q3,777238.0,Level,2026-06-01
+T50306,32,Private fixed investment in information processing equipment and software,2017Q4,802567.0,Level,2026-06-01
+T50306,32,Private fixed investment in information processing equipment and software,2018Q1,827515.0,Level,2026-06-01
+T50306,32,Private fixed investment in information processing equipment and software,2018Q2,843227.0,Level,2026-06-01
+T50306,32,Private fixed investment in information processing equipment and software,2018Q3,860509.0,Level,2026-06-01
+T50306,32,Private fixed investment in information processing equipment and software,2018Q4,871524.0,Level,2026-06-01
+T50306,32,Private fixed investment in information processing equipment and software,2019Q1,877081.0,Level,2026-06-01
+T50306,32,Private fixed investment in information processing equipment and software,2019Q2,894395.0,Level,2026-06-01
+T50306,32,Private fixed investment in information processing equipment and software,2019Q3,898680.0,Level,2026-06-01
+T50306,32,Private fixed investment in information processing equipment and software,2019Q4,911803.0,Level,2026-06-01
+T50306,32,Private fixed investment in information processing equipment and software,2020Q1,909244.0,Level,2026-06-01
+T50306,32,Private fixed investment in information processing equipment and software,2020Q2,919190.0,Level,2026-06-01
+T50306,32,Private fixed investment in information processing equipment and software,2020Q3,956035.0,Level,2026-06-01
+T50306,32,Private fixed investment in information processing equipment and software,2020Q4,988523.0,Level,2026-06-01
+T50306,32,Private fixed investment in information processing equipment and software,2021Q1,1029917.0,Level,2026-06-01
+T50306,32,Private fixed investment in information processing equipment and software,2021Q2,1055459.0,Level,2026-06-01
+T50306,32,Private fixed investment in information processing equipment and software,2021Q3,1065715.0,Level,2026-06-01
+T50306,32,Private fixed investment in information processing equipment and software,2021Q4,1111421.0,Level,2026-06-01
+T50306,32,Private fixed investment in information processing equipment and software,2022Q1,1159935.0,Level,2026-06-01
+T50306,32,Private fixed investment in information processing equipment and software,2022Q2,1177820.0,Level,2026-06-01
+T50306,32,Private fixed investment in information processing equipment and software,2022Q3,1196637.0,Level,2026-06-01
+T50306,32,Private fixed investment in information processing equipment and software,2022Q4,1199166.0,Level,2026-06-01
+T50306,32,Private fixed investment in information processing equipment and software,2023Q1,1197933.0,Level,2026-06-01
+T50306,32,Private fixed investment in information processing equipment and software,2023Q2,1198919.0,Level,2026-06-01
+T50306,32,Private fixed investment in information processing equipment and software,2023Q3,1206879.0,Level,2026-06-01
+T50306,32,Private fixed investment in information processing equipment and software,2023Q4,1239751.0,Level,2026-06-01
+T50306,32,Private fixed investment in information processing equipment and software,2024Q1,1257955.0,Level,2026-06-01
+T50306,32,Private fixed investment in information processing equipment and software,2024Q2,1278270.0,Level,2026-06-01
+T50306,32,Private fixed investment in information processing equipment and software,2024Q3,1301694.0,Level,2026-06-01
+T50306,32,Private fixed investment in information processing equipment and software,2024Q4,1307809.0,Level,2026-06-01
+T50306,32,Private fixed investment in information processing equipment and software,2025Q1,1412659.0,Level,2026-06-01
+T50306,32,Private fixed investment in information processing equipment and software,2025Q2,1477602.0,Level,2026-06-01
+T50306,32,Private fixed investment in information processing equipment and software,2025Q3,1498952.0,Level,2026-06-01
+T50306,32,Private fixed investment in information processing equipment and software,2025Q4,1563986.0,Level,2026-06-01
+T50306,32,Private fixed investment in information processing equipment and software,2026Q1,1679097.0,Level,2026-06-01

@@ -1,0 +1,9 @@
+# Systemic-financing / private-credit layer (Deliverable C, STAGED for analysis). MANUAL, Tier-2
+# (regulator/bank/press, verified=false; confirm before quoting). Sizes the AI debt wave and the
+# who-holds-the-risk chain the FSB flagged. See notes/methodology_broadening.md.
+metric,value,unit,source,url,date,verified,note
+ig_issuance_needed_5yr,1500,usd_billion,"JPMorgan (via press)",https://www.bloomberg.com/news/articles/2026-05-19/ai-data-center-borrowing-rapidly-climbs-wall-street-s-risk-list,2026-05,false,"IG bonds AI firms may need to raise over ~5 years"
+cumulative_ai_capex_2026_29,3500,usd_billion,"JPMorgan (via press)",https://www.cnbc.com/2026/04/06/ai-data-centers-financing-insurance-deals-gpu-debt.html,2026,false,"cumulative global AI-related capital investment 2026-2029"
+mgrs_see_ai_capex_top_credit_risk,34,percent,"BofA Global Fund Manager Survey (via press)",https://www.bloomberg.com/news/articles/2026-05-19/ai-data-center-borrowing-rapidly-climbs-wall-street-s-risk-list,2026-05,false,"share naming AI hyperscaler capex as most likely systemic credit event; ~2x April"
+private_credit_market_size,3000,usd_billion,"press (private-credit market)",https://www.cnbc.com/2026/02/09/private-credit-software-firms-fall-ai-fears.html,2026-02,false,"~$3T private-credit market increasingly exposed to AI/data-center infra"
+fsb_vulnerability_report,1,flag,"Financial Stability Board",https://www.fsb.org/2026/05/report-on-vulnerabilities-in-private-credit/,2026-05,false,"FSB formal report on private-credit vulnerabilities incl. AI-data-center concentration"
