@@ -31,10 +31,29 @@ vintage, and methodology caveats. Newest entries at the top.
   prefer disclosed segments. Memory understated (Micron only; SK Hynix/Samsung are foreign Tier-2).
 - **ai_complex_summary.csv** (output): ~$399B AI-exposed revenue + ~$45B capex across the complex.
 
-### private_credit.csv (Tier-2, STAGED — systemic-financing layer, analysis pending)
-- Hand-keyed regulator/bank/press figures: JPMorgan ~$1.5T IG issuance / ~$3.5T cumulative AI
-  capex 2026-29; BofA survey 34% (AI capex = top systemic-credit risk); FSB May-2026 private-credit
-  vulnerability report; ~$3T private-credit market. All `verified=false`; sources/URLs in file.
+### private_credit.csv + analyze_private_credit.py → private_credit_summary.csv (systemic-financing layer, VALIDATED 2026-07-19)
+- **Primary anchor (SEC EDGAR, from `ai_financing.csv`):** the 7 firms carry **$326B long-term
+  debt** and issued **$77B** in the latest FY; the edge builds on it — new debt covered **115%**
+  of CoreWeave's capex and **92%** of Oracle's. This is the hard number the layer rests on.
+- **Tier-2 macro context (regulator/bank/press), re-validated against live sources** (was staged
+  `verified=false`; now `verified=true` with corrections):
+  - **FSB, "Report on Vulnerabilities in Private Credit" (6 May 2026):** sizes private credit at
+    **$1.5–2T** — corrects the staged "$3T" (that was the data-center *buildout*, not the market);
+    flags leverage, interconnectedness with banks/insurers/PE, "not tested in a severe downturn."
+  - **BofA Global Fund Manager Survey (Jul-2026, 210 mgrs/$555B):** **48%** call AI hyperscaler
+    capex the most likely systemic credit event (was 34% in May; 34% is now *private credit*);
+    AI bubble = #1 tail risk for the first time.
+  - **JPMorgan (via Bloomberg/Fortune):** ~$1.5T IG bonds (+~$150B leveraged finance) over ~5yr;
+    DC securitizations ~$30–40B/yr; ~$5.5T total AI capex through 2030 (supersedes the loose
+    "$3.5T 2026-29").
+  - **Morgan Stanley / press (Forbes 2026-07; Insurance Journal 2026-02):** AI debt issuance
+    ~$570B in 2026 (~4× prior pace; ~$236B priced by end-May); **>$200B** private-credit loans to
+    AI firms outstanding; ~$800B DC private-credit pipeline through 2028 (distinct from the
+    circular-financing ~$800B); holders = insurers, pensions, Blackstone/Apollo/Ares; PIMCO/Blue
+    Owl in Meta's ~$30B Hyperion off-balance-sheet JV.
+- **Integrated into the report** ("So Who Actually Pays?" — the debt beat + `debtfin` chart).
+  Primary and Tier-2 rows are kept separate (`tier` column in `private_credit_summary.csv`), never
+  blended into one total.
 
 ---
 

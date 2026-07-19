@@ -1,0 +1,14 @@
+metric,value,unit,tier,source,note,retrieved
+ltd_7firm,326.1,usd_billion,primary,SEC EDGAR,"combined long-term debt, 7 hyperscalers/edge builders, latest FY",2026-07-19
+debt_issuance_7firm,77.0,usd_billion,primary,SEC EDGAR,new long-term-debt issuance in the latest FY across the 7,2026-07-19
+edge_debt_funded_max,114.99999999999999,percent,primary,SEC EDGAR,"most debt-funded builder's new capex covered by new debt (Oracle, CoreWeave are the edge)",2026-07-19
+ai_debt_issuance_2026,570.0,usd_billion,tier-2,Morgan Stanley (via Forbes),"projected 2026 AI-related debt issuance (bonds + structures); ~$236B priced by end-May 2026, ~4x the prior-year pace",2026-07-19
+hyperscaler_bond_coverage,2.0,ratio,tier-2,Apollo / market (via Forbes),"AI bond order coverage slipped from ~5x (Feb 2026) to <2x (Jul 2026): demand cooling, issuers may pay more",2026-07-19
+ai_private_credit_outstanding,200.0,usd_billion,tier-2,press (Insurance Journal),>$200B private-credit loans to AI firms outstanding early 2026; could reach $300-600B by 2030,2026-07-19
+dc_private_credit_pipeline_2028,800.0,usd_billion,tier-2,Morgan Stanley / press (via Forbes),~$800B private-credit opportunity for data-center financing through 2028 (distinct from the ~$800B circular-financing loop),2026-07-19
+jpm_ig_issuance_5yr,1500.0,usd_billion,tier-2,JPMorgan (via Bloomberg),~$1.5T IG bonds (+~$150B leveraged finance) tied to AI/data centers over ~5 years; DC securitizations ~$30-40B/yr 2026-27,2026-07-19
+jpm_total_ai_capex_2030,5500.0,usd_billion,tier-2,JPMorgan (via Fortune),~$5.5T total AI/data-center capex through 2030 (range $5-7T),2026-07-19
+private_credit_market_size,1750.0,usd_billion,tier-2,Financial Stability Board,"FSB sizes private credit at $1.5-2T (midpoint 1.75); general market, not AI-only",2026-07-19
+bofa_ai_capex_systemic,48.0,percent,tier-2,BofA Global Fund Manager Survey (via press),Jul-2026 FMS (210 mgrs/$555B AUM): 48% call AI hyperscaler capex the most likely systemic credit event; private credit 34%; AI bubble = the #1 tail risk (first time),2026-07-19
+fsb_vulnerability_report,1.0,flag,tier-2,Financial Stability Board,"'Report on Vulnerabilities in Private Credit' (6 May 2026): flags leverage, interconnectedness with banks/insurers/PE, valuation opacity; sector 'not tested during a severe economic downturn'",2026-07-19
+holders_chain,1.0,flag,tier-2,press (Insurance Journal / Forbes),"who holds the risk: insurers (15-20yr lease debt), pensions, private-credit managers (Blackstone/Apollo/Ares); PIMCO/Blue Owl in Meta's ~$30B Hyperion off-balance-sheet JV",2026-07-19

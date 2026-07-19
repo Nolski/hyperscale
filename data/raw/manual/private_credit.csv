@@ -1,9 +1,19 @@
-# Systemic-financing / private-credit layer (Deliverable C, STAGED for analysis). MANUAL, Tier-2
-# (regulator/bank/press, verified=false; confirm before quoting). Sizes the AI debt wave and the
-# who-holds-the-risk chain the FSB flagged. See notes/methodology_broadening.md.
+# Systemic-financing / private-credit layer (Deliverable C). MANUAL, Tier-2 (regulator/bank/press).
+# VALIDATED 2026-07-19 against live sources (FSB report; BofA FMS Jul-2026; JPMorgan via Bloomberg/
+# Fortune; Morgan Stanley via Forbes; Insurance Journal). Corrections from the staged version:
+#  - private-credit market size $3T -> $1.5-2T (FSB; the $3T was the data-center BUILDOUT, not the market)
+#  - BofA "AI capex = top systemic credit risk" 34% (May) -> 48% (Jul-2026 survey); 34% is now private credit
+#  - dropped the loose "$3.5T cumulative capex 2026-29"; JPMorgan's current figure is ~$5.5T through 2030
+# The HARD PRIMARY anchor for this layer is SEC-EDGAR debt in output/ai_financing.csv (7-firm $326B LTD,
+# $77B new issuance latest FY, Oracle/CoreWeave debt-funded); these rows are the macro/systemic context.
 metric,value,unit,source,url,date,verified,note
-ig_issuance_needed_5yr,1500,usd_billion,"JPMorgan (via press)",https://www.bloomberg.com/news/articles/2026-05-19/ai-data-center-borrowing-rapidly-climbs-wall-street-s-risk-list,2026-05,false,"IG bonds AI firms may need to raise over ~5 years"
-cumulative_ai_capex_2026_29,3500,usd_billion,"JPMorgan (via press)",https://www.cnbc.com/2026/04/06/ai-data-centers-financing-insurance-deals-gpu-debt.html,2026,false,"cumulative global AI-related capital investment 2026-2029"
-mgrs_see_ai_capex_top_credit_risk,34,percent,"BofA Global Fund Manager Survey (via press)",https://www.bloomberg.com/news/articles/2026-05-19/ai-data-center-borrowing-rapidly-climbs-wall-street-s-risk-list,2026-05,false,"share naming AI hyperscaler capex as most likely systemic credit event; ~2x April"
-private_credit_market_size,3000,usd_billion,"press (private-credit market)",https://www.cnbc.com/2026/02/09/private-credit-software-firms-fall-ai-fears.html,2026-02,false,"~$3T private-credit market increasingly exposed to AI/data-center infra"
-fsb_vulnerability_report,1,flag,"Financial Stability Board",https://www.fsb.org/2026/05/report-on-vulnerabilities-in-private-credit/,2026-05,false,"FSB formal report on private-credit vulnerabilities incl. AI-data-center concentration"
+ai_debt_issuance_2026,570,usd_billion,"Morgan Stanley (via Forbes)",https://www.forbes.com/sites/robertszczerba/2026/07/17/bond-investors-push-back-as-ai-debt-heads-toward-570-billion/,2026-07,true,"projected 2026 AI-related debt issuance (bonds + structures); ~$236B priced by end-May 2026, ~4x the prior-year pace"
+hyperscaler_bond_coverage,2,ratio,"Apollo / market (via Forbes)",https://www.forbes.com/sites/robertszczerba/2026/07/17/bond-investors-push-back-as-ai-debt-heads-toward-570-billion/,2026-07,true,"AI bond order coverage slipped from ~5x (Feb 2026) to <2x (Jul 2026): demand cooling, issuers may pay more"
+ai_private_credit_outstanding,200,usd_billion,"press (Insurance Journal)",https://www.insurancejournal.com/news/international/2026/02/03/856623.htm,2026-02,true,">$200B private-credit loans to AI firms outstanding early 2026; could reach $300-600B by 2030"
+dc_private_credit_pipeline_2028,800,usd_billion,"Morgan Stanley / press (via Forbes)",https://www.forbes.com/sites/robertszczerba/2026/07/17/bond-investors-push-back-as-ai-debt-heads-toward-570-billion/,2026-07,true,"~$800B private-credit opportunity for data-center financing through 2028 (distinct from the ~$800B circular-financing loop)"
+jpm_ig_issuance_5yr,1500,usd_billion,"JPMorgan (via Bloomberg)",https://www.bloomberg.com/news/articles/2025-11-10/ai-s-5-trillion-data-center-boom-will-dip-into-every-debt-market-jpmorgan-says,2025-11,true,"~$1.5T IG bonds (+~$150B leveraged finance) tied to AI/data centers over ~5 years; DC securitizations ~$30-40B/yr 2026-27"
+jpm_total_ai_capex_2030,5500,usd_billion,"JPMorgan (via Fortune)",https://fortune.com/2026/06/25/what-bubble-jpmorgan-5-5-trillion-ai-capex-explosion-profitable-for-now/,2026-06,true,"~$5.5T total AI/data-center capex through 2030 (range $5-7T)"
+private_credit_market_size,1750,usd_billion,"Financial Stability Board",https://www.fsb.org/2026/05/report-on-vulnerabilities-in-private-credit/,2026-05,true,"FSB sizes private credit at $1.5-2T (midpoint 1.75); general market, not AI-only"
+bofa_ai_capex_systemic,48,percent,"BofA Global Fund Manager Survey (via press)",https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/07/60473810/bofa-fund-manager-survey-july-2026-no-landing-ai-capex-credit-event,2026-07,true,"Jul-2026 FMS (210 mgrs/$555B AUM): 48% call AI hyperscaler capex the most likely systemic credit event; private credit 34%; AI bubble = the #1 tail risk (first time)"
+fsb_vulnerability_report,1,flag,"Financial Stability Board",https://www.fsb.org/2026/05/report-on-vulnerabilities-in-private-credit/,2026-05,true,"'Report on Vulnerabilities in Private Credit' (6 May 2026): flags leverage, interconnectedness with banks/insurers/PE, valuation opacity; sector 'not tested during a severe economic downturn'"
+holders_chain,1,flag,"press (Insurance Journal / Forbes)",https://www.insurancejournal.com/news/international/2026/02/03/856623.htm,2026,true,"who holds the risk: insurers (15-20yr lease debt), pensions, private-credit managers (Blackstone/Apollo/Ares); PIMCO/Blue Owl in Meta's ~$30B Hyperion off-balance-sheet JV"

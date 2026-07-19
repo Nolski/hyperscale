@@ -221,6 +221,9 @@ def load():
     d["macro_attr"] = pd.read_csv(OUTPUT / "macro_attribution.csv")
     cx = pd.read_csv(OUTPUT / "ai_complex_summary.csv")
     d["complex"] = cx.sort_values("revenue_bn", ascending=False).reset_index(drop=True)
+    # --- Systemic-financing / private-credit layer (primary SEC anchor + validated Tier-2) ---
+    pcs = pd.read_csv(OUTPUT / "private_credit_summary.csv")
+    d["pcredit"] = {m: to_num(v) for m, v in zip(pcs["metric"], pcs["value"])}
     return d
 
 
@@ -323,6 +326,23 @@ def chart_complex_footprint(d):
     ax.invert_yaxis()
     ax.set_xlabel("AI-exposed revenue, USD billion (upper bound, not AI-only)")
     ax.set_xlim(0, cx["revenue_bn"].max() * 1.18)
+    ax.grid(axis="y", visible=False)
+    ax.tick_params(axis="y", length=0)
+    return fig_to_b64(fig)
+
+
+def chart_debt_financing(d):
+    f = d["funding"].copy()
+    f["dfs"] = pd.to_numeric(f["debt_funded_share"], errors="coerce").fillna(0.0) * 100
+    f = f.sort_values("dfs")
+    colors = [RED if v >= 50 else NAVY for v in f["dfs"]]
+    fig, ax = plt.subplots(figsize=(8, 3.4))
+    bars = ax.barh(f["company"], f["dfs"], color=colors, height=0.62)
+    for b, v in zip(bars, f["dfs"]):
+        ax.text(v + 1.5, b.get_y() + b.get_height() / 2, f"{v:.0f}%",
+                va="center", fontsize=9.5, weight="bold")
+    ax.set_xlabel("Share of latest-FY capital spending funded by new debt")
+    ax.set_xlim(0, max(f["dfs"].max() * 1.16, 10))
     ax.grid(axis="y", visible=False)
     ax.tick_params(axis="y", length=0)
     return fig_to_b64(fig)
@@ -744,8 +764,10 @@ def build_paragraphs(n, c):
         'Reserve Bank of Dallas.</p>'
         '<p>The chip total-cost-of-ownership, economic-obsolescence, token-economics and '
         'Jevons models are the author&rsquo;s, built on those inputs; vendor performance '
-        'figures, bill-of-materials estimates and the 2026 capex/revenue and adoption '
-        'figures are second-tier (analyst and press) and are flagged as such, attributed '
+        'figures, bill-of-materials estimates, and the 2026 capex/revenue, adoption and '
+        'systemic-financing figures (the latter including the FSB private-credit report and '
+        'bank and dealer research) are second-tier (analyst and press) and are flagged as '
+        'such, attributed '
         'in the text, and listed in Sources below. They frame; they are not the data of '
         'record. Contested questions &mdash; whether data centers cause local price rises, '
         'whether the buildout is &ldquo;backstopped,&rdquo; what an AI chip&rsquo;s true '
@@ -922,8 +944,39 @@ def build_paragraphs(n, c):
          f"look at the firms below the line. Oracle&rsquo;s operating cash flow covers only "
          f"about {n['oracle_cov']}× its capital spending; CoreWeave&rsquo;s, about "
          f"{n['crwv_cov']}×. They cannot pay from earnings, so they pay with debt, equity "
-         f"raises and contracted revenue &mdash; and a striking share of that contracted "
-         f"revenue turns out to be the same money going around in a circle."),
+         f"raises and contracted revenue."),
+        ("p", f"Follow the debt, and the story widens past these seven balance sheets. The "
+         f"group already carries about {n['ltd_7firm']} of long-term debt and took on "
+         f"{n['debt_issue_7firm']} of it in the last year alone, and the edge builders lean on "
+         f"it hardest: new borrowing covered roughly {n['crwv_dfs']} of CoreWeave&rsquo;s "
+         f"capital spending and {n['oracle_dfs']} of Oracle&rsquo;s. Widen the frame and the "
+         f"wave is larger still &mdash; AI-related debt issuance is on track for about "
+         f"{n['ai_debt_2026']} in 2026, roughly four times the previous year&rsquo;s pace, and "
+         f"more than {n['ai_pc_out']} of private-credit loans to AI companies are already "
+         f"outstanding, with hundreds of billions more in the pipeline. A growing share is "
+         f"moving off the public bond market into private credit and off-balance-sheet "
+         f"vehicles &mdash; Meta&rsquo;s roughly $30&nbsp;billion Hyperion data-center venture, "
+         f"funded by PIMCO and Blue&nbsp;Owl, is the template &mdash; where disclosure and "
+         f"creditor protection are thinner."),
+        ("fig", figure(c["debtfin"], "The edge builds on borrowed money",
+                       "Share of the latest fiscal year&rsquo;s capital spending funded by new "
+                       "debt. Red marks the builders whose borrowing exceeds half their capex.",
+                       "Source: SEC EDGAR filings")),
+        ("p", f"The question a bond market eventually asks is who is holding this when the "
+         f"forecast is tested &mdash; and the answer is increasingly insurers, pension funds "
+         f"and the big private-credit managers (Blackstone, Apollo, Ares) whose money now backs "
+         f"long-dated data-center leases, reaching ordinary savers through their mutual funds. "
+         f"In May 2026 the Financial Stability Board devoted a report to exactly this: a "
+         f"{n['pc_market']} private-credit market whose leverage and entanglement with banks "
+         f"and insurers, in its words, &ldquo;has not been tested during a severe economic "
+         f"downturn.&rdquo; The professionals have noticed &mdash; by July, {n['bofa_ai']} of "
+         f"fund managers told Bank of America that hyperscaler AI capex was the single most "
+         f"likely trigger of a systemic credit event, the first time the build ranked as the "
+         f"market&rsquo;s top tail risk &mdash; and the appetite is thinning, with bond order "
+         f"books that were covered five times over in February below two times by summer."),
+        ("p", "That is the debt side of how the edge stays funded. The contracted-revenue side "
+         "is stranger still &mdash; because a striking share of it turns out to be the same "
+         "money going around in a circle."),
 
         ("h2", "The Circle"),
         ("p", f"By one estimate, about {n['circular']} of arrangements now loop capital "
@@ -1252,6 +1305,19 @@ def main() -> None:
         "complex_firms": f"{int(cx['firms'].sum())}",
     })
 
+    pc = d["pcredit"]
+    fund = d["funding"].set_index("company")["debt_funded_share"]
+    n.update({
+        "ltd_7firm": f"${pc['ltd_7firm']:.0f} billion",
+        "debt_issue_7firm": f"${pc['debt_issuance_7firm']:.0f} billion",
+        "crwv_dfs": f"{float(fund.get('CoreWeave', 0)) * 100:.0f} percent",
+        "oracle_dfs": f"{float(fund.get('Oracle', 0)) * 100:.0f} percent",
+        "ai_debt_2026": f"${pc['ai_debt_issuance_2026']:.0f} billion",
+        "ai_pc_out": f"${pc['ai_private_credit_outstanding']:.0f} billion",
+        "pc_market": "$1.5 to $2 trillion",
+        "bofa_ai": f"{pc['bofa_ai_capex_systemic']:.0f} percent",
+    })
+
     c = {"ramp": chart_ramp(d), "macro": chart_macro(d), "semis": chart_semis(d),
          "demand": chart_us_demand(d), "dcshare": chart_dc_share(d),
          "prices": chart_state_prices(d), "labor": chart_labor(d),
@@ -1260,7 +1326,7 @@ def main() -> None:
          "funding": chart_funding_coverage(d), "circle": chart_circular(d),
          "conc": chart_concentration(d), "jevons": chart_jevons(d),
          "life": chart_useful_life(d), "gdpattr": chart_gdp_attribution(d),
-         "complex": chart_complex_footprint(d)}
+         "complex": chart_complex_footprint(d), "debtfin": chart_debt_financing(d)}
 
     paras = build_paragraphs(n, c)
 
