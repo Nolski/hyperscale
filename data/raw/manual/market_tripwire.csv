@@ -1,0 +1,16 @@
+# Market "tripwire" indicators for the domino/second-derivative capstone. Tier-2/point-in-time.
+# VALIDATED 2026-07-19: FRED (fredgraph.csv, values as of the dates shown) + press for BoJ/CFTC/2024.
+# These size the TRIGGER side (is the fuel being throttled? is there any cushion?). Framing, not a
+# forecast: the report names vulnerability and timing-agnosticism, never a dated crash.
+metric,value,unit,source,url,date,note
+vix,16.7,index,FRED VIXCLS,https://fred.stlouisfed.org/series/VIXCLS,2026-07-16,"equity vol: calm/complacent"
+ig_oas,0.78,percent,FRED BAMLC0A0CM,https://fred.stlouisfed.org/series/BAMLC0A0CM,2026-07-16,"investment-grade OAS: near record-tight"
+hy_oas,2.71,percent,FRED BAMLH0A0HYM2,https://fred.stlouisfed.org/series/BAMLH0A0HYM2,2026-07-16,"high-yield OAS: near record-tight"
+ccc_oas,9.70,percent,FRED BAMLH0A3HYC,https://fred.stlouisfed.org/series/BAMLH0A3HYC,2026-07-16,"CCC & lower OAS: the dissent — weakest borrowers already paying up"
+usdjpy,161.3,yen_per_usd,FRED DEXJPUS,https://fred.stlouisfed.org/series/DEXJPUS,2026-07-10,"weak yen; carry still attractive, reversal is the unwind risk"
+dgs10,4.57,percent,FRED DGS10,https://fred.stlouisfed.org/series/DGS10,2026-07-16,"10y Treasury"
+dtb3,3.70,percent,FRED DTB3,https://fred.stlouisfed.org/series/DTB3,2026-07-16,"3mo T-bill; curve slightly positive (no recession priced)"
+boj_policy_rate,1.0,percent,"Bank of Japan (via press)",https://tradingeconomics.com/japan/interest-rate,2026-06,"raised to 1.0% Jun-2026 (from 0.75% since Dec-2025); 3-decade high; still hiking"
+yen_net_shorts,115000,contracts,"CFTC (via press)",https://en.macromicro.me/spotlights/257/boj-s-june-rate-hike-looms-two-key-indicators-for-analyzing-carry-trade-unwind-risks,2026-07,"leveraged funds' net short yen highest since 2017 — crowded positioning"
+aug2024_vix_peak,60,index,"press (Aug 2024 carry unwind)",https://www.investing.com/analysis/the-boj-just-pulled-the-trigger-markets-brace-for-carry-trade-chaos-200672097,2024-08,"VIX spiked above 60 intraday Aug 5 2024 on a BoJ hike + yen surge — the dress rehearsal"
+ai_bond_coverage,2,ratio,"Apollo / market (via Forbes)",https://www.forbes.com/sites/robertszczerba/2026/07/17/bond-investors-push-back-as-ai-debt-heads-toward-570-billion/,2026-07,"AI bond order books <2x covered (were ~5x Feb 2026): demand cooling"

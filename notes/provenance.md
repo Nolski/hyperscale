@@ -84,6 +84,24 @@ vintage, and methodology caveats. Newest entries at the top.
 - Integrated as the `debttraj` chart ("Who is borrowing for the buildout — and who isn't"),
   which replaced the narrower single-year `debtfin` (debt-funded-share) chart.
 
+### market_tripwire.csv — the domino/second-derivative capstone (VALIDATED 2026-07-19)
+- Sizes the **trigger side** for the "What Popping Would Mean" capstone (the subprime comparison
+  table + the "what lights it" beat). Values are point-in-time framing, not a forecast.
+- **The fuel (yen carry):** BoJ policy rate **1.0%** (Jun-2026, from 0.75% since Dec-2025; 3-decade
+  high, still hiking); USD/JPY **~161** (weak yen, FRED DEXJPUS 2026-07-10); leveraged **net-short-
+  yen positions highest since 2017** (CFTC via press) — crowded. Dress rehearsal: **Aug 5 2024**,
+  BoJ hike + yen surge sent VIX **>60** intraday.
+- **The tripwire (FRED, 2026-07-16):** VIX **16.7**; IG OAS **0.78%**; HY OAS **2.71%** (near
+  record-tight — "priced for perpetual acceleration"); **CCC OAS 9.70%** (the dissent — weakest
+  borrowers already paying up); 10y **4.57%** / 3mo **3.70%** (curve slightly positive, no recession
+  priced). Plus AI bond order coverage **~5× (Feb) → <2× (Jul)** (Apollo/market via Forbes).
+- **Discipline:** every trigger is a conditional ("if the fuel slows, then…"), naming vulnerability
+  and keeping timing agnostic — deliberately NOT Hudson's dated crash. Prose values are hardcoded
+  from this file (like the Burry/Hudson figures); the CSV is the record.
+- **Integrated:** "What Popping Would Mean" — the `comparison_table()` (subprime 2008 ↔ AI 2026,
+  line for line) + the one-system ("fuel / pump / pressure") and "the domino to watch is monetary"
+  beats.
+
 ---
 
 ## Revenue / payback datasets — "can the revenue pay it back?" thread

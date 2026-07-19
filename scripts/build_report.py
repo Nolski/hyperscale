@@ -739,6 +739,12 @@ CSS = """
 a { color:var(--link); text-decoration:none; border-bottom:1px solid #c9c9c9; }
 a:hover { border-bottom-color:var(--link); }
 .sources a, .fig-src a { border-bottom-color:#cfcfcf; }
+.cmp-wrap { overflow-x:auto; margin:1.7rem 0; }
+table.cmp { width:100%; border-collapse:collapse; font-size:.92rem; min-width:33rem; }
+table.cmp th, table.cmp td { text-align:left; vertical-align:top; padding:.55rem .8rem; border-bottom:1px solid var(--rule); }
+table.cmp thead th { border-bottom:2px solid var(--ink); font-family:'Helvetica Neue',Arial,sans-serif; font-size:.72rem; letter-spacing:.05em; text-transform:uppercase; color:var(--grey); }
+table.cmp td:first-child { color:var(--grey); width:47%; }
+table.cmp tbody tr:last-child td { border-bottom:2px solid var(--ink); }
 * { box-sizing:border-box; }
 body { margin:0; background:#fff; color:var(--ink);
   font-family:Georgia,'Times New Roman',serif; -webkit-font-smoothing:antialiased; }
@@ -797,6 +803,37 @@ def figure(b64, title, sub, src):
             f'<div class="fig-sub">{sub}</div>'
             f'<img alt="{title}" src="data:image/png;base64,{b64}">'
             f'<div class="fig-src">{src}</div></figure>')
+
+
+def comparison_table():
+    rows = [
+        ("Cheap money and a global savings glut inflate housing",
+         "Cheap global credit &mdash; yen carry, the zero-rate decade &mdash; inflates tech "
+         "valuations"),
+        ("Teaser-rate mortgages: affordable only if refinanced before they reset",
+         "Labs and neoclouds: solvent only if refinanced at a higher valuation mark"),
+        ("Refinancing works while house prices keep <i>rising</i>",
+         "Refinancing works while valuations keep <i>stepping up</i>"),
+        ("<b>Breaks when appreciation merely slows</b> &mdash; the refinancing door shuts",
+         "<b>Breaks when capex and valuation growth merely slow</b> &mdash; the mark step-ups "
+         "stall"),
+        ("First defaults hit subprime borrowers &mdash; the fringe",
+         "First cracks hit CoreWeave, Oracle and the labs &mdash; the fringe"),
+        ("Securitization spreads the risk into &ldquo;safe&rdquo; AAA tranches held everywhere",
+         "Private credit, GPU-backed notes and index funds spread it to insurers, pensions and "
+         "savers"),
+        ("The tranches <i>looked</i> safe; the risk was credit-convex, not linear",
+         "Hyperscaler bonds and equity <i>look</i> safe; the risk is credit-convex, not "
+         "equity-linear"),
+        ("Lehman: a refinancing that could not be rolled froze the system",
+         "The terminal refinance &mdash; an OpenAI down-round or failed IPO &mdash; that prices "
+         "below the mark"),
+    ]
+    trs = "".join(f"<tr><td>{a}</td><td>{b}</td></tr>" for a, b in rows)
+    return ('<div class="cmp-wrap"><table class="cmp"><thead><tr>'
+            '<th>The subprime cycle &middot; 2008</th>'
+            '<th>The AI buildout &middot; 2026</th></tr></thead>'
+            f'<tbody>{trs}</tbody></table></div>')
 
 
 def build_paragraphs(n, c):
@@ -1210,6 +1247,35 @@ def build_paragraphs(n, c):
                        "prominent short-seller&rsquo;s estimate, and this report&rsquo;s "
                        "hardware model.",
                        "Source: SEC EDGAR; press; author&rsquo;s model (Tier-2)")),
+        ("p", "If not 2000, then what? The truer template is 2008 &mdash; not in mood but in "
+         "machinery. The dot-com bust was an <i>equity</i> event: overvalued stocks fell and "
+         "the losses mostly stopped where the shareholders stood. This buildout is wired like "
+         "the <i>credit</i> cycle that produced the last crash, and it fails the same way. Lay "
+         "the two side by side and the wiring matches, line for line."),
+        ("table", comparison_table()),
+        ("p", "Read down the table and the fuel is identical: cheap, borrowed money with "
+         "nowhere better to go. A decade of near-zero rates &mdash; much of it carried out of "
+         "Japan at under one percent &mdash; inflated the valuations that then became the "
+         "collateral. The same rich stock lets a giant pay its staff in equity and buy back "
+         "its own shares, and lets a lab refinance at an ever-higher mark. Overvaluation is "
+         "not a side effect sitting beside the cheap credit; it is the wire between them. Cut "
+         "the funding and both ends go dark at once."),
+        ("p", "Which is why the domino to watch is monetary &mdash; not a demand miss or a "
+         "single bankruptcy, but whatever turns the fuel off. As of mid-2026 it is already "
+         "being throttled: the Bank of Japan has lifted its policy rate to one percent, a "
+         "three-decade high, and is still moving, while leveraged bets against the yen sit at "
+         "their most crowded since 2017 &mdash; the exact configuration that, on a single day "
+         "in August 2024, snapped the yen higher and drove the volatility index above sixty. A "
+         "sharper move would make the carry expensive, pull capital back toward Tokyo, and "
+         "decelerate the very marks the structure refinances against &mdash; no failure of AI "
+         "required. And there is little cushion under it: the volatility index sits near "
+         "sixteen and investment-grade and high-yield credit spreads are close to their "
+         "tightest on record, priced for perpetual acceleration. The one place already "
+         "cracking is the edge &mdash; the weakest borrowers pay nearly ten points over "
+         "Treasuries even now, and the order books for AI bonds thinned from five-times-"
+         "covered in February to under two by summer. That is what a first domino looks like: "
+         "not a crash but a <i>deceleration</i>, showing up first where the structure is "
+         "thinnest."),
         ("p", f"Because the bet has been indexed into everyone&rsquo;s savings &mdash; seven "
          f"names are now about {n['mag7_sh']} of the S&amp;P 500, and the premium for holding "
          f"stocks over safe bonds has thinned to roughly {n['erp']} &mdash; that repricing "
@@ -1440,7 +1506,7 @@ def main() -> None:
     for kind, content in paras:
         if kind == "h2":
             body.append(f"<h2>{content}</h2>")
-        elif kind == "fig":
+        elif kind in ("fig", "table"):
             body.append(content)
         elif kind == "pull":
             body.append(f'<div class="pull">{content}</div>')
