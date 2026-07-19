@@ -828,9 +828,9 @@ def comparison_table():
         ("Securitization spreads the risk into &ldquo;safe&rdquo; AAA tranches held everywhere",
          "Private credit, GPU-backed notes and index funds spread it to insurers, pensions and "
          "savers"),
-        ("The tranches <i>looked</i> safe; the risk was credit-convex, not linear",
-         "Hyperscaler bonds and equity <i>look</i> safe; the risk is credit-convex, not "
-         "equity-linear"),
+        ("The tranches rated &lsquo;safe&rsquo; were the ones that blew up",
+         "The parts that look safe &mdash; hyperscaler bonds, index funds &mdash; are where the "
+         "losses would land"),
         ("Lehman: a refinancing that could not be rolled froze the system",
          "The terminal refinance &mdash; an OpenAI down-round or failed IPO &mdash; that prices "
          "below the mark"),
@@ -848,10 +848,10 @@ def watchlist():
         'Its rounds now step up by less each time &mdash; the latest was $122&nbsp;billion at an '
         '$852&nbsp;billion valuation, and the IPO, targeted for late 2026 at about '
         '$1&nbsp;trillion, is already at risk of slipping to 2027. It is roughly half of both '
-        'Microsoft&rsquo;s and Oracle&rsquo;s AI backlog, so if its mark stops rising the whole '
-        'circle loses the ability to refinance. <b>The tell:</b> that IPO prices flat-to-down, '
-        'slips again, or is pulled &mdash; the second derivative going negative on the one '
-        'refinance everything else is stacked on.</div>')
+        'Microsoft&rsquo;s and Oracle&rsquo;s AI backlog, so if its valuation stops climbing '
+        'the whole circle loses the ability to refinance. <b>The tell:</b> that IPO prices '
+        'flat or down, slips again, or is pulled &mdash; the moment its valuation stops rising '
+        'is the moment everything stacked on that one refinance comes undone.</div>')
     items = [
         ("The plumbing (already amber).",
          "AI bond order books have fallen from about five-times-covered to under two. Next: a "
@@ -876,9 +876,9 @@ def watchlist():
     lis = "".join(f"<li><b>{a}</b> {b}</li>" for a, b in items)
     meta = (
         '<div class="meta">The rule underneath all of them: watch the rate of change, not the '
-        'level. The precursor is the second derivative turning &mdash; capex still at records '
-        'but its growth rolling over, the mark still rising but by less &mdash; and the cleanest '
-        'place it shows up is the OpenAI mark.</div>')
+        'level. The warning sign is growth <i>slowing</i> while the numbers are still at '
+        'records &mdash; capex still climbing but by less, valuations still rising but by less '
+        '&mdash; and the cleanest place to see it is OpenAI&rsquo;s next valuation.</div>')
     return ('<div class="watch"><div class="w-h">What to watch &mdash; the precursors, in the '
             f'order they light up</div>{keystone}<ol>{lis}</ol>{meta}</div>')
 
@@ -1019,17 +1019,14 @@ def build_paragraphs(n, c):
                        "US investment in information-processing equipment and software as a "
                        "share of GDP, 2010&ndash;2026.",
                        "Source: BEA NIPA (T50306 / T10106); Furman contribution method")),
-        ("p", f"Nor is the bet confined to the familiar handful of hyperscalers. Follow the "
-         f"supply chain outward and it fans across at least seven layers &mdash; memory, "
-         f"chip-making equipment, networking, data-center landlords, electrical and cooling "
-         f"gear, power producers, and the neoclouds that rent out GPUs &mdash; some "
-         f"{n['complex_firms']} US-listed firms carrying on the order of {n['complex_rev']} of "
-         f"AI-exposed revenue and {n['complex_capex']} of capital spending. That revenue figure "
-         f"is an upper bound, not an &ldquo;AI total&rdquo;: it counts each firm&rsquo;s whole "
-         f"business wherever the AI slice can&rsquo;t be cleanly separated, is never summed into "
-         f"one headline number, and it understates memory, where only Micron is US-listed. The "
-         f"point is not the sum but the reach &mdash; the buildout has pulled a wide cross-"
-         f"section of the industrial economy into its orbit."),
+        ("p", f"And it is not just those seven firms. The same buildout runs through a whole "
+         f"supply chain &mdash; the memory makers, the chip-equipment firms, the networking and "
+         f"cooling vendors, the power companies, and the &ldquo;neoclouds&rdquo; that rent out "
+         f"GPUs. Add up the US-listed names across those layers and you get another "
+         f"{n['complex_firms']} companies with something like {n['complex_rev']} of AI-linked "
+         f"revenue behind them. The exact total isn&rsquo;t the point &mdash; much of that "
+         f"revenue is only partly about AI &mdash; the reach is: the bet now pulls in a wide "
+         f"slice of the industrial economy, not a tech niche."),
         ("fig", figure(c["complex"], "Beyond the seven",
                        "AI-exposed revenue by supply-chain layer, 18 US-listed firms. Exposure "
                        "is an upper bound, not AI-only revenue.",
@@ -1037,12 +1034,12 @@ def build_paragraphs(n, c):
 
         ("h2", "The Arithmetic"),
         ("p", f"Start with the version that looks impossible, because it is the honest "
-         f"starting point. The buildout has committed roughly {n['kmid']} of capital at a "
-         f"cost of capital around {n['wacc']}. To earn that back &mdash; even at the "
-         f"{n['margin_sh']} operating margin Amazon&rsquo;s AWS earns at scale, the most "
-         f"profitable cloud business ever built &mdash; the AI economy would have to "
-         f"generate on the order of {n['req35']} in revenue every year. Today it generates "
-         f"about {n['r0']}."),
+         f"starting point. The buildout has committed roughly {n['kmid']} of capital. For a "
+         f"bet that size to be worth making &mdash; to earn back more than it costs to "
+         f"finance &mdash; the AI economy would have to bring in, every single year, on the "
+         f"order of {n['req35']}, even at the fat {n['margin_sh']} profit margin of "
+         f"Amazon&rsquo;s AWS, the most profitable cloud business ever built. Today it brings "
+         f"in about {n['r0']}."),
         ("fig", figure(c["capexrev"], "The gap the buildout is betting on",
                        "2026 capital spending against today&rsquo;s AI-service revenue.",
                        "Source: SEC EDGAR; analyst / press estimates &mdash; Tier-2")),
@@ -1053,8 +1050,8 @@ def build_paragraphs(n, c):
          f"even in an optimistic one. Against a requirement of {n['req35']} or more, the "
          f"curve does not close the gap. It does not come within several times of it."),
         ("fig", figure(c["reqach"], "What it must earn versus what usage can deliver",
-                       "Revenue required to pay back the buildout at its cost of capital, "
-                       "against an adoption-curve projection of achievable AI revenue.",
+                       "Revenue the buildout must earn to pay itself back, against a "
+                       "projection of achievable AI revenue as adoption grows.",
                        "Source: author&rsquo;s model on SEC capex, FRED rates, observed usage")),
         ("pull", f"To pay the buildout back from AI revenue, that revenue would have to grow "
          f"about {n['req_cagr']} a year &mdash; roughly {n['aws_x']} AWS&rsquo;s pace over its "
@@ -1128,18 +1125,17 @@ def build_paragraphs(n, c):
          f"sheet vehicles &mdash; Meta&rsquo;s roughly $30&nbsp;billion Hyperion data-center "
          f"venture, funded by PIMCO and Blue&nbsp;Owl, is the template &mdash; where "
          f"disclosure and creditor protection are thinner."),
-        ("p", f"The question a bond market eventually asks is who is holding this when the "
-         f"forecast is tested &mdash; and the answer is increasingly insurers, pension funds "
-         f"and the big private-credit managers (Blackstone, Apollo, Ares) whose money now backs "
-         f"long-dated data-center leases, reaching ordinary savers through their mutual funds. "
-         f"In May 2026 the Financial Stability Board devoted a report to exactly this: a "
-         f"{n['pc_market']} private-credit market whose leverage and entanglement with banks "
-         f"and insurers, in its words, &ldquo;has not been tested during a severe economic "
-         f"downturn.&rdquo; The professionals have noticed &mdash; by July, {n['bofa_ai']} of "
-         f"fund managers told Bank of America that hyperscaler AI capex was the single most "
-         f"likely trigger of a systemic credit event, the first time the build ranked as the "
-         f"market&rsquo;s top tail risk &mdash; and the appetite is thinning, with bond order "
-         f"books that were covered five times over in February below two times by summer."),
+        ("p", f"The question that eventually gets asked is who is holding this debt when the "
+         f"revenue is tested &mdash; and the answer, increasingly, is insurers, pension funds, "
+         f"and big private-credit firms like Blackstone, Apollo and Ares, whose money now backs "
+         f"long-term data-center loans and reaches ordinary people through their retirement and "
+         f"mutual funds. In May 2026 the global body that watches for financial crises, the "
+         f"Financial Stability Board, warned that this fast-growing corner of lending &mdash; "
+         f"now a {n['pc_market']} market, tightly tangled up with banks and insurers &mdash; "
+         f"&ldquo;has not been tested during a severe economic downturn.&rdquo; The "
+         f"professionals see it too: by July, {n['bofa_ai']} of fund managers told Bank of "
+         f"America that AI spending was the single most likely thing to set off a credit "
+         f"crisis &mdash; the first time it topped their list of worries."),
         ("p", "That is the debt side of how the edge stays funded. The contracted-revenue side "
          "is stranger still &mdash; because a striking share of it turns out to be the same "
          "money going around in a circle."),
@@ -1176,9 +1172,10 @@ def build_paragraphs(n, c):
          "written to be refinanced before their teaser rates reset, and they detonated not "
          "when house prices fell but when prices merely stopped rising <i>faster</i> &mdash; "
          "the acceleration going into reverse while the level was still near its peak. The AI "
-         "circle has the same shape: the labs at its center service their commitments by "
-         "raising each round at a higher mark than the last, so a <i>decelerating</i> "
-         "valuation, not a falling one, is enough to seize the machinery. And the capital those "
+         "circle has the same shape: the labs at its center keep going only by raising each new "
+         "round at a higher valuation than the last, so a valuation that merely <i>stops "
+         "climbing</i>, rather than one that falls, is enough to seize the machinery. And the "
+         "capital those "
          "marks run on is not free-standing AI enthusiasm; it is the same cheap, yield-seeking "
          "credit that has bid up every asset for a decade, some of it borrowed abroad at "
          "near-zero rates. That makes the trip-wire monetary as much as technological: a "
@@ -1206,14 +1203,14 @@ def build_paragraphs(n, c):
                        "suppliers &mdash; nearly all fabricated by one Taiwanese foundry.",
                        "Source: SEC EDGAR filings")),
         ("p", f"And underneath the defensiveness is a genuine bull case. If AI really does "
-         f"become the substrate of knowledge work, its &ldquo;revenue&rdquo; stops being a "
-         f"metered-token line item and becomes a cut of the labor it replaces &mdash; a slice "
-         f"of GDP measured in trillions. That is the world the spending implies. Run the "
-         f"payback as a probability and the split is stark: the buildout clears its cost of "
-         f"capital in only about {n['p_clear']} of outcomes if it must be repaid by "
-         f"AI-specific revenue, but about {n['p_broad']} if AI is credited with lifting all "
-         f"of cloud, advertising and search. The entire bet hinges on which of those worlds "
-         f"arrives &mdash; and even the generous one is a coin flip."),
+         f"become the way knowledge work gets done, its &ldquo;revenue&rdquo; stops being a "
+         f"line of metered usage and becomes a cut of all the labor it replaces &mdash; a "
+         f"slice of GDP measured in trillions. That is the world the spending implies. Model "
+         f"it as a range of scenarios and the split is stark: if only AI&rsquo;s own revenue "
+         f"counts, the bet pays for itself in about {n['p_clear']} of them; if you also credit "
+         f"AI with lifting all of cloud, advertising and search, about {n['p_broad']}. The "
+         f"whole thing hinges on which of those worlds arrives &mdash; and even the generous "
+         f"one is a coin flip."),
 
         ("h2", "The Bill"),
         ("p", f"Here the asymmetry from the start of this piece turns concrete. The payback "
@@ -1307,22 +1304,24 @@ def build_paragraphs(n, c):
          "its own shares, and lets a lab refinance at an ever-higher mark. Overvaluation is "
          "not a side effect sitting beside the cheap credit; it is the wire between them. Cut "
          "the funding and both ends go dark at once."),
-        ("p", "Which is why the domino to watch is monetary &mdash; not a demand miss or a "
-         "single bankruptcy, but whatever turns the fuel off. As of mid-2026 it is already "
-         "being throttled: the Bank of Japan has lifted its policy rate to one percent, a "
-         "three-decade high, and is still moving, while leveraged bets against the yen sit at "
-         "their most crowded since 2017 &mdash; the exact configuration that, on a single day "
-         "in August 2024, snapped the yen higher and drove the volatility index above sixty. A "
-         "sharper move would make the carry expensive, pull capital back toward Tokyo, and "
-         "decelerate the very marks the structure refinances against &mdash; no failure of AI "
-         "required. And there is little cushion under it: the volatility index sits near "
-         "sixteen and investment-grade and high-yield credit spreads are close to their "
-         "tightest on record, priced for perpetual acceleration. The one place already "
-         "cracking is the edge &mdash; the weakest borrowers pay nearly ten points over "
-         "Treasuries even now, and the order books for AI bonds thinned from five-times-"
-         "covered in February to under two by summer. That is what a first domino looks like: "
-         "not a crash but a <i>deceleration</i>, showing up first where the structure is "
-         "thinnest."),
+        ("p", "Which is why the thing to watch is not a demand miss or a single bankruptcy, "
+         "but money getting more expensive &mdash; and in mid-2026 it already is. Japan, the "
+         "source of much of that cheap borrowed money, has been raising interest rates: its "
+         "central bank&rsquo;s rate is now one percent, the highest in thirty years, and still "
+         "climbing. At the same time, investors are betting against the yen more heavily than at "
+         "any point since 2017. That is the exact setup that, on a single day in August 2024, "
+         "sent the yen sharply higher and the market&rsquo;s fear gauge above sixty. If it "
+         "happens harder, those cheap loans turn expensive, the money flows back to Japan, and "
+         "the ever-rising valuations the whole structure leans on stop rising &mdash; without AI "
+         "itself having to fail at anything."),
+        ("p", "And there is almost no cushion. The market&rsquo;s fear gauge sits near sixteen, "
+         "and lenders are charging even risky companies close to the smallest premium on "
+         "record &mdash; everything is priced as if the good times simply continue. The one "
+         "place already cracking is the edge: the weakest borrowers pay far more to borrow than "
+         "the rest, and demand for new AI bonds has cooled fast &mdash; deals that drew five "
+         "times more orders than they needed in February drew barely two by summer. That is "
+         "what a first domino looks like &mdash; not a crash, but a slowdown, showing up first "
+         "where the structure is thinnest."),
         ("p", f"Because the bet has been indexed into everyone&rsquo;s savings &mdash; seven "
          f"names are now about {n['mag7_sh']} of the S&amp;P 500, and the premium for holding "
          f"stocks over safe bonds has thinned to roughly {n['erp']} &mdash; that repricing "
@@ -1339,8 +1338,8 @@ def build_paragraphs(n, c):
 
         ("h2", "Does the Math Math?"),
         ("p", f"As a standalone investment &mdash; AI revenue paying back AI capital &mdash; "
-         f"no. It clears its cost of capital in roughly {n['p_clear']} of plausible paths, on "
-         f"the most generous mature-cloud margins, and the revenue ramp it needs has no "
+         f"no. It pays for itself in only about {n['p_clear']} of plausible scenarios, even on "
+         f"the most generous cloud-style profit margins, and the revenue ramp it needs has no "
          f"precedent. As something else &mdash; spend the franchise&rsquo;s monopoly profits "
          f"on a defensive option, push the fragile financing onto whoever is furthest out on "
          f"the limb, and let the public carry the grid and the prices &mdash; it pencils out "
