@@ -216,6 +216,11 @@ def load():
     d["circ"] = circ
     d["circ_edge"] = {(r.source, r.target): float(r.amount_usd_billion) for r in circ.itertuples()}
     d["oai_commit_sum"] = circ[circ.source == "OpenAI"]["amount_usd_billion"].sum()
+
+    # --- Broadening layer: BEA macro-attribution + AI-industrial-complex footprint ---
+    d["macro_attr"] = pd.read_csv(OUTPUT / "macro_attribution.csv")
+    cx = pd.read_csv(OUTPUT / "ai_complex_summary.csv")
+    d["complex"] = cx.sort_values("revenue_bn", ascending=False).reset_index(drop=True)
     return d
 
 
@@ -285,6 +290,41 @@ def chart_semis(d):
                 va="center", fontsize=9.5, weight="bold")
     ax.set_xlabel("Latest-fiscal-year revenue, USD billion")
     ax.grid(axis="y", visible=False)
+    return fig_to_b64(fig)
+
+
+def chart_gdp_attribution(d):
+    ma = d["macro_attr"].copy()
+    yr = ma["time_period"].str.slice(0, 4).astype(int)
+    q = ma["time_period"].str.slice(5, 6).astype(int)
+    ma["t"] = yr + (q - 1) / 4.0
+    fig, ax = plt.subplots(figsize=(8, 3.4))
+    ax.plot(ma["t"], ma["it_pct_of_gdp"], color=NAVY, linewidth=2.2)
+    ax.fill_between(ma["t"], ma["it_pct_of_gdp"], color=NAVY, alpha=0.08)
+    lo, hi = ma["it_pct_of_gdp"].iloc[0], ma["it_pct_of_gdp"].iloc[-1]
+    ax.text(ma["t"].iloc[-1], hi, f"  {hi:.1f}%", va="center", ha="left",
+            fontsize=10.5, weight="bold", color=NAVY)
+    ax.text(ma["t"].iloc[0], lo, f"{lo:.1f}%  ", va="center", ha="right",
+            fontsize=9.5, color=GREY)
+    ax.set_ylabel("% of GDP")
+    ax.set_ylim(0, hi * 1.22)
+    ax.set_xlim(ma["t"].iloc[0] - 0.5, ma["t"].iloc[-1] + 2.2)
+    ax.grid(axis="x", visible=False)
+    return fig_to_b64(fig)
+
+
+def chart_complex_footprint(d):
+    cx = d["complex"]
+    fig, ax = plt.subplots(figsize=(8, 3.6))
+    bars = ax.barh(cx["layer"], cx["revenue_bn"], color=NAVY, height=0.66)
+    for b, v in zip(bars, cx["revenue_bn"]):
+        ax.text(v + 2, b.get_y() + b.get_height() / 2, f"${v:,.0f}B",
+                va="center", fontsize=9.5, weight="bold")
+    ax.invert_yaxis()
+    ax.set_xlabel("AI-exposed revenue, USD billion (upper bound, not AI-only)")
+    ax.set_xlim(0, cx["revenue_bn"].max() * 1.18)
+    ax.grid(axis="y", visible=False)
+    ax.tick_params(axis="y", length=0)
     return fig_to_b64(fig)
 
 
@@ -691,8 +731,11 @@ def build_paragraphs(n, c):
         '<div class="methodbox"><div class="mb-h">How this was measured</div>'
         '<p>The spine of this report is a reproducible, primary-source pipeline. '
         'Hyperscaler and chip-maker capital spending, debt, depreciation and margins '
-        'are extracted from SEC EDGAR filings; macro, rates and credit series from the '
-        'Federal Reserve&rsquo;s FRED; electricity demand and prices, national and by '
+        'are extracted from SEC EDGAR filings, and the wider supply-chain footprint from '
+        'EDGAR company facts; macro, rates and credit series from the Federal '
+        'Reserve&rsquo;s FRED; national-accounts investment and output, and household wealth '
+        'distribution, from the Bureau of Economic Analysis and the Fed&rsquo;s Distributional '
+        'Financial Accounts; electricity demand and prices, national and by '
         'state, from the US Energy Information Administration; occupational employment '
         'from the Bureau of Labor Statistics; accelerator specifications from vendor '
         'datasheets cross-checked against Epoch&nbsp;AI. Data-center energy is from '
@@ -762,7 +805,22 @@ def build_paragraphs(n, c):
         '<i>overinvestment</i> failure, not a concealment one &mdash; and it is the more apt, and '
         'more sobering, template for an AI capex cycle whose returns are still a forecast. '
         '(Chanos&rsquo;s sharpest single data point: feeding CoreWeave&rsquo;s own ~2&ndash;3-year '
-        'GPU-life estimate into the model implies roughly 0% return on invested capital.)</p></div>')
+        'GPU-life estimate into the model implies roughly 0% return on invested capital.)</p>'
+        '<p><b>The financing-cycle reading.</b> Two outside analyses reach this report&rsquo;s '
+        'conclusion by different routes. An independent essay, '
+        '<a href="https://www.groundbrkr.com/p/the-second-derivative-why-no-one">&ldquo;The '
+        'Second Derivative&rdquo; (Groundbrkr, 2026)</a>, argues the AI boom is financed like '
+        'the 2008 credit cycle rather than the 2000 tech cycle, and that a mere '
+        '<i>deceleration</i> in capex and funding &mdash; not a reversal &mdash; is enough to '
+        'break structures built for perpetual acceleration. Economists Michael&nbsp;Hudson and '
+        'Radhika&nbsp;Desai, in '
+        '<a href="https://www.nakedcapitalism.com/2026/07/michael-hudson-with-radhika-desai-were-headed-for-a-depression-worse-than-2008.html">'
+        'Geopolitical Economy Hour&nbsp;#80 (Jul&nbsp;2026)</a>, read the same buildout as a '
+        'credit-fuelled &ldquo;Ponzi capital-gains bubble&rdquo; led by seven unprofitable AI '
+        'names and floated on cheap global carry &mdash; concentrating the gains in a few hands '
+        'while socialising the cost. Both are polemical, prediction-forward framings, not '
+        'primary data; this report borrows their <i>mechanism</i> (a rollover dependency a '
+        'monetary slowdown can trip) while declining their <i>timing</i> calls.</p></div>')
 
     return [
         ("lede", f"It is the largest private capital bet in history. In 2025 seven "
@@ -788,6 +846,33 @@ def build_paragraphs(n, c):
         ("fig", figure(c["macro"], "A claim on the economy&rsquo;s investable surplus",
                        "2025 hyperscaler capital investment, measured against US capital "
                        "formation.", "Source: SEC EDGAR; FRED (BEA national accounts)")),
+        ("p", f"Widen the lens to the whole economy and it reads the same way. Real investment "
+         f"in information-processing equipment and software has climbed from about "
+         f"{n['it_gdp_lo']} of GDP in 2010 to roughly {n['it_gdp_hi']} in 2026 &mdash; and in "
+         f"the first half of 2025, the growth in that one line was equal to about "
+         f"{n['it_h1_share']} of all US GDP growth. Strip it out and the economy barely moved. "
+         f"That is a contribution, not a proven cause &mdash; absent the boom, cheaper credit "
+         f"or power would have offset part of the gap &mdash; but it means headline growth now "
+         f"leans on this single category of spending to a degree with few precedents."),
+        ("fig", figure(c["gdpattr"], "The economy leans on one line",
+                       "US investment in information-processing equipment and software as a "
+                       "share of GDP, 2010&ndash;2026.",
+                       "Source: BEA NIPA (T50306 / T10106); Furman contribution method")),
+        ("p", f"Nor is the bet confined to the familiar handful of hyperscalers. Follow the "
+         f"supply chain outward and it fans across at least seven layers &mdash; memory, "
+         f"chip-making equipment, networking, data-center landlords, electrical and cooling "
+         f"gear, power producers, and the neoclouds that rent out GPUs &mdash; some "
+         f"{n['complex_firms']} US-listed firms carrying on the order of {n['complex_rev']} of "
+         f"AI-exposed revenue and {n['complex_capex']} of capital spending. That revenue figure "
+         f"is an upper bound, not an &ldquo;AI total&rdquo;: it counts each firm&rsquo;s whole "
+         f"business wherever the AI slice can&rsquo;t be cleanly separated, is never summed into "
+         f"one headline number, and it understates memory, where only Micron is US-listed. The "
+         f"point is not the sum but the reach &mdash; the buildout has pulled a wide cross-"
+         f"section of the industrial economy into its orbit."),
+        ("fig", figure(c["complex"], "Beyond the seven",
+                       "AI-exposed revenue by supply-chain layer, 18 US-listed firms. Exposure "
+                       "is an upper bound, not AI-only revenue.",
+                       "Source: SEC EDGAR (companyconcept) &mdash; Tier-2 exposure")),
 
         ("h2", "The Arithmetic"),
         ("p", f"Start with the version that looks impossible, because it is the honest "
@@ -866,6 +951,20 @@ def build_paragraphs(n, c):
          "the next OpenAI round is the day Oracle&rsquo;s contracted revenue, "
          "CoreWeave&rsquo;s debt service and Nvidia&rsquo;s order book all wobble at once. The "
          "circle is a confidence machine; it spins beautifully until it doesn&rsquo;t."),
+        ("p", "And there is a sharper version of that fragility &mdash; the one that actually "
+         "ended the last credit cycle. The ring does not need investors to <i>stop</i> funding "
+         "the next round; it only needs them to slow down. Subprime mortgages in 2008 were "
+         "written to be refinanced before their teaser rates reset, and they detonated not "
+         "when house prices fell but when prices merely stopped rising <i>faster</i> &mdash; "
+         "the acceleration going into reverse while the level was still near its peak. The AI "
+         "circle has the same shape: the labs at its center service their commitments by "
+         "raising each round at a higher mark than the last, so a <i>decelerating</i> "
+         "valuation, not a falling one, is enough to seize the machinery. And the capital those "
+         "marks run on is not free-standing AI enthusiasm; it is the same cheap, yield-seeking "
+         "credit that has bid up every asset for a decade, some of it borrowed abroad at "
+         "near-zero rates. That makes the trip-wire monetary as much as technological: a "
+         "central bank tightening, or that cheap-funding trade unwinding, would slow the marks "
+         "on its own &mdash; no failure of AI required."),
 
         ("h2", "They Know"),
         ("p", "The executives running these firms are not fooled by the arithmetic above; "
@@ -958,7 +1057,8 @@ def build_paragraphs(n, c):
          "wager on a future, not a description of the present."),
 
         ("h2", "What &ldquo;Popping&rdquo; Would Mean"),
-        ("p", f"So suppose the wager sours. &ldquo;The AI bubble bursting&rdquo; conjures the "
+        ("p", f"So suppose the wager sours &mdash; or merely stops accelerating fast enough to "
+         f"fund the next round. &ldquo;The AI bubble bursting&rdquo; conjures the "
          f"year 2000, but the analogy misleads, because the people who actually owe the money "
          f"are not the ones who look most exposed. Popping would not mean AI is exposed as "
          f"fake. It would mean the leveraged claims stacked on top of a real-but-overbuilt "
@@ -999,6 +1099,18 @@ def build_paragraphs(n, c):
          f"and a speculative mania. They almost always have been. Canals, railways, "
          f"electricity, the internet &mdash; each delivered, and each ruined a generation of "
          f"financiers first."),
+        ("p", "The distributional ledger is the starkest form of the same asymmetry. Stock-"
+         "market wealth in America is not widely held: the top tenth of households own about "
+         "93 percent of all equities and the bottom half roughly one percent (Federal Reserve, "
+         "2024), and over the past quarter-century the net worth of the top 1 percent has risen "
+         "from about $10 trillion to more than $50 trillion (Fed Distributional Financial "
+         "Accounts). So the upside of the buildout &mdash; the seven stocks, the concentrated "
+         "gains &mdash; accrues to a narrow band that already owns the market, while its costs, "
+         "from the power bill to a repricing that would run through every indexed retirement "
+         "account, are borne broadly. The heterodox economists Michael Hudson and Radhika Desai "
+         "read the whole episode this way, as a credit-fuelled bubble whose rewards and risks "
+         "fall on different people; one need not share their forecast of an imminent depression "
+         "to accept the incidence."),
         ("p", "The honest verdict is therefore not a forecast but an accounting, and it comes "
          "down to the asymmetry this report has tracked from its first lines. The returns are "
          "a forecast; the costs are already here &mdash; and the two do not fall on the same "
@@ -1125,6 +1237,21 @@ def main() -> None:
         "oai_oracle": f"${d['circ_edge'][('OpenAI', 'Oracle')]:.0f} billion",
     })
 
+    # --- Broadening-layer number-strings (BEA attribution + complex footprint) ---
+    ma = d["macro_attr"]
+    q4 = ma[ma.time_period == "2024Q4"].iloc[0]
+    q2 = ma[ma.time_period == "2025Q2"].iloc[0]
+    it_h1 = (q2["it"] - q4["it"]) / (q2["gdp"] - q4["gdp"]) * 100
+    cx = d["complex"]
+    n.update({
+        "it_gdp_lo": f"{ma['it_pct_of_gdp'].iloc[0]:.1f} percent",
+        "it_gdp_hi": f"{ma['it_pct_of_gdp'].iloc[-1]:.1f} percent",
+        "it_h1_share": f"{it_h1:.0f} percent",
+        "complex_rev": f"${cx['revenue_bn'].sum():.0f} billion",
+        "complex_capex": f"${cx['capex_bn'].sum():.0f} billion",
+        "complex_firms": f"{int(cx['firms'].sum())}",
+    })
+
     c = {"ramp": chart_ramp(d), "macro": chart_macro(d), "semis": chart_semis(d),
          "demand": chart_us_demand(d), "dcshare": chart_dc_share(d),
          "prices": chart_state_prices(d), "labor": chart_labor(d),
@@ -1132,7 +1259,8 @@ def main() -> None:
          "reqach": chart_required_vs_achievable(d), "awsreq": chart_aws_vs_required(d),
          "funding": chart_funding_coverage(d), "circle": chart_circular(d),
          "conc": chart_concentration(d), "jevons": chart_jevons(d),
-         "life": chart_useful_life(d)}
+         "life": chart_useful_life(d), "gdpattr": chart_gdp_attribution(d),
+         "complex": chart_complex_footprint(d)}
 
     paras = build_paragraphs(n, c)
 
@@ -1175,7 +1303,7 @@ def main() -> None:
 <h1>{headline}</h1>
 <p class="deck">{deck}</p>
 <div class="byline">By Michael Nolan</div>
-<div class="dateline">Updated May 30, 2026</div>
+<div class="dateline">Updated {dt.date.today():%B %-d, %Y}</div>
 {"".join(body)}
 </article>
 </body>
