@@ -225,6 +225,9 @@ def load():
     pcs = pd.read_csv(OUTPUT / "private_credit_summary.csv")
     d["pcredit"] = {m: to_num(v) for m, v in zip(pcs["metric"], pcs["value"])}
     d["eqfund"] = pd.read_csv(OUTPUT / "equity_funding_summary.csv")
+    dbt = pd.read_csv(PROCESSED / "hyperscaler_debt.csv")
+    d["debt_traj"] = (dbt.pivot_table(index="fiscal_year", columns="ticker",
+                                      values="long_term_debt_usd", aggfunc="last") / 1e9)
     return d
 
 
@@ -354,6 +357,31 @@ def chart_funding_sources(d):
     ax.legend(loc="lower right", fontsize=7.5, frameon=False)
     ax.grid(axis="y", visible=False)
     ax.tick_params(axis="y", length=0)
+    return fig_to_b64(fig)
+
+
+def chart_debt_trajectory(d):
+    p = d["debt_traj"]
+    p = p[p.index >= 2016]
+    style = {
+        "MSFT": (NAVY_LT, "Microsoft", 2.0), "NVDA": (GREY, "Nvidia", 1.6),
+        "GOOGL": (RED, "Alphabet", 2.4), "META": (NAVY, "Meta", 2.4),
+        "AMZN": (NAVY_MID, "Amazon", 1.8), "ORCL": (GOLD, "Oracle", 1.8),
+        "CRWV": ("#6a4c93", "CoreWeave", 1.8),
+    }
+    fig, ax = plt.subplots(figsize=(8, 4.2))
+    for tk, (col, lab, lw) in style.items():
+        if tk not in p.columns:
+            continue
+        s = p[tk].dropna()
+        if s.empty:
+            continue
+        ax.plot(s.index, s.values, color=col, linewidth=lw, label=lab)
+        ax.scatter([s.index[-1]], [s.values[-1]], color=col, s=16, zorder=3)
+    ax.set_ylabel("Long-term debt, USD billion")
+    ax.set_xlim(p.index.min(), p.index.max() + 0.4)
+    ax.legend(loc="upper left", fontsize=8, frameon=False, ncol=2)
+    ax.grid(axis="x", visible=False)
     return fig_to_b64(fig)
 
 
@@ -989,23 +1017,33 @@ def build_paragraphs(n, c):
                        "Share of each firm&rsquo;s latest-year capital spending its own "
                        "operating cash flow can cover, versus the share that must come from "
                        "debt or outside financing.", "Source: SEC EDGAR filings")),
-        ("p", f"Follow the debt, and the story widens past these seven balance sheets. The "
-         f"group already carries about {n['ltd_7firm']} of long-term debt and took on "
-         f"{n['debt_issue_7firm']} of it in the last year alone, and the edge builders lean on "
-         f"it hardest: new borrowing covered roughly {n['crwv_dfs']} of CoreWeave&rsquo;s "
-         f"capital spending and {n['oracle_dfs']} of Oracle&rsquo;s. Widen the frame and the "
-         f"wave is larger still &mdash; AI-related debt issuance is on track for about "
-         f"{n['ai_debt_2026']} in 2026, roughly four times the previous year&rsquo;s pace, and "
-         f"more than {n['ai_pc_out']} of private-credit loans to AI companies are already "
-         f"outstanding, with hundreds of billions more in the pipeline. A growing share is "
-         f"moving off the public bond market into private credit and off-balance-sheet "
-         f"vehicles &mdash; Meta&rsquo;s roughly $30&nbsp;billion Hyperion data-center venture, "
-         f"funded by PIMCO and Blue&nbsp;Owl, is the template &mdash; where disclosure and "
-         f"creditor protection are thinner."),
-        ("fig", figure(c["debtfin"], "The edge builds on borrowed money",
-                       "Share of the latest fiscal year&rsquo;s capital spending funded by new "
-                       "debt. Red marks the builders whose borrowing exceeds half their capex.",
+        ("p", f"Follow the debt, and the seven split three ways. Microsoft and Nvidia are "
+         f"actually paying theirs <i>down</i> &mdash; Microsoft&rsquo;s long-term debt has "
+         f"fallen from about $76&nbsp;billion in 2017 to {n['msft_debt']}, and it funds the "
+         f"build from cash. Oracle and CoreWeave sit at the other extreme: they cannot cover "
+         f"capex from earnings, so new borrowing ran to {n['oracle_dfs']} of Oracle&rsquo;s "
+         f"capital spending and {n['crwv_dfs']} of CoreWeave&rsquo;s. And in between is the "
+         f"telling group &mdash; Alphabet, Meta and Amazon, whose cash flow <i>does</i> cover "
+         f"capex, and which are issuing anyway. Alphabet quadrupled its long-term debt in a "
+         f"single year, from about {n['googl_debt_prior']} to {n['googl_debt']}; Meta went "
+         f"from essentially none in 2021 to {n['meta_debt']}. They do not need the money to "
+         f"build &mdash; they are tapping cheap credit because it is there, largely alongside "
+         f"the buybacks from the last section."),
+        ("fig", figure(c["debttraj"], "Who is borrowing for the buildout &mdash; and who "
+                       "isn&rsquo;t",
+                       "Long-term debt on the balance sheet, by fiscal year. Microsoft and "
+                       "Nvidia fall; Alphabet, Meta and the edge climb.",
                        "Source: SEC EDGAR filings")),
+        ("p", f"Across the group that is about {n['ltd_7firm']} of long-term debt, with "
+         f"{n['debt_issue_7firm']} added in the latest year alone &mdash; and the wave is "
+         f"larger still beyond these balance sheets. AI-related debt issuance is on track for "
+         f"about {n['ai_debt_2026']} in 2026, roughly four times the previous year&rsquo;s "
+         f"pace, and more than {n['ai_pc_out']} of private-credit loans to AI companies are "
+         f"already outstanding, with hundreds of billions more in the pipeline. A growing "
+         f"share is moving off the public bond market into private credit and off-balance-"
+         f"sheet vehicles &mdash; Meta&rsquo;s roughly $30&nbsp;billion Hyperion data-center "
+         f"venture, funded by PIMCO and Blue&nbsp;Owl, is the template &mdash; where "
+         f"disclosure and creditor protection are thinner."),
         ("p", f"The question a bond market eventually asks is who is holding this when the "
          f"forecast is tested &mdash; and the answer is increasingly insurers, pension funds "
          f"and the big private-credit managers (Blackstone, Apollo, Ares) whose money now backs "
@@ -1373,6 +1411,18 @@ def main() -> None:
         "buybacks_total": f"${bb_t:.0f} billion",
     })
 
+    dtj = d["debt_traj"]
+    def _ltd(tk, yr):
+        return dtj.loc[yr, tk] if (yr in dtj.index and tk in dtj.columns) else float("nan")
+    g25, g24 = _ltd("GOOGL", 2025), _ltd("GOOGL", 2024)
+    n.update({
+        "googl_debt": f"${g25:.0f} billion",
+        "googl_debt_prior": f"${g24:.0f} billion",
+        "googl_add": f"${g25 - g24:.0f} billion",
+        "meta_debt": f"${_ltd('META', 2025):.0f} billion",
+        "msft_debt": f"${_ltd('MSFT', 2025):.0f} billion",
+    })
+
     c = {"ramp": chart_ramp(d), "macro": chart_macro(d), "semis": chart_semis(d),
          "demand": chart_us_demand(d), "dcshare": chart_dc_share(d),
          "prices": chart_state_prices(d), "labor": chart_labor(d),
@@ -1381,7 +1431,7 @@ def main() -> None:
          "funding": chart_funding_coverage(d), "circle": chart_circular(d),
          "conc": chart_concentration(d), "jevons": chart_jevons(d),
          "life": chart_useful_life(d), "gdpattr": chart_gdp_attribution(d),
-         "complex": chart_complex_footprint(d), "debtfin": chart_debt_financing(d),
+         "complex": chart_complex_footprint(d), "debttraj": chart_debt_trajectory(d),
          "fundsrc": chart_funding_sources(d)}
 
     paras = build_paragraphs(n, c)

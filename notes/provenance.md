@@ -72,6 +72,18 @@ vintage, and methodology caveats. Newest entries at the top.
 - **Integrated:** "So Who Actually Pays?" — the "self-funding flatters even the giants" beat +
   `fundsrc` chart (revenue-covered vs must-borrow, per firm).
 
+### Debt trajectory — three tiers of borrowing (SEC EDGAR, from hyperscaler_debt.csv)
+- The long-term-debt series (LongTermDebtNoncurrent; Oracle = DebtInstrumentCarryingAmount) shows
+  the 7 split three ways, verified against fresh 2026-07-19 EDGAR queries:
+  - **Paying down (not borrowing):** Microsoft ($76B/2017 → $40B/2025), Nvidia (~$8B, shrinking).
+  - **Issuing though cash covers capex:** Alphabet **quadrupled** LTD in 2025 (~$11B → ~$47B, its
+    first big raise after years of falling debt), Meta **$0 (2021) → $59B (2025)**, Amazon ~$66B.
+    Cash flow covers their capex (fundsrc = 0% must-borrow) — they lever into cheap credit anyway,
+    largely alongside buybacks. The point: "giants self-fund" ≠ "giants don't borrow."
+  - **Must borrow:** Oracle (~$93B; debt = 92% of capex), CoreWeave ($5.5B→$14.7B; 115%).
+- Integrated as the `debttraj` chart ("Who is borrowing for the buildout — and who isn't"),
+  which replaced the narrower single-year `debtfin` (debt-funded-share) chart.
+
 ---
 
 ## Revenue / payback datasets — "can the revenue pay it back?" thread
