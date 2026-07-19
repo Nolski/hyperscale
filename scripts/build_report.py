@@ -224,6 +224,7 @@ def load():
     # --- Systemic-financing / private-credit layer (primary SEC anchor + validated Tier-2) ---
     pcs = pd.read_csv(OUTPUT / "private_credit_summary.csv")
     d["pcredit"] = {m: to_num(v) for m, v in zip(pcs["metric"], pcs["value"])}
+    d["eqfund"] = pd.read_csv(OUTPUT / "equity_funding_summary.csv")
     return d
 
 
@@ -326,6 +327,31 @@ def chart_complex_footprint(d):
     ax.invert_yaxis()
     ax.set_xlabel("AI-exposed revenue, USD billion (upper bound, not AI-only)")
     ax.set_xlim(0, cx["revenue_bn"].max() * 1.18)
+    ax.grid(axis="y", visible=False)
+    ax.tick_params(axis="y", length=0)
+    return fig_to_b64(fig)
+
+
+def chart_funding_sources(d):
+    e = d["eqfund"].sort_values("coverage").copy()
+    e["rev"] = e["coverage"].clip(upper=1.0) * 100
+    e["out"] = 100 - e["rev"]
+    y = list(range(len(e)))
+    fig, ax = plt.subplots(figsize=(8, 3.6))
+    ax.barh(y, e["rev"], color=NAVY, height=0.6,
+            label="Funded by operating cash flow (revenue)")
+    ax.barh(y, e["out"], left=e["rev"], color=RED, height=0.6,
+            label="Must come from debt / outside")
+    for i, (rev, out) in enumerate(zip(e["rev"], e["out"])):
+        if out > 3:
+            ax.text(rev + out / 2, i, f"{out:.0f}%", va="center", ha="center",
+                    color="white", fontsize=8.5, weight="bold")
+    ax.set_yticks(y)
+    ax.set_yticklabels(e["company"])
+    ax.invert_yaxis()
+    ax.set_xlim(0, 100)
+    ax.set_xlabel("Share of latest-year capital spending")
+    ax.legend(loc="lower right", fontsize=7.5, frameon=False)
     ax.grid(axis="y", visible=False)
     ax.tick_params(axis="y", length=0)
     return fig_to_b64(fig)
@@ -750,7 +776,8 @@ def build_paragraphs(n, c):
     methodbox = (
         '<div class="methodbox"><div class="mb-h">How this was measured</div>'
         '<p>The spine of this report is a reproducible, primary-source pipeline. '
-        'Hyperscaler and chip-maker capital spending, debt, depreciation and margins '
+        'Hyperscaler and chip-maker capital spending, debt, stock-based pay, buybacks, '
+        'depreciation and margins '
         'are extracted from SEC EDGAR filings, and the wider supply-chain footprint from '
         'EDGAR company facts; macro, rates and credit series from the Federal '
         'Reserve&rsquo;s FRED; national-accounts investment and output, and household wealth '
@@ -945,6 +972,23 @@ def build_paragraphs(n, c):
          f"about {n['oracle_cov']}× its capital spending; CoreWeave&rsquo;s, about "
          f"{n['crwv_cov']}×. They cannot pay from earnings, so they pay with debt, equity "
          f"raises and contracted revenue."),
+        ("p", f"And &ldquo;self-funding&rdquo; flatters even the giants. A chunk of that "
+         f"operating cash flow is not cash at all: the group pays some {n['sbc_total']} of "
+         f"compensation a year in stock rather than money &mdash; about {n['sbc_pct']} of its "
+         f"combined cash flow &mdash; and because that is booked as a non-cash expense, it "
+         f"quietly lifts the very figure their coverage is measured against. Count the stock "
+         f"pay as the cost it is and the group&rsquo;s cushion narrows from about "
+         f"{n['cov_raw']}× its capital spending to roughly {n['cov_adj']}×, with Amazon "
+         f"slipping below the line. And in the same year they handed about "
+         f"{n['buybacks_total']} back to shareholders in buybacks &mdash; cash spent holding "
+         f"up the share price rather than building. The core is less self-funding than "
+         f"valuation-<i>supported</i>: it leans on a rich, liquid stock to pay part of its "
+         f"workforce and prop its own price, both of which rest on the cheap-money era "
+         f"holding &mdash; the same era that funds the edge below it."),
+        ("fig", figure(c["fundsrc"], "Who builds from revenue &mdash; and who must borrow",
+                       "Share of each firm&rsquo;s latest-year capital spending its own "
+                       "operating cash flow can cover, versus the share that must come from "
+                       "debt or outside financing.", "Source: SEC EDGAR filings")),
         ("p", f"Follow the debt, and the story widens past these seven balance sheets. The "
          f"group already carries about {n['ltd_7firm']} of long-term debt and took on "
          f"{n['debt_issue_7firm']} of it in the last year alone, and the edge builders lean on "
@@ -1318,6 +1362,17 @@ def main() -> None:
         "bofa_ai": f"{pc['bofa_ai_capex_systemic']:.0f} percent",
     })
 
+    ef = d["eqfund"]
+    sbc_t, ocf_t = ef["share_based_comp_usd"].sum(), ef["operating_cash_flow_usd"].sum()
+    cap_t, bb_t = ef["capex_usd"].sum(), ef["buybacks_usd"].sum()
+    n.update({
+        "sbc_total": f"${sbc_t:.0f} billion",
+        "sbc_pct": f"{sbc_t / ocf_t * 100:.0f} percent",
+        "cov_raw": f"{ocf_t / cap_t:.1f}",
+        "cov_adj": f"{(ocf_t - sbc_t) / cap_t:.1f}",
+        "buybacks_total": f"${bb_t:.0f} billion",
+    })
+
     c = {"ramp": chart_ramp(d), "macro": chart_macro(d), "semis": chart_semis(d),
          "demand": chart_us_demand(d), "dcshare": chart_dc_share(d),
          "prices": chart_state_prices(d), "labor": chart_labor(d),
@@ -1326,7 +1381,8 @@ def main() -> None:
          "funding": chart_funding_coverage(d), "circle": chart_circular(d),
          "conc": chart_concentration(d), "jevons": chart_jevons(d),
          "life": chart_useful_life(d), "gdpattr": chart_gdp_attribution(d),
-         "complex": chart_complex_footprint(d), "debtfin": chart_debt_financing(d)}
+         "complex": chart_complex_footprint(d), "debtfin": chart_debt_financing(d),
+         "fundsrc": chart_funding_sources(d)}
 
     paras = build_paragraphs(n, c)
 

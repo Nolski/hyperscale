@@ -55,6 +55,23 @@ vintage, and methodology caveats. Newest entries at the top.
   Primary and Tier-2 rows are kept separate (`tier` column in `private_credit_summary.csv`), never
   blended into one total.
 
+### hyperscaler_equity_funding.csv + equity_funding_summary.csv (SEC EDGAR, PRIMARY, 2026-07-19)
+- **`fetch_hyperscaler_equity_funding.py`:** pulls ShareBasedCompensation, PaymentsForRepurchase-
+  OfCommonStock (buybacks), ProceedsFromIssuanceOfCommonStock, OCF and capex for the 7 firms
+  (`companyconcept`, latest FY each). **`analyze_equity_funding.py` → equity_funding_summary.csv.**
+- **The point:** is the giants' "self-funding" really cash? Latest FY, 7-firm totals: OCF **$694B**,
+  capex **$430B** (coverage 1.62×), but **$89B (13% of OCF) is stock-based comp** — a non-cash
+  add-back that flatters OCF. Treat it as cash and coverage falls to **1.41×**; **Amazon drops to
+  0.91× (below self-funding)**. Same year, **$131B of buybacks** (cash to holders, not capex);
+  capex+buybacks = 81% of OCF. New equity issued only ~$4B — the giants don't fund capex by issuing
+  stock. Answers "cash vs equity currency": the buildout is paid in cash/debt, but the cash-machine
+  is ~13% equity-currency by construction and runs alongside heavy buybacks.
+- **Caveat:** the "how much of the valuation is *artificial*" counterfactual is left unproven (like
+  the backstop thesis); we size the *dependence*, not causation to the carry trade. Vendor equity
+  stakes (Nvidia→OpenAI ~$100B etc., in `circular_financing.csv`) are Tier-2/announced marks.
+- **Integrated:** "So Who Actually Pays?" — the "self-funding flatters even the giants" beat +
+  `fundsrc` chart (revenue-covered vs must-borrow, per firm).
+
 ---
 
 ## Revenue / payback datasets — "can the revenue pay it back?" thread
