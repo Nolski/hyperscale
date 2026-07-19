@@ -101,6 +101,13 @@ vintage, and methodology caveats. Newest entries at the top.
 - **Integrated:** "What Popping Would Mean" — the `comparison_table()` (subprime 2008 ↔ AI 2026,
   line for line) + the one-system ("fuel / pump / pressure") and "the domino to watch is monetary"
   beats.
+- **`watchlist()` close** (added to `market_tripwire.csv`): the precursor watchlist ending the
+  section. **Keystone = OpenAI's terminal refinance:** $122B round → **$852B** valuation (early
+  2026), IPO target **~$1T** "as soon as Q4 2026" but reportedly slipping to 2027 (CFO); step-up
+  now ~1.17× and ~$2B/month revenue, still burning (CNBC/Forbes). Then five signals — plumbing
+  (bond coverage), reflexive flip (first hyperscaler rewarded for cutting capex), collateral (GPU
+  resale / useful-life write-down), fuel (yen/BoJ carry unwind), contagion (CCC dragging IG/HY).
+  Framed as a falsifiable watchlist, not a prediction — the "rate of change, not the level" rule.
 
 ---
 

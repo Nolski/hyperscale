@@ -745,6 +745,12 @@ table.cmp th, table.cmp td { text-align:left; vertical-align:top; padding:.55rem
 table.cmp thead th { border-bottom:2px solid var(--ink); font-family:'Helvetica Neue',Arial,sans-serif; font-size:.72rem; letter-spacing:.05em; text-transform:uppercase; color:var(--grey); }
 table.cmp td:first-child { color:var(--grey); width:47%; }
 table.cmp tbody tr:last-child td { border-bottom:2px solid var(--ink); }
+.watch { border:1px solid var(--rule); border-left:3px solid var(--ink); padding:1.15rem 1.35rem; margin:1.9rem 0; background:#fafafa; }
+.watch .w-h { font-family:'Helvetica Neue',Arial,sans-serif; font-size:.74rem; letter-spacing:.05em; text-transform:uppercase; color:var(--grey); margin-bottom:.8rem; }
+.watch .keystone { padding:.7rem .9rem; background:#fff; border:1px solid var(--rule); margin-bottom:.85rem; }
+.watch ol { margin:0; padding-left:1.25rem; }
+.watch li { margin:.5rem 0; padding-left:.15rem; }
+.watch .meta { margin-top:1rem; font-style:italic; color:var(--grey); font-size:.93rem; }
 * { box-sizing:border-box; }
 body { margin:0; background:#fff; color:var(--ink);
   font-family:Georgia,'Times New Roman',serif; -webkit-font-smoothing:antialiased; }
@@ -834,6 +840,47 @@ def comparison_table():
             '<th>The subprime cycle &middot; 2008</th>'
             '<th>The AI buildout &middot; 2026</th></tr></thead>'
             f'<tbody>{trs}</tbody></table></div>')
+
+
+def watchlist():
+    keystone = (
+        '<div class="keystone"><b>The keystone &mdash; OpenAI&rsquo;s terminal refinance.</b> '
+        'Its rounds now step up by less each time &mdash; the latest was $122&nbsp;billion at an '
+        '$852&nbsp;billion valuation, and the IPO, targeted for late 2026 at about '
+        '$1&nbsp;trillion, is already at risk of slipping to 2027. It is roughly half of both '
+        'Microsoft&rsquo;s and Oracle&rsquo;s AI backlog, so if its mark stops rising the whole '
+        'circle loses the ability to refinance. <b>The tell:</b> that IPO prices flat-to-down, '
+        'slips again, or is pulled &mdash; the second derivative going negative on the one '
+        'refinance everything else is stacked on.</div>')
+    items = [
+        ("The plumbing (already amber).",
+         "AI bond order books have fallen from about five-times-covered to under two. Next: a "
+         "pulled or sharply-repriced AI bond deal, or a data-center-securitization downgrade."),
+        ("The reflexive flip.",
+         "The first hyperscaler that <i>cuts</i> capex guidance and is <i>rewarded</i> by its "
+         "stock. The day the market pays a CFO to stop building, the &ldquo;can&rsquo;t sit "
+         "out&rdquo; logic that drives the whole overhang inverts, and the others follow."),
+        ("The collateral.",
+         "GPU rental and resale prices falling, or a hyperscaler shortening its server "
+         "useful-life assumption or taking a write-down &mdash; &ldquo;house prices fall&rdquo; "
+         "for the hardware now being securitized into AAA-rated notes."),
+        ("The fuel.",
+         "A sharp move higher in the yen or a hawkish Bank-of-Japan surprise &mdash; the carry "
+         "unwind. Watch the yen strengthening from around 161 toward 145, and a regime shift in "
+         "the volatility index."),
+        ("The contagion confirm.",
+         "Edge stress &mdash; the weakest borrowers already pay nearly ten points over "
+         "Treasuries &mdash; dragging investment-grade and high-yield spreads wider, and the "
+         "record calm finally cracking."),
+    ]
+    lis = "".join(f"<li><b>{a}</b> {b}</li>" for a, b in items)
+    meta = (
+        '<div class="meta">The rule underneath all of them: watch the rate of change, not the '
+        'level. The precursor is the second derivative turning &mdash; capex still at records '
+        'but its growth rolling over, the mark still rising but by less &mdash; and the cleanest '
+        'place it shows up is the OpenAI mark.</div>')
+    return ('<div class="watch"><div class="w-h">What to watch &mdash; the precursors, in the '
+            f'order they light up</div>{keystone}<ol>{lis}</ol>{meta}</div>')
 
 
 def build_paragraphs(n, c):
@@ -1288,6 +1335,7 @@ def build_paragraphs(n, c):
                        "Total return of the cap-weighted S&amp;P 500 versus its "
                        "equal-weighted twin, rebased to 2015.",
                        "Source: Yahoo Finance (Tier-2)")),
+        ("watch", watchlist()),
 
         ("h2", "Does the Math Math?"),
         ("p", f"As a standalone investment &mdash; AI revenue paying back AI capital &mdash; "
@@ -1506,7 +1554,7 @@ def main() -> None:
     for kind, content in paras:
         if kind == "h2":
             body.append(f"<h2>{content}</h2>")
-        elif kind in ("fig", "table"):
+        elif kind in ("fig", "table", "watch"):
             body.append(content)
         elif kind == "pull":
             body.append(f'<div class="pull">{content}</div>')
